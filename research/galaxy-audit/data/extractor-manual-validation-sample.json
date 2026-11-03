@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-03",
+  "source_repo": "Vict1111-code/01edu_public",
+  "source_branch": "master",
+  "validation": "16 directly read subject READMEs; links manually identified and relationship types human-reviewed; this is NOT a run of the full extractor",
+  "subject_readmes_checked": 16,
+  "edges": [
+    {
+      "from": "ascii-art",
+      "to": "ascii-art-web",
+      "type": "prior_project_reference",
+      "evidence": "Web GUI version of your last project, ascii-art",
+      "source": "subjects/ascii-art-web/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "ascii-art-web/dockerize",
+      "to": "forum",
+      "type": "learning_resource",
+      "evidence": "Read about Docker basics in ascii-art-web-dockerize",
+      "source": "subjects/forum/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "ascii-art-web/dockerize",
+      "to": "filler",
+      "type": "learning_resource",
+      "evidence": "Read about Docker basics in ascii-art-web-dockerize",
+      "source": "subjects/filler/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/filler/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "forum",
+      "to": "real-time-forum",
+      "type": "prior_project_reference",
+      "evidence": "Uses SQLite just like the previous forum",
+      "source": "subjects/real-time-forum/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/real-time-forum/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/color",
+      "type": "extension_of_parent",
+      "evidence": "Follow the same instructions as first subject, with colors",
+      "source": "subjects/ascii-art/color/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/color/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/fs",
+      "type": "extension_of_parent",
+      "evidence": "Follow the same instructions as first subject, with selectable banner",
+      "source": "subjects/ascii-art/fs/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/fs/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/reverse",
+      "type": "extension_of_parent",
+      "evidence": "Follow the same instructions as first subject, reverse conversion",
+      "source": "subjects/ascii-art/reverse/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/reverse/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/dockerize",
+      "type": "extension_of_parent",
+      "evidence": "Follow same principles as first subject, add Docker",
+      "source": "subjects/ascii-art-web/dockerize/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/dockerize/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/filters",
+      "type": "extension_of_parent",
+      "evidence": "Follow same principles as first subject, add artist filters",
+      "source": "subjects/groupie-tracker/filters/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/filters/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/geolocalization",
+      "type": "extension_of_parent",
+      "evidence": "Follow same principles as first subject, map artist concert locations",
+      "source": "subjects/groupie-tracker/geolocalization/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/geolocalization/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "forum",
+      "to": "forum/image-upload",
+      "type": "extension_of_parent",
+      "evidence": "Follow same principles as first subject, add image uploads",
+      "source": "subjects/forum/image-upload/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/image-upload/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "0-shell",
+      "to": "0-shell/job-control",
+      "type": "extension_of_parent",
+      "evidence": "Follow same principles as first subject, job control",
+      "source": "subjects/0-shell/job-control/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/job-control/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "0-shell",
+      "to": "0-shell/scripting",
+      "type": "extension_of_parent",
+      "evidence": "Follow same principles as first subject, shell scripting",
+      "source": "subjects/0-shell/scripting/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/scripting/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "road_intersection",
+      "to": "smart-road",
+      "type": "prior_piscine_raid_reference",
+      "evidence": "Explicitly identifies road_intersection raid in Rust Piscine",
+      "source": "subjects/smart-road/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/smart-road/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    },
+    {
+      "from": "make-your-game",
+      "to": "make-your-game/history",
+      "type": "extension_of_parent",
+      "evidence": "Follow same principles as first subject, create story mode",
+      "source": "subjects/make-your-game/history/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/history/README.md",
+      "confidence": "high for source relationship (not for official unlock)",
+      "official_unlock": "not established"
+    }
+  ],
+  "caveat": "Additional references to good-practices are standards/resource links, excluded from this relationship sample. Both resource_reference and cross-Piscine reference edges are NOT mandatory unlock claims."
+}
