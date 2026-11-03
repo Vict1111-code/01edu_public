@@ -61,6 +61,10 @@ The [successful GitHub Actions run](https://github.com/Vict1111-code/01edu_publi
 
 [GitHub Actions run 41649375925](https://github.com/Vict1111-code/01edu_public/actions/runs/41649375925) scanned all 1,233 public subject README files for language-specific syntax and Piscine/raid mentions. It found **319 Go-dominant, 149 Rust-dominant, 196 JavaScript-dominant, and 569 ambiguous/other** READMEs, plus **4 named-Piscine mentions** and **8 raid-wording matches**. These are **heuristic language classifications, not verified Piscine membership or quest order**. See [Phase 7 findings](findings/piscine-evidence-phase7-2026-11-03.md) and [classifier script](scripts/classify-piscine-evidence.mjs).
 
+## Phase 8 — Manual Piscine membership verification (2026-11-03)
+
+The [Phase 8 report](findings/piscine-membership-review-phase8-2026-11-03.md) distinguishes explicit entry points (`hello_rust`, `how-2-js`), a corroborated Rust Piscine raid (`road_intersection`), Go raid wording (`quadchecker`), other-track raids, and misleading sample text. The [manual membership index](data/piscine-manual-membership-review.json) records **13 reviewed subjects** with exact source links and **no invented official quest positions**.
+
 ## Artifacts
 
 | File | Coverage | Method |
