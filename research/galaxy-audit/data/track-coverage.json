@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "source_repository": "Vict1111-code/01edu_public",
+  "source_branch": "master",
+  "source_subject_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "counts": {
+    "total_tree_entries": 3505,
+    "directories": 1537,
+    "files": 1968,
+    "subject_readmes": 1233,
+    "audit_readmes": 207,
+    "top_level_subjects": 792,
+    "nested_subjects": 441,
+    "other_directories_without_direct_readme": 304
+  },
+  "known_nested_collections": [
+    {
+      "name": "ai",
+      "subject_specs": 26,
+      "audit_readmes": 26,
+      "subdirectories": 62,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "AI.GO",
+      "subject_specs": 23,
+      "audit_readmes": 1,
+      "subdirectories": 24,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "blockchain",
+      "subject_specs": 49,
+      "audit_readmes": 9,
+      "subdirectories": 57,
+      "has_track_root_subject": true,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "cybersecurity",
+      "subject_specs": 20,
+      "audit_readmes": 20,
+      "subdirectories": 53,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "devops",
+      "subject_specs": 106,
+      "audit_readmes": 13,
+      "subdirectories": 136,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "gaming",
+      "subject_specs": 11,
+      "audit_readmes": 11,
+      "subdirectories": 25,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "java",
+      "subject_specs": 124,
+      "audit_readmes": 15,
+      "subdirectories": 144,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "mobile-dev",
+      "subject_specs": 30,
+      "audit_readmes": 16,
+      "subdirectories": 57,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    },
+    {
+      "name": "user-experience",
+      "subject_specs": 16,
+      "audit_readmes": 16,
+      "subdirectories": 43,
+      "has_track_root_subject": false,
+      "label_status": "repository_directory_name_only; mapping to Galaxy specialization not independently verified"
+    }
+  ],
+  "other_subject_specs": 828,
+  "other_top_level_subject_specs": 791,
+  "notes": [
+    "Counts identify file paths and repository structure, not official curriculum projects or Galaxy assignments.",
+    "A track root can itself be a subject, e.g., blockchain.",
+    "Some audit criteria are located in audit.md rather than audit/README.md; indexing should account for both.",
+    "A directory with README is not automatically a project: many are exercises and extensions."
+  ]
+}
