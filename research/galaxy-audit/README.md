@@ -69,6 +69,12 @@ The [Phase 8 report](findings/piscine-membership-review-phase8-2026-11-03.md) di
 
 [Phase 9 archive audit](findings/community-piscine-archives-phase9-2026-11-03.md) examines three community solution ZIPs covering Rust, JavaScript, and Go. The Rust archive has **63 Cargo exercise directories**, all matching public top-level subject names; a manually compared JS set matched **97 of 98** names; the Go archive has learner-organized QUEST and raid folders. These are identification/grouping evidence, **not official audit instructions or quest unlock metadata**. File inventories were generated locally without executing uploaded code.
 
+## Phase 10 — Archive-to-official-specification crosswalk (2026-11-03)
+
+The [Phase 10 report](findings/three-piscines-crosswalk-phase10-2026-11-03.md) records a **322-row crosswalk** between three user-supplied community solution archives and the public `subjects/` specification tree. Exact README name matches: **Rust 63/63**, **JavaScript 98/99**, and **Go 126/160** candidate records (Go has repeated/extra learner filenames). The mapping records official README, audit path, nested subsubjects, resources, and separate JS/DOM test filename matches. **97 JS records have public test filename matches**, including **10 DOM test matches**. Community folder names do **not** establish official quest order.
+
+Files: [combined JSON](data/three-piscines-subject-crosswalk.json), [Go CSV](data/go-piscine-crosswalk.csv), [Rust CSV](data/rust-piscine-crosswalk.csv), [JavaScript CSV](data/javascript-piscine-crosswalk.csv).
+
 ## Artifacts
 
 | File | Coverage | Method |
