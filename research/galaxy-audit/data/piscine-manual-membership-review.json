@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-03",
+  "method": "Manual review of explicit Piscine/raid mentions in full CI extraction; cross-README corroboration only when identified",
+  "source_run": "https://github.com/Vict1111-code/01edu_public/actions/runs/41649375925",
+  "note": "Only hello_rust and how-2-js are confirmed direct entry-point README evidence; road_intersection is corroborated retrospectively as Rust Piscine raid. Other matches are not official quest membership or order.",
+  "reviewed": [
+    {
+      "id": "hello_rust",
+      "language": "rust",
+      "classification": "confirmed_piscine_entry",
+      "rationale": "Explicitly welcomes learner to Rust and describes first exercise and rules for whole Piscine",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/hello_rust/README.md",
+      "official_quest_position": 1,
+      "position_confidence": "explicit_first_exercise"
+    },
+    {
+      "id": "how-2-js",
+      "language": "javascript",
+      "classification": "confirmed_piscine_entry",
+      "rationale": "Explicitly welcomes learner to JS Piscine and instructs creation of solutions repository",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/how-2-js/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "boxing_todo",
+      "language": "rust",
+      "classification": "incidental_sample_text",
+      "rationale": "PISCINE RUST occurs in JSON title examples, not an assignment membership statement",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/boxing_todo/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "smart-road",
+      "language": "rust",
+      "classification": "retrospective_piscine_reference",
+      "rationale": "Refers to road_intersection raid done in Rust Piscine; current smart-road project is not thereby a Piscine exercise",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/smart-road/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "road_intersection",
+      "language": "rust",
+      "classification": "piscine_raid_corrobated_by_other_subject",
+      "rationale": "smart-road explicitly describes road_intersection as a Rust Piscine raid; road_intersection itself describes raid audit",
+      "evidence": "cross_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/road_intersection/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "quadchecker",
+      "language": "go",
+      "classification": "raid_confirmed_track_not_proven",
+      "rationale": "README says this raid is based on quad functions; Go CLI examples; exact Piscine placement not asserted",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/quadchecker/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "carbon-copy",
+      "language": null,
+      "classification": "raid_confirmed_track_not_proven",
+      "rationale": "README calls carbon-copy a raid divided into three phases; no Go/Rust/JS Piscine assignment evidence",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/carbon-copy/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "clonernews",
+      "language": null,
+      "classification": "raid_confirmed_track_not_proven",
+      "rationale": "README explicitly describes building HackerNews UI as a raid",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/clonernews/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "blockchain/exploring-blockchains",
+      "language": null,
+      "classification": "other_track_raid",
+      "rationale": "README describes blockchain wallet raid; outside core Go/Rust/JS Piscine scope",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/blockchain/exploring-blockchains/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "blockchain/sign-service",
+      "language": null,
+      "classification": "other_track_raid",
+      "rationale": "README describes blockchain signing service raid; outside core Go/Rust/JS Piscine scope",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/blockchain/sign-service/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "java/raids/jraffic",
+      "language": "java",
+      "classification": "other_track_raid",
+      "rationale": "Path explicitly under java/raids and README discusses audit of raid",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/java/raids/jraffic/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "AI.GO/robots-harmony",
+      "language": null,
+      "classification": "other_track_raid",
+      "rationale": "README refers to final robotics raid and mandatory tasks; not Go/Rust/JS Piscine evidence",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/AI.GO/robots-harmony/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    },
+    {
+      "id": "linear-stats",
+      "language": "go",
+      "classification": "incidental_first_exercise_phrase",
+      "rationale": "Refers to first exercise in earlier statistical project; not proof of Piscine starting position",
+      "evidence": "direct_readme",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/linear-stats/README.md",
+      "official_quest_position": null,
+      "position_confidence": "not_established"
+    }
+  ]
+}
