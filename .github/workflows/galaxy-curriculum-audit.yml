@@ -36,11 +36,17 @@ jobs:
       - name: Execute extractor tests
         run: node --test research/galaxy-audit/scripts/extract-subject-links.test.mjs
 
+      - name: Execute curated graph unit tests
+        run: node --test research/galaxy-audit/scripts/build-curated-graph.test.mjs
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
       - name: Deduplicate and triage candidate project links
         run: node research/galaxy-audit/scripts/triage-subject-links.mjs research/galaxy-audit/generated
+
+      - name: Build evidence-typed graph
+        run: node research/galaxy-audit/scripts/build-curated-graph.mjs research/galaxy-audit/generated
 
       - name: Print and save scan summary
         shell: bash
@@ -67,5 +73,7 @@ jobs:
             research/galaxy-audit/generated/summary.txt
             research/galaxy-audit/generated/triaged-project-links.json
             research/galaxy-audit/generated/triage-summary.json
+            research/galaxy-audit/generated/curated-galaxy-graph.json
+            research/galaxy-audit/generated/curated-galaxy-edges.csv
           retention-days: 14
           if-no-files-found: error
