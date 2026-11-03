@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "provenance": "Original independent assessments created for this study curriculum; NOT 01Edu official subjects, audits, grading or unlock requirements.",
+  "rubric": {
+    "correctness": 50,
+    "boundary_and_failure_cases": 20,
+    "automated_tests": 20,
+    "explanation_and_maintainability": 10,
+    "pass_total": 80,
+    "min_correctness": 40
+  },
+  "tracks": {
+    "go": [
+      {
+        "stage": 1,
+        "title": "Reproducible shell and Git workspace",
+        "deliverable": "Create a Go module and shell script that prints repository metadata without changing tracked files.",
+        "verification_checks": [
+          "Shell exits successfully",
+          "module compiles",
+          "Git diff shows only intended files",
+          "README includes exact run commands."
+        ],
+        "submission_evidence": "Record stdout and exit codes; submit a clean Git commit.",
+        "concepts": [
+          "shell_git"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 2,
+        "title": "Rune-based command-line banner",
+        "deliverable": "Write a Go program that prints alphabet patterns and counts Unicode runes from arguments.",
+        "verification_checks": [
+          "Correct lowercase and uppercase boundaries",
+          "Unicode rune count differs correctly from byte length",
+          "empty argument handling",
+          "newline exact."
+        ],
+        "submission_evidence": "Run go test ./... with table-driven Unicode cases.",
+        "concepts": [
+          "control_flow",
+          "runes_strings"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 3,
+        "title": "Integer algorithms with edge cases",
+        "deliverable": "Implement factorial, prime checking, next-prime and integer square root as independent functions.",
+        "verification_checks": [
+          "Correct zero and negative handling",
+          "correct prime boundary cases",
+          "no overflow-dependent false positives",
+          "large prime input completes reasonably."
+        ],
+        "submission_evidence": "Explain O(n) versus O(sqrt n) divisibility checks.",
+        "concepts": [
+          "functions",
+          "control_flow",
+          "recursion"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 4,
+        "title": "Unicode string utilities and CLI arguments",
+        "deliverable": "Implement capitalization, reverse-runes, and a CLI flag for uppercase output.",
+        "verification_checks": [
+          "Preserve multibyte runes",
+          "define empty input",
+          "flags parse in documented order",
+          "exact stdout tests."
+        ],
+        "submission_evidence": "Compare rune and byte indexing tradeoffs.",
+        "concepts": [
+          "runes_strings",
+          "files_cli"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 5,
+        "title": "Validated number-base converter",
+        "deliverable": "Convert signed integers to and from a custom base and reject invalid alphabets.",
+        "verification_checks": [
+          "Reject duplicate digits and length under two",
+          "handle signs",
+          "round-trip sample values",
+          "avoid integer overflow on parsing."
+        ],
+        "submission_evidence": "Use property-style randomized round-trip tests.",
+        "concepts": [
+          "parsing",
+          "slices"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 6,
+        "title": "Streaming file filter with callback",
+        "deliverable": "Implement a line-oriented file processor that accepts a predicate and sorts accepted records.",
+        "verification_checks": [
+          "Process large input incrementally",
+          "report missing file",
+          "stable output ordering",
+          "callback tested in isolation."
+        ],
+        "submission_evidence": "Document memory complexity and failure handling.",
+        "concepts": [
+          "files_cli",
+          "callbacks",
+          "sorting"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 7,
+        "title": "Linked-list operations with invariants",
+        "deliverable": "Implement push-front, push-back, reverse, delete and cycle detection for a singly linked list.",
+        "verification_checks": [
+          "Preserve head/tail and size invariants",
+          "empty and singleton cases",
+          "no nodes lost on reverse",
+          "cycle detector terminates."
+        ],
+        "submission_evidence": "Write invariant-focused tests and analyze O(n) traversal.",
+        "concepts": [
+          "pointers",
+          "linked_lists"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 8,
+        "title": "Binary search tree and CLI integration",
+        "deliverable": "Build an integer BST with insert, search, in-order traversal and CLI query mode.",
+        "verification_checks": [
+          "Traversal sorted for unique inserts",
+          "duplicate policy documented",
+          "empty tree safe",
+          "CLI errors reported",
+          "no recursion overflow on provided stress set."
+        ],
+        "submission_evidence": "Provide architecture note and benchmarks for sorted vs random inserts.",
+        "concepts": [
+          "binary_trees",
+          "tree_traversal"
+        ],
+        "test_command": "go test ./...",
+        "official_01edu_assessment": false
+      }
+    ],
+    "rust": [
+      {
+        "stage": 1,
+        "title": "Typed arithmetic crate",
+        "deliverable": "Implement numeric conversions and arithmetic functions with explicit integer and float types.",
+        "verification_checks": [
+          "cargo test passes",
+          "no accidental integer truncation",
+          "division by zero policy documented",
+          "clippy reports no warnings."
+        ],
+        "submission_evidence": "Explain integer widths and checked arithmetic.",
+        "concepts": [
+          "cargo",
+          "types"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 2,
+        "title": "Text processing with ownership-aware returns",
+        "deliverable": "Implement case transforms, Fibonacci and a retrying stdin loop.",
+        "verification_checks": [
+          "Unicode characters handled deliberately",
+          "termination on valid input",
+          "zero and one boundaries",
+          "no unnecessary clones."
+        ],
+        "submission_evidence": "Use unit tests and explain owned String versus borrowed str.",
+        "concepts": [
+          "strings",
+          "control_flow"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 3,
+        "title": "Borrowed substring toolkit",
+        "deliverable": "Implement prefix deletion, character count and in-place string editing with borrowed inputs.",
+        "verification_checks": [
+          "Return slices when possible",
+          "no dangling references",
+          "empty and multibyte strings tested",
+          "no needless heap allocation."
+        ],
+        "submission_evidence": "Explain why returning a reference to a local temporary fails.",
+        "concepts": [
+          "ownership",
+          "borrowing",
+          "strings"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 4,
+        "title": "Result and enum-driven validator",
+        "deliverable": "Implement structured records and a validator returning Result with a custom error enum.",
+        "verification_checks": [
+          "All invalid variants distinguishable",
+          "no panic on user input",
+          "exhaustive match",
+          "tests for valid and invalid data."
+        ],
+        "submission_evidence": "Write an error contract and show ergonomic propagation with ?.",
+        "concepts": [
+          "enums_results",
+          "ownership"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 5,
+        "title": "HashMap analytics library",
+        "deliverable": "Build word-frequency analysis and an inventory update API using Vec, HashMap and iterators.",
+        "verification_checks": [
+          "Correct counts",
+          "empty collection safe",
+          "no accidental clones",
+          "deterministic report ordering",
+          "tests cover repeated updates."
+        ],
+        "submission_evidence": "Analyze expected HashMap complexity and ownership.",
+        "concepts": [
+          "collections",
+          "iterators",
+          "borrowing"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 6,
+        "title": "Generic trait-based transformations",
+        "deliverable": "Create a trait-based formatter with generic input and a borrowed reference implementation.",
+        "verification_checks": [
+          "At least two concrete types",
+          "trait bounds compile",
+          "borrowed outputs valid",
+          "no unnecessary 'static lifetimes."
+        ],
+        "submission_evidence": "Explain trait versus inherent method and generic constraints.",
+        "concepts": [
+          "traits",
+          "generics",
+          "lifetimes"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 7,
+        "title": "Matrix algorithms with type safety",
+        "deliverable": "Implement matrix transpose, multiplication and dot product with dimension validation.",
+        "verification_checks": [
+          "Correct 2x2 and rectangular examples",
+          "incompatible dimensions return error",
+          "multiplication tested",
+          "no panics on empty data."
+        ],
+        "submission_evidence": "Compare algorithmic complexity and checked indexing.",
+        "concepts": [
+          "matrix_structures",
+          "operator_traits"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 8,
+        "title": "Robust command-line data processor",
+        "deliverable": "Implement a CLI that reads structured records, aggregates results and reports errors.",
+        "verification_checks": [
+          "cargo test and clippy pass",
+          "malformed input yields meaningful Result",
+          "file not found handled",
+          "output stable."
+        ],
+        "submission_evidence": "Include integration tests, architecture diagram and performance notes.",
+        "concepts": [
+          "applications",
+          "enums_results",
+          "collections"
+        ],
+        "test_command": "cargo test",
+        "official_01edu_assessment": false
+      }
+    ],
+    "javascript": [
+      {
+        "stage": 1,
+        "title": "Primitive and function contract",
+        "deliverable": "Create a JS module with type predicates and basic arithmetic utilities.",
+        "verification_checks": [
+          "node --test passes",
+          "NaN and undefined distinguished",
+          "functions have documented return contracts",
+          "no implicit globals."
+        ],
+        "submission_evidence": "Explain truthiness and strict equality.",
+        "concepts": [
+          "values_functions"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 2,
+        "title": "Loop and date-boundary toolkit",
+        "deliverable": "Implement FizzBuzz-like rules, string triangles and leap-year checks.",
+        "verification_checks": [
+          "Correct divisibility precedence",
+          "no extra newline",
+          "century leap years handled",
+          "negative and zero inputs defined."
+        ],
+        "submission_evidence": "Use parameterized tests for boundary dates.",
+        "concepts": [
+          "control_flow",
+          "regex_dates"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 3,
+        "title": "Immutable object utilities",
+        "deliverable": "Implement get, pick, omit, slice and array reverse without mutating inputs.",
+        "verification_checks": [
+          "Own-property checks",
+          "empty structures",
+          "negative slice indexes",
+          "frozen source remains unchanged."
+        ],
+        "submission_evidence": "Explain shallow versus deep copies.",
+        "concepts": [
+          "arrays_objects"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 4,
+        "title": "Closure and functional pipeline",
+        "deliverable": "Implement a counter factory, function composition and map/filter without built-in equivalents.",
+        "verification_checks": [
+          "Independent closure state",
+          "predictable function order",
+          "no mutation of input",
+          "callback error behavior tested."
+        ],
+        "submission_evidence": "Explain lexical capture and referential transparency.",
+        "concepts": [
+          "closures",
+          "higher_order_functions"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 5,
+        "title": "Promise retry and timeout library",
+        "deliverable": "Implement retry, timeout, Promise.all-like aggregation and a cancellable timer.",
+        "verification_checks": [
+          "Promise resolution/rejection correct",
+          "retry limit exact",
+          "timeout cleans timers",
+          "no unhandled rejection."
+        ],
+        "submission_evidence": "Use deterministic fake timers or controlled delays.",
+        "concepts": [
+          "promises"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 6,
+        "title": "Accessible DOM interaction",
+        "deliverable": "Build a keyboard-accessible filterable list with delegated events and visible status.",
+        "verification_checks": [
+          "Keyboard and click controls work",
+          "DOM updates without duplicate listeners",
+          "invalid input announced",
+          "no unsanitized HTML injection."
+        ],
+        "submission_evidence": "Add browser automation smoke test and accessibility notes.",
+        "concepts": [
+          "dom",
+          "events",
+          "ui_state"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 7,
+        "title": "Algorithmic object and string engine",
+        "deliverable": "Implement deep copy, recursive merge and unique integer partitions.",
+        "verification_checks": [
+          "Nested arrays and objects handled",
+          "source untouched",
+          "duplicates eliminated",
+          "termination on edge cases",
+          "complexity documented."
+        ],
+        "submission_evidence": "Discuss cycles and state explicitly whether supported.",
+        "concepts": [
+          "arrays_objects",
+          "higher_order_functions"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      },
+      {
+        "stage": 8,
+        "title": "Fetch-driven searchable dashboard",
+        "deliverable": "Build a paginated searchable sortable dashboard from JSON with loading and error states.",
+        "verification_checks": [
+          "Fetch failures handled",
+          "search and sort consistent across pages",
+          "no framework required",
+          "keyboard navigation works",
+          "tests for pagination."
+        ],
+        "submission_evidence": "Write a small performance and accessibility review.",
+        "concepts": [
+          "fetch_json",
+          "promises",
+          "dom",
+          "events",
+          "applications"
+        ],
+        "test_command": "node --test",
+        "official_01edu_assessment": false
+      }
+    ]
+  }
+}
