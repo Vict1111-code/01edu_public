@@ -51,6 +51,12 @@ jobs:
       - name: Build progressive Piscine study paths
         run: node research/galaxy-audit/scripts/sequence-piscines.mjs . research/galaxy-audit/generated
 
+      - name: Test Piscine competency and evidence extractor
+        run: node --test research/galaxy-audit/scripts/build-piscine-competencies.test.mjs
+
+      - name: Generate per-exercise requirements and mastery gates
+        run: node research/galaxy-audit/scripts/build-piscine-competencies.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -96,5 +102,9 @@ jobs:
             research/galaxy-audit/generated/go-progressive-study-guide.md
             research/galaxy-audit/generated/rust-progressive-study-guide.md
             research/galaxy-audit/generated/javascript-progressive-study-guide.md
+            research/galaxy-audit/generated/piscine-competency-evidence.json
+            research/galaxy-audit/generated/go-mastery-and-requirements.md
+            research/galaxy-audit/generated/rust-mastery-and-requirements.md
+            research/galaxy-audit/generated/javascript-mastery-and-requirements.md
           retention-days: 14
           if-no-files-found: error
