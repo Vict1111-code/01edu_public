@@ -87,6 +87,10 @@ The [Phase 11 findings](findings/progressive-three-piscines-phase11-2026-11-03.m
 
 **Permanent source-linked mastery guides:** [Go](guides/go-mastery-learning-path.md) · [Rust](guides/rust-mastery-learning-path.md) · [JavaScript](guides/javascript-mastery-learning-path.md).
 
+## Phase 13 — Requirement-based difficulty and identity/dependency review (2026-11-03)
+
+[Phase 13 findings](findings/piscine-difficulty-prerequisites-phase13-2026-11-03.md): 316 distinct candidates; **276 provisionally scored** against public README requirement complexity and proposed stage, **40 unscored**; **six nonbinding Go filename suggestions**, 28 unmatched without safe suggestions; **two Rust target exercises** with incoming curated source-backed relationships. [Ranking/review generator](scripts/rank-piscine-difficulty.mjs) and [four tests](scripts/rank-piscine-difficulty.test.mjs) passed in [CI run 41660170809](https://github.com/Vict1111-code/01edu_public/actions/runs/41660170809). The downloadable artifact includes JSON scores and three within-stage difficulty-ranked guides. Scores, name suggestions and conceptual relationships **are not official Galaxy grading or unlock metadata**.
+
 ## Artifacts
 
 | File | Coverage | Method |
