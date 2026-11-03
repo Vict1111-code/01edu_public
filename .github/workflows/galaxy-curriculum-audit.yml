@@ -63,6 +63,12 @@ jobs:
       - name: Rank exercise difficulty and inspect prerequisite evidence
         run: node research/galaxy-audit/scripts/rank-piscine-difficulty.mjs . research/galaxy-audit/generated
 
+      - name: Test concept prerequisite maps and source identity corrections
+        run: node --test research/galaxy-audit/scripts/build-concept-prerequisites.test.mjs
+
+      - name: Build concept prerequisite maps and outlier queues
+        run: node research/galaxy-audit/scripts/build-concept-prerequisites.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -117,5 +123,9 @@ jobs:
             research/galaxy-audit/generated/go-difficulty-ranked-guide.md
             research/galaxy-audit/generated/rust-difficulty-ranked-guide.md
             research/galaxy-audit/generated/javascript-difficulty-ranked-guide.md
+            research/galaxy-audit/generated/piscine-concept-prerequisite-graph.json
+            research/galaxy-audit/generated/go-concept-prerequisite-guide.md
+            research/galaxy-audit/generated/rust-concept-prerequisite-guide.md
+            research/galaxy-audit/generated/javascript-concept-prerequisite-guide.md
           retention-days: 14
           if-no-files-found: error
