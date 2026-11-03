@@ -57,7 +57,7 @@ These are **recommended learning-stage placements only**. The earlier heuristic 
 ## Reproducible implementation
 
 - [Full README source scanner and evidence reconciliation](../scripts/verify-piscine-concepts.mjs).
-- [Seven automated tests](../scripts/verify-piscine-concepts.test.mjs), including nested heading extraction, code-fence exclusion, specific vs generic evidence, and preservation of unknown official order.
+- [Eight automated tests](../scripts/verify-piscine-concepts.test.mjs), including nested heading extraction, code-fence exclusion, specific vs generic evidence, and preservation of unknown official order.
 - [29 manual outlier reviews with source URLs and concept interpretations](../data/phase15-manual-outlier-review.json).
 - [Permanent teaching-stage corrections guide](../guides/phase15-reviewed-stage-corrections.md).
 - [Successful CI and artifact](https://github.com/Vict1111-code/01edu_public/actions/runs/41665590162).
