@@ -1,0 +1,547 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "method": "Manually read each listed public 01Edu README; evidence_phrase must match checked-out README. Explicit concept sets override earlier name/keyword unions for these records only. Learning stage is independently proposed.",
+  "records": [
+    {
+      "language": "go",
+      "exercise": "printreversealphabet",
+      "public_readme": "subjects/printreversealphabet/README.md",
+      "evidence_phrase": "reverse order",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "control_flow",
+        "runes_strings"
+      ],
+      "rejected_concepts": [
+        "sorting"
+      ],
+      "recommended_stage": 2,
+      "reason": "Print descending alphabet without treating it as sorting a collection.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "findnextprime",
+      "public_readme": "subjects/findnextprime/README.md",
+      "evidence_phrase": "first prime number",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "control_flow",
+        "functions"
+      ],
+      "rejected_concepts": [
+        "sorting",
+        "tree_traversal"
+      ],
+      "recommended_stage": 3,
+      "reason": "Search for next prime; source mentions optimized primality, not tree traversal.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "isprime",
+      "public_readme": "subjects/isprime/README.md",
+      "evidence_phrase": "prime number",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "control_flow",
+        "functions"
+      ],
+      "rejected_concepts": [
+        "sorting",
+        "tree_traversal"
+      ],
+      "recommended_stage": 3,
+      "reason": "Optimized divisibility testing, not sorting or tree traversal.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "basicjoin",
+      "public_readme": "subjects/basicjoin/README.md",
+      "evidence_phrase": "concatenated",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "runes_strings",
+        "functions"
+      ],
+      "rejected_concepts": [
+        "files_cli"
+      ],
+      "recommended_stage": 4,
+      "reason": "Function arguments are not command-line arguments.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "concat",
+      "public_readme": "subjects/concat/README.md",
+      "evidence_phrase": "concatenation of two",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "runes_strings",
+        "functions"
+      ],
+      "rejected_concepts": [
+        "files_cli"
+      ],
+      "recommended_stage": 4,
+      "reason": "Function arguments are not command-line arguments.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "join",
+      "public_readme": "subjects/join/README.md",
+      "evidence_phrase": "separator",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "runes_strings",
+        "slices",
+        "functions"
+      ],
+      "rejected_concepts": [
+        "files_cli"
+      ],
+      "recommended_stage": 5,
+      "reason": "Join a string slice; function argument is not a CLI argument.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "nbrconvertalpha",
+      "public_readme": "subjects/nbrconvertalpha/README.md",
+      "evidence_phrase": "flag `--upper`",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "runes_strings",
+        "files_cli",
+        "parsing"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 5,
+      "reason": "Parses command-line integer arguments and an optional flag.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "rotatevowels",
+      "public_readme": "subjects/rotatevowels/README.md",
+      "evidence_phrase": "checks the arguments for vowels",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "runes_strings",
+        "files_cli"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 5,
+      "reason": "Manipulates vowels across CLI arguments; moderate parsing and indexing.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "pointone",
+      "public_readme": "subjects/pointone/README.md",
+      "evidence_phrase": "pointer to an `int`",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "pointers",
+        "functions"
+      ],
+      "rejected_concepts": [
+        "files_cli"
+      ],
+      "recommended_stage": 3,
+      "reason": "Function argument is a pointer, not a command-line argument.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "flags",
+      "public_readme": "subjects/flags/README.md",
+      "evidence_phrase": "--insert",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "files_cli",
+        "sorting",
+        "runes_strings"
+      ],
+      "rejected_concepts": [
+        "shell_git"
+      ],
+      "recommended_stage": 6,
+      "reason": "Command-line flag parser and ASCII ordering; word terminal does not imply shell scripting.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "bigger",
+      "public_readme": "subjects/bigger/README.md",
+      "evidence_phrase": "HashMap",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "collections"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 5,
+      "reason": "HashMap search is collections work, not Stage 1 primitives.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "middle_day",
+      "public_readme": "subjects/middle_day/README.md",
+      "evidence_phrase": "chrono",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "cargo",
+        "enums_results"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 4,
+      "reason": "Date arithmetic with external chrono crate and Option return.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "name_initials",
+      "public_readme": "subjects/name_initials/README.md",
+      "evidence_phrase": "heap allocations",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "collections",
+        "strings",
+        "borrowing"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 5,
+      "reason": "Vector of borrowed names to owned Strings with allocation constraint.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "simple_hash",
+      "public_readme": "subjects/simple_hash/README.md",
+      "evidence_phrase": "word_frequency_counter",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "collections",
+        "borrowing",
+        "strings"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 5,
+      "reason": "HashMap word-frequency counter with borrowed map parameter.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "changes",
+      "public_readme": "subjects/changes/README.md",
+      "evidence_phrase": "change_brightness",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "collections",
+        "borrowing"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 4,
+      "reason": "Struct and mutable slice update; not introductory arrays alone.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "division_and_remainder",
+      "public_readme": "subjects/division_and_remainder/README.md",
+      "evidence_phrase": "tuple",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "types"
+      ],
+      "rejected_concepts": [
+        "enums_results"
+      ],
+      "recommended_stage": 2,
+      "reason": "Returns arithmetic quotient and remainder tuple; no Result enum required.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "border_cross",
+      "public_readme": "subjects/border_cross/README.md",
+      "evidence_phrase": "Vehicle` trait",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "traits",
+        "generics",
+        "lifetimes",
+        "borrowing"
+      ],
+      "rejected_concepts": [
+        "collections"
+      ],
+      "recommended_stage": 6,
+      "reason": "Trait-bound references and explicit generic lifetimes, not early control flow.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "borrow_me_the_reference",
+      "public_readme": "subjects/borrow_me_the_reference/README.md",
+      "evidence_phrase": "borrowed string",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "ownership",
+        "borrowing",
+        "strings",
+        "collections"
+      ],
+      "rejected_concepts": [
+        "enums_results"
+      ],
+      "recommended_stage": 3,
+      "reason": "Borrowed string and vector transformations; word result is ordinary prose.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "profanity_filter",
+      "public_readme": "subjects/profanity_filter/README.md",
+      "evidence_phrase": "returns a `Result`",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "enums_results",
+        "strings"
+      ],
+      "rejected_concepts": [
+        "applications"
+      ],
+      "recommended_stage": 4,
+      "reason": "Small Result-based message validator, not integrated application.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "macro_calculator",
+      "public_readme": "subjects/macro_calculator/README.md",
+      "evidence_phrase": "json::JsonValue",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "collections",
+        "applications",
+        "types"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 8,
+      "reason": "JSON aggregation and precision handling; retained integrated stage.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "change",
+      "public_readme": "subjects/change/README.md",
+      "evidence_phrase": "sourceObject",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "arrays_objects",
+        "values_functions"
+      ],
+      "rejected_concepts": [
+        "ui_state"
+      ],
+      "recommended_stage": 3,
+      "reason": "Object property get/set, not browser UI state.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "fifty-shades-of-cold",
+      "public_readme": "subjects/fifty-shades-of-cold/README.md",
+      "evidence_phrase": "creates a `<style>` tag",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "dom",
+        "events",
+        "ui_state",
+        "arrays_objects"
+      ],
+      "rejected_concepts": [
+        "fetch_json"
+      ],
+      "recommended_stage": 6,
+      "reason": "DOM style generation and click handler; external API fetching not required.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "unicode-technical-report-35",
+      "public_readme": "subjects/unicode-technical-report-35/README.md",
+      "evidence_phrase": "valid `Date`",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "regex_dates",
+        "values_functions"
+      ],
+      "rejected_concepts": [
+        "dom"
+      ],
+      "recommended_stage": 7,
+      "reason": "Date token formatting; HTML appears only in documentation reference, not DOM requirement.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "sortable",
+      "public_readme": "subjects/sortable/README.md",
+      "evidence_phrase": "build a web page",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "runtime",
+        "arrays_objects",
+        "higher_order_functions",
+        "promises",
+        "fetch_json",
+        "dom",
+        "events",
+        "ui_state"
+      ],
+      "rejected_concepts": [],
+      "recommended_stage": 8,
+      "reason": "Full fetch-driven interactive searchable paginated table, not beginner object exercise.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "filter",
+      "public_readme": "subjects/filter/README.md",
+      "evidence_phrase": "partition",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "rejected_concepts": [
+        "promises"
+      ],
+      "recommended_stage": 4,
+      "reason": "Reject means array predicate rejection, not Promise.reject.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "debounce",
+      "public_readme": "subjects/debounce/README.md",
+      "evidence_phrase": "_.debounce",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "higher_order_functions",
+        "closures"
+      ],
+      "rejected_concepts": [
+        "dom"
+      ],
+      "recommended_stage": 5,
+      "reason": "Time-based function wrapper; CSS-tricks resource URL is not DOM instruction.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "throttle",
+      "public_readme": "subjects/throttle/README.md",
+      "evidence_phrase": "_.throttle",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "higher_order_functions",
+        "closures"
+      ],
+      "rejected_concepts": [
+        "dom"
+      ],
+      "recommended_stage": 5,
+      "reason": "Time-based function wrapper; CSS-tricks resource URL is not DOM instruction.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "keep-trying-or-giveup",
+      "public_readme": "subjects/keep-trying-or-giveup/README.md",
+      "evidence_phrase": "an `async` function",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "promises",
+        "higher_order_functions"
+      ],
+      "rejected_concepts": [
+        "dom"
+      ],
+      "recommended_stage": 5,
+      "reason": "Async retry/timeout and Promise.race; DOM only appears in a documentation URL.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "get-them-all",
+      "public_readme": "subjects/get-them-all/README.md",
+      "evidence_phrase": "HTML elements",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "dom",
+        "arrays_objects"
+      ],
+      "rejected_concepts": [
+        "fetch_json"
+      ],
+      "recommended_stage": 6,
+      "reason": "Query and classify DOM elements; no network fetch requirement.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "physics",
+      "public_readme": "subjects/physics/README.md",
+      "evidence_phrase": "getAcceleration",
+      "review_type": "manual_public_readme_semantic_review",
+      "required_concepts": [
+        "values_functions",
+        "arrays_objects"
+      ],
+      "rejected_concepts": [
+        "applications"
+      ],
+      "recommended_stage": 3,
+      "reason": "Pure acceleration calculation, not a game implementation.",
+      "official_galaxy_order": null,
+      "official_unlock": null
+    }
+  ]
+}
