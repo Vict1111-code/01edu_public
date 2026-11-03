@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "scope": "Foundational 01Edu Galaxy projects plus Piscine examples",
+  "source_repository": "Vict1111-code/01edu_public",
+  "branch": "master",
+  "source_interpretation": "All edges are drawn from README descriptions or direct reference links. Relationship type is not necessarily an enforceable unlock prerequisite.",
+  "edges": [
+    {
+      "from": "quad",
+      "to": "quadchecker",
+      "relation": "based_on_prior_implementation",
+      "evidence": "quadchecker explicitly says its raid is based on the quad functions",
+      "source": "subjects/quadchecker/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "unknown",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/quadchecker/README.md"
+    },
+    {
+      "from": "road_intersection",
+      "to": "smart-road",
+      "relation": "references_prior_piscine_raid",
+      "evidence": "smart-road explicitly recalls road_intersection from the Rust Piscine",
+      "source": "subjects/smart-road/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "unknown",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/smart-road/README.md"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art-web",
+      "relation": "builds_on_prior_project",
+      "evidence": "ascii-art-web describes a web GUI version of the prior ascii-art project",
+      "source": "subjects/ascii-art-web/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "unknown",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/README.md"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/fs",
+      "relation": "extension_of_parent",
+      "evidence": "ascii-art/fs instructs learners to follow the parent ascii-art instructions while changing banner input",
+      "source": "subjects/ascii-art/fs/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "not_established",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/fs/README.md"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/dockerize",
+      "relation": "extension_of_parent",
+      "evidence": "dockerize requires the same principles as its parent subject and adds container deliverables",
+      "source": "subjects/ascii-art-web/dockerize/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "not_established",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/dockerize/README.md"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/export-file",
+      "relation": "extension_of_parent",
+      "evidence": "export-file builds on ascii-art-web and adds a file export HTTP endpoint",
+      "source": "subjects/ascii-art-web/export-file/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "not_established",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/export-file/README.md"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/stylize",
+      "relation": "extension_of_parent",
+      "evidence": "stylize uses the same principles as parent ascii-art-web and adds styling",
+      "source": "subjects/ascii-art-web/stylize/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "not_established",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/stylize/README.md"
+    },
+    {
+      "from": "forum",
+      "to": "forum/authentication",
+      "relation": "extension_of_parent",
+      "evidence": "authentication requires new login methods added into an existing forum",
+      "source": "subjects/forum/authentication/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "not_established",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/authentication/README.md"
+    },
+    {
+      "from": "forum",
+      "to": "real-time-forum",
+      "relation": "builds_on_prior_project",
+      "evidence": "real-time-forum references the earlier forum project and SQLite persistence",
+      "source": "subjects/real-time-forum/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "unknown",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/real-time-forum/README.md"
+    },
+    {
+      "from": "0-shell",
+      "to": "0-shell/job-control",
+      "relation": "extension_of_parent",
+      "evidence": "job-control follows base 0-shell principles and implements suspend/resume processes",
+      "source": "subjects/0-shell/job-control/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "not_established",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/job-control/README.md"
+    },
+    {
+      "from": "0-shell",
+      "to": "0-shell/scripting",
+      "relation": "extension_of_parent",
+      "evidence": "scripting requires extending 0-shell to execute shell scripts",
+      "source": "subjects/0-shell/scripting/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "not_established",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/scripting/README.md"
+    },
+    {
+      "from": "ascii-art-web/dockerize",
+      "to": "forum",
+      "relation": "resource_reference",
+      "evidence": "forum points learners to dockerize for Docker basics, not an explicit unlock gate",
+      "source": "subjects/forum/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "unknown",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/README.md"
+    },
+    {
+      "from": "ascii-art-web/dockerize",
+      "to": "filler",
+      "relation": "resource_reference",
+      "evidence": "filler points learners to dockerize for Docker basics, not an explicit unlock gate",
+      "source": "subjects/filler/README.md",
+      "confidence": "high",
+      "is_official_hard_unlock": "unknown",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/filler/README.md"
+    },
+    {
+      "from": "social-network",
+      "to": "mini-framework",
+      "relation": "prior_experience_reference",
+      "evidence": "mini-framework mentions framework usage in the prior social-network project, not a formal unlock requirement",
+      "source": "subjects/mini-framework/README.md",
+      "confidence": "medium",
+      "is_official_hard_unlock": "unknown",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/mini-framework/README.md"
+    }
+  ],
+  "additional_evidence": [
+    {
+      "source": "subjects/go-reloaded/README.md",
+      "claim": "Project requires reusing old functions from an earlier repository after admission",
+      "kind": "unnamed_prior_work",
+      "mapping": "likely prior Go exercises; exact repo/project not identified",
+      "confidence": "high for prior-work requirement; low for specific Piscine mapping"
+    },
+    {
+      "source": "subjects/hello_rust/README.md",
+      "claim": "Explicitly calls itself the first Rust Piscine exercise and describes setup rules for that Piscine",
+      "kind": "piscine_first_exercise",
+      "confidence": "high"
+    },
+    {
+      "source": "js/README.md",
+      "claim": "Documents a Node.js exercise test runner",
+      "kind": "test_harness",
+      "confidence": "high"
+    },
+    {
+      "source": "dom/README.md",
+      "claim": "Documents a Puppeteer exercise test runner",
+      "kind": "test_harness",
+      "confidence": "high"
+    }
+  ]
+}
