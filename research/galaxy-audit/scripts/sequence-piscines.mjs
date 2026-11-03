@@ -20,13 +20,13 @@ const rust=[
 'boxing_todo tic_tac_toe commits_stats macro_calculator profanity_filter does_it_fit'
 ].map(split);
 const javascript=[
-'how-2-js primitives mutability declarations returns change',
-'abs more-or-less biggie-smalls min-max triangle dog-years fifty-shades-of-cold count-leap-years day-of-the-year date-is elementary long-words letter-space-number unicode-technical-report-35',
-'collections concat-str chunky circular flat slicer pick-omit invert manipulate-keys manipulate-values manipulate-entries index-of last-first-kiss replica deep-copy sortable',
-'using-map using-filter using-reduce mapper filter reduce for-each currify curry-entries sweet-curry fusion same-amount sums',
+'how-2-js primitives mutability declarations returns change is',
+'abs more-or-less biggie-smalls min-max triangle dog-years fifty-shades-of-cold count-leap-years day-of-the-year date-is elementary long-words letter-space-number unicode-technical-report-35 cut-corners keep-cut method-man repeat',
+'collections concat-str chunky circular flat slicer pick-omit invert manipulate-keys manipulate-values manipulate-entries index-of last-first-kiss replica deep-copy sortable get reverser',
+'using-map using-filter using-reduce mapper filter reduce for-each currify curry-entries sweet-curry fusion same-amount sums has-city',
 'all get-json get-them-all get-some-time keep-trying-or-giveup nasa debounce throttle flow',
-'build-brick-and-break gossip-grid mouse-trap keycodes-symphony pick-and-click pimp-my-style neuron',
-'match-cron valid-ip quantifiers find-expression its-a-match dr-strange physics molecules-cells series greedy-url group-price pronoun rebecca-black',
+'build-brick-and-break gossip-grid mouse-trap keycodes-symphony pick-and-click pimp-my-style neuron harder-bigger-bolder-stronger',
+'match-cron valid-ip quantifiers find-expression its-a-match dr-strange physics molecules-cells series greedy-url group-price pronoun rebecca-black interpolation vowel-dots',
 'block-chain flagger race pyramid where-do-we-go gougle-search unbreakable ion-out is-winner'
 ].map(split);
 const toMap=groups=>new Map(groups.flatMap((group,i)=>group.map(id=>[id,i+1])));
@@ -57,7 +57,7 @@ export function classify(r,subject=''){
   stage_title:stage?STAGES[lang][stage-1]:'Unclassified / extra practice / needs review',
   estimated_difficulty:stage?Math.min(5,Math.ceil(stage*5/8)):null,
   pedagogical_order_basis:stage?source:'unclassified',
-  confidence:stage?'medium':'review_required',concepts_detected_in_official_readme:concepts,
+  confidence:stage&&r.match_status==='exact_top_level_subject'?'medium':'review_required',concepts_detected_in_official_readme:concepts,
   official_readme:r.official_readme,official_audit_readme:r.official_audit_readme,
   public_test_paths:[...(r.public_js_test_paths||[]),...(r.public_dom_test_paths||[])],
   official_galaxy_quest_position:null,community_group_is_official:false,
