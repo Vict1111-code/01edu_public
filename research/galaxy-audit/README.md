@@ -75,6 +75,12 @@ The [Phase 10 report](findings/three-piscines-crosswalk-phase10-2026-11-03.md) r
 
 Files: [combined JSON](data/three-piscines-subject-crosswalk.json), [Go CSV](data/go-piscine-crosswalk.csv), [Rust CSV](data/rust-piscine-crosswalk.csv), [JavaScript CSV](data/javascript-piscine-crosswalk.csv).
 
+## Phase 11 — Concept-based difficulty sequences for three Piscines (2026-11-03)
+
+The [Phase 11 findings](findings/progressive-three-piscines-phase11-2026-11-03.md) organize all **322 community archive candidate records** into eight estimated difficulty/concept stages per language: **Go 131 staged / 29 review**, **Rust 63 staged / 0 review**, and **JavaScript 98 staged / 1 review**. These are **independent educational study paths, not official Galaxy quest order or unlock rules**. Seven generator tests passed in [CI run 41654804253](https://github.com/Vict1111-code/01edu_public/actions/runs/41654804253).
+
+**Readable, source-linked guides:** [Go](guides/go-progressive-learning-path.md) · [Rust](guides/rust-progressive-learning-path.md) · [JavaScript](guides/javascript-progressive-learning-path.md). [Generator](scripts/sequence-piscines.mjs) and [tests](scripts/sequence-piscines.test.mjs). Generated JSON/CSV/Markdown are available in the CI artifact.
+
 ## Artifacts
 
 | File | Coverage | Method |
