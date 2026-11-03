@@ -29,10 +29,19 @@ The **central Galaxy** must be reconstructed before the outer specialization orb
 
 **Do not infer official unlock order from this outline.** The [curriculum backbone](data/curriculum-backbone.json) distinguishes verified program stages from candidate project placements and unknown links. The whole Galaxy—not only specialization subjects—is the scope.
 
+## Phase 2 — Foundational Galaxy verified (2026-11-03)
+
+Visual transcript and Git source verification now cover the **17 core green-ring project nodes** (Imperative 6, Architecture 6, Full-Stack 5), with subject and audit files for all 17. Go/Rust/JS Piscine examples are documented, and **14 source-backed inter-project relationships** are classified by evidence type. See [foundation/core reconstruction report](findings/foundation-core-reconstruction-2026-11-03.md).
+
+**Still unknown:** full official Piscine quest ordering, all cross-band satellite paths, current locked progression rules, and detailed criteria for every project. Screenshot order is not an unlock graph.
+
 ## Artifacts
 
 | File | Coverage | Method |
 | --- | --- | --- |
+| [data/screenshot-core-index.json](data/screenshot-core-index.json) | 17 screenshot-identified core projects cross-checked against public subject and audit blobs | Screenshot reading and Git tree hashes |
+| [data/foundation-project-profiles.json](data/foundation-project-profiles.json) | 17 core project summaries, skills, technologies, Piscine evidence, and project execution risks | Individual README inspection |
+| [data/foundation-dependency-evidence.json](data/foundation-dependency-evidence.json) | 14 source-backed core/Piscine project relationships with typed distinctions | Individual README references and stated requirements |
 | [data/curriculum-backbone.json](data/curriculum-backbone.json) | End-to-end Piscine/core/cross-project/branch scope and evidence-confidence labels | Galaxy screenshot, public subject instructions, official curriculum stage descriptions |
 | [data/subjects-index.json](data/subjects-index.json) | 807 immediate entries under `subjects/` (801 dirs, 6 files) | One-level GitHub Contents API |
 | [data/ai-module-index.json](data/ai-module-index.json) | 26 current AI subject modules, including README and audit presence | Recursive Git Trees API |
@@ -42,6 +51,7 @@ The **central Galaxy** must be reconstructed before the outer specialization orb
 | [data/track-coverage.json](data/track-coverage.json) | Entire 3,505-entry subject tree and major nested collections | Recursive Git Trees API |
 | [data/auxiliary-coverage.json](data/auxiliary-coverage.json) | JS/DOM test harnesses, shell tooling, employment tasks, support docs | Recursive Git Trees API, README inspection |
 | [data/dependency-evidence.json](data/dependency-evidence.json) | Five explicitly supported sample subject relationships | Links and wording from subject README files |
+| [findings/foundation-core-reconstruction-2026-11-03.md](findings/foundation-core-reconstruction-2026-11-03.md) | Evidence-backed Go/Rust/JS Piscines and 17 central Galaxy project nodes | Screenshot cross-reference and subject review |
 | [findings/full-subject-structure-2026-11-03.md](findings/full-subject-structure-2026-11-03.md) | Full-Galaxy structural audit and sampling of six specialization collections | Tree statistics and representative README inspection |
 | [findings/initial-audit-2026-11-03.md](findings/initial-audit-2026-11-03.md) | Findings, limitations, and next work | Recorded evidence |
 
