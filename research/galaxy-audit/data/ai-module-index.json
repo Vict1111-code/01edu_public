@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "source_repository": "Vict1111-code/01edu_public",
+  "source_branch": "master",
+  "source_tree_sha": "5196ccc04e195f524134dfc97b6146091d3be741",
+  "tree_truncated": false,
+  "generated_on": "2026-11-03",
+  "caveat": "Directory structure only; does not establish curriculum order or mastery outcomes.",
+  "modules": [
+    {
+      "name": "backtesting-sp500",
+      "path": "subjects/ai/backtesting-sp500",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/backtesting-sp500",
+      "subject": true,
+      "audit": true,
+      "file_count": 6,
+      "subdirectories": [
+        "audit",
+        "data",
+        "images"
+      ]
+    },
+    {
+      "name": "classification",
+      "path": "subjects/ai/classification",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/classification",
+      "subject": true,
+      "audit": true,
+      "file_count": 9,
+      "subdirectories": [
+        "audit",
+        "data"
+      ]
+    },
+    {
+      "name": "credit-scoring",
+      "path": "subjects/ai/credit-scoring",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/credit-scoring",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "data-wrangling",
+      "path": "subjects/ai/data-wrangling",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/data-wrangling",
+      "subject": true,
+      "audit": true,
+      "file_count": 2,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "document-categorization",
+      "path": "subjects/ai/document-categorization",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/document-categorization",
+      "subject": true,
+      "audit": true,
+      "file_count": 2,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "emotions-detector",
+      "path": "subjects/ai/emotions-detector",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/emotions-detector",
+      "subject": true,
+      "audit": true,
+      "file_count": 2,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "forest-prediction",
+      "path": "subjects/ai/forest-prediction",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/forest-prediction",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit",
+        "images"
+      ]
+    },
+    {
+      "name": "kaggle-titanic",
+      "path": "subjects/ai/kaggle-titanic",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/kaggle-titanic",
+      "subject": true,
+      "audit": true,
+      "file_count": 3,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "keras-2",
+      "path": "subjects/ai/keras-2",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/keras-2",
+      "subject": true,
+      "audit": true,
+      "file_count": 3,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "keras",
+      "path": "subjects/ai/keras",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/keras",
+      "subject": true,
+      "audit": true,
+      "file_count": 2,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "linear-regression",
+      "path": "subjects/ai/linear-regression",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/linear-regression",
+      "subject": true,
+      "audit": true,
+      "file_count": 9,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "matrix-factorization",
+      "path": "subjects/ai/matrix-factorization",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/matrix-factorization",
+      "subject": true,
+      "audit": true,
+      "file_count": 3,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "model-selection",
+      "path": "subjects/ai/model-selection",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/model-selection",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "neural-networks",
+      "path": "subjects/ai/neural-networks",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/neural-networks",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "nlp-scraper",
+      "path": "subjects/ai/nlp-scraper",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/nlp-scraper",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "nlp-spacy",
+      "path": "subjects/ai/nlp-spacy",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/nlp-spacy",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit",
+        "resources"
+      ]
+    },
+    {
+      "name": "nlp",
+      "path": "subjects/ai/nlp",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/nlp",
+      "subject": true,
+      "audit": true,
+      "file_count": 3,
+      "subdirectories": [
+        "audit",
+        "resources"
+      ]
+    },
+    {
+      "name": "numpy",
+      "path": "subjects/ai/numpy",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/numpy",
+      "subject": true,
+      "audit": true,
+      "file_count": 5,
+      "subdirectories": [
+        "audit",
+        "data"
+      ]
+    },
+    {
+      "name": "pandas",
+      "path": "subjects/ai/pandas",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/pandas",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit",
+        "data"
+      ]
+    },
+    {
+      "name": "pipeline",
+      "path": "subjects/ai/pipeline",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/pipeline",
+      "subject": true,
+      "audit": true,
+      "file_count": 4,
+      "subdirectories": [
+        "audit",
+        "data"
+      ]
+    },
+    {
+      "name": "sp500-strategies",
+      "path": "subjects/ai/sp500-strategies",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/sp500-strategies",
+      "subject": true,
+      "audit": true,
+      "file_count": 5,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "spectral-learning",
+      "path": "subjects/ai/spectral-learning",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/spectral-learning",
+      "subject": true,
+      "audit": true,
+      "file_count": 2,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "time-series",
+      "path": "subjects/ai/time-series",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/time-series",
+      "subject": true,
+      "audit": true,
+      "file_count": 3,
+      "subdirectories": [
+        "audit",
+        "data"
+      ]
+    },
+    {
+      "name": "training",
+      "path": "subjects/ai/training",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/training",
+      "subject": true,
+      "audit": true,
+      "file_count": 3,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "vision-track",
+      "path": "subjects/ai/vision-track",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/vision-track",
+      "subject": true,
+      "audit": true,
+      "file_count": 2,
+      "subdirectories": [
+        "audit"
+      ]
+    },
+    {
+      "name": "visualizations",
+      "path": "subjects/ai/visualizations",
+      "url": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects/ai/visualizations",
+      "subject": true,
+      "audit": true,
+      "file_count": 9,
+      "subdirectories": [
+        "audit"
+      ]
+    }
+  ]
+}
