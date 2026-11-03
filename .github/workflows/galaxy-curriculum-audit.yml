@@ -39,6 +39,9 @@ jobs:
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
+      - name: Deduplicate and triage candidate project links
+        run: node research/galaxy-audit/scripts/triage-subject-links.mjs research/galaxy-audit/generated
+
       - name: Print and save scan summary
         shell: bash
         run: |
@@ -62,5 +65,7 @@ jobs:
             research/galaxy-audit/generated/subject-link-edges.csv
             research/galaxy-audit/generated/subject-node-summary.csv
             research/galaxy-audit/generated/summary.txt
+            research/galaxy-audit/generated/triaged-project-links.json
+            research/galaxy-audit/generated/triage-summary.json
           retention-days: 14
           if-no-files-found: error
