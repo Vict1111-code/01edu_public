@@ -62,3 +62,12 @@ test('generic README mentions do not masquerade as specific concept validation',
   assert.equal(x.concept_evidence_layers.README_specific.length,0);
  }finally{rmSync(root,{recursive:true,force:true});}
 });
+
+test('nested instruction subsections are preserved through next same-level heading',()=>{
+ const md='## Exercise\n### Instructions\nImplement types.\n#### Methods\nUse HashMap and FromStr.\n### Usage\nNot part of instructions.';
+ const p=sections(md),r=classifyREADME('rust',md);
+ assert.ok(p.instructions.includes('HashMap'));
+ assert.ok(!p.instructions.includes('Not part of instructions'));
+ assert.ok(r.hits.some(x=>x.concept==='collections'));
+ assert.ok(r.hits.some(x=>x.concept==='traits'));
+});
