@@ -85,6 +85,11 @@ export function classifyREADME(lang,md){
  }
  return {hits,instructions_section_found:ss.instructions_section_found,notions_section_found:ss.notions_section_found};
 }
+const GENERIC={
+ go:new Set(['functions','variables','control_flow','runes_strings']),
+ rust:new Set(['types','strings','control_flow']),
+ javascript:new Set(['values_functions','control_flow','arrays_objects'])
+};
 export function reconcile(phase13,phase14,manual,root){
  const previous=new Map(phase13.exercise_cards.map(x=>[x.language+'::'+x.exercise,x]));
  const reviews=new Map(manual.reviews.map(x=>[x.language+'::'+x.exercise,x]));
@@ -98,19 +103,25 @@ export function reconcile(phase13,phase14,manual,root){
    const valid=typeof path==='string'&&/^subjects\/[^/]+\/README\.md$/.test(path);
    const file=valid?join(root,path):null,hasReadme=!!file&&existsSync(file);
    const scan=hasReadme?classifyREADME(lang,readFileSync(file,'utf8')):{hits:[]};
-   const sourceInstruction=scan.hits.filter(h=>h.source_section==='instructions');
-   const primary=sourceInstruction.length?sourceInstruction:scan.hits;
-   const concepts=[...new Set([...x.concepts,...primary.map(h=>h.concept)])];
    const reviewed=reviews.get(key);
+   const manualConcepts=reviewed?.manual_concept_interpretation||[];
+   for(const c of manualConcepts)if(!CONCEPTS[lang].nodes.includes(c))throw Error('Unknown reviewed concept '+key+'/'+c);
+   const specific=scan.hits.filter(h=>!GENERIC[lang].has(h.concept));
+   const specificInstruction=specific.filter(h=>h.source_section==='instructions');
+   const generic=scan.hits.filter(h=>GENERIC[lang].has(h.concept));
+   const nameOnly=x.concept_classification==='name_only_low_confidence'?x.concepts:[];
+   const concepts=[...new Set([...manualConcepts,...x.concepts,...scan.hits.map(h=>h.concept)])];
    let status;
-   if(x.concept_classification==='manually_curated_concept_anchor')status='manual_concept_anchor';
-   else if(sourceInstruction.length)status='README_instruction_keyword';
-   else if(scan.hits.length)status='README_notions_keyword';
+   if(reviewed)status='manual_full_readme_review';
+   else if(x.concept_classification==='manually_curated_concept_anchor')status='manual_concept_anchor';
+   else if(specificInstruction.length)status='README_specific_instruction_keyword';
+   else if(specific.length)status='README_specific_notions_keyword';
+   else if(scan.hits.length)status='README_generic_terms_only';
    else if(x.concept_classification==='name_only_low_confidence')status='name_only_unverified';
    else status=hasReadme?'README_inspected_no_match':'no_public_README';
    const recommendedStage=reviewed?.suggested_stage??x.proposed_stage;
    const row={language:lang,exercise:x.exercise,public_readme:path,readme_inspected:hasReadme,
-    source_concept_evidence:scan.hits,concepts,previous_classification:x.concept_classification,
+    source_concept_evidence:scan.hits,concepts,concept_evidence_layers:{manual_readme_interpretation:manualConcepts,README_specific:specific.map(h=>h.concept),README_generic:generic.map(h=>h.concept),name_only_low_confidence:nameOnly},previous_classification:x.concept_classification,
     evidence_status:status,original_proposed_stage:x.proposed_stage,recommended_stage:recommendedStage,
     stage_changed_by_manual_review:!!reviewed&&recommendedStage!==x.proposed_stage,
     estimated_difficulty:x.estimated_difficulty,manual_outlier_review:reviewed||null,
@@ -122,8 +133,10 @@ export function reconcile(phase13,phase14,manual,root){
   }
   languages[lang]={summary:{total:rows.length,readmes_inspected:rows.filter(x=>x.readme_inspected).length,
    manual_anchors:rows.filter(x=>x.evidence_status==='manual_concept_anchor').length,
-   instruction_keyword:rows.filter(x=>x.evidence_status==='README_instruction_keyword').length,
-   notions_keyword:rows.filter(x=>x.evidence_status==='README_notions_keyword').length,
+   manual_full_readme_reviews:rows.filter(x=>x.evidence_status==='manual_full_readme_review').length,
+   specific_instruction_keyword:rows.filter(x=>x.evidence_status==='README_specific_instruction_keyword').length,
+   specific_notions_keyword:rows.filter(x=>x.evidence_status==='README_specific_notions_keyword').length,
+   generic_terms_only:rows.filter(x=>x.evidence_status==='README_generic_terms_only').length,
    name_only_unverified:rows.filter(x=>x.evidence_status==='name_only_unverified').length,
    readme_no_match:rows.filter(x=>x.evidence_status==='README_inspected_no_match').length,
    no_public_readme:rows.filter(x=>x.evidence_status==='no_public_README').length},exercise_cards:rows};
@@ -151,7 +164,7 @@ export function guide(data,lang){
  for(const x of data.outlier_review.filter(x=>x.language===lang))
   lines.push('- '+x.exercise+': stage '+x.previous_stage+' → '+x.recommended_stage+'; '+x.decision+'. '+x.reason);
  lines.push('','## Remaining low-evidence cases','');
- for(const x of rows.filter(x=>['name_only_unverified','README_inspected_no_match','no_public_README'].includes(x.evidence_status)))
+ for(const x of rows.filter(x=>['name_only_unverified','README_generic_terms_only','README_inspected_no_match','no_public_README'].includes(x.evidence_status)))
   lines.push('- '+x.exercise+' — '+x.evidence_status);
  lines.push('','**Interpretation:** A term in a README does not guarantee a concept is a strict prerequisite. Follow linked complete instructions, restrictions, and public tests.','');
  return lines.join('\n');
