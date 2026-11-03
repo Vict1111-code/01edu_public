@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-11-03",
+  "legacy_source": "Vict1111-code/Branch-AI master subjects/ai",
+  "current_source": "Vict1111-code/01edu_public master subjects/ai",
+  "method": "Name-and-topic alignment using directory names; SHA differences prove file revisions but not exact changes or release chronology.",
+  "matches": [
+    {
+      "archived": "backtesting-on-the-sp500",
+      "current": "backtesting-sp500",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "dd7c13d0565e27bcef5aa85cdda6294ea35f823e",
+      "current_readme_sha": "7eb4f3b9add51cf84390492ed253dbedec82868d",
+      "legacy_audit_sha": "9b6b64c782520f00eb9946154fe453c67610ef17",
+      "current_audit_sha": "4f91d8f3152c98c58de34bda852911a8c8db3fbe"
+    },
+    {
+      "archived": "classification-with-scikit-learn ",
+      "current": "classification",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "f8b5493bf531a1ce39f8d0ab26f89756841c7ffc",
+      "current_readme_sha": "a5e2a475d24e67cc8233b58c6b88bfcbddeb9ab3",
+      "legacy_audit_sha": "314a68a811ff924cd3f5a0f82565736fdb7c8e05",
+      "current_audit_sha": "00c38b80697dacfa70d4fb7e6cbe85fe1b44c9c5"
+    },
+    {
+      "archived": "credit-scoring",
+      "current": "credit-scoring",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "7fe8cbb438940a6aecda4c26e4a6d62c1191c5cb",
+      "current_readme_sha": "7e45d7aeed8661e901c9cc554be7412ad2034961",
+      "legacy_audit_sha": "4a4ce9cc8f6b16295d88567a9e36d0016b1896f6",
+      "current_audit_sha": "3c31f99776e5053fa583180864c3f28fe941f55a"
+    },
+    {
+      "archived": "data-wrangling-with-pandas",
+      "current": "data-wrangling",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "bdfe26a3775727780d6153920337a8468096e7a1",
+      "current_readme_sha": "e5929b5dd3ffb973a77910b1a49536c83037b747",
+      "legacy_audit_sha": "266976c5eb48552d3c8e39fbd8cb9f7b32a090de",
+      "current_audit_sha": "c0776f3a79a8c9dc74182b21731dbb03a2d3fe2b"
+    },
+    {
+      "archived": "emotions-detector",
+      "current": "emotions-detector",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "704e95a94aec6d5a48941d3c7c85b86b4a3b8c84",
+      "current_readme_sha": "df2a0b791dae06cedae1f184794f4ead6b5947a3",
+      "legacy_audit_sha": "70b5d66fb6a7d3fa80a43f3e0c160e7254259a61",
+      "current_audit_sha": "a9d85ffd618a5e4e5a4091f907cfaa753230a696"
+    },
+    {
+      "archived": "forest-cover-type-prediction",
+      "current": "forest-prediction",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "e68997a2bc4100c54bd0841c1997d4830411cc24",
+      "current_readme_sha": "2046adf0cb4573f78508805c7a1f0e90c205b2a1",
+      "legacy_audit_sha": "b031648f1fba50b20259c0559288f59db4bf9fbd",
+      "current_audit_sha": "5681c952f61734a5ad40cee5a6b18576d1ceda12"
+    },
+    {
+      "archived": "kaggle-titanic",
+      "current": "kaggle-titanic",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "c3ded921ac66ab84bb2c92681de6e1c9493095c0",
+      "current_readme_sha": "9e1c8f64ce56b07b093dfe8de98d5cace38094ed",
+      "legacy_audit_sha": "b26f7d175616759361f1f052da2203883d8681b3",
+      "current_audit_sha": "363b2bcad15c171cbd0456380e3ad2f5d97baafe"
+    },
+    {
+      "archived": "keras-2",
+      "current": "keras-2",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "1fe11c675e049ead767a27af4df0e40dc8b9f53a",
+      "current_readme_sha": "16745ceeb5146f2a7538f3d1527b310dc8c8720b",
+      "legacy_audit_sha": "38fcedcd0c24ff47b8afeda968be6ed1401afc5c",
+      "current_audit_sha": "622bab77125e9152c99372460d890d5a8e6ec799"
+    },
+    {
+      "archived": "keras",
+      "current": "keras",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "67e5acc090fd92887c9ed73671ab1b6afd455b47",
+      "current_readme_sha": "9d9ecb0208249ad02bfc629ba531a2a822b7dbfa",
+      "legacy_audit_sha": "ad983272882a2648ea7755d57c3f54f92151240b",
+      "current_audit_sha": "9e45c665b8b65164bd3e3b281aa8be7f2e82a64f"
+    },
+    {
+      "archived": "linear-regression-with-scikit-learn",
+      "current": "linear-regression",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "3ec890927f4f56d2f88ae30c0b53827d013d888f",
+      "current_readme_sha": "be1ec77ae141cdc2ee6fa63b8fee7d0d3eae097b",
+      "legacy_audit_sha": "b31b6366eb5bd6b5e0d5d704a9c8fdd7d943931d",
+      "current_audit_sha": "5971442f132e2ca67c2ed59af12447df311eb3ff"
+    },
+    {
+      "archived": "machine-learning-pipeline",
+      "current": "pipeline",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "ed746f4f8081c6bdcc4263d105ce5263bf532e6b",
+      "current_readme_sha": "0b63fe9f3958b9d92dd00ea2096ed396383e158e",
+      "legacy_audit_sha": "5c9f3539b813c3e43ecc6f7d82e7301edf4a8146",
+      "current_audit_sha": "fccbdba2406b3fbd0adb7cfb1e262f2fd463f616"
+    },
+    {
+      "archived": "model-selection-methodology",
+      "current": "model-selection",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "bfb72fb99211876255b4cbdfdc4f3a736f73a893",
+      "current_readme_sha": "f969751c9cc43860e585b9651bafe73f71ce77a4",
+      "legacy_audit_sha": "f4d92f60e0c8ea1a3187c5dc9d336b89ef780626",
+      "current_audit_sha": "da34faa9cb6dc7dd0f694742a3ae1fafc44931ae"
+    },
+    {
+      "archived": "natural-language-processing-with-spacy",
+      "current": "nlp-spacy",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "087a1956ec81c505ea343ba43f854d9327951712",
+      "current_readme_sha": "00cec879f727a36a8f14262cbb2e2f162b094ba5",
+      "legacy_audit_sha": "9f510dffa5ce9f7714e81af7501dfa10f16e31ab",
+      "current_audit_sha": "505743feb9988c5be78670053563fa43b7c7c62e"
+    },
+    {
+      "archived": "natural-language-processing",
+      "current": "nlp",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "6fffd684dfdeae6eb4bb6763fd3b1709bfef687e",
+      "current_readme_sha": "f13ea43b8ec705fcf52d668a4ba40ae018ce89f8",
+      "legacy_audit_sha": "2e3948e8d49f0bf0847e9fb222c9d0e3fe9e0b61",
+      "current_audit_sha": "dd45b53a93e4543452cfdf3f35497781670173d6"
+    },
+    {
+      "archived": "neural-networks",
+      "current": "neural-networks",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "5430904e5e4856dfe39218cecca375b83604722c",
+      "current_readme_sha": "0da5ac10a334cc9e857c9f8d4217f3191d406f1c",
+      "legacy_audit_sha": "45e08a097f6cffb1de77df46988a2587874558ae",
+      "current_audit_sha": "63c8986458a3c3d1007928ca5bff52c72a9c5926"
+    },
+    {
+      "archived": "nlp-scraper",
+      "current": "nlp-scraper",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "89e435d1089574df2060851346bc1fe6ab45c8a2",
+      "current_readme_sha": "71209fb802ecc80e335c1691f62a389ce49e2237",
+      "legacy_audit_sha": "6232a2611f39a8ca780bb6d3227a121de695848d",
+      "current_audit_sha": "225dbeba46d7ae0612b9f8c842a0a29534e8c957"
+    },
+    {
+      "archived": "numpy",
+      "current": "numpy",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "b73a62308f7ea8580f1d5071818ad186ed8d5e64",
+      "current_readme_sha": "88af65d81f151b4c276b4c57a85c80a702191166",
+      "legacy_audit_sha": "2c20fb3e6255443ed4c12001ddde50b0974bb725",
+      "current_audit_sha": "052dc2f455d5bc598b594c784be03412bdb5599f"
+    },
+    {
+      "archived": "pandas",
+      "current": "pandas",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "65fa987a74633a7d8710588fd97e1bde5521123c",
+      "current_readme_sha": "44d7f6b28cbee807f832c3ffd180e9ff9523f730",
+      "legacy_audit_sha": "5b4659dbe55f7f0937e381d4417b9c05410b0e98",
+      "current_audit_sha": "2f3c33f7732231fba3625d99984f1f3cc0c44218"
+    },
+    {
+      "archived": "sp500-strategies",
+      "current": "sp500-strategies",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "94d9640d21ae8c30e0a6b0501b914e099b36bc3e",
+      "current_readme_sha": "04405907b71a7f4867d9aef35824dfc2e55b0205",
+      "legacy_audit_sha": "08749423a88e1dfee75b6c6f6e2d2f0f6833ab7b",
+      "current_audit_sha": "4994363010f7fa1d1ae2f8c67a0cc5212b05a905"
+    },
+    {
+      "archived": "time-series-with-pandas",
+      "current": "time-series",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "ff82cfe883f9eb069135236cde9789c6bd6c6d36",
+      "current_readme_sha": "ce66655f0e892fba67be7613f9423137c48512cf",
+      "legacy_audit_sha": "6304dad89bf90740f33bdccbfe23e45e82b74c1d",
+      "current_audit_sha": "4dd7c0ff22f6274cc755f4017fa2c06b7077810e"
+    },
+    {
+      "archived": "train-and-evalute-machine-learning-models",
+      "current": "training",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "7e3a90bf0c7cec585e67570a9a3509548e63dc90",
+      "current_readme_sha": "f247a79bced94de89aaf53f42a4c0f97b6bce960",
+      "legacy_audit_sha": "618d5e222c50af7eccae9275e0a3f7ce3a40ece0",
+      "current_audit_sha": "0a242941b171dd25842a9ccb02d2f7c82ceabf37"
+    },
+    {
+      "archived": "visualizations",
+      "current": "visualizations",
+      "relation": "topic-name correspondence (not proof of unchanged content)",
+      "legacy_readme_sha": "7ebeee830f60e469b4fb18d11e880087be78f370",
+      "current_readme_sha": "ef67e863cf31a909e9aade46f406fefb13cf6e19",
+      "legacy_audit_sha": "b1d8ea0dbf7b26b265a367273e323978b9e348b2",
+      "current_audit_sha": "a93b7313488ebd4c006dc32d698366d67448b3e5"
+    }
+  ],
+  "new_catalog_only": [
+    "document-categorization",
+    "matrix-factorization",
+    "spectral-learning",
+    "vision-track"
+  ]
+}
