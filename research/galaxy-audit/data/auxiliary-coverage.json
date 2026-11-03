@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "source_repo": "Vict1111-code/01edu_public",
+  "source_branch": "master",
+  "notes": [
+    "js/README.md documents Node.js exercise runner invoked as node test.mjs /path/to/solutions exercise-name.",
+    "dom/README.md documents Puppeteer browser test runner invoked with SOLUTION_PATH and node test.js exercise-name.",
+    "Tests found by file-name patterns are candidates, not verified passing evaluations or full grader coverage.",
+    "sh, docs, employment-tasks may include tooling or assignments outside subjects/; each requires semantic review."
+  ],
+  "sections": [
+    {
+      "directory": "docs",
+      "tree_sha": "3dcd83ebcb6195cd2e34ac10f388cd87da0ab19e",
+      "truncated": false,
+      "total_entries": 64,
+      "files": 56,
+      "readmes": [
+        "setup/README.md"
+      ],
+      "test_candidate_count": 0,
+      "example_test_paths": []
+    },
+    {
+      "directory": "dom",
+      "tree_sha": "b8c1ffd05f7b4054eec8db5ab4ff9993161f07b8",
+      "truncated": false,
+      "total_entries": 35,
+      "files": 35,
+      "readmes": [
+        "README.md"
+      ],
+      "test_candidate_count": 29,
+      "example_test_paths": [
+        "action-reaction_test.js",
+        "bring-it-to-life_test.js",
+        "build-brick-and-break_test.js",
+        "call-it_test.js",
+        "class-it_test.js",
+        "class-that_test.js",
+        "colorful-arms_test.js",
+        "colorful-legs_test.js",
+        "embedded-organs_test.js",
+        "fifty-shades-of-cold_test.js",
+        "first-hello_test.js",
+        "first-move_test.js",
+        "first-wink_test.js",
+        "first-words_test.js",
+        "get-them-all_test.js"
+      ]
+    },
+    {
+      "directory": "employment-tasks",
+      "tree_sha": "8d9a172ac1702dbe3d1adeb1ea35099fe4e385bb",
+      "truncated": false,
+      "total_entries": 15,
+      "files": 8,
+      "readmes": [
+        "README.md",
+        "devops/basic-api/README.md",
+        "devops/notbad-task/README.md",
+        "devops/notbad-task/keycloak/README.md",
+        "software-engineer/game-task/README.md",
+        "software-engineer/rest-task/README.md"
+      ],
+      "test_candidate_count": 0,
+      "example_test_paths": []
+    },
+    {
+      "directory": "js",
+      "tree_sha": "7950a1e0b5d3d0bfabf50ee9ea3d40205b4f1121",
+      "truncated": false,
+      "total_entries": 223,
+      "files": 222,
+      "readmes": [
+        "README.md"
+      ],
+      "test_candidate_count": 219,
+      "example_test_paths": [
+        "tests/3-directions.json",
+        "tests/a-new-purpose.json",
+        "tests/a-string-of-number.json",
+        "tests/a-winning-argument.json",
+        "tests/about-time.json",
+        "tests/abs_test.js",
+        "tests/access.json",
+        "tests/action-reaction-dom_test.mjs",
+        "tests/all-caps.json",
+        "tests/all_test.js",
+        "tests/alter-ego.json",
+        "tests/an-undefined-future.json",
+        "tests/animals_test.js",
+        "tests/anything-to-declare.json",
+        "tests/average.json"
+      ]
+    },
+    {
+      "directory": "sh",
+      "tree_sha": "039fdb927226aaa0661711de5f43b077dbc4041f",
+      "truncated": false,
+      "total_entries": 387,
+      "files": 310,
+      "readmes": [],
+      "test_candidate_count": 0,
+      "example_test_paths": []
+    }
+  ]
+}
