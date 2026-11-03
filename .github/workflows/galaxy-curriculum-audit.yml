@@ -39,6 +39,12 @@ jobs:
       - name: Execute curated graph unit tests
         run: node --test research/galaxy-audit/scripts/build-curated-graph.test.mjs
 
+      - name: Run Piscine evidence checks
+        run: node --test research/galaxy-audit/scripts/classify-piscine-evidence.test.mjs
+
+      - name: Classify Piscine evidence
+        run: node research/galaxy-audit/scripts/classify-piscine-evidence.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -75,5 +81,7 @@ jobs:
             research/galaxy-audit/generated/triage-summary.json
             research/galaxy-audit/generated/curated-galaxy-graph.json
             research/galaxy-audit/generated/curated-galaxy-edges.csv
+            research/galaxy-audit/generated/piscine-language-evidence.json
+            research/galaxy-audit/generated/piscine-explicit-mentions.json
           retention-days: 14
           if-no-files-found: error
