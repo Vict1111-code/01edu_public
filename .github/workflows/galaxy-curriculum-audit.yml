@@ -75,6 +75,12 @@ jobs:
       - name: Verify source-backed concepts and reviewed learning stages
         run: node research/galaxy-audit/scripts/verify-piscine-concepts.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 16 evidence triage and manual README review
+        run: node --test research/galaxy-audit/scripts/triage-piscine-evidence.test.mjs
+
+      - name: Reconcile 110 low-evidence candidates and flag ambiguous keywords
+        run: node research/galaxy-audit/scripts/triage-piscine-evidence.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -137,5 +143,10 @@ jobs:
             research/galaxy-audit/generated/go-source-checked-study-guide.md
             research/galaxy-audit/generated/rust-source-checked-study-guide.md
             research/galaxy-audit/generated/javascript-source-checked-study-guide.md
+            research/galaxy-audit/generated/piscine-phase16-triaged-curriculum.json
+            research/galaxy-audit/generated/piscine-phase16-keyword-review-queue.json
+            research/galaxy-audit/generated/go-phase16-reviewed-study-guide.md
+            research/galaxy-audit/generated/rust-phase16-reviewed-study-guide.md
+            research/galaxy-audit/generated/javascript-phase16-reviewed-study-guide.md
           retention-days: 14
           if-no-files-found: error
