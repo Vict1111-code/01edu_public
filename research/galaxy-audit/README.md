@@ -57,6 +57,10 @@ The full six-file extraction and triage artifact is retained by GitHub Actions f
 
 The [successful GitHub Actions run](https://github.com/Vict1111-code/01edu_public/actions/runs/41648273764) completed the graph generator and five additional tests. The first **40-node / 33-edge** typed learning-lineage graph separates **40 non-progression links** and never asserts platform unlock conditions. A [durable source-linked snapshot](data/curated-graph-snapshot.json) is committed to the research branch, and the [full evidence-bearing graph](https://github.com/Vict1111-code/01edu_public/actions/runs/41648273764) is available as a CI artifact. See the [Phase 6 findings](findings/curated-graph-phase6-2026-11-03.md).
 
+## Phase 7 — Piscine language-evidence scan (2026-11-03)
+
+[GitHub Actions run 41649375925](https://github.com/Vict1111-code/01edu_public/actions/runs/41649375925) scanned all 1,233 public subject README files for language-specific syntax and Piscine/raid mentions. It found **319 Go-dominant, 149 Rust-dominant, 196 JavaScript-dominant, and 569 ambiguous/other** READMEs, plus **4 named-Piscine mentions** and **8 raid-wording matches**. These are **heuristic language classifications, not verified Piscine membership or quest order**. See [Phase 7 findings](findings/piscine-evidence-phase7-2026-11-03.md) and [classifier script](scripts/classify-piscine-evidence.mjs).
+
 ## Artifacts
 
 | File | Coverage | Method |
