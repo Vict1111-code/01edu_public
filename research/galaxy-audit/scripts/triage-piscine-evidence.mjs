@@ -16,9 +16,11 @@ const RISK_PATTERNS=[
  ['go','files_cli',/^(file|files)$/i,'File mention alone does not establish CLI/file I/O']
 ];
 const key=x=>x.language+'::'+x.exercise;
-export function merge(p15,manual,archive,root){
+export function merge(p15,manual,archive,root,verdicts={reviews:[]}){
  const manualMap=new Map(manual.records.map(x=>[key(x),x]));
  const archiveMap=new Map(archive.records.map(x=>[x.language+'::'+x.archive_exercise_id,x]));
+ const verdictMap=new Map(verdicts.reviews.map(x=>[x.language+'::'+x.exercise+'::'+x.concept,x]));
+ const appliedVerdicts=new Set();
  if(manualMap.size!==76||archiveMap.size!==34)throw Error('Unexpected manual/archive input count');
  const all=[],reconciled=[],reviewQueue=[],languages={};
  for(const [language,group] of Object.entries(p15.languages)){
@@ -62,10 +64,23 @@ export function merge(p15,manual,archive,root){
       if(l===language&&c===hit.concept&&pattern.test(hit.matched_text))
        flags.push({concept:c,matched_text:hit.matched_text,reason});
     }
-    if(flags.length)reviewQueue.push({language,exercise:x.exercise,flags,
+    if(flags.length){
+     const decisions=flags.map(flag=>{
+      const verdict=verdictMap.get(k+'::'+flag.concept);
+      if(verdict){
+       if(verdict.decision!=='retain'&&verdict.decision!=='reject')throw Error('Unknown verdict '+k);
+       appliedVerdicts.add(k+'::'+flag.concept);
+       if(verdict.decision==='reject')result.concepts=result.concepts.filter(c=>c!==flag.concept);
+      }
+      return {...flag,manual_verdict:verdict?.decision||'unreviewed',manual_reason:verdict?.reason||null};
+     });
+     reviewQueue.push({language,exercise:x.exercise,flags:decisions,
       public_readme:x.public_readme,estimated_difficulty:x.estimated_difficulty,
-      recommended_stage:x.recommended_stage,priority:'keyword_ambiguity'});
-    result.phase16_evidence_status=flags.length?'README_keyword_needs_semantic_check':x.evidence_status;
+      recommended_stage:x.recommended_stage,priority:'keyword_ambiguity',
+      manual_semantic_review_completed:decisions.every(d=>d.manual_verdict!=='unreviewed')});
+     result.phase16_semantic_verdicts=decisions;
+    }
+    result.phase16_evidence_status=flags.length?(flags.every(flag=>verdictMap.has(k+'::'+flag.concept))?'README_keyword_semantically_reviewed':'README_keyword_needs_semantic_check'):x.evidence_status;
    }
    cards.push(result);all.push(result);
   }
@@ -76,13 +91,16 @@ export function merge(p15,manual,archive,root){
    keyword_ambiguity_flags:reviewQueue.filter(x=>x.language===language).length},exercise_cards:cards};
  }
  if(all.length!==316||reconciled.length!==110)throw Error('Coverage mismatch '+all.length+'/'+reconciled.length);
+ if(appliedVerdicts.size!==verdictMap.size)throw Error('Unused semantic verdicts: '+(verdictMap.size-appliedVerdicts.size));
  if(reconciled.filter(x=>x.source_type==='public_README').length!==76)throw Error('README review coverage mismatch');
  if(reconciled.filter(x=>x.source_type==='community_archive').length!==34)throw Error('Archive review coverage mismatch');
  const output={schema_version:'1.0',as_of:'2026-11-03',
   methodology:'110 low-evidence candidates accounted for: 76 full public README manual reviews, 34 learner archive identity-only reviews. Other 206 cases retain prior evidence classifications. Source keywords remain non-authoritative.',
   summary:{total:all.length,low_evidence_cases_triaged:reconciled.length,manual_public_readmes:76,
    archive_identity_only:34,manual_stage_changes:reconciled.filter(x=>x.source_type==='public_README'&&x.old_stage!==x.new_stage).length,
-   suspicious_specific_keyword_cases:reviewQueue.length},languages,reconciled,keyword_semantic_review_queue:reviewQueue};
+   suspicious_specific_keyword_cases:reviewQueue.length,
+   keyword_cases_semantically_reviewed:reviewQueue.filter(x=>x.manual_semantic_review_completed).length,
+   rejected_keyword_concept_matches:reviewQueue.flatMap(x=>x.flags).filter(x=>x.manual_verdict==='reject').length},languages,reconciled,keyword_semantic_review_queue:reviewQueue};
  return output;
 }
 export function guide(data,language){
@@ -112,7 +130,8 @@ if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).hr
   const p15=JSON.parse(readFileSync(join(out,'piscine-readme-concept-evidence-phase15.json'),'utf8'));
   const manual=JSON.parse(readFileSync(join(root,'research/galaxy-audit/data/phase16-manual-readme-classifications.json'),'utf8'));
   const archive=JSON.parse(readFileSync(join(root,'research/galaxy-audit/data/phase14-source-inspected-identity-review.json'),'utf8'));
-  const data=merge(p15,manual,archive,root);mkdirSync(out,{recursive:true});
+  const verdicts=JSON.parse(readFileSync(join(root,'research/galaxy-audit/data/phase16-keyword-semantic-verdicts.json'),'utf8'));
+  const data=merge(p15,manual,archive,root,verdicts);mkdirSync(out,{recursive:true});
   writeFileSync(join(out,'piscine-phase16-triaged-curriculum.json'),JSON.stringify(data,null,2)+'\n');
   writeFileSync(join(out,'piscine-phase16-keyword-review-queue.json'),JSON.stringify(data.keyword_semantic_review_queue,null,2)+'\n');
   for(const language of Object.keys(CONCEPTS))writeFileSync(join(out,language+'-phase16-reviewed-study-guide.md'),guide(data,language));
