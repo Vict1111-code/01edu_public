@@ -69,6 +69,12 @@ jobs:
       - name: Build concept prerequisite maps and outlier queues
         run: node research/galaxy-audit/scripts/build-concept-prerequisites.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 15 README concept evidence and manual stage corrections
+        run: node --test research/galaxy-audit/scripts/verify-piscine-concepts.test.mjs
+
+      - name: Verify source-backed concepts and reviewed learning stages
+        run: node research/galaxy-audit/scripts/verify-piscine-concepts.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -127,5 +133,9 @@ jobs:
             research/galaxy-audit/generated/go-concept-prerequisite-guide.md
             research/galaxy-audit/generated/rust-concept-prerequisite-guide.md
             research/galaxy-audit/generated/javascript-concept-prerequisite-guide.md
+            research/galaxy-audit/generated/piscine-readme-concept-evidence-phase15.json
+            research/galaxy-audit/generated/go-source-checked-study-guide.md
+            research/galaxy-audit/generated/rust-source-checked-study-guide.md
+            research/galaxy-audit/generated/javascript-source-checked-study-guide.md
           retention-days: 14
           if-no-files-found: error
