@@ -17,10 +17,23 @@ The **scope is the entire publicly reconstructible Galaxy**, including the imper
 
 **Audit completion boundary:** Cataloging 801 subject directories is **not** equal to reading all project specifications, validating every audit, or reproducing the official dashboard's unlock graph.
 
+## Full learning-journey reconstruction (first priority)
+
+The **central Galaxy** must be reconstructed before the outer specialization orbits:
+
+1. **Selection Piscine** — initial Go-intensive entry/selection exercises and raids.
+2. **Core language Piscines** — Go, Rust, and JavaScript (and other curricula when evidenced). They can occur **during** core study, rather than strictly before all projects.
+3. **Inner core bands** — Imperative, Architecture, Full-Stack, Graphics.
+4. **Bridging/cross-band projects** — software projects that integrate concepts and reference prior subjects; these must support multiple domain tags.
+5. **Outer branches** — AI, Cybersecurity, Video Games, Cloud/DevOps, Blockchain, Mobile and others, only after the core relationships are represented.
+
+**Do not infer official unlock order from this outline.** The [curriculum backbone](data/curriculum-backbone.json) distinguishes verified program stages from candidate project placements and unknown links. The whole Galaxy—not only specialization subjects—is the scope.
+
 ## Artifacts
 
 | File | Coverage | Method |
 | --- | --- | --- |
+| [data/curriculum-backbone.json](data/curriculum-backbone.json) | End-to-end Piscine/core/cross-project/branch scope and evidence-confidence labels | Galaxy screenshot, public subject instructions, official curriculum stage descriptions |
 | [data/subjects-index.json](data/subjects-index.json) | 807 immediate entries under `subjects/` (801 dirs, 6 files) | One-level GitHub Contents API |
 | [data/ai-module-index.json](data/ai-module-index.json) | 26 current AI subject modules, including README and audit presence | Recursive Git Trees API |
 | [data/archived-ai-index.json](data/archived-ai-index.json) | Historical AI Piscine, projects, and subject modules | Recursive Git Trees API |
@@ -44,7 +57,7 @@ The **scope is the entire publicly reconstructible Galaxy**, including the imper
 ## Proposed research milestones
 
 - **M1 — Inventory (structural pass complete):** all 1,233 README-bearing subject directories and auxiliary root sections; semantic inspection still needed.
-- **M2 — Classification:** distinguish true assignments, exercises, extensions, support files, and tracks using README and audit analysis.
+- **M2 — Foundation-first classification:** map Go/Rust/JS Piscines, the Imperative/Architecture/Full-Stack/Graphics bands, and cross-band projects before specialization detail. Distinguish assignments, exercises, extensions, support files, and tracks using README and audit analysis.
 - **M3 — Dependency graph:** extract explicit subject links and requirements, keep inferred edges separate.
 - **M4 — Evaluation model:** convert audit checklists into structured human-testable criteria; do not pretend they are executable tests.
 - **M5 — AI-native gap analysis:** compare historical AI subjects against newer public changes and any accessible official documentation.
