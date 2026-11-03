@@ -34,10 +34,11 @@ test('Manual stage adjustment preserves original and rejects official order',()=
   writeFileSync(join(root,'subjects/molecules-cells/README.md'),'## Task\n### Instructions\nCreate two functions converting a DNA string into RNA.');
   const p13={exercise_cards:[{language:'javascript',exercise:'molecules-cells',official_readme:'subjects/molecules-cells/README.md'}]};
   const p14={languages:{javascript:{exercise_concept_cards:[{exercise:'molecules-cells',concepts:[],concept_classification:'not_classified',proposed_stage:7,estimated_difficulty:54}]}}};
-  const m={reviews:[{language:'javascript',exercise:'molecules-cells',suggested_stage:3,decision:'move_earlier',reason:'Basic string mapping',source_url:'https://example.org'}]};
+  const m={reviews:[{language:'javascript',exercise:'molecules-cells',suggested_stage:3,decision:'move_earlier',reason:'Basic string mapping',manual_concept_interpretation:['values_functions'],source_url:'https://example.org'}]};
   const r=reconcile(p13,p14,m,root),x=r.languages.javascript.exercise_cards[0];
   assert.equal(x.recommended_stage,3);assert.equal(x.original_proposed_stage,7);
-  assert.equal(x.official_galaxy_order,null);assert.equal(x.evidence_status,'README_instruction_keyword');
+  assert.equal(x.official_galaxy_order,null);assert.equal(x.evidence_status,'manual_full_readme_review');
+  assert.deepEqual(x.concept_evidence_layers.manual_readme_interpretation,['values_functions']);
   assert.match(guide(r,'javascript'),/reviewed stage change/);
  }finally{rmSync(root,{recursive:true,force:true});}
 });
@@ -47,4 +48,17 @@ test('Missing public README does not gain source evidence from a filename',()=>{
  const r=reconcile(p13,p14,{reviews:[]},'/tmp/nonexistent-public-repo');
  const x=r.languages.go.exercise_cards[0];
  assert.equal(x.evidence_status,'no_public_README');assert.deepEqual(x.source_concept_evidence,[]);
+});
+
+test('generic README mentions do not masquerade as specific concept validation',()=>{
+ const root=mkdtempSync(join(tmpdir(),'galaxy-generic-'));
+ try{
+  mkdirSync(join(root,'subjects/generic-example'),{recursive:true});
+  writeFileSync(join(root,'subjects/generic-example/README.md'),'## Task\n### Instructions\nCreate a function that returns a value.');
+  const p13={exercise_cards:[{language:'javascript',exercise:'generic-example',official_readme:'subjects/generic-example/README.md'}]};
+  const p14={languages:{javascript:{exercise_concept_cards:[{exercise:'generic-example',concepts:[],concept_classification:'not_classified',proposed_stage:1,estimated_difficulty:10}]}}};
+  const x=reconcile(p13,p14,{reviews:[]},root).languages.javascript.exercise_cards[0];
+  assert.equal(x.evidence_status,'README_generic_terms_only');
+  assert.equal(x.concept_evidence_layers.README_specific.length,0);
+ }finally{rmSync(root,{recursive:true,force:true});}
 });
