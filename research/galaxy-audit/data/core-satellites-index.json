@@ -29,7 +29,7 @@
       "root": "ascii-art",
       "depth": 2,
       "readme_sha": "9b1a3dbf089543cf725062be2a8c7a41800ce75b",
-      "audit_sha": null,
+      "audit_sha": "ceb21db19c23388d8dfd061e82633674af335911",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -45,7 +45,7 @@
       "root": "ascii-art",
       "depth": 2,
       "readme_sha": "6d44871f853f6caaa7bf6af57091d54265236357",
-      "audit_sha": null,
+      "audit_sha": "dd36183bd8cfd9e0eb9dcf3bd2f6c468f848c5de",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -53,7 +53,7 @@
       "root": "ascii-art",
       "depth": 2,
       "readme_sha": "bd81ef12d52a396c8f06aaa3151487e564263a8a",
-      "audit_sha": null,
+      "audit_sha": "a4fb92147145a40776fb78b63f1415402835e550",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -61,7 +61,7 @@
       "root": "ascii-art",
       "depth": 2,
       "readme_sha": "072fc2f15b4ee9258cfbb385c943da0c888deeef",
-      "audit_sha": null,
+      "audit_sha": "118e5a9bbd2f7677d9e5c3b22a5ba7eae540da65",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -69,7 +69,7 @@
       "root": "ascii-art",
       "depth": 2,
       "readme_sha": "654366db993c59fce089e58a70f9f2357be61384",
-      "audit_sha": null,
+      "audit_sha": "1f71e86ad48795e273b2f9620e3c204240bf49c1",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -77,7 +77,7 @@
       "root": "ascii-art-web",
       "depth": 2,
       "readme_sha": "67d6a894027fb8cb9fc04080094772697dbc24fa",
-      "audit_sha": null,
+      "audit_sha": "07498dc9bc48d3f28b1451189a6f306b6e4e36d6",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -85,7 +85,7 @@
       "root": "ascii-art-web",
       "depth": 2,
       "readme_sha": "f6028d28cb0e5881e142d67a0b8e33e4da474559",
-      "audit_sha": null,
+      "audit_sha": "11c341ac15505895ef647e50386f5d6a9a69bec2",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -93,7 +93,7 @@
       "root": "ascii-art-web",
       "depth": 2,
       "readme_sha": "b8d53f22752f65df1ce7c85f55edec27310a87dd",
-      "audit_sha": null,
+      "audit_sha": "904e8e6e70591449de8043fe7c2ac52afe418e39",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -101,7 +101,7 @@
       "root": "groupie-tracker",
       "depth": 2,
       "readme_sha": "4ee928519de3e4ebed57aaf5b344b422af93b848",
-      "audit_sha": null,
+      "audit_sha": "65bd4f7c29dd1757d123eacb629fbc3d4aec379d",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -109,7 +109,7 @@
       "root": "groupie-tracker",
       "depth": 2,
       "readme_sha": "3211a16e7ed6c269501507d44f0fc0701fab68b2",
-      "audit_sha": null,
+      "audit_sha": "a09d106f0c6f81bb9375c8667023135170de7422",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -117,7 +117,7 @@
       "root": "groupie-tracker",
       "depth": 2,
       "readme_sha": "679e7026e472c5b2c61a0e672b240c3da42c8bc4",
-      "audit_sha": null,
+      "audit_sha": "9fe8d3b867f3967bf7cb7f69e7103afa57d87fad",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -125,7 +125,7 @@
       "root": "groupie-tracker",
       "depth": 2,
       "readme_sha": "d6290b92f2608885cde126f15d268a887279c516",
-      "audit_sha": null,
+      "audit_sha": "ef9bbb6907b225228c023dc78056a714f17156b9",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -141,7 +141,7 @@
       "root": "forum",
       "depth": 2,
       "readme_sha": "a77d8ab43debc41c51af06704e3124040746cc35",
-      "audit_sha": null,
+      "audit_sha": "759da8857d7259ce9fe670e67558f60e6dd72456",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -149,7 +149,7 @@
       "root": "forum",
       "depth": 2,
       "readme_sha": "64c194d13c73dd1e35ee6bb96365e40bde446f41",
-      "audit_sha": null,
+      "audit_sha": "d19a969135df2ba675b86c10f76ad7559d8e231a",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -157,7 +157,7 @@
       "root": "forum",
       "depth": 2,
       "readme_sha": "0d755d1edc1ad14fa32d379ad4d26cf3a4f6dc95",
-      "audit_sha": null,
+      "audit_sha": "e7e03637fff831803fb2d5f95d31ebcf7c159997",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -165,7 +165,7 @@
       "root": "forum",
       "depth": 2,
       "readme_sha": "bc325d4fc00d33b382ace3f705ba85e243bfbcb2",
-      "audit_sha": null,
+      "audit_sha": "cee465b0211243de065a6e99f23ff6f6ec1174a4",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -173,7 +173,7 @@
       "root": "forum",
       "depth": 2,
       "readme_sha": "7dd39719ea973d6ddc1cce8e1a463b2eb57bf2ca",
-      "audit_sha": null,
+      "audit_sha": "6c3b67bc96c6db17452755eed3491f2acc332c31",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -181,7 +181,7 @@
       "root": "0-shell",
       "depth": 2,
       "readme_sha": "0f1f40bbc24079467dcfde7f3d35c31d7b12cf0d",
-      "audit_sha": null,
+      "audit_sha": "cef148bb71b7ef85ce0ded6973cf8cf1aec0f369",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -189,7 +189,7 @@
       "root": "0-shell",
       "depth": 2,
       "readme_sha": "49c88808ae36954eedfedde699cc4a2446a94a6b",
-      "audit_sha": null,
+      "audit_sha": "dfcc4f26daf90c26d744e073eb60a3ebec77ebc9",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -197,7 +197,7 @@
       "root": "make-your-game",
       "depth": 2,
       "readme_sha": "34dca583e963e3e40d4bb6dbbfc5f8a806639881",
-      "audit_sha": null,
+      "audit_sha": "33ba3682a9f8558b2c6c40c3dc57187f67eec70d",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -205,7 +205,7 @@
       "root": "make-your-game",
       "depth": 2,
       "readme_sha": "3e363f39f894fbbef82af9c131cf6a78d067cb82",
-      "audit_sha": null,
+      "audit_sha": "638da37d512ba6530522348a6e7509fbc69d126d",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -213,7 +213,7 @@
       "root": "make-your-game",
       "depth": 2,
       "readme_sha": "3b4d407d8ca7110194aab6fc297c1509ed6495b2",
-      "audit_sha": null,
+      "audit_sha": "84c4936a0e115d82049672cfb7aec64463ad39a5",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -221,7 +221,7 @@
       "root": "real-time-forum",
       "depth": 2,
       "readme_sha": "ae15e3dbb6895893e7f4cd5ce4660f9dadac2798",
-      "audit_sha": null,
+      "audit_sha": "9c2565eee06e9164d3dbcc7319bac289f05d342c",
       "relationship": "nested_extension_candidate; content inspection required"
     },
     {
@@ -229,7 +229,7 @@
       "root": "social-network",
       "depth": 2,
       "readme_sha": "bc7bffbb07782fe7f2f4cb11d434026fd9d4470f",
-      "audit_sha": null,
+      "audit_sha": "1b2ea8f4ee4d651908071be8c8480d123b551ec9",
       "relationship": "nested_extension_candidate; content inspection required"
     }
   ],
