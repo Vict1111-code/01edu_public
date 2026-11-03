@@ -39,6 +39,10 @@ Visual transcript and Git source verification now cover the **17 core green-ring
 
 The 17 central projects contain **26 nested README-bearing directories**, of which **24 have corresponding audit README files and are extension candidates**, while two `examples/` directories are not confirmed assignments. Six additional standalone satellite projects have had their README and audit files inspected. See [satellite findings](findings/core-satellites-2026-11-03.md). Exact official orbit placement and sequencing remain unverified.
 
+## Phase 4 — Reproducible link-extraction pipeline (2026-11-03)
+
+The [Node.js subject-reference extractor](scripts/README.md) and five-test suite are committed. They scan the public `subjects/` checkout for Markdown references and produce JSON plus CSV, with confidence-labeled relationships. **Full extraction and tests are not yet executed** because this environment could not clone the source (network/DNS restriction). A separate [manual verification sample](data/extractor-manual-validation-sample.json) contains **15 human-reviewed reference edges from 16 inspected subject READMEs**. Do not mistake that sample for a complete 1,233-node relationship graph.
+
 ## Artifacts
 
 | File | Coverage | Method |
@@ -48,6 +52,8 @@ The 17 central projects contain **26 nested README-bearing directories**, of whi
 | [data/foundation-project-profiles.json](data/foundation-project-profiles.json) | 17 core project summaries, skills, technologies, Piscine evidence, and project execution risks | Individual README inspection |
 | [data/foundation-dependency-evidence.json](data/foundation-dependency-evidence.json) | 14 source-backed core/Piscine project relationships with typed distinctions | Individual README references and stated requirements |
 | [data/curriculum-backbone.json](data/curriculum-backbone.json) | End-to-end Piscine/core/cross-project/branch scope and evidence-confidence labels | Galaxy screenshot, public subject instructions, official curriculum stage descriptions |
+| [data/extractor-manual-validation-sample.json](data/extractor-manual-validation-sample.json) | 15 human-reviewed subject references from 16 README inspections | Direct GitHub file reads and link context review |
+| [scripts/README.md](scripts/README.md) | Runbook for all-subject Markdown reference extraction, tests and limits | Node.js 18+ standard library |
 | [data/subjects-index.json](data/subjects-index.json) | 807 immediate entries under `subjects/` (801 dirs, 6 files) | One-level GitHub Contents API |
 | [data/ai-module-index.json](data/ai-module-index.json) | 26 current AI subject modules, including README and audit presence | Recursive Git Trees API |
 | [data/archived-ai-index.json](data/archived-ai-index.json) | Historical AI Piscine, projects, and subject modules | Recursive Git Trees API |
