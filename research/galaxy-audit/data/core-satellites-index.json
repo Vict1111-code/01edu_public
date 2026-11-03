@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "source_repo": "Vict1111-code/01edu_public",
+  "source_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "method": "Complete recursive Git tree matching for nested README subjects under 17 screenshot-confirmed core roots, plus six hand-sampled standalone satellite projects. All nested links are structural candidates until README review.",
+  "core_roots": [
+    "go-reloaded",
+    "ascii-art",
+    "ascii-art-web",
+    "groupie-tracker",
+    "lem-in",
+    "forum",
+    "0-shell",
+    "multiplayer-fps",
+    "localhost",
+    "rt",
+    "filler",
+    "smart-road",
+    "make-your-game",
+    "real-time-forum",
+    "graphql",
+    "social-network",
+    "mini-framework"
+  ],
+  "extensions": [
+    {
+      "path": "ascii-art/color",
+      "root": "ascii-art",
+      "depth": 2,
+      "readme_sha": "9b1a3dbf089543cf725062be2a8c7a41800ce75b",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art/examples",
+      "root": "ascii-art",
+      "depth": 2,
+      "readme_sha": "814d32dc3446aa1abc90a3aa1ea387b554691bee",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art/fs",
+      "root": "ascii-art",
+      "depth": 2,
+      "readme_sha": "6d44871f853f6caaa7bf6af57091d54265236357",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art/justify",
+      "root": "ascii-art",
+      "depth": 2,
+      "readme_sha": "bd81ef12d52a396c8f06aaa3151487e564263a8a",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art/output",
+      "root": "ascii-art",
+      "depth": 2,
+      "readme_sha": "072fc2f15b4ee9258cfbb385c943da0c888deeef",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art/reverse",
+      "root": "ascii-art",
+      "depth": 2,
+      "readme_sha": "654366db993c59fce089e58a70f9f2357be61384",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art-web/dockerize",
+      "root": "ascii-art-web",
+      "depth": 2,
+      "readme_sha": "67d6a894027fb8cb9fc04080094772697dbc24fa",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art-web/export-file",
+      "root": "ascii-art-web",
+      "depth": 2,
+      "readme_sha": "f6028d28cb0e5881e142d67a0b8e33e4da474559",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "ascii-art-web/stylize",
+      "root": "ascii-art-web",
+      "depth": 2,
+      "readme_sha": "b8d53f22752f65df1ce7c85f55edec27310a87dd",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "groupie-tracker/filters",
+      "root": "groupie-tracker",
+      "depth": 2,
+      "readme_sha": "4ee928519de3e4ebed57aaf5b344b422af93b848",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "groupie-tracker/geolocalization",
+      "root": "groupie-tracker",
+      "depth": 2,
+      "readme_sha": "3211a16e7ed6c269501507d44f0fc0701fab68b2",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "groupie-tracker/search-bar",
+      "root": "groupie-tracker",
+      "depth": 2,
+      "readme_sha": "679e7026e472c5b2c61a0e672b240c3da42c8bc4",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "groupie-tracker/visualizations",
+      "root": "groupie-tracker",
+      "depth": 2,
+      "readme_sha": "d6290b92f2608885cde126f15d268a887279c516",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "lem-in/examples",
+      "root": "lem-in",
+      "depth": 2,
+      "readme_sha": "b228e9110677fafd538494d1430bb66442fa280e",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "forum/advanced-features",
+      "root": "forum",
+      "depth": 2,
+      "readme_sha": "a77d8ab43debc41c51af06704e3124040746cc35",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "forum/authentication",
+      "root": "forum",
+      "depth": 2,
+      "readme_sha": "64c194d13c73dd1e35ee6bb96365e40bde446f41",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "forum/image-upload",
+      "root": "forum",
+      "depth": 2,
+      "readme_sha": "0d755d1edc1ad14fa32d379ad4d26cf3a4f6dc95",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "forum/moderation",
+      "root": "forum",
+      "depth": 2,
+      "readme_sha": "bc325d4fc00d33b382ace3f705ba85e243bfbcb2",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "forum/security",
+      "root": "forum",
+      "depth": 2,
+      "readme_sha": "7dd39719ea973d6ddc1cce8e1a463b2eb57bf2ca",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "0-shell/job-control",
+      "root": "0-shell",
+      "depth": 2,
+      "readme_sha": "0f1f40bbc24079467dcfde7f3d35c31d7b12cf0d",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "0-shell/scripting",
+      "root": "0-shell",
+      "depth": 2,
+      "readme_sha": "49c88808ae36954eedfedde699cc4a2446a94a6b",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "make-your-game/different-maps",
+      "root": "make-your-game",
+      "depth": 2,
+      "readme_sha": "34dca583e963e3e40d4bb6dbbfc5f8a806639881",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "make-your-game/history",
+      "root": "make-your-game",
+      "depth": 2,
+      "readme_sha": "3e363f39f894fbbef82af9c131cf6a78d067cb82",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "make-your-game/score-handling",
+      "root": "make-your-game",
+      "depth": 2,
+      "readme_sha": "3b4d407d8ca7110194aab6fc297c1509ed6495b2",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "real-time-forum/typing-in-progress",
+      "root": "real-time-forum",
+      "depth": 2,
+      "readme_sha": "ae15e3dbb6895893e7f4cd5ce4660f9dadac2798",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    },
+    {
+      "path": "social-network/cross-platform-appimage",
+      "root": "social-network",
+      "depth": 2,
+      "readme_sha": "bc7bffbb07782fe7f2f4cb11d434026fd9d4470f",
+      "audit_sha": null,
+      "relationship": "nested_extension_candidate; content inspection required"
+    }
+  ],
+  "satellite_projects": [
+    {
+      "id": "net-cat",
+      "readme_sha": "cef9eff88a8d6f36f38c6f18bd06e58cb994162b",
+      "audit_sha": "92892397dbdf7d48227306cced739438ac6ce0b2",
+      "category": "satellite_project_candidate",
+      "classification_note": "README present and sampled; visual placement/official schedule unverified"
+    },
+    {
+      "id": "math-skills",
+      "readme_sha": "94a4ab1308c662ef580ed60b4dbb0d8ed296bf34",
+      "audit_sha": "a1341ba56fd6481c52a82dd5bc99cd7ff8ad69d3",
+      "category": "satellite_project_candidate",
+      "classification_note": "README present and sampled; visual placement/official schedule unverified"
+    },
+    {
+      "id": "tetris-optimizer",
+      "readme_sha": "6671dbac299b64f1494698570728814a03653708",
+      "audit_sha": "fd585193236a4ed32ee5416975b079a3c58ea7e7",
+      "category": "satellite_project_candidate",
+      "classification_note": "README present and sampled; visual placement/official schedule unverified"
+    },
+    {
+      "id": "quadchecker",
+      "readme_sha": "eff106cfa14361c00a91e8f324da127a2fa9b25e",
+      "audit_sha": "142da2ec1b443fb673c449840c81ef4e7d905110",
+      "category": "satellite_project_candidate",
+      "classification_note": "README present and sampled; visual placement/official schedule unverified"
+    },
+    {
+      "id": "road_intersection",
+      "readme_sha": "42732a0aab7978455409180b79bdfdd96ccab2b5",
+      "audit_sha": "8948dd06e9f5050c1f0a1847830f0dc7baf6bbb8",
+      "category": "satellite_project_candidate",
+      "classification_note": "README present and sampled; visual placement/official schedule unverified"
+    },
+    {
+      "id": "sudoku",
+      "readme_sha": "e58d2d8ea470b206f81668ad3a41a438710271a4",
+      "audit_sha": "ddf97841ca83df686bd6469faf255978c21304da",
+      "category": "satellite_project_candidate",
+      "classification_note": "README present and sampled; visual placement/official schedule unverified"
+    }
+  ]
+}
