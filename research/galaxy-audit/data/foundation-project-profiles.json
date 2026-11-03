@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "basis": "Representative semantic reading of each of the 17 visually identified core project README files in fork master; this does not establish hard prerequisite ordering.",
+  "source_repo": "Vict1111-code/01edu_public",
+  "core_projects": [
+    {
+      "id": "go-reloaded",
+      "band": "imperative",
+      "subject_path": "subjects/go-reloaded/README.md",
+      "audit_path": "subjects/go-reloaded/audit/README.md",
+      "technologies": [
+        "Go"
+      ],
+      "deliverable": "Text-correction CLI; reuse earlier string-processing functions",
+      "competencies": [
+        "string processing",
+        "file I/O",
+        "CLI"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "ascii-art",
+      "band": "imperative",
+      "subject_path": "subjects/ascii-art/README.md",
+      "audit_path": "subjects/ascii-art/audit/README.md",
+      "technologies": [
+        "Go"
+      ],
+      "deliverable": "ASCII banner renderer with input and banner-format requirements",
+      "competencies": [
+        "file parsing",
+        "text rendering",
+        "CLI"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "ascii-art-web",
+      "band": "imperative",
+      "subject_path": "subjects/ascii-art-web/README.md",
+      "audit_path": "subjects/ascii-art-web/audit/README.md",
+      "technologies": [
+        "Go",
+        "HTML"
+      ],
+      "deliverable": "HTTP server exposing the previous ASCII-art engine via a browser GUI",
+      "competencies": [
+        "HTTP",
+        "server handlers",
+        "templates",
+        "forms"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "groupie-tracker",
+      "band": "imperative",
+      "subject_path": "subjects/groupie-tracker/README.md",
+      "audit_path": "subjects/groupie-tracker/audit/README.md",
+      "technologies": [
+        "Go",
+        "HTML"
+      ],
+      "deliverable": "Web site consuming an external artists/events API",
+      "competencies": [
+        "HTTP APIs",
+        "JSON",
+        "data presentation"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "lem-in",
+      "band": "imperative",
+      "subject_path": "subjects/lem-in/README.md",
+      "audit_path": "subjects/lem-in/audit/README.md",
+      "technologies": [
+        "Go"
+      ],
+      "deliverable": "Ant-colony path-routing simulation with shortest/quickest route logic",
+      "competencies": [
+        "graph algorithms",
+        "parsing",
+        "simulation"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "forum",
+      "band": "imperative",
+      "subject_path": "subjects/forum/README.md",
+      "audit_path": "subjects/forum/audit/README.md",
+      "technologies": [
+        "Go",
+        "SQLite",
+        "Docker"
+      ],
+      "deliverable": "Authenticated forum with posts, comments, categories and persistence",
+      "competencies": [
+        "web backend",
+        "SQL",
+        "authentication",
+        "containers"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "0-shell",
+      "band": "architecture",
+      "subject_path": "subjects/0-shell/README.md",
+      "audit_path": "subjects/0-shell/audit/README.md",
+      "technologies": [
+        "Rust"
+      ],
+      "deliverable": "Unix-like shell implementing filesystem/process commands without launching a host shell",
+      "competencies": [
+        "systems programming",
+        "processes",
+        "filesystem"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "multiplayer-fps",
+      "band": "architecture",
+      "subject_path": "subjects/multiplayer-fps/README.md",
+      "audit_path": "subjects/multiplayer-fps/audit/README.md",
+      "technologies": [
+        "language not mandated in inspected brief"
+      ],
+      "deliverable": "Maze Wars-inspired multiplayer FPS with UDP client-server communication",
+      "competencies": [
+        "UDP",
+        "networking",
+        "real-time systems",
+        "graphics"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "localhost",
+      "band": "architecture",
+      "subject_path": "subjects/localhost/README.md",
+      "audit_path": "subjects/localhost/audit/README.md",
+      "technologies": [
+        "Rust"
+      ],
+      "deliverable": "HTTP/1.1 web server, configuration, static serving, CGI and uploads",
+      "competencies": [
+        "networking",
+        "HTTP internals",
+        "system calls"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "rt",
+      "band": "architecture",
+      "subject_path": "subjects/rt/README.md",
+      "audit_path": "subjects/rt/audit/README.md",
+      "technologies": [
+        "Rust (Cargo referenced)"
+      ],
+      "deliverable": "Ray tracer producing PPM images with geometric scene rendering",
+      "competencies": [
+        "math",
+        "rendering",
+        "performance"
+      ],
+      "interpretation_confidence": "rust inferred from cargo; functionality confirmed"
+    },
+    {
+      "id": "filler",
+      "band": "architecture",
+      "subject_path": "subjects/filler/README.md",
+      "audit_path": "subjects/filler/audit/README.md",
+      "technologies": [
+        "Go mentioned in subject",
+        "Docker"
+      ],
+      "deliverable": "Competitive bot that places pieces on a board through an engine protocol",
+      "competencies": [
+        "algorithms",
+        "heuristics",
+        "integration testing"
+      ],
+      "interpretation_confidence": "language mention confirmed; whether mandatory needs follow-up"
+    },
+    {
+      "id": "smart-road",
+      "band": "architecture",
+      "subject_path": "subjects/smart-road/README.md",
+      "audit_path": "subjects/smart-road/audit/README.md",
+      "technologies": [
+        "Rust",
+        "SDL2"
+      ],
+      "deliverable": "Traffic-intersection simulation with movement physics, rendering and control strategies",
+      "competencies": [
+        "simulation",
+        "Rust",
+        "graphics",
+        "algorithms"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "make-your-game",
+      "band": "full_stack",
+      "subject_path": "subjects/make-your-game/README.md",
+      "audit_path": "subjects/make-your-game/audit/README.md",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "deliverable": "Single-player browser game with DOM rendering, 60 FPS target and no canvas/framework",
+      "competencies": [
+        "DOM",
+        "animation",
+        "performance"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "real-time-forum",
+      "band": "full_stack",
+      "subject_path": "subjects/real-time-forum/README.md",
+      "audit_path": "subjects/real-time-forum/audit/README.md",
+      "technologies": [
+        "Go",
+        "JavaScript",
+        "SQLite",
+        "WebSockets"
+      ],
+      "deliverable": "Forum with registration, posts/comments and real-time private messages",
+      "competencies": [
+        "real-time networking",
+        "database",
+        "web backend",
+        "frontend"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "graphql",
+      "band": "full_stack",
+      "subject_path": "subjects/graphql/README.md",
+      "audit_path": "subjects/graphql/audit/README.md",
+      "technologies": [
+        "GraphQL",
+        "JWT",
+        "SVG"
+      ],
+      "deliverable": "Personal profile consuming a school-provided authenticated GraphQL endpoint",
+      "competencies": [
+        "API querying",
+        "authentication",
+        "data visualization"
+      ],
+      "interpretation_confidence": "readme-confirmed; requires school platform endpoint"
+    },
+    {
+      "id": "social-network",
+      "band": "full_stack",
+      "subject_path": "subjects/social-network/README.md",
+      "audit_path": "subjects/social-network/audit/README.md",
+      "technologies": [
+        "Go",
+        "JavaScript",
+        "SQLite",
+        "Docker"
+      ],
+      "deliverable": "Social platform with profiles, following, posts, groups, notifications and chat",
+      "competencies": [
+        "full-stack",
+        "security",
+        "real-time communication",
+        "database"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    },
+    {
+      "id": "mini-framework",
+      "band": "full_stack",
+      "subject_path": "subjects/mini-framework/README.md",
+      "audit_path": "subjects/mini-framework/audit/README.md",
+      "technologies": [
+        "JavaScript"
+      ],
+      "deliverable": "Lightweight client-side framework with DOM abstraction, routing, state and event handling",
+      "competencies": [
+        "framework architecture",
+        "frontend internals",
+        "testing"
+      ],
+      "interpretation_confidence": "readme-confirmed"
+    }
+  ],
+  "piscine_evidence": {
+    "go": {
+      "confirmed_examples": [
+        "printalphabet",
+        "basicatoi",
+        "quad",
+        "quadchecker",
+        "sudoku"
+      ],
+      "note": "public project README paths verified, but complete Go Piscine quest and exam order is not public in a single index; quadchecker is a raid linked to quad"
+    },
+    "rust": {
+      "confirmed_examples": [
+        "hello_rust",
+        "fibonacci2",
+        "road_intersection"
+      ],
+      "note": "hello_rust explicitly calls itself the first Rust Piscine exercise; smart-road explicitly references road_intersection as a Rust Piscine raid; complete order unknown"
+    },
+    "javascript": {
+      "confirmed_examples": [
+        "3-directions",
+        "access",
+        "all"
+      ],
+      "supporting_test_directories": [
+        "js",
+        "dom"
+      ],
+      "note": "JavaScript subjects and local test harnesses confirmed; exact Piscine JS quest order unknown"
+    }
+  },
+  "reproduction_risks": [
+    {
+      "subject": "graphql",
+      "issue": "References authenticated school-provided GraphQL endpoint using a domain placeholder; independent project reproductions need lawful access or a mock backend",
+      "severity": "needs_external_service"
+    },
+    {
+      "subject": "groupie-tracker",
+      "issue": "Uses an external API endpoint; current availability/version has not been checked",
+      "severity": "external_api_dependency"
+    },
+    {
+      "subject": "filler",
+      "issue": "Requires supplied game-engine/environment; repo subject README alone may not provide turnkey grading",
+      "severity": "external_execution_dependency"
+    }
+  ]
+}
