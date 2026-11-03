@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {STAGES,classify,build,csv,guide} from './sequence-piscines.mjs';
+const rec=(language,id,group='root')=>({language,archive_exercise_id:id,source_group:group,match_status:'exact_top_level_subject',official_subject_path:id,official_readme:'subjects/'+id+'/README.md',public_js_test_paths:[],public_dom_test_paths:[]});
+test('every language has eight educational stages',()=>{for(const x of Object.values(STAGES))assert.equal(x.length,8);});
+test('Go quest grouping is marked community-derived, not official',()=>{const x=classify(rec('go','printalphabet','QUEST-02'));assert.equal(x.proposed_stage,2);assert.equal(x.official_galaxy_quest_position,null);assert.equal(x.community_group_is_official,false);});
+test('Rust ownership is a memory-safety stage',()=>{const x=classify(rec('rust','ownership'),'move ownership and borrow');assert.equal(x.proposed_stage,3);assert.ok(x.concepts_detected_in_official_readme.includes('Ownership and memory safety'));});
+test('Rust matrix operations are advanced math stage',()=>assert.equal(classify(rec('rust','matrix_ops')).proposed_stage,7));
+test('JS asynchronous exercises precede DOM application challenges',()=>assert.ok(classify(rec('javascript','get-json')).proposed_stage<classify(rec('javascript','gossip-grid')).proposed_stage));
+test('unknown and scratch files are unclassified',()=>{assert.equal(classify(rec('go','test1','random-prep')).proposed_stage,null);assert.equal(classify(rec('javascript','bloody-sunday')).proposed_stage,null);});
+test('CSV and guide contain all stage headings',()=>{const d=build({records:[rec('rust','ownership'),rec('go','printalphabet','QUEST-02')]},'/tmp/does-not-exist');assert.equal(d.exercises.length,2);assert.match(csv(d.exercises),/official_galaxy_quest_position/);assert.match(guide(d,'rust'),/Stage 8/);});
