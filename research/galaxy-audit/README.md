@@ -1,6 +1,6 @@
 # 01Edu Galaxy — Independent Curriculum Research
 
-**Status:** Full-Galaxy audit in progress; Phase 1 top-level inventory and AI-focused sampling completed on 2026-11-03. Full cross-track classification, sequencing, and audit analysis are NOT yet complete.  
+**Status:** Full-Galaxy structural index completed on 2026-11-03 (1,233 README-bearing subjects); semantic classification, official ordering, and detailed grading analysis are NOT yet complete.  
 **Working branch:** `research/galaxy-curriculum-audit`  
 **Primary source:** [01edu_public fork](https://github.com/Vict1111-code/01edu_public) (upstream `01-edu/public`)  
 **Historical source:** [Branch-AI fork](https://github.com/Vict1111-code/Branch-AI) (upstream `01-edu/Branch-AI`)
@@ -25,7 +25,11 @@ The **scope is the entire publicly reconstructible Galaxy**, including the imper
 | [data/ai-module-index.json](data/ai-module-index.json) | 26 current AI subject modules, including README and audit presence | Recursive Git Trees API |
 | [data/archived-ai-index.json](data/archived-ai-index.json) | Historical AI Piscine, projects, and subject modules | Recursive Git Trees API |
 | [data/ai-crosswalk.json](data/ai-crosswalk.json) | 22 topic-name correspondences and four current-only names | Directory-name alignment plus README/audit blob hashes |
+| [data/subject-node-index.json](data/subject-node-index.json) | 1,233 README-bearing subject nodes, including source hashes and audit presence | Recursive Git Trees API and structural classification |
+| [data/track-coverage.json](data/track-coverage.json) | Entire 3,505-entry subject tree and major nested collections | Recursive Git Trees API |
+| [data/auxiliary-coverage.json](data/auxiliary-coverage.json) | JS/DOM test harnesses, shell tooling, employment tasks, support docs | Recursive Git Trees API, README inspection |
 | [data/dependency-evidence.json](data/dependency-evidence.json) | Five explicitly supported sample subject relationships | Links and wording from subject README files |
+| [findings/full-subject-structure-2026-11-03.md](findings/full-subject-structure-2026-11-03.md) | Full-Galaxy structural audit and sampling of six specialization collections | Tree statistics and representative README inspection |
 | [findings/initial-audit-2026-11-03.md](findings/initial-audit-2026-11-03.md) | Findings, limitations, and next work | Recorded evidence |
 
 ## Research rules
@@ -39,7 +43,7 @@ The **scope is the entire publicly reconstructible Galaxy**, including the imper
 
 ## Proposed research milestones
 
-- **M1 — Inventory (started):** top-level subject catalog, current AI module structure, archived AI hierarchy.
+- **M1 — Inventory (structural pass complete):** all 1,233 README-bearing subject directories and auxiliary root sections; semantic inspection still needed.
 - **M2 — Classification:** distinguish true assignments, exercises, extensions, support files, and tracks using README and audit analysis.
 - **M3 — Dependency graph:** extract explicit subject links and requirements, keep inferred edges separate.
 - **M4 — Evaluation model:** convert audit checklists into structured human-testable criteria; do not pretend they are executable tests.
