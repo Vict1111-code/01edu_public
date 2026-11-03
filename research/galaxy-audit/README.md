@@ -65,6 +65,10 @@ The [successful GitHub Actions run](https://github.com/Vict1111-code/01edu_publi
 
 The [Phase 8 report](findings/piscine-membership-review-phase8-2026-11-03.md) distinguishes explicit entry points (`hello_rust`, `how-2-js`), a corroborated Rust Piscine raid (`road_intersection`), Go raid wording (`quadchecker`), other-track raids, and misleading sample text. The [manual membership index](data/piscine-manual-membership-review.json) records **13 reviewed subjects** with exact source links and **no invented official quest positions**.
 
+## Phase 9 — Three user-provided Piscine archives (2026-11-03)
+
+[Phase 9 archive audit](findings/community-piscine-archives-phase9-2026-11-03.md) examines three community solution ZIPs covering Rust, JavaScript, and Go. The Rust archive has **63 Cargo exercise directories**, all matching public top-level subject names; a manually compared JS set matched **97 of 98** names; the Go archive has learner-organized QUEST and raid folders. These are identification/grouping evidence, **not official audit instructions or quest unlock metadata**. File inventories were generated locally without executing uploaded code.
+
 ## Artifacts
 
 | File | Coverage | Method |
