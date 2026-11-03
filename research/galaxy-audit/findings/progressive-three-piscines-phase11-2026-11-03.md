@@ -31,7 +31,7 @@ Each guide links matched exercises to their **official public subject README**, 
 
 **Rust:** `expected_variable` → `arrays` → `ownership` → `error_types` → `collect` → `traits` / `lifetimes` → `matrix_ops` → `boxing_todo`. `matrix_ops` explicitly reuses earlier `matrix` and `lalgebra_scalar` structures; that relationship is source-confirmed.
 
-**JavaScript:** `how-2-js` → `abs` → `collections` → `using-map` → `get-json` → `build-brick-and-break` → `valid-ip` → `gossip-grid`. These examples show progression from basic syntax through functional and async programming to DOM work and more integrated exercises; not every example is a direct prerequisite.
+**JavaScript:** `how-2-js` → `abs` → `collections` → `using-map` → `get-json` → `build-brick-and-break` → `valid-ip` → `block-chain`. These examples show progression from basic syntax through functional and async programming to DOM work and more integrated exercises; not every example is a direct prerequisite.
 
 ## Reproducibility and quality controls
 
