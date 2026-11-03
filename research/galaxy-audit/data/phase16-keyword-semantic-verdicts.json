@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "method": "Manual semantic check of every Phase 16 automated keyword ambiguity flag, against public subject README. Retain means concept is genuinely supported by instructions; reject means keyword evidence was a false positive. This does not prove official prerequisites.",
+  "reviews": [
+    {
+      "language": "go",
+      "exercise": "make-it-better",
+      "concept": "files_cli",
+      "decision": "retain",
+      "reason": "Creates and packages files with shell commands.",
+      "public_readme": "subjects/make-it-better/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "go",
+      "exercise": "to-git-or-not-to-git",
+      "concept": "files_cli",
+      "decision": "retain",
+      "reason": "Shell script writes a command into a file and extracts superhero data.",
+      "public_readme": "subjects/to-git-or-not-to-git/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "go",
+      "exercise": "who-are-you",
+      "concept": "files_cli",
+      "decision": "retain",
+      "reason": "Explicit curl and jq shell script exercise.",
+      "public_readme": "subjects/who-are-you/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "go",
+      "exercise": "ztail",
+      "concept": "files_cli",
+      "decision": "retain",
+      "reason": "Implements file-based tail CLI with -c and errors.",
+      "public_readme": "subjects/ztail/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "go",
+      "exercise": "activebits",
+      "concept": "parsing",
+      "decision": "reject",
+      "reason": "Binary representation is used for bit counting not numeric-base parsing.",
+      "public_readme": "subjects/activebits/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "roman_numbers",
+      "concept": "traits",
+      "decision": "retain",
+      "reason": "Explicitly implements From u32 trait.",
+      "public_readme": "subjects/roman_numbers/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "roman_numbers_iter",
+      "concept": "traits",
+      "decision": "retain",
+      "reason": "Explicitly implements Iterator trait.",
+      "public_readme": "subjects/roman_numbers_iter/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "panic",
+      "concept": "applications",
+      "decision": "reject",
+      "reason": "Simple file-open panic and error handling not an integrated application.",
+      "public_readme": "subjects/panic/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "banner",
+      "concept": "traits",
+      "decision": "reject",
+      "reason": "Implement associated functions does not require implementing a trait.",
+      "public_readme": "subjects/banner/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "handling",
+      "concept": "applications",
+      "decision": "reject",
+      "reason": "File open create append and panic is file I O not integrated application.",
+      "public_readme": "subjects/handling/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "card_deck",
+      "concept": "traits",
+      "decision": "reject",
+      "reason": "Implement associated functions for enum types but no trait required in README.",
+      "public_readme": "subjects/card_deck/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "events",
+      "concept": "traits",
+      "decision": "retain",
+      "reason": "Explicit std fmt Display trait implementation for Notification.",
+      "public_readme": "subjects/events/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "lalgebra_vector",
+      "concept": "traits",
+      "decision": "retain",
+      "reason": "Explicit Debug and PartialEq implementations required.",
+      "public_readme": "subjects/lalgebra_vector/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "matrix_mult",
+      "concept": "traits",
+      "decision": "retain",
+      "reason": "Explicit std ops Mul trait implementation required.",
+      "public_readme": "subjects/matrix_mult/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "rust",
+      "exercise": "matrix_transposition",
+      "concept": "traits",
+      "decision": "retain",
+      "reason": "Explicit Debug PartialEq Eq implementations required.",
+      "public_readme": "subjects/matrix_transposition/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "long-words",
+      "concept": "dom",
+      "decision": "reject",
+      "reason": "Elements are array members not browser DOM elements.",
+      "public_readme": "subjects/long-words/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "declarations",
+      "concept": "dom",
+      "decision": "reject",
+      "reason": "Elements are array entries in a frozen object literal.",
+      "public_readme": "subjects/declarations/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "chunky",
+      "concept": "dom",
+      "decision": "reject",
+      "reason": "Elements are subarray members not DOM nodes.",
+      "public_readme": "subjects/chunky/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "last-first-kiss",
+      "concept": "dom",
+      "decision": "reject",
+      "reason": "Elements are array or string items not DOM nodes.",
+      "public_readme": "subjects/last-first-kiss/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "using-reduce",
+      "concept": "dom",
+      "decision": "reject",
+      "reason": "Elements are input array items for reduce.",
+      "public_readme": "subjects/using-reduce/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "reduce",
+      "concept": "dom",
+      "decision": "reject",
+      "reason": "Elements are input array items for fold and reduce.",
+      "public_readme": "subjects/reduce/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "harder-bigger-bolder-stronger",
+      "concept": "dom",
+      "decision": "retain",
+      "reason": "Creates 120 browser div elements and styles them.",
+      "public_readme": "subjects/harder-bigger-bolder-stronger/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "mouse-trap",
+      "concept": "dom",
+      "decision": "retain",
+      "reason": "Creates interactive div circles with mouse event handlers.",
+      "public_readme": "subjects/mouse-trap/README.md",
+      "method": "manual_public_README_semantic_check"
+    },
+    {
+      "language": "javascript",
+      "exercise": "pick-and-click",
+      "concept": "dom",
+      "decision": "retain",
+      "reason": "Uses body background div labels SVG cursor lines and mouse events.",
+      "public_readme": "subjects/pick-and-click/README.md",
+      "method": "manual_public_README_semantic_check"
+    }
+  ]
+}
