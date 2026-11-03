@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "as_of": "2026-11-03",
-  "method": "Manually read the full public subject README for each of the 29 Phase 14 difficulty outliers. Stage changes are independent pedagogical recommendations, not official Galaxy positions.",
+  "method": "Manually read the full public subject README for each of the 29 Phase 14 difficulty outliers. Stage changes are independent pedagogical recommendations, not official Galaxy positions. Each manually reviewed case also records an independent concept interpretation supported by the public README.",
   "reviews": [
     {
       "language": "go",
@@ -11,7 +11,12 @@
       "reason": "Requires breadth-first traversal and callback invocation; a short README does not reduce algorithmic difficulty.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/btreeapplybylevel/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "binary_trees",
+        "tree_traversal",
+        "callbacks"
+      ]
     },
     {
       "language": "go",
@@ -21,7 +26,11 @@
       "reason": "Requires validation of binary search tree ordering constraints; checking only immediate children is insufficient.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/btreeisbinary/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "binary_trees",
+        "tree_traversal"
+      ]
     },
     {
       "language": "go",
@@ -31,7 +40,11 @@
       "reason": "Requires computing binary-tree height and handling empty and unbalanced trees.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/btreelevelcount/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "binary_trees",
+        "tree_traversal"
+      ]
     },
     {
       "language": "go",
@@ -41,7 +54,10 @@
       "reason": "Requires tree search and nil handling, with data equality semantics from the public subject.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/btreesearchitem/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "binary_trees"
+      ]
     },
     {
       "language": "go",
@@ -51,7 +67,12 @@
       "reason": "Uses linked-list traversal and the required CompStr comparator; pointer/interface behavior matters.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/listfind/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "linked_lists",
+        "callbacks",
+        "pointers"
+      ]
     },
     {
       "language": "go",
@@ -61,7 +82,11 @@
       "reason": "Must merge existing list nodes without creating new elements; pointer relinking is central.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/listmerge/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "linked_lists",
+        "pointers"
+      ]
     },
     {
       "language": "go",
@@ -71,7 +96,11 @@
       "reason": "Requires removing all matching nodes and updating links, including head and tail cases.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/listremoveif/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "linked_lists",
+        "pointers"
+      ]
     },
     {
       "language": "go",
@@ -81,7 +110,12 @@
       "reason": "Merges two already-sorted linked lists while preserving sorted order; linked structure is more advanced than score suggests.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/sortedlistmerge/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "linked_lists",
+        "sorting",
+        "pointers"
+      ]
     },
     {
       "language": "rust",
@@ -91,7 +125,12 @@
       "reason": "JSON todo parsing, boxed dynamic errors, ParseErr/ReadErr and Display implementations make this an integrated advanced task.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/boxing_todo/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "applications",
+        "enums_results",
+        "traits"
+      ]
     },
     {
       "language": "rust",
@@ -101,7 +140,11 @@
       "reason": "Multiple geometry variants and area/volume constraints across a supplied module require integration.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/does_it_fit/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "applications",
+        "types"
+      ]
     },
     {
       "language": "rust",
@@ -111,7 +154,12 @@
       "reason": "Uses generic matrices and Wrapper to implement Add/Sub/Mul traits, with compile-time dimensions.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/matrix_ops/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "matrix_structures",
+        "generics",
+        "operator_traits"
+      ]
     },
     {
       "language": "rust",
@@ -121,7 +169,11 @@
       "reason": "Atbash validation returning Result<(), CipherError> is primarily string manipulation and custom error modeling, not advanced algorithms.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/cipher/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "strings",
+        "enums_results"
+      ]
     },
     {
       "language": "rust",
@@ -131,7 +183,11 @@
       "reason": "Point/Circle structs and geometric methods including intersection fit structured methods and math foundations.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/circle/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "types",
+        "applications"
+      ]
     },
     {
       "language": "rust",
@@ -141,7 +197,11 @@
       "reason": "Minimum insertion/deletion/substitution count is an algorithmic optimization problem; a short README hides dynamic-programming complexity.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/edit_distance/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "strings",
+        "applications"
+      ]
     },
     {
       "language": "rust",
@@ -151,7 +211,11 @@
       "reason": "Despite its title, the task is mean, median and mode of integer lists; collections and sorting suffice.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/hashing/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "collections",
+        "iterators"
+      ]
     },
     {
       "language": "rust",
@@ -161,7 +225,11 @@
       "reason": "Compare character frequencies between strings; frequency maps or sorting suffice.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/string_permutation/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "strings",
+        "collections"
+      ]
     },
     {
       "language": "rust",
@@ -171,7 +239,11 @@
       "reason": "Uses HashMap, HashSet, struct state mutation and multi-entity combat behavior; collections are a useful prerequisite.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/mobs/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "collections",
+        "applications"
+      ]
     },
     {
       "language": "rust",
@@ -181,7 +253,11 @@
       "reason": "BloodType modeling uses enums plus FromStr, Debug and other trait implementations; traits should precede it.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/blood_types/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "enums_results",
+        "traits"
+      ]
     },
     {
       "language": "javascript",
@@ -191,7 +267,11 @@
       "reason": "Consumes a supplied winners API and returns a Promise; primarily asynchronous API filtering and formatting.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/is-winner/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "promises",
+        "fetch_json"
+      ]
     },
     {
       "language": "javascript",
@@ -201,7 +281,12 @@
       "reason": "Builds a fullscreen interactive page with sorted place sections, images and location indicator.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/where-do-we-go/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "dom",
+        "events",
+        "ui_state"
+      ]
     },
     {
       "language": "javascript",
@@ -211,7 +296,11 @@
       "reason": "Extracts HTTP URLs and filters query-parameter counts; regex and URL parsing require careful edge cases.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/greedy-url/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "regex_dates",
+        "arrays_objects"
+      ]
     },
     {
       "language": "javascript",
@@ -221,7 +310,11 @@
       "reason": "Extracts price matches with structured capture groups; regex parsing and array output.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/group-price/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "regex_dates",
+        "arrays_objects"
+      ]
     },
     {
       "language": "javascript",
@@ -231,7 +324,10 @@
       "reason": "Defines four regex patterns with anchors and exact matches; simple task within regex-focused stage.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/its-a-match/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "regex_dates"
+      ]
     },
     {
       "language": "javascript",
@@ -241,7 +337,10 @@
       "reason": "Matches cron numbers and wildcard fields to Date; limited syntax but careful calendar semantics.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/match-cron/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "regex_dates"
+      ]
     },
     {
       "language": "javascript",
@@ -251,7 +350,10 @@
       "reason": "DNA/RNA character complement mapping is basic string transformation, not advanced algorithms.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/molecules-cells/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "values_functions"
+      ]
     },
     {
       "language": "javascript",
@@ -261,7 +363,11 @@
       "reason": "Implements every/some/none predicate logic without native every/some; higher-order functions are the main concept.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/quantifiers/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "higher_order_functions",
+        "arrays_objects"
+      ]
     },
     {
       "language": "javascript",
@@ -271,7 +377,11 @@
       "reason": "Date weekday, leap-year and month-boundary predicates fit introductory date/control-flow practice.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/rebecca-black/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "regex_dates",
+        "control_flow"
+      ]
     },
     {
       "language": "javascript",
@@ -281,7 +391,10 @@
       "reason": "Validates IPv4 octets and optional TCP ports, including ranges and leading-zero restrictions.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/valid-ip/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "regex_dates"
+      ]
     },
     {
       "language": "javascript",
@@ -291,7 +404,11 @@
       "reason": "Requires a regex variable and vowel replacement; easy within the regex cluster, not an advanced algorithm.",
       "source_url": "https://github.com/01-edu/public/blob/master/subjects/vowel-dots/README.md",
       "source_type": "public_readme_manually_inspected",
-      "official_stage_verified": false
+      "official_stage_verified": false,
+      "manual_concept_interpretation": [
+        "regex_dates",
+        "values_functions"
+      ]
     }
   ]
 }
