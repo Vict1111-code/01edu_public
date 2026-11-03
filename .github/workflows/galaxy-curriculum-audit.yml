@@ -45,6 +45,12 @@ jobs:
       - name: Classify Piscine evidence
         run: node research/galaxy-audit/scripts/classify-piscine-evidence.mjs . research/galaxy-audit/generated
 
+      - name: Test progressive Piscine study paths
+        run: node --test research/galaxy-audit/scripts/sequence-piscines.test.mjs
+
+      - name: Build progressive Piscine study paths
+        run: node research/galaxy-audit/scripts/sequence-piscines.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -83,5 +89,12 @@ jobs:
             research/galaxy-audit/generated/curated-galaxy-edges.csv
             research/galaxy-audit/generated/piscine-language-evidence.json
             research/galaxy-audit/generated/piscine-explicit-mentions.json
+            research/galaxy-audit/generated/piscine-progressive-sequences.json
+            research/galaxy-audit/generated/go-progressive-sequence.csv
+            research/galaxy-audit/generated/rust-progressive-sequence.csv
+            research/galaxy-audit/generated/javascript-progressive-sequence.csv
+            research/galaxy-audit/generated/go-progressive-study-guide.md
+            research/galaxy-audit/generated/rust-progressive-study-guide.md
+            research/galaxy-audit/generated/javascript-progressive-study-guide.md
           retention-days: 14
           if-no-files-found: error
