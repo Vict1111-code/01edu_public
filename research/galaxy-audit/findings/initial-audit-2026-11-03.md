@@ -35,9 +35,9 @@ The archived capstones provide historical hints at learning progression: Titanic
 
 ## Evaluation mechanism: preliminary observations
 
-- [ascii-art-web subject](../../subjects/ascii-art-web/README.md) pairs with an [audit checklist](../../subjects/ascii-art-web/audit/README.md) specifying package restrictions, real HTTP interface behavior, and concrete input/output checks.
-- [AI NumPy subject](../../subjects/ai/numpy/README.md) pairs with a detailed [audit](../../subjects/ai/numpy/audit/README.md) that includes environment, notebook, and array-behavior checks.
-- [VisionTrack subject](../../subjects/ai/vision-track/README.md) pairs with an [audit](../../subjects/ai/vision-track/audit/README.md) covering model setup, data preprocessing, tracking, and verification.
+- [ascii-art-web subject](../../../subjects/ascii-art-web/README.md) pairs with an [audit checklist](../../../subjects/ascii-art-web/audit/README.md) specifying package restrictions, real HTTP interface behavior, and concrete input/output checks.
+- [AI NumPy subject](../../../subjects/ai/numpy/README.md) pairs with a detailed [audit](../../../subjects/ai/numpy/audit/README.md) that includes environment, notebook, and array-behavior checks.
+- [VisionTrack subject](../../../subjects/ai/vision-track/README.md) pairs with an [audit](../../../subjects/ai/vision-track/audit/README.md) covering model setup, data preprocessing, tracking, and verification.
 
 These sample audits are predominantly **human-readable review questions**, not proof of standalone automated graders. Our independent assessor would need to distinguish manual checks from executable tests.
 
