@@ -1,0 +1,66 @@
+name: Galaxy curriculum audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - research/galaxy-curriculum-audit
+    paths:
+      - '.github/workflows/galaxy-curriculum-audit.yml'
+      - 'research/galaxy-audit/scripts/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: galaxy-curriculum-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  extract:
+    name: Test and extract subject references
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out research branch (shallow)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Execute extractor tests
+        run: node --test research/galaxy-audit/scripts/extract-subject-links.test.mjs
+
+      - name: Extract the entire public subjects tree
+        run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
+
+      - name: Print and save scan summary
+        shell: bash
+        run: |
+          node --input-type=module <<'EOF' | tee research/galaxy-audit/generated/summary.txt
+          import { readFileSync } from 'node:fs';
+          const r = JSON.parse(readFileSync('research/galaxy-audit/generated/subject-link-extraction.json', 'utf8'));
+          const hist = {};
+          for (const edge of r.edges) hist[edge.type] = (hist[edge.type] || 0) + 1;
+          console.log(JSON.stringify({ ...r.metadata, relation_types: hist }, null, 2));
+          if (r.metadata.subject_count < 1000) {
+            throw new Error('Unexpectedly small subject count; audit source checkout');
+          }
+          EOF
+
+      - name: Upload JSON, CSV and summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: galaxy-subject-link-audit
+          path: |
+            research/galaxy-audit/generated/subject-link-extraction.json
+            research/galaxy-audit/generated/subject-link-edges.csv
+            research/galaxy-audit/generated/subject-node-summary.csv
+            research/galaxy-audit/generated/summary.txt
+          retention-days: 14
+          if-no-files-found: error
