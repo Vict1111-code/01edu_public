@@ -81,6 +81,10 @@ The [Phase 11 findings](findings/progressive-three-piscines-phase11-2026-11-03.m
 
 **Readable, source-linked guides:** [Go](guides/go-progressive-learning-path.md) · [Rust](guides/rust-progressive-learning-path.md) · [JavaScript](guides/javascript-progressive-learning-path.md). [Generator](scripts/sequence-piscines.mjs) and [tests](scripts/sequence-piscines.test.mjs). Generated JSON/CSV/Markdown are available in the CI artifact.
 
+## Phase 12 — Requirements evidence and independent mastery assessments (2026-11-03)
+
+[Phase 12 findings](findings/piscine-competency-mastery-phase12-2026-11-03.md): **316 distinct** exercise candidates (Go 154, Rust 63, JavaScript 99), **282 public subject READMEs read**, **24 stage mastery gates** (8 per language), and **12 manually validated** source requirements. Public README excerpts, headings, restrictions and links are separated from **independently authored** practical assessments. The [generator](scripts/build-piscine-competencies.mjs) and [five tests](scripts/build-piscine-competencies.test.mjs) passed in [CI run 41656816416](https://github.com/Vict1111-code/01edu_public/actions/runs/41656816416), whose artifact contains the 316 exercise cards and three mastery guides. The **24 unclassified unique candidates** remain marked for review; no official Galaxy unlock conditions are inferred.
+
 ## Artifacts
 
 | File | Coverage | Method |
