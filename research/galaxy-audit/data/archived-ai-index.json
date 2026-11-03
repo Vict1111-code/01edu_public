@@ -1,0 +1,667 @@
+{
+  "schema_version": "1.0",
+  "source_repository": "Vict1111-code/Branch-AI",
+  "source_branch": "master",
+  "generated_on": "2026-11-03",
+  "interpretation": "Historical archived AI branch; these are repository entities, not evidence of current official ordering.",
+  "piscine": {
+    "weeks": [
+      "week01",
+      "week02",
+      "week03"
+    ],
+    "days": [
+      "week01/day01",
+      "week01/day02",
+      "week01/day03",
+      "week01/day04",
+      "week01/day05",
+      "week02/day01",
+      "week02/day02",
+      "week02/day03",
+      "week02/day04",
+      "week02/day05",
+      "week03/day01",
+      "week03/day02",
+      "week03/day03",
+      "week03/day04",
+      "week03/day05"
+    ],
+    "exercises": [
+      {
+        "path": "week01/day01/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex06",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex07",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex08",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day01/ex09",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day02/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day02/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day02/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day02/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day02/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex06",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day03/ex07",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day04/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day04/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day04/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day04/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day04/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day04/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day04/ex06",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day05/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day05/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day05/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day05/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week01/day05/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day01/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day01/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day01/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day01/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day01/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day01/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day02/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day02/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day02/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day02/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day02/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day02/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day02/ex06",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day03/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day03/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day03/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day03/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day03/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day03/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day03/ex06",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day04/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day04/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day04/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day04/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day04/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day04/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day04/ex06",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day05/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day05/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day05/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day05/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week02/day05/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day01/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day01/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day01/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day01/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day01/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day01/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day02/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day02/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day02/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day02/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day02/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day03/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day03/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day03/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day03/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day03/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day03/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex06",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day04/ex07",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day05/ex00",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day05/ex01",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day05/ex02",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day05/ex03",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day05/ex04",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day05/ex05",
+        "subject": true,
+        "audit": true
+      },
+      {
+        "path": "week03/day05/ex06",
+        "subject": true,
+        "audit": true
+      }
+    ]
+  },
+  "projects": [
+    {
+      "path": "project1",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "project2",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "project3",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "project4",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "project5",
+      "subject": true,
+      "audit": true
+    }
+  ],
+  "subject_modules": [
+    {
+      "path": "ai/backtesting-on-the-sp500",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/classification-with-scikit-learn ",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/credit-scoring",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/data-wrangling-with-pandas",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/emotions-detector",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/forest-cover-type-prediction",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/kaggle-titanic",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/keras-2",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/keras",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/linear-regression-with-scikit-learn",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/machine-learning-pipeline",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/model-selection-methodology",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/natural-language-processing-with-spacy",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/natural-language-processing",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/neural-networks",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/nlp-scraper",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/numpy",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/pandas",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/sp500-strategies",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/time-series-with-pandas",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/train-and-evalute-machine-learning-models",
+      "subject": true,
+      "audit": true
+    },
+    {
+      "path": "ai/visualizations",
+      "subject": true,
+      "audit": true
+    }
+  ]
+}
