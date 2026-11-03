@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1",
+  "as_of": "2026-11-03",
+  "scope": "Whole Galaxy including selection Piscine, core Piscines, all four inner bands and cross-band projects, before and alongside specialization branches.",
+  "source_roles": {
+    "galaxy_screenshot": "User-supplied visual reference; partial OCR-free visual identification; visual placement is not proof of individual prerequisites.",
+    "current_official_curriculum": "https://01edu.ai/solutions/ai-native-curriculum/ (selection, core, branch durations; program may differ from historical Galaxy).",
+    "public_subject_specs": "https://github.com/Vict1111-code/01edu_public/tree/master/subjects",
+    "archived_ai": "https://github.com/Vict1111-code/Branch-AI (only historical AI Piscine and AI specialization context)."
+  },
+  "structure": {
+    "selection": {
+      "id": "selection-piscine",
+      "label": "Selection Piscine / Piscine Go",
+      "classification": "gateway",
+      "examples": [
+        {
+          "path": "printalphabet",
+          "evidence": "Go Piscine-style foundational programming exercise"
+        },
+        {
+          "path": "sudoku",
+          "evidence": "Collaborative problem-solving project; precise Piscine timetable unverified"
+        }
+      ],
+      "order_confidence": "high for gateway role; unknown for specific exercise ordering"
+    },
+    "core_piscines": {
+      "id": "core-piscines",
+      "label": "Language and thematic Piscines inside core",
+      "classification": "crosscutting_intensive_modules",
+      "candidate_tracks": [
+        {
+          "id": "piscine-go",
+          "name": "Piscine Go",
+          "subjects": [
+            "printalphabet",
+            "basicatoi",
+            "btreeinsertdata"
+          ],
+          "evidence": "Public exercise READMEs; examples only",
+          "order_confidence": "unknown"
+        },
+        {
+          "id": "piscine-rust",
+          "name": "Piscine Rust",
+          "subjects": [
+            "hello_rust",
+            "fibonacci2",
+            "scalar"
+          ],
+          "evidence": "hello_rust explicitly describes rules for 'piscine rust'; Rust examples verified",
+          "order_confidence": "unknown"
+        },
+        {
+          "id": "piscine-js",
+          "name": "Piscine JavaScript",
+          "subjects": [
+            "3-directions",
+            "access",
+            "all"
+          ],
+          "evidence": "JavaScript subject examples and js/ test runner; track assignment provisional",
+          "order_confidence": "unknown"
+        }
+      ],
+      "note": "Do not confuse initial selection Piscine Go with later language Piscines or treat all Piscines as an introductory section completed before any core project."
+    },
+    "core_bands": [
+      {
+        "id": "imperative",
+        "label": "Imperative",
+        "status": "visible_in_galaxy_screenshot",
+        "candidate_subjects": [
+          "go-reloaded",
+          "ascii-art",
+          "lem-in",
+          "math-skills"
+        ],
+        "note": "Groupings and sequencing tentative until Galaxy links/official metadata are established."
+      },
+      {
+        "id": "architecture",
+        "label": "Architecture",
+        "status": "visible_in_galaxy_screenshot",
+        "candidate_subjects": [
+          "net-cat",
+          "0-shell",
+          "lem-in"
+        ],
+        "note": "Architecture examples based on project objectives, not verified Galaxy placement."
+      },
+      {
+        "id": "full-stack",
+        "label": "Full-Stack",
+        "status": "visible_in_galaxy_screenshot",
+        "candidate_subjects": [
+          "ascii-art-web",
+          "forum",
+          "social-network",
+          "real-time-forum",
+          "graphql",
+          "mini-framework"
+        ],
+        "note": "Candidate placement based on subject requirements; not confirmed official rank/order."
+      },
+      {
+        "id": "graphics",
+        "label": "Graphics",
+        "status": "visible_in_galaxy_screenshot",
+        "candidate_subjects": [
+          "make-your-game"
+        ],
+        "note": "Potential graphics and game-related core examples; confirm actual placement."
+      }
+    ],
+    "cross_band_projects": {
+      "id": "cross-band",
+      "label": "Interdisciplinary and bridging projects",
+      "examples": [
+        "ascii-art-web",
+        "groupie-tracker",
+        "mini-framework",
+        "social-network",
+        "make-your-game"
+      ],
+      "note": "Projects may bridge multiple bands and build on earlier work; allow many-to-many taxonomy instead of forcing one linear chain."
+    },
+    "branch_specializations": {
+      "id": "specializations",
+      "label": "Outer specialization branches",
+      "candidate_directories": [
+        "ai",
+        "gaming",
+        "mobile-dev",
+        "cybersecurity",
+        "blockchain",
+        "devops",
+        "user-experience",
+        "java"
+      ],
+      "note": "These are directory names, not an official complete per-branch progression; Java may be a language Piscine/full-stack specialization; confirm separately."
+    }
+  },
+  "established_relations": [
+    {
+      "from": "selection-piscine",
+      "to": "core-training",
+      "kind": "program_stage",
+      "evidence": "01Edu official curriculum distinguishes selection Piscine and 18-month core",
+      "confidence": "high"
+    },
+    {
+      "from": "core-training",
+      "to": "specializations",
+      "kind": "program_stage",
+      "evidence": "01Edu official curriculum distinguishes 18-month core training and 6-month branch",
+      "confidence": "high"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art-web",
+      "kind": "explicit_subject_dependency",
+      "evidence": "ascii-art-web README describes GUI version of prior ascii-art project",
+      "confidence": "high"
+    },
+    {
+      "from": "go-piscine-prior-functions",
+      "to": "go-reloaded",
+      "kind": "explicit_prior_work_reference",
+      "evidence": "go-reloaded README says to reuse functions from old repository after admission",
+      "confidence": "high"
+    },
+    {
+      "from": "social-network",
+      "to": "mini-framework",
+      "kind": "related_prior_experience",
+      "evidence": "mini-framework README explicitly mentions social network in its testing context; NOT proven formal unlock",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainties": [
+    "Exact quest/exam/raid order for Go, Rust and JS Piscines cannot be recovered solely from flat subjects/ paths.",
+    "Some Piscines are interleaved with core bands; do not enforce linear phase barriers without evidence.",
+    "The screenshot is a historical visual and may not reflect current AI-native curriculum ordering.",
+    "The 1,233 README-bearing nodes remain unclassified semantically; only example subject relationships are supported.",
+    "Subject names and directory nesting do not establish official unlock rules or assessments."
+  ],
+  "next_work": [
+    "Analyze verified Piscine quest/rank information, distinguish selection from later Piscines",
+    "Classify all project README nodes into exercise, raid, project, extension, standards and resources",
+    "Tag subjects with multiple core competency domains, not single-orbit-only labels",
+    "Extract documented prerequisites and relationships from Markdown links and explicit phrasing",
+    "Compare the resulting graph with the screenshot; keep unknown connections marked unknown",
+    "Only then map specialization branching and assess updated AI integration."
+  ]
+}
