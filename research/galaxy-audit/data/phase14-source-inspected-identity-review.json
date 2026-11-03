@@ -26,7 +26,11 @@
       "possible_public_subject": null,
       "evidence": "Shell find pipeline counts paths; no matching public subject verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 25,
+      "source_file_sha256_first_12_hex": "4da00cd49c93",
+      "declared_functions": [],
+      "archive_relative_path": "piscine-go-master/QUEST-01/countfiles.sh"
     },
     {
       "language": "go",
@@ -36,7 +40,11 @@
       "possible_public_subject": null,
       "evidence": "Shell find pipeline lists .sh basenames; no matching public subject verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 60,
+      "source_file_sha256_first_12_hex": "6b93c585511d",
+      "declared_functions": [],
+      "archive_relative_path": "piscine-go-master/QUEST-01/lookagain.sh"
     },
     {
       "language": "go",
@@ -46,7 +54,11 @@
       "possible_public_subject": null,
       "evidence": "curl/jq superhero relatives lookup using HERO_ID; no matching public subject verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 158,
+      "source_file_sha256_first_12_hex": "93177d735918",
+      "declared_functions": [],
+      "archive_relative_path": "piscine-go-master/QUEST-01/myfamily.sh"
     },
     {
       "language": "go",
@@ -56,7 +68,11 @@
       "possible_public_subject": null,
       "evidence": "ls and awk alternating-row output; no matching public subject verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 28,
+      "source_file_sha256_first_12_hex": "ad690e9453a4",
+      "declared_functions": [],
+      "archive_relative_path": "piscine-go-master/QUEST-01/skip.sh"
     },
     {
       "language": "go",
@@ -66,7 +82,11 @@
       "possible_public_subject": null,
       "evidence": "Shell ls -Amtp pipeline; no matching public subject verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 39,
+      "source_file_sha256_first_12_hex": "ce2246185725",
+      "declared_functions": [],
+      "archive_relative_path": "piscine-go-master/QUEST-01/mastertheLS"
     },
     {
       "language": "go",
@@ -76,7 +96,14 @@
       "possible_public_subject": "printcomb2",
       "evidence": "Declares PrintComb2; inspected source has malformed Go assignment syntax, so cannot treat as verified working solution.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 552,
+      "source_file_sha256_first_12_hex": "61f853cefbef",
+      "declared_functions": [
+        "PrintComb2",
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/QUEST-02/com2.go"
     },
     {
       "language": "go",
@@ -86,7 +113,16 @@
       "possible_public_subject": "printcomb",
       "evidence": "Declares PrintComb and alternate variants; behavior corresponds to combinations, but not grader verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 1288,
+      "source_file_sha256_first_12_hex": "6dde7a202a93",
+      "declared_functions": [
+        "PrintComb",
+        "PrintComb123",
+        "PrintComb333",
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/QUEST-02/combi.go"
     },
     {
       "language": "go",
@@ -96,7 +132,16 @@
       "possible_public_subject": "printnbr",
       "evidence": "Declares PrintNbr and alternate variants; public README requires all int values including minimum integer.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 1684,
+      "source_file_sha256_first_12_hex": "647f5c912779",
+      "declared_functions": [
+        "PrintNbr",
+        "PrintNbr444",
+        "PrintNbr123",
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/QUEST-02/ntbrAlibi.go"
     },
     {
       "language": "go",
@@ -106,7 +151,16 @@
       "possible_public_subject": "printcombn",
       "evidence": "Declares PrintCombN; source contains extra main and helpers; no official correctness claim.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 981,
+      "source_file_sha256_first_12_hex": "250d85b6411d",
+      "declared_functions": [
+        "show",
+        "printComb1",
+        "PrintCombN",
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/QUEST-02/printcombn23123123.go"
     },
     {
       "language": "go",
@@ -116,7 +170,15 @@
       "possible_public_subject": "printnbr",
       "evidence": "Declares PrintNbr; local scratch variant, not validated on boundary values.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 342,
+      "source_file_sha256_first_12_hex": "129a360e42bf",
+      "declared_functions": [
+        "PrintNbr",
+        "A",
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/QUEST-02/printnumberr.go"
     },
     {
       "language": "go",
@@ -126,7 +188,15 @@
       "possible_public_subject": "sortintegertable",
       "evidence": "Declares SortIntegerTable using quicksort and external Swap; same public function name but compilation/correctness not verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 493,
+      "source_file_sha256_first_12_hex": "56e787e9abee",
+      "declared_functions": [
+        "partition",
+        "quickSort",
+        "SortIntegerTable"
+      ],
+      "archive_relative_path": "piscine-go-master/QUEST-03/sortingintegertable-notmy.go"
     },
     {
       "language": "go",
@@ -136,7 +206,13 @@
       "possible_public_subject": "printnbrinorder",
       "evidence": "Declares PrintNbrInOrder1, NOT required PrintNbrInOrder; number suffix changes API, so cannot mark as exact exercise implementation.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 283,
+      "source_file_sha256_first_12_hex": "30a2688142c5",
+      "declared_functions": [
+        "PrintNbrInOrder1"
+      ],
+      "archive_relative_path": "piscine-go-master/QUEST-05/printnbrinorder1.go"
     },
     {
       "language": "go",
@@ -146,7 +222,13 @@
       "possible_public_subject": "quadchecker",
       "evidence": "Defines Raid1a rectangle drawing with o/-/|; quadchecker references quad functions, but no direct official mapping verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 1219,
+      "source_file_sha256_first_12_hex": "791e2292a87b",
+      "declared_functions": [
+        "Raid1a"
+      ],
+      "archive_relative_path": "piscine-go-master/raid01/raid1a.go"
     },
     {
       "language": "go",
@@ -156,7 +238,13 @@
       "possible_public_subject": "quadchecker",
       "evidence": "Defines Raid1b rectangle drawing with /, backslash, *; not a quadchecker implementation.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 729,
+      "source_file_sha256_first_12_hex": "9b80c1923c3a",
+      "declared_functions": [
+        "Raid1b"
+      ],
+      "archive_relative_path": "piscine-go-master/raid01/raid1b.go"
     },
     {
       "language": "go",
@@ -166,7 +254,13 @@
       "possible_public_subject": "quadchecker",
       "evidence": "Defines Raid1c rectangle drawing with A/B/C; no direct official quad identity established.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 1219,
+      "source_file_sha256_first_12_hex": "f7587c8c785d",
+      "declared_functions": [
+        "Raid1c"
+      ],
+      "archive_relative_path": "piscine-go-master/raid01/raid1c.go"
     },
     {
       "language": "go",
@@ -176,7 +270,14 @@
       "possible_public_subject": "quadchecker",
       "evidence": "Defines Raid1d rectangle drawing with A/B/C; includes local main; not a quadchecker implementation.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 499,
+      "source_file_sha256_first_12_hex": "c1cbfd7fcd99",
+      "declared_functions": [
+        "main",
+        "Raid1d"
+      ],
+      "archive_relative_path": "piscine-go-master/raid01/raid1d.go"
     },
     {
       "language": "go",
@@ -186,7 +287,14 @@
       "possible_public_subject": null,
       "evidence": "Function arrange generates integer range; no evidence of a public exercise with this exact API.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 673,
+      "source_file_sha256_first_12_hex": "67cde2da31b5",
+      "declared_functions": [
+        "main",
+        "arrange"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/arrange.go"
     },
     {
       "language": "go",
@@ -196,7 +304,11 @@
       "possible_public_subject": null,
       "evidence": "Zero-byte file, no exercise behavior to match.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 0,
+      "source_file_sha256_first_12_hex": "e3b0c44298fc",
+      "declared_functions": [],
+      "archive_relative_path": "piscine-go-master/random-prep/best.go"
     },
     {
       "language": "go",
@@ -206,7 +318,15 @@
       "possible_public_subject": null,
       "evidence": "Binary search tree insertion and traversal demo; related concept to tree exercises, not a verified subject implementation.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 648,
+      "source_file_sha256_first_12_hex": "9d4482689786",
+      "declared_functions": [
+        "insert",
+        "PrintTree",
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/binar.go"
     },
     {
       "language": "go",
@@ -216,7 +336,13 @@
       "possible_public_subject": null,
       "evidence": "Bit shifting demo, no public exercise mapping verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 249,
+      "source_file_sha256_first_12_hex": "9162d3a1528e",
+      "declared_functions": [
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/bitshift.go"
     },
     {
       "language": "go",
@@ -226,7 +352,15 @@
       "possible_public_subject": null,
       "evidence": "Singly linked-list insert/print demo, not exact public list API.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 456,
+      "source_file_sha256_first_12_hex": "3440a9b22ce7",
+      "declared_functions": [
+        "insert",
+        "PrintList",
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/example.go"
     },
     {
       "language": "go",
@@ -236,7 +370,13 @@
       "possible_public_subject": null,
       "evidence": "Subsequence matching demonstration, no exact public exercise identity verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 591,
+      "source_file_sha256_first_12_hex": "0af4781157ee",
+      "declared_functions": [
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/faya.go"
     },
     {
       "language": "go",
@@ -246,7 +386,14 @@
       "possible_public_subject": "firstrune",
       "evidence": "Declares FirstRune(s string) rune matching public API; local main demonstrates it, but empty-string behavior not verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 203,
+      "source_file_sha256_first_12_hex": "78f2ace99320",
+      "declared_functions": [
+        "main",
+        "FirstRune"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/firstruneprog.go"
     },
     {
       "language": "go",
@@ -256,7 +403,11 @@
       "possible_public_subject": null,
       "evidence": "Fragment of digit-to-string conditional statements; not a complete Go compilation unit.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 418,
+      "source_file_sha256_first_12_hex": "45b3f6cbe061",
+      "declared_functions": [],
+      "archive_relative_path": "piscine-go-master/random-prep/intostr.go"
     },
     {
       "language": "go",
@@ -266,7 +417,15 @@
       "possible_public_subject": "split",
       "evidence": "Declares Split(str,charset string) []string and a helper; similar public split signature but behavior not tested.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 802,
+      "source_file_sha256_first_12_hex": "331ac3d18837",
+      "declared_functions": [
+        "main",
+        "Split",
+        "strLen"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/longsplit.go"
     },
     {
       "language": "go",
@@ -276,7 +435,13 @@
       "possible_public_subject": null,
       "evidence": "String-splitting experiment in main, no exported Split function.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 782,
+      "source_file_sha256_first_12_hex": "ffccd619073a",
+      "declared_functions": [
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/new.go"
     },
     {
       "language": "go",
@@ -286,7 +451,13 @@
       "possible_public_subject": null,
       "evidence": "Bit shift demo similar to bitshift, no public subject mapping verified.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 249,
+      "source_file_sha256_first_12_hex": "07fc149bb593",
+      "declared_functions": [
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/q.go"
     },
     {
       "language": "go",
@@ -296,7 +467,15 @@
       "possible_public_subject": "sortintegertable",
       "evidence": "Declares SortIntegerTable with selection-style nested loops and local main; public API name matches.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 330,
+      "source_file_sha256_first_12_hex": "34b5ba127ae0",
+      "declared_functions": [
+        "main",
+        "SortIntegerTable",
+        "Swap"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/sorting.go"
     },
     {
       "language": "go",
@@ -306,7 +485,13 @@
       "possible_public_subject": null,
       "evidence": "Contrary to Phase 13 name suggestion, source converts an integer to runes and prints it; it does NOT implement Split.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 601,
+      "source_file_sha256_first_12_hex": "3dea194ae02f",
+      "declared_functions": [
+        "main"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/split2.go"
     },
     {
       "language": "go",
@@ -316,7 +501,15 @@
       "possible_public_subject": null,
       "evidence": "Source is a Go linked-list person demo; unrelated to mobile-dev/student subject despite basename collision.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 873,
+      "source_file_sha256_first_12_hex": "32578fa72d27",
+      "declared_functions": [
+        "main",
+        "printList",
+        "addNodeEnd"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/student.go"
     },
     {
       "language": "go",
@@ -326,7 +519,16 @@
       "possible_public_subject": null,
       "evidence": "Malformed Go scanner/reader sketch with unresolved declarations; not an identifiable exercise.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 321,
+      "source_file_sha256_first_12_hex": "cc2af7136a49",
+      "declared_functions": [
+        "main",
+        "NewScanner",
+        "NewReaer",
+        "Read"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/test.go"
     },
     {
       "language": "go",
@@ -336,7 +538,15 @@
       "possible_public_subject": "itoabase",
       "evidence": "Declares ItoaBase(value,base int) string, matching public subject API; no correctness verification.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 695,
+      "source_file_sha256_first_12_hex": "7dd5cea98f05",
+      "declared_functions": [
+        "main",
+        "ItoaBase",
+        "BaseRecursion"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/test1.go"
     },
     {
       "language": "go",
@@ -346,7 +556,15 @@
       "possible_public_subject": null,
       "evidence": "Prime factorization demo defines primes and isPrime; no direct match to public IsPrime exported function.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 660,
+      "source_file_sha256_first_12_hex": "64d72adc2406",
+      "declared_functions": [
+        "main",
+        "primes",
+        "isPrime"
+      ],
+      "archive_relative_path": "piscine-go-master/random-prep/testmyprime.go"
     },
     {
       "language": "javascript",
@@ -356,7 +574,14 @@
       "possible_public_subject": null,
       "evidence": "Defines bloodySunday(date) with six-day cycle arithmetic; no exact public subject README in current snapshot.",
       "official_assignment_verified": false,
-      "solution_correctness_verified": false
+      "solution_correctness_verified": false,
+      "source_file_size_bytes": 440,
+      "source_file_sha256_first_12_hex": "ddbab6fa57a5",
+      "declared_functions": [
+        "bloodySunday"
+      ],
+      "archive_relative_path": "piscine-js-main/bloody-sunday.js"
     }
-  ]
+  ],
+  "integrity_note": "12-hex-character SHA-256 prefixes identify the exact inspected archive file bytes, not complete collision-resistant fingerprints; function names were extracted from source declarations, not verified by a compiler."
 }
