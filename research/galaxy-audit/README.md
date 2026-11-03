@@ -1,11 +1,21 @@
 # 01Edu Galaxy — Independent Curriculum Research
 
-**Status:** Phase 1 inventory and evidence sampling completed on 2026-11-03.  
+**Status:** Full-Galaxy audit in progress; Phase 1 top-level inventory and AI-focused sampling completed on 2026-11-03. Full cross-track classification, sequencing, and audit analysis are NOT yet complete.  
 **Working branch:** `research/galaxy-curriculum-audit`  
 **Primary source:** [01edu_public fork](https://github.com/Vict1111-code/01edu_public) (upstream `01-edu/public`)  
 **Historical source:** [Branch-AI fork](https://github.com/Vict1111-code/Branch-AI) (upstream `01-edu/Branch-AI`)
 
 This directory houses an **independent, source-linked analysis of public curriculum material**. It is not an official 01Edu roadmap, grading system, or clone of its private Fellows Dashboard.
+
+## Scope and source priority
+
+The **scope is the entire publicly reconstructible Galaxy**, including the imperative, architecture, full-stack, graphics, specialization, and advanced project paths visible in the Galaxy screenshot. The source repository does not currently provide a verified complete Galaxy graph, so visual-track assignments must be supported by project content or labeled provisional.
+
+**Primary source:** `01edu_public/subjects/` for individual subject specifications and `audit/` checklists. Also review `js/`, `dom/`, `sh/`, `employment-tasks/` and `docs/` rather than presuming every relevant assignment lies only under `subjects/`.
+
+**Secondary historical AI source:** `Branch-AI/piscine/` (three-week AI Piscine), `Branch-AI/projects/` (five capstone projects), and `Branch-AI/subjects/ai/` (historical subject modules). Do not treat the archive as the whole Galaxy or a current official specialization schedule.
+
+**Audit completion boundary:** Cataloging 801 subject directories is **not** equal to reading all project specifications, validating every audit, or reproducing the official dashboard's unlock graph.
 
 ## Artifacts
 
