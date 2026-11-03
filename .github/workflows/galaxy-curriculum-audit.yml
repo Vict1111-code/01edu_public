@@ -57,6 +57,12 @@ jobs:
       - name: Generate per-exercise requirements and mastery gates
         run: node research/galaxy-audit/scripts/build-piscine-competencies.mjs . research/galaxy-audit/generated
 
+      - name: Test difficulty ranking and prerequisite review
+        run: node --test research/galaxy-audit/scripts/rank-piscine-difficulty.test.mjs
+
+      - name: Rank exercise difficulty and inspect prerequisite evidence
+        run: node research/galaxy-audit/scripts/rank-piscine-difficulty.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -106,5 +112,10 @@ jobs:
             research/galaxy-audit/generated/go-mastery-and-requirements.md
             research/galaxy-audit/generated/rust-mastery-and-requirements.md
             research/galaxy-audit/generated/javascript-mastery-and-requirements.md
+            research/galaxy-audit/generated/piscine-difficulty-and-dependency-review.json
+            research/galaxy-audit/generated/piscine-unmatched-review.json
+            research/galaxy-audit/generated/go-difficulty-ranked-guide.md
+            research/galaxy-audit/generated/rust-difficulty-ranked-guide.md
+            research/galaxy-audit/generated/javascript-difficulty-ranked-guide.md
           retention-days: 14
           if-no-files-found: error
