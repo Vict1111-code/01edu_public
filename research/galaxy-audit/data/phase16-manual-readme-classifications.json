@@ -1,0 +1,933 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "method": "Manual reading of public subject instructions and relevant restrictions for all 76 Phase 15 low-evidence cases with a matched public README. Concept assignments and stage suggestions are independent pedagogical interpretations, not official Galaxy labels. Some code examples require deeper follow-up for exact expected behavior.",
+  "records": [
+    {
+      "language": "go",
+      "exercise": "hello",
+      "manual_concepts": [
+        "shell_git"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/hello/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Print Hello World with newline; basic program entry and output.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "isnegative",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/isnegative/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Print T or F based on signed integer comparison.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "iterativefactorial",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/iterativefactorial/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Iterative factorial with invalid values and overflow returning zero.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "iterativepower",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/iterativepower/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Iterative integer exponentiation with negative exponent handling.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "printstr",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/printstr/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Print string characters individually.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "sqrt",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/sqrt/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Compute exact integer square root or zero.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "strlen",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/strlen/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Count Unicode runes, not bytes.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "strrev",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/strrev/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reverse a string; Unicode-aware behavior merits attention.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "alphacount",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/alphacount/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Count only Latin alphabet letters.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "capitalize",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/capitalize/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Title-case alphanumeric words and lowercase remaining characters.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "compare",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/compare/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reimplement lexicographic strings.Compare behavior.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "index",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/index/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reimplement strings.Index substring search.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "isalpha",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/isalpha/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Validate alphanumeric-only string or empty string.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "islower",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/islower/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Validate lowercase-only string.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "isnumeric",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/isnumeric/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Validate numeric-character-only string.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "isprintable",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/isprintable/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Validate printable-character-only string.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "isupper",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/isupper/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Validate uppercase-only string.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "lastrune",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/lastrune/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Return final Unicode rune.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "nrune",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/nrune/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Return nth Unicode rune or zero when unavailable.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "printnbrbase",
+      "manual_concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "recommended_stage": 5,
+      "evidence_source": "subjects/printnbrbase/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Validate custom digit alphabet and print signed integers in that base.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "printprogramname",
+      "manual_concepts": [
+        "files_cli"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/printprogramname/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Print the executable program name.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "tolower",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/tolower/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Convert all string letters to lowercase.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "toupper",
+      "manual_concepts": [
+        "runes_strings"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/toupper/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Convert all string letters to uppercase.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "trimatoi",
+      "manual_concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "recommended_stage": 5,
+      "evidence_source": "subjects/trimatoi/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Extract signed integer digits from string with invalid-input handling.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "collatzcountdown",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/collatzcountdown/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Count Collatz steps for positive integers; no binary-tree prerequisite.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "fixthemain",
+      "manual_concepts": [
+        "functions"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/fixthemain/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Repair provided Go main program; full code block is required to grade exact fix.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "gcd",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/gcd/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Greatest common divisor with zero-input handling.",
+      "official_quest": null
+    },
+    {
+      "language": "go",
+      "exercise": "itoa",
+      "manual_concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "recommended_stage": 5,
+      "evidence_source": "subjects/itoa/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Convert signed integer to decimal string.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "string_literals",
+      "manual_concepts": [
+        "strings",
+        "borrowing"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/string_literals/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Implement ASCII checks, search and slicing without heap allocation.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "temperature_conv",
+      "manual_concepts": [
+        "types"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/temperature_conv/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Fahrenheit Celsius arithmetic with mandated 9 over 5 expression.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "scalar",
+      "manual_concepts": [
+        "types"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/scalar/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Choose correct signed and unsigned integer widths for five arithmetic operations.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "capitalizing",
+      "manual_concepts": [
+        "strings"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/capitalizing/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Uppercase first letter, title-case and toggle character case.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "fibonacci2",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/fibonacci2/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Generate nth Fibonacci value with integer sequence logic.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "find_factorial",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/find_factorial/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Compute factorial with zero and one boundary cases.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "reverse_string",
+      "manual_concepts": [
+        "strings",
+        "borrowing"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/reverse_string/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Return reversed owned String from borrowed str.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "speed_transformation",
+      "manual_concepts": [
+        "types"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/speed_transformation/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Convert km per hour to meters per second.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "strings",
+      "manual_concepts": [
+        "strings",
+        "borrowing"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/strings/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Count characters in borrowed string slice.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "looping",
+      "manual_concepts": [
+        "control_flow",
+        "applications"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/looping/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Repeat interactive stdin riddle until correct answer; count attempts.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "delete_prefix",
+      "manual_concepts": [
+        "strings",
+        "borrowing",
+        "enums_results"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/delete_prefix/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Remove prefix as borrowed string slice wrapped in Option.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "to_url",
+      "manual_concepts": [
+        "strings"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/to_url/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Replace ASCII spaces with percent encoded characters.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "doubtful",
+      "manual_concepts": [
+        "strings",
+        "borrowing"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/doubtful/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Append question mark to every supplied string through a mutating signature.",
+      "official_quest": null
+    },
+    {
+      "language": "rust",
+      "exercise": "arrange_it",
+      "manual_concepts": [
+        "strings",
+        "collections"
+      ],
+      "recommended_stage": 5,
+      "evidence_source": "subjects/arrange_it/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reorder words by embedded position numbers under heap allocation limits.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "mutability",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/mutability/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Compare shallow copies and reference aliasing under object mutation.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "primitives",
+      "manual_concepts": [
+        "values_functions"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/primitives/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Declare string number boolean and undefined primitives.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "returns",
+      "manual_concepts": [
+        "values_functions"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/returns/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Return function argument and array or string length.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "is",
+      "manual_concepts": [
+        "values_functions",
+        "arrays_objects"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/is/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Implement type predicates and truthy falsy tests.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "biggie-smalls",
+      "manual_concepts": [
+        "values_functions"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/biggie-smalls/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Identify minimum and maximum JavaScript number values.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "cut-corners",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 7,
+      "evidence_source": "subjects/cut-corners/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reimplement four Math rounding methods without string conversion bitwise or modulo.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "elementary",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/elementary/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Implement multiplication division and modulo without corresponding operators.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "method-man",
+      "manual_concepts": [
+        "values_functions",
+        "arrays_objects"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/method-man/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Apply split join and case conversion string methods.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "min-max",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/min-max/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Implement comparison based min and max without built-ins.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "more-or-less",
+      "manual_concepts": [
+        "values_functions"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/more-or-less/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Implement arithmetic functions with exact argument arity.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "repeat",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/repeat/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Build repeated string using loops or recursion.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "triangle",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/triangle/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Generate text triangle with precise newline rules.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "keep-cut",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/keep-cut/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Extract specified first and last string slices.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "circular",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/circular/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Create self-referential object property.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "concat-str",
+      "manual_concepts": [
+        "values_functions"
+      ],
+      "recommended_stage": 1,
+      "evidence_source": "subjects/concat-str/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Concatenate two arguments.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "deep-copy",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 7,
+      "evidence_source": "subjects/deep-copy/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Deep copy nested arrays and objects recursively.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "flat",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/flat/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Recreate Array.flat with configurable flattening.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "get",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/get/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Resolve nested object property from path string.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "invert",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/invert/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Swap object keys and values.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "pick-omit",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/pick-omit/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Select and exclude own object properties without mutation.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "replica",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 7,
+      "evidence_source": "subjects/replica/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Deep assign object properties while avoiding shallow-copy bugs.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "reverser",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/reverser/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reverse arrays or strings without native reverse.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "slicer",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/slicer/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reimplement Array.slice and String.slice with optional end.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "index-of",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/index-of/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Recreate indexOf lastIndexOf and includes with search-start handling.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "fusion",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 7,
+      "evidence_source": "subjects/fusion/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Recursively merge nested objects with type-dependent merge behavior.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "has-city",
+      "manual_concepts": [
+        "closures",
+        "arrays_objects"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/has-city/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Return closure that captures country and city list.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "sums",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 7,
+      "evidence_source": "subjects/sums/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Enumerate sorted unique additive integer partitions.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "flow",
+      "manual_concepts": [
+        "higher_order_functions"
+      ],
+      "recommended_stage": 4,
+      "evidence_source": "subjects/flow/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Compose array of functions in forward execution order.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "nasa",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/nasa/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "FizzBuzz-style divisibility mapping to NA SA NASA.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "neuron",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 6,
+      "evidence_source": "subjects/neuron/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Transform nested AI-like data shapes; inspect example for exact structure.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "find-expression",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 7,
+      "evidence_source": "subjects/find-expression/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Search arithmetic paths from one using plus four or times two.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "pronoun",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 7,
+      "evidence_source": "subjects/pronoun/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Parse pronouns and accumulate following-word counts.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "pyramid",
+      "manual_concepts": [
+        "control_flow"
+      ],
+      "recommended_stage": 2,
+      "evidence_source": "subjects/pyramid/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Construct centered text pyramid by loop or recursion.",
+      "official_quest": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "unbreakable",
+      "manual_concepts": [
+        "arrays_objects"
+      ],
+      "recommended_stage": 3,
+      "evidence_source": "subjects/unbreakable/README.md",
+      "evidence_type": "manual_full_public_readme_review",
+      "review_note": "Reimplement String.split and Array.join behavior.",
+      "official_quest": null
+    }
+  ]
+}
