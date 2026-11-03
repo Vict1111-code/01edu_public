@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "source_archives": [
+    {
+      "file": "piscine-go-master.zip",
+      "status": "user_supplied_archive_locally_inspected_not_committed"
+    },
+    {
+      "file": "piscine-js-main.zip",
+      "status": "user_supplied_archive_locally_inspected_not_committed"
+    }
+  ],
+  "method": "Manual inspection of exact archive source files and selected official public subject READMEs; source code is not redistributed",
+  "caveats": [
+    "Function-name match indicates possible assignment equivalence, not verified correctness or official curriculum position.",
+    "A related algorithm or similar filename does not establish exercise identity.",
+    "Community source files can contain syntax errors and may be scratch work."
+  ],
+  "records": [
+    {
+      "language": "go",
+      "source_group": "QUEST-01",
+      "archive_exercise_id": "countfiles",
+      "disposition": "shell_command_unverified",
+      "possible_public_subject": null,
+      "evidence": "Shell find pipeline counts paths; no matching public subject verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-01",
+      "archive_exercise_id": "lookagain",
+      "disposition": "shell_command_unverified",
+      "possible_public_subject": null,
+      "evidence": "Shell find pipeline lists .sh basenames; no matching public subject verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-01",
+      "archive_exercise_id": "myfamily",
+      "disposition": "shell_command_unverified",
+      "possible_public_subject": null,
+      "evidence": "curl/jq superhero relatives lookup using HERO_ID; no matching public subject verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-01",
+      "archive_exercise_id": "skip",
+      "disposition": "shell_command_unverified",
+      "possible_public_subject": null,
+      "evidence": "ls and awk alternating-row output; no matching public subject verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-01",
+      "archive_exercise_id": "mastertheLS",
+      "disposition": "shell_command_unverified",
+      "possible_public_subject": null,
+      "evidence": "Shell ls -Amtp pipeline; no matching public subject verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-02",
+      "archive_exercise_id": "com2",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "printcomb2",
+      "evidence": "Declares PrintComb2; inspected source has malformed Go assignment syntax, so cannot treat as verified working solution.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-02",
+      "archive_exercise_id": "combi",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "printcomb",
+      "evidence": "Declares PrintComb and alternate variants; behavior corresponds to combinations, but not grader verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-02",
+      "archive_exercise_id": "ntbrAlibi",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "printnbr",
+      "evidence": "Declares PrintNbr and alternate variants; public README requires all int values including minimum integer.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-02",
+      "archive_exercise_id": "printcombn23123123",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "printcombn",
+      "evidence": "Declares PrintCombN; source contains extra main and helpers; no official correctness claim.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-02",
+      "archive_exercise_id": "printnumberr",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "printnbr",
+      "evidence": "Declares PrintNbr; local scratch variant, not validated on boundary values.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-03",
+      "archive_exercise_id": "sortingintegertable-notmy",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "sortintegertable",
+      "evidence": "Declares SortIntegerTable using quicksort and external Swap; same public function name but compilation/correctness not verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "QUEST-05",
+      "archive_exercise_id": "printnbrinorder1",
+      "disposition": "related_variant_not_exact_signature",
+      "possible_public_subject": "printnbrinorder",
+      "evidence": "Declares PrintNbrInOrder1, NOT required PrintNbrInOrder; number suffix changes API, so cannot mark as exact exercise implementation.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "raid01",
+      "archive_exercise_id": "raid1a",
+      "disposition": "rectangle_raid_family_unverified",
+      "possible_public_subject": "quadchecker",
+      "evidence": "Defines Raid1a rectangle drawing with o/-/|; quadchecker references quad functions, but no direct official mapping verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "raid01",
+      "archive_exercise_id": "raid1b",
+      "disposition": "rectangle_raid_family_unverified",
+      "possible_public_subject": "quadchecker",
+      "evidence": "Defines Raid1b rectangle drawing with /, backslash, *; not a quadchecker implementation.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "raid01",
+      "archive_exercise_id": "raid1c",
+      "disposition": "rectangle_raid_family_unverified",
+      "possible_public_subject": "quadchecker",
+      "evidence": "Defines Raid1c rectangle drawing with A/B/C; no direct official quad identity established.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "raid01",
+      "archive_exercise_id": "raid1d",
+      "disposition": "rectangle_raid_family_unverified",
+      "possible_public_subject": "quadchecker",
+      "evidence": "Defines Raid1d rectangle drawing with A/B/C; includes local main; not a quadchecker implementation.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "arrange",
+      "disposition": "independent_practice",
+      "possible_public_subject": null,
+      "evidence": "Function arrange generates integer range; no evidence of a public exercise with this exact API.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "best",
+      "disposition": "empty_scratch",
+      "possible_public_subject": null,
+      "evidence": "Zero-byte file, no exercise behavior to match.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "binar",
+      "disposition": "independent_practice",
+      "possible_public_subject": null,
+      "evidence": "Binary search tree insertion and traversal demo; related concept to tree exercises, not a verified subject implementation.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "bitshift",
+      "disposition": "independent_practice",
+      "possible_public_subject": null,
+      "evidence": "Bit shifting demo, no public exercise mapping verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "example",
+      "disposition": "independent_practice",
+      "possible_public_subject": null,
+      "evidence": "Singly linked-list insert/print demo, not exact public list API.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "faya",
+      "disposition": "independent_practice",
+      "possible_public_subject": null,
+      "evidence": "Subsequence matching demonstration, no exact public exercise identity verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "firstruneprog",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "firstrune",
+      "evidence": "Declares FirstRune(s string) rune matching public API; local main demonstrates it, but empty-string behavior not verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "intostr",
+      "disposition": "incomplete_scratch",
+      "possible_public_subject": null,
+      "evidence": "Fragment of digit-to-string conditional statements; not a complete Go compilation unit.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "longsplit",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "split",
+      "evidence": "Declares Split(str,charset string) []string and a helper; similar public split signature but behavior not tested.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "new",
+      "disposition": "independent_practice",
+      "possible_public_subject": null,
+      "evidence": "String-splitting experiment in main, no exported Split function.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "q",
+      "disposition": "independent_practice",
+      "possible_public_subject": null,
+      "evidence": "Bit shift demo similar to bitshift, no public subject mapping verified.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "sorting",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "sortintegertable",
+      "evidence": "Declares SortIntegerTable with selection-style nested loops and local main; public API name matches.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "split2",
+      "disposition": "false_name_match_rejected",
+      "possible_public_subject": null,
+      "evidence": "Contrary to Phase 13 name suggestion, source converts an integer to runes and prints it; it does NOT implement Split.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "student",
+      "disposition": "false_nested_subject_match_rejected",
+      "possible_public_subject": null,
+      "evidence": "Source is a Go linked-list person demo; unrelated to mobile-dev/student subject despite basename collision.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "test",
+      "disposition": "incomplete_scratch",
+      "possible_public_subject": null,
+      "evidence": "Malformed Go scanner/reader sketch with unresolved declarations; not an identifiable exercise.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "test1",
+      "disposition": "matching_exported_function_unverified",
+      "possible_public_subject": "itoabase",
+      "evidence": "Declares ItoaBase(value,base int) string, matching public subject API; no correctness verification.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "go",
+      "source_group": "random-prep",
+      "archive_exercise_id": "testmyprime",
+      "disposition": "related_concept_not_exact_api",
+      "possible_public_subject": null,
+      "evidence": "Prime factorization demo defines primes and isPrime; no direct match to public IsPrime exported function.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    },
+    {
+      "language": "javascript",
+      "source_group": "root",
+      "archive_exercise_id": "bloody-sunday",
+      "disposition": "historical_or_community_unverified",
+      "possible_public_subject": null,
+      "evidence": "Defines bloodySunday(date) with six-day cycle arithmetic; no exact public subject README in current snapshot.",
+      "official_assignment_verified": false,
+      "solution_correctness_verified": false
+    }
+  ]
+}
