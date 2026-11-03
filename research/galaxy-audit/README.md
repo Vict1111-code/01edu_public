@@ -47,6 +47,12 @@ The [Node.js subject-reference extractor](scripts/README.md) and five-test suite
 
 [View successful full scan and download artifacts](https://github.com/Vict1111-code/01edu_public/actions/runs/41645792476). The artifact is retained for 14 days. See [run findings](findings/full-extraction-ci-2026-11-03.md) for persistent summary counts.
 
+## Phase 5 — Automated triage and first manual review (2026-11-03)
+
+[GitHub Actions run 41647213323](https://github.com/Vict1111-code/01edu_public/actions/runs/41647213323) successfully extracted and **deduplicated 75 link instances to 73 unique pairs**. The [triage report](findings/first-full-link-triage-2026-11-03.md) distinguishes 35 coding-standard references, 22 extension candidates, 2 prior-project references, 1 Rust Piscine bridge, 2 general learning resources, 2 asset references, 1 parent-context reference, and 8 initially ambiguous references. All 8 ambiguous references have now been [individually reviewed](data/manual-review-unresolved-eight.json) without claiming official unlock rules.
+
+The full six-file extraction and triage artifact is retained by GitHub Actions for 14 days; sources and reports on this branch remain permanent.
+
 ## Artifacts
 
 | File | Coverage | Method |
@@ -56,6 +62,9 @@ The [Node.js subject-reference extractor](scripts/README.md) and five-test suite
 | [data/foundation-project-profiles.json](data/foundation-project-profiles.json) | 17 core project summaries, skills, technologies, Piscine evidence, and project execution risks | Individual README inspection |
 | [data/foundation-dependency-evidence.json](data/foundation-dependency-evidence.json) | 14 source-backed core/Piscine project relationships with typed distinctions | Individual README references and stated requirements |
 | [data/curriculum-backbone.json](data/curriculum-backbone.json) | End-to-end Piscine/core/cross-project/branch scope and evidence-confidence labels | Galaxy screenshot, public subject instructions, official curriculum stage descriptions |
+| [data/manual-review-unresolved-eight.json](data/manual-review-unresolved-eight.json) | Human-reviewed eight ambiguous links including Rust linear algebra and Bomberman DOM dependency evidence | Direct README inspection |
+| [scripts/triage-subject-links.mjs](scripts/triage-subject-links.mjs) | Triage and deduplicate candidate links while preserving reference evidence | Successful CI run 41647213323 |
+| [findings/first-full-link-triage-2026-11-03.md](findings/first-full-link-triage-2026-11-03.md) | 73-pair classification with manual review and limitations | CI artifacts plus source README evidence |
 | [data/extractor-manual-validation-sample.json](data/extractor-manual-validation-sample.json) | 15 human-reviewed subject references from 16 README inspections | Direct GitHub file reads and link context review |
 | [scripts/README.md](scripts/README.md) | Runbook for all-subject Markdown reference extraction, tests and limits | Node.js 18+ standard library |
 | [data/subjects-index.json](data/subjects-index.json) | 807 immediate entries under `subjects/` (801 dirs, 6 files) | One-level GitHub Contents API |
