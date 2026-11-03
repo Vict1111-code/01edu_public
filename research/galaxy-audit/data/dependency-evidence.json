@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-11-03",
+  "scope": "Sample proven links only; NOT a complete official Galaxy graph. Edges have different semantics.",
+  "edges": [
+    {
+      "from": "subjects/ascii-art",
+      "to": "subjects/ascii-art-web",
+      "relation": "explicit_prior_project",
+      "evidence": "ascii-art-web README describes a web GUI version of the prior ascii-art project",
+      "source": "subjects/ascii-art-web/README.md",
+      "confidence": "high"
+    },
+    {
+      "from": "subjects/ascii-art-web",
+      "to": "subjects/ascii-art-web/dockerize",
+      "relation": "extension_of",
+      "evidence": "dockerize README references parent subject and requires its principles",
+      "source": "subjects/ascii-art-web/dockerize/README.md",
+      "confidence": "high"
+    },
+    {
+      "from": "subjects/ascii-art-web",
+      "to": "subjects/ascii-art-web/stylize",
+      "relation": "extension_of",
+      "evidence": "stylize README references parent subject and requires its principles",
+      "source": "subjects/ascii-art-web/stylize/README.md",
+      "confidence": "high"
+    },
+    {
+      "from": "subjects/ascii-art-web",
+      "to": "subjects/ascii-art-web/export-file",
+      "relation": "extension_of",
+      "evidence": "export-file README references parent subject and its functionality",
+      "source": "subjects/ascii-art-web/export-file/README.md",
+      "confidence": "high"
+    },
+    {
+      "from": "subjects/ascii-art",
+      "to": "subjects/ascii-art-web/export-file",
+      "relation": "references_project",
+      "evidence": "export-file README explicitly references the ascii-art output",
+      "source": "subjects/ascii-art-web/export-file/README.md",
+      "confidence": "high"
+    }
+  ]
+}
