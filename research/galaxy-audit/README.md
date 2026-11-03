@@ -91,6 +91,10 @@ The [Phase 11 findings](findings/progressive-three-piscines-phase11-2026-11-03.m
 
 [Phase 13 findings](findings/piscine-difficulty-prerequisites-phase13-2026-11-03.md): 316 distinct candidates; **276 provisionally scored** against public README requirement complexity and proposed stage, **40 unscored**; **six nonbinding Go filename suggestions**, 28 unmatched without safe suggestions; **two Rust target exercises** with incoming curated source-backed relationships. [Ranking/review generator](scripts/rank-piscine-difficulty.mjs) and [four tests](scripts/rank-piscine-difficulty.test.mjs) passed in [CI run 41660170809](https://github.com/Vict1111-code/01edu_public/actions/runs/41660170809). The downloadable artifact includes JSON scores and three within-stage difficulty-ranked guides. Scores, name suggestions and conceptual relationships **are not official Galaxy grading or unlock metadata**.
 
+## Phase 14 — Source-inspected identity corrections and concept prerequisite graphs (2026-11-03)
+
+[Phase 14 findings](findings/piscine-source-concepts-phase14-2026-11-03.md) and [durable three-Piscine concept map](guides/three-piscines-concept-prerequisite-map.md): **34 unmatched archive identifiers inspected at source level**, including rejection of the misleading `split2 → split` and `student → mobile-dev/student` matches. **43 concepts and 46 independently recommended concept edges**, plus three separately documented public Rust subject-reference edges; **191/316 exercises annotated** (117 by low-confidence name-only hints), 125 unclassified and 29 difficulty outliers queued. The [builder](scripts/build-concept-prerequisites.mjs) and [six tests](scripts/build-concept-prerequisites.test.mjs) passed in [CI run 41662508732](https://github.com/Vict1111-code/01edu_public/actions/runs/41662508732), with a generated JSON graph and three language-specific guides. All educational dependencies are explicitly **not official Galaxy unlock rules**.
+
 ## Artifacts
 
 | File | Coverage | Method |
