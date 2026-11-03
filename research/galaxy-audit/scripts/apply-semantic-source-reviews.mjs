@@ -116,13 +116,38 @@ export function renderGuide(data,language){
  'Complete the original, independently designed stage mastery assessment in the Phase 17 assessment blueprint. It is not an official 01Edu audit.','');
  return lines.join('\n');
 }
+export function renderAssessments(spec){
+ const lines=['# Three Piscines — Original stage mastery assessments','',
+ '**These 24 assessments are independently designed. They are NOT official 01Edu subjects, audits, pass conditions or Galaxy unlocks.**','',
+ '## Scoring rubric','',
+ '- Correctness: '+spec.rubric.correctness+' points',
+ '- Boundary and failure cases: '+spec.rubric.boundary_and_failure_cases+' points',
+ '- Automated tests: '+spec.rubric.automated_tests+' points',
+ '- Explanation and maintainability: '+spec.rubric.explanation_and_maintainability+' points',
+ '- Proposed mastery gate: '+spec.rubric.pass_total+'/100 overall and at least '+spec.rubric.min_correctness+' correctness points',''];
+ for(const [language,rows] of Object.entries(spec.tracks)){
+  lines.push('## '+language.toUpperCase(),'');
+  for(const x of rows){
+   lines.push('### Stage '+x.stage+' — '+x.title,'',
+    '**Deliverable:** '+x.deliverable,'',
+    '**Concepts:** '+x.concepts.join(', '),'',
+    '**Verification checks:**','');
+   for(const check of x.verification_checks)lines.push('- '+check);
+   lines.push('','**Test command:** '+x.test_command,'',
+    '**Submission evidence:** '+x.submission_evidence,'');
+  }
+ }
+ return lines.join('\n')+'\n';
+}
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){
  try{
   const root=resolve(process.argv[2]||'.'),out=resolve(process.argv[3]||'research/galaxy-audit/generated');
   const phase16=JSON.parse(readFileSync(join(out,'piscine-phase16-triaged-curriculum.json'),'utf8'));
   const verdicts=JSON.parse(readFileSync(join(root,'research/galaxy-audit/data/phase17-semantic-source-verdicts.json'),'utf8'));
   const data=applyReview(phase16,verdicts,root);
+  const assessments=JSON.parse(readFileSync(join(root,'research/galaxy-audit/data/phase17-original-stage-assessments.json'),'utf8'));
   mkdirSync(out,{recursive:true});
+  writeFileSync(join(out,'phase17-original-mastery-assessments.md'),renderAssessments(assessments));
   writeFileSync(join(out,'piscine-phase17-semantic-curriculum.json'),JSON.stringify(data,null,2)+'\n');
   writeFileSync(join(out,'piscine-phase17-pending-source-reviews.json'),JSON.stringify(data.semantic_review_queue,null,2)+'\n');
   for(const l of Object.keys(CONCEPTS))
