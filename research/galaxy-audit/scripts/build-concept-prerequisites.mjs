@@ -27,6 +27,35 @@ const SIGNAL_MAP={
  rust:{ownership:'ownership',pointers:'borrowing',generics:'generics',matrix:'matrix_structures',errors:'enums_results',files:'applications'},
  javascript:{async:'promises',dom:'dom',algorithms:'regex_dates',errors:'promises'}
 };
+// Name-only hints are deliberately lower confidence than README signals or manual review.
+const NAME_RULES={
+ go:[
+ [/^btree/, 'binary_trees'],[/^list/, 'linked_lists'],[/sort/, 'sorting'],
+ [/^(fibonacci|.*factorial|.*power|eightqueens)/,'recursion'],
+ [/^(cat|displayfile|ztail|printparams|printprogramname|sortparams|revparams)/,'files_cli'],
+ [/^(atoi|.*base|trimatoi|convertbase)/,'parsing'],
+ [/^(split|join|index|str|concat|capitalize|.*rune|toupper|tolower|isalpha|islower|isupper|isnumeric|isprintable)/,'runes_strings'],
+ [/^(map|foreach|any|countif|issorted|.*range|.*slice)/,'slices'],
+ [/^(swap|point|divmod)/,'pointers'],[/^(print|isnegative|sqrt|isprime|findnextprime)/,'control_flow']
+ ],
+ rust:[
+ [/borrow|reference/,'borrowing'],[/owner/,'ownership'],[/lifetime/,'lifetimes'],
+ [/trait/,'traits'],[/generic/,'generics'],[/matrix|lalgebra/,'matrix_structures'],
+ [/error|result|option/,'enums_results'],[/collect|vec|hashmap|map/,'collections'],
+ [/iterator|iter/,'iterators'],[/string|str|text/,'strings'],
+ [/array|loop|match|control|condition/,'control_flow'],[/todo|tic.tac|commit|profanity|does.it.fit/,'applications']
+ ],
+ javascript:[
+ [/curry|reduce|filter|mapper|using.map|using.filter|using.reduce|for.each|fusion|same.amount/,'higher_order_functions'],
+ [/get.json|promise|async|race|is.winner|series/,'promises'],
+ [/get.json|fetch/,'fetch_json'],
+ [/brick|gossip|mouse|click|keycode|pimp.my.style|neuron|dom/,'dom'],
+ [/brick|gossip|mouse|click|keycode/,'events'],
+ [/regex|match|valid.ip|cron|date|time|url|expression|pronoun|group.price/,'regex_dates'],
+ [/collection|array|object|key|value|entries|replica|deep.copy|concat|chunk|flat|slice|pick|omit|invert|sort|index.of/,'arrays_objects'],
+ [/curry|closure/,'closures'],[/block.chain|flagger|pyramid|ion.out/,'applications']
+ ]
+};
 export function topological(nodes,edges){
  const indegree=new Map(nodes.map(x=>[x,0])),children=new Map(nodes.map(x=>[x,[]]));
  for(const [from,to] of edges){
@@ -49,10 +78,12 @@ export function assemble(phase13,identity){
   const exercises=local.map(x=>{
    const reviewed=config.anchors[x.exercise]||[];
    const heur=(x.difficulty?.signals||[]).map(s=>SIGNAL_MAP[language][s.id]).filter(Boolean);
-   const concepts=[...new Set([...reviewed,...heur])].filter(c=>config.nodes.includes(c));
    const source=identityByKey.get(language+'::'+x.exercise);
+   const rejected=source?.disposition==='false_name_match_rejected'||source?.disposition==='false_nested_subject_match_rejected';
+   const names=rejected?[]:NAME_RULES[language].filter(([re])=>re.test(x.exercise)).map(([,concept])=>concept);
+   const concepts=[...new Set([...reviewed,...heur,...names])].filter(c=>config.nodes.includes(c));
    return {exercise:x.exercise,proposed_stage:x.proposed_stage,estimated_difficulty:x.difficulty?.score??null,
-    concepts,concept_classification:reviewed.length?'manually_curated_concept_anchor':heur.length?'README_keyword_heuristic':'not_classified',
+    concepts,concept_classification:reviewed.length?'manually_curated_concept_anchor':heur.length?'README_keyword_heuristic':names.length?'name_only_low_confidence':'not_classified',
     identity_disposition:source?.disposition||null,
     suggested_public_identity:source?.possible_public_subject||null,
     source_identity_confirmed:false,official_galaxy_order:null};
@@ -76,6 +107,7 @@ export function assemble(phase13,identity){
    difficulty_review_queue:outliers,
    summary:{exercise_count:exercises.length,manual_concept_anchors:exercises.filter(x=>x.concept_classification==='manually_curated_concept_anchor').length,
     heuristic_concept_matches:exercises.filter(x=>x.concept_classification==='README_keyword_heuristic').length,
+    name_only_concept_hints:exercises.filter(x=>x.concept_classification==='name_only_low_confidence').length,
     unclassified_concepts:exercises.filter(x=>x.concept_classification==='not_classified').length,
     documented_subject_edges:documented.length,outliers_for_review:outliers.length}};
  }
@@ -98,7 +130,7 @@ export function report(data,language){
  lines.push('','## Difficulty outliers for manual review','');
  for(const x of d.difficulty_review_queue)lines.push('- '+x.exercise+': stage '+x.stage+', provisional '+x.score+'/100');
  lines.push('','## Source identity caveat','',
- 'Names from user-supplied community solution archives are not authoritative 01Edu assignment IDs. Source-file inspection can reject false matches or identify exported function similarities, but does not verify solution correctness.','');
+ 'Names from user-supplied community solution archives are not authoritative 01Edu assignment IDs. Name-only concept hints are low confidence and must be checked against README content. Source-file inspection can reject false matches or identify exported function similarities, but does not verify solution correctness.','');
  return lines.join('\n');
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){
