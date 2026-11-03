@@ -12,8 +12,8 @@
       "rationale": "Explicitly welcomes learner to Rust and describes first exercise and rules for whole Piscine",
       "evidence": "direct_readme",
       "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/hello_rust/README.md",
-      "official_quest_position": 1,
-      "position_confidence": "explicit_first_exercise"
+      "official_quest_position": null,
+      "position_confidence": "first_exercise_explicit_but_quest_number_unverified"
     },
     {
       "id": "how-2-js",
