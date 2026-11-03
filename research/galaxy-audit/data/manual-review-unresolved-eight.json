@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-03",
+  "scope": "Eight unique pairs previously needing manual review in CI triage run 41647213323",
+  "method": "Read and manually interpret exact public subject README content; distinguish direct reuse, principles, optional resource and output linkage",
+  "edges": [
+    {
+      "from": "lalgebra_scalar",
+      "to": "matrix",
+      "relation": "reuses_prior_exercise",
+      "evidence": "Matrix definition requires Scalar from the earlier lalgebra-scalar exercise",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/matrix/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix/README.md"
+    },
+    {
+      "from": "lalgebra_scalar",
+      "to": "matrix_ops",
+      "relation": "reuses_prior_exercise",
+      "evidence": "Matrix operations explicitly reuses Scalar structure",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/matrix_ops/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix_ops/README.md"
+    },
+    {
+      "from": "matrix",
+      "to": "matrix_ops",
+      "relation": "reuses_prior_exercise",
+      "evidence": "Matrix operations explicitly reuses Matrix structure",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/matrix_ops/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix_ops/README.md"
+    },
+    {
+      "from": "mini-framework",
+      "to": "bomberman-dom",
+      "relation": "required_previous_project_output",
+      "evidence": "Bomberman DOM requires use of the framework created in mini-framework",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/bomberman-dom/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/bomberman-dom/README.md"
+    },
+    {
+      "from": "make-your-game",
+      "to": "bomberman-dom",
+      "relation": "prior_project_principles",
+      "evidence": "Bomberman DOM follows principles of make-your-game, not necessarily reusing its code",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/bomberman-dom/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/bomberman-dom/README.md"
+    },
+    {
+      "from": "make-your-game/different-maps",
+      "to": "bomberman-dom",
+      "relation": "optional_learning_resource",
+      "evidence": "README says optional different-maps project can be useful for map generation",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/bomberman-dom/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/bomberman-dom/README.md"
+    },
+    {
+      "from": "mobile-dev/secure-notes",
+      "to": "mobile-dev/package",
+      "relation": "builds_on_prior_project",
+      "evidence": "Flutter package is explicitly built for the Secure Notes app",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/mobile-dev/package/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/mobile-dev/package/README.md"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art-web/export-file",
+      "relation": "uses_prior_project_output",
+      "evidence": "Export extension requires exporting ascii-art output from the website",
+      "confidence": "high",
+      "official_unlock": "not established",
+      "source_path": "subjects/ascii-art-web/export-file/README.md",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/export-file/README.md"
+    }
+  ],
+  "notes": [
+    "Additional parent-context link and asset references were separated by automation and not promoted to prerequisites.",
+    "High confidence refers to stated README relationship, NOT official Galaxy gate or unlock enforcement."
+  ]
+}
