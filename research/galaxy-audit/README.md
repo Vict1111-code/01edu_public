@@ -53,6 +53,10 @@ The [Node.js subject-reference extractor](scripts/README.md) and five-test suite
 
 The full six-file extraction and triage artifact is retained by GitHub Actions for 14 days; sources and reports on this branch remain permanent.
 
+## Phase 6 — Curated source-linked graph (2026-11-03)
+
+The [successful GitHub Actions run](https://github.com/Vict1111-code/01edu_public/actions/runs/41648273764) completed the graph generator and five additional tests. The first **40-node / 33-edge** typed learning-lineage graph separates **40 non-progression links** and never asserts platform unlock conditions. A [durable source-linked snapshot](data/curated-graph-snapshot.json) is committed to the research branch, and the [full evidence-bearing graph](https://github.com/Vict1111-code/01edu_public/actions/runs/41648273764) is available as a CI artifact. See the [Phase 6 findings](findings/curated-graph-phase6-2026-11-03.md).
+
 ## Artifacts
 
 | File | Coverage | Method |
@@ -62,6 +66,9 @@ The full six-file extraction and triage artifact is retained by GitHub Actions f
 | [data/foundation-project-profiles.json](data/foundation-project-profiles.json) | 17 core project summaries, skills, technologies, Piscine evidence, and project execution risks | Individual README inspection |
 | [data/foundation-dependency-evidence.json](data/foundation-dependency-evidence.json) | 14 source-backed core/Piscine project relationships with typed distinctions | Individual README references and stated requirements |
 | [data/curriculum-backbone.json](data/curriculum-backbone.json) | End-to-end Piscine/core/cross-project/branch scope and evidence-confidence labels | Galaxy screenshot, public subject instructions, official curriculum stage descriptions |
+| [data/curated-graph-snapshot.json](data/curated-graph-snapshot.json) | Persistent 40-node / 33-edge source-linked relationship graph | Successful CI and manually reviewed overrides |
+| [scripts/build-curated-graph.mjs](scripts/build-curated-graph.mjs) | Generate full typed relationship graph from triaged references | Node.js 18+ standard library; successful CI |
+| [findings/curated-graph-phase6-2026-11-03.md](findings/curated-graph-phase6-2026-11-03.md) | Phase 6 graph analysis, limits and future Piscine work | CI log and graph artifact |
 | [data/manual-review-unresolved-eight.json](data/manual-review-unresolved-eight.json) | Human-reviewed eight ambiguous links including Rust linear algebra and Bomberman DOM dependency evidence | Direct README inspection |
 | [scripts/triage-subject-links.mjs](scripts/triage-subject-links.mjs) | Triage and deduplicate candidate links while preserving reference evidence | Successful CI run 41647213323 |
 | [findings/first-full-link-triage-2026-11-03.md](findings/first-full-link-triage-2026-11-03.md) | 73-pair classification with manual review and limitations | CI artifacts plus source README evidence |
