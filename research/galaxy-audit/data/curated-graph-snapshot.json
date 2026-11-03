@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "status": "Curated publicly documented project relationships, not official unlock graph",
+  "source_workflow_run": "https://github.com/Vict1111-code/01edu_public/actions/runs/41648273764",
+  "source_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "method": "Source-linked snapshot of the exact 33 edges from successful GitHub Actions curated graph. Full reference contexts reside in the workflow artifact and can be regenerated using build-curated-graph.mjs.",
+  "counts": {
+    "subject_nodes": 40,
+    "learning_edges": 33,
+    "excluded_nonprogression_reference_pairs": 40
+  },
+  "nodes": [
+    {
+      "id": "0-shell",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/README.md"
+    },
+    {
+      "id": "0-shell/job-control",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/job-control/README.md"
+    },
+    {
+      "id": "0-shell/scripting",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/scripting/README.md"
+    },
+    {
+      "id": "ascii-art",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/README.md"
+    },
+    {
+      "id": "ascii-art-web",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/README.md"
+    },
+    {
+      "id": "ascii-art-web/dockerize",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/dockerize/README.md"
+    },
+    {
+      "id": "ascii-art-web/export-file",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/export-file/README.md"
+    },
+    {
+      "id": "ascii-art-web/stylize",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/stylize/README.md"
+    },
+    {
+      "id": "ascii-art/color",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/color/README.md"
+    },
+    {
+      "id": "ascii-art/fs",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/fs/README.md"
+    },
+    {
+      "id": "ascii-art/justify",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/justify/README.md"
+    },
+    {
+      "id": "ascii-art/output",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/output/README.md"
+    },
+    {
+      "id": "ascii-art/reverse",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/reverse/README.md"
+    },
+    {
+      "id": "bomberman-dom",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/bomberman-dom/README.md"
+    },
+    {
+      "id": "forum",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/README.md"
+    },
+    {
+      "id": "forum/advanced-features",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/advanced-features/README.md"
+    },
+    {
+      "id": "forum/image-upload",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/image-upload/README.md"
+    },
+    {
+      "id": "forum/moderation",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/moderation/README.md"
+    },
+    {
+      "id": "forum/security",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/security/README.md"
+    },
+    {
+      "id": "groupie-tracker",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/README.md"
+    },
+    {
+      "id": "groupie-tracker/filters",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/filters/README.md"
+    },
+    {
+      "id": "groupie-tracker/geolocalization",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/geolocalization/README.md"
+    },
+    {
+      "id": "groupie-tracker/search-bar",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/search-bar/README.md"
+    },
+    {
+      "id": "groupie-tracker/visualizations",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/visualizations/README.md"
+    },
+    {
+      "id": "lalgebra_scalar",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/lalgebra_scalar/README.md"
+    },
+    {
+      "id": "make-your-game",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/README.md"
+    },
+    {
+      "id": "make-your-game/different-maps",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/different-maps/README.md"
+    },
+    {
+      "id": "make-your-game/history",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/history/README.md"
+    },
+    {
+      "id": "make-your-game/score-handling",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/score-handling/README.md"
+    },
+    {
+      "id": "matrix",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix/README.md"
+    },
+    {
+      "id": "matrix_ops",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix_ops/README.md"
+    },
+    {
+      "id": "mini-framework",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/mini-framework/README.md"
+    },
+    {
+      "id": "mobile-dev/package",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/mobile-dev/package/README.md"
+    },
+    {
+      "id": "mobile-dev/secure-notes",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/mobile-dev/secure-notes/README.md"
+    },
+    {
+      "id": "real-time-forum",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/real-time-forum/README.md"
+    },
+    {
+      "id": "real-time-forum/typing-in-progress",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/real-time-forum/typing-in-progress/README.md"
+    },
+    {
+      "id": "road_intersection",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/road_intersection/README.md"
+    },
+    {
+      "id": "smart-road",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/smart-road/README.md"
+    },
+    {
+      "id": "social-network",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/social-network/README.md"
+    },
+    {
+      "id": "social-network/cross-platform-appimage",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/social-network/cross-platform-appimage/README.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "0-shell",
+      "to": "0-shell/job-control",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/job-control/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "0-shell",
+      "to": "0-shell/scripting",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/0-shell/scripting/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art-web",
+      "relation": "references_prior_project",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art-web/export-file",
+      "relation": "uses_output",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/export-file/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/color",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/color/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/fs",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/fs/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/justify",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/justify/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/output",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/output/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/reverse",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art/reverse/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/dockerize",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/dockerize/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/export-file",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/export-file/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/stylize",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/ascii-art-web/stylize/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "forum",
+      "to": "forum/advanced-features",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/advanced-features/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "forum",
+      "to": "forum/image-upload",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/image-upload/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "forum",
+      "to": "forum/moderation",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/moderation/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "forum",
+      "to": "forum/security",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/forum/security/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "forum",
+      "to": "real-time-forum",
+      "relation": "references_prior_project",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/real-time-forum/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/filters",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/filters/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/geolocalization",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/geolocalization/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/search-bar",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/search-bar/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/visualizations",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/groupie-tracker/visualizations/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "lalgebra_scalar",
+      "to": "matrix",
+      "relation": "requires_prior_structure",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "lalgebra_scalar",
+      "to": "matrix_ops",
+      "relation": "requires_prior_structure",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix_ops/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "make-your-game",
+      "to": "bomberman-dom",
+      "relation": "references_prior_principles",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/bomberman-dom/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "make-your-game",
+      "to": "make-your-game/different-maps",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/different-maps/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "make-your-game",
+      "to": "make-your-game/history",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/history/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "make-your-game",
+      "to": "make-your-game/score-handling",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/make-your-game/score-handling/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "matrix",
+      "to": "matrix_ops",
+      "relation": "requires_prior_structure",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/matrix_ops/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "mini-framework",
+      "to": "bomberman-dom",
+      "relation": "requires_prior_project_output",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/bomberman-dom/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "mobile-dev/secure-notes",
+      "to": "mobile-dev/package",
+      "relation": "builds_on_prior_project",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/mobile-dev/package/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "real-time-forum",
+      "to": "real-time-forum/typing-in-progress",
+      "relation": "extends",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/real-time-forum/typing-in-progress/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "road_intersection",
+      "to": "smart-road",
+      "relation": "references_prior_piscine_raid",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/smart-road/README.md",
+      "official_unlock": "not_established"
+    },
+    {
+      "from": "social-network",
+      "to": "social-network/cross-platform-appimage",
+      "relation": "parent_project_context",
+      "source_url": "https://github.com/Vict1111-code/01edu_public/blob/master/subjects/social-network/cross-platform-appimage/README.md",
+      "official_unlock": "not_established"
+    }
+  ]
+}
