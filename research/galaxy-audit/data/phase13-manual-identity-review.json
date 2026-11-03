@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-11-03",
+  "method": "Manual public README spot checks of plausible name variants; no learner solution code comparison",
+  "limitations": "A candidate name does not establish exercise identity, official quest order, or membership",
+  "cases": [
+    {
+      "archive_name": "sortingintegertable-notmy",
+      "source_group": "QUEST-03",
+      "candidate": "sortintegertable",
+      "confidence": "high_name_variant",
+      "evidence": "Exact public subject title matches after removing learner suffix -notmy. README defines SortIntegerTable sorting int slice ascending.",
+      "official_assignment_identity": "not_confirmed"
+    },
+    {
+      "archive_name": "printnbrinorder1",
+      "source_group": "QUEST-05",
+      "candidate": "printnbrinorder",
+      "confidence": "high_name_variant",
+      "evidence": "Exact public subject name after removing trailing numeric suffix. README prints digits of int in ascending order.",
+      "official_assignment_identity": "not_confirmed"
+    },
+    {
+      "archive_name": "firstruneprog",
+      "source_group": "random-prep",
+      "candidate": "firstrune",
+      "confidence": "plausible_name_variant",
+      "evidence": "Public firstrune subject exists and specifies FirstRune(s string) rune. Learner suffix -prog may indicate practice implementation.",
+      "official_assignment_identity": "not_confirmed"
+    },
+    {
+      "archive_name": "split2",
+      "source_group": "random-prep",
+      "candidate": "split",
+      "confidence": "plausible_name_variant",
+      "evidence": "Public split subject exists, but trailing digit could also indicate separate exercise or local variant.",
+      "official_assignment_identity": "not_confirmed"
+    },
+    {
+      "archive_name": "raid1a",
+      "source_group": "raid01",
+      "candidate": null,
+      "confidence": "unresolved",
+      "evidence": "Public quadchecker mentions raid based on quad functions, but raid1a is not a public subject title and no source-file comparison was performed.",
+      "official_assignment_identity": "not_confirmed"
+    },
+    {
+      "archive_name": "countfiles",
+      "source_group": "QUEST-01",
+      "candidate": null,
+      "confidence": "unresolved",
+      "evidence": "No exact subjects/countfiles/README.md in checked public snapshot; could be a shell assignment, renamed task or local script.",
+      "official_assignment_identity": "not_confirmed"
+    },
+    {
+      "archive_name": "bloody-sunday",
+      "source_group": "root",
+      "candidate": null,
+      "confidence": "unresolved",
+      "evidence": "No exact subjects/bloody-sunday/README.md in checked public snapshot. Could be historical or community-specific.",
+      "official_assignment_identity": "not_confirmed"
+    }
+  ]
+}
