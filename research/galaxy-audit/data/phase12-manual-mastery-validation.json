@@ -1,0 +1,179 @@
+{
+  "as_of": "2026-11-03",
+  "method": "Manual direct-README spot checks of twelve subjects, four per language",
+  "note": "Source requirements are paraphrased from public README. Independent checks are suggestions, not official hidden tests or audit requirements.",
+  "reviewed": [
+    {
+      "language": "go",
+      "subject": "basicatoi",
+      "concept": "string-to-integer conversion",
+      "source_requirement": "Only valid digit strings are tested; signs are excluded; return int rather than error",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "single digit",
+        "leading zeros",
+        "multi-digit value"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/basicatoi/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "go",
+      "subject": "eightqueens",
+      "concept": "recursion and backtracking",
+      "source_requirement": "Recursion must be used; print eight-queens solutions in ascending order, one per line",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "valid non-attacking positions",
+        "ascending order",
+        "no duplicate solutions"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/eightqueens/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "go",
+      "subject": "listat",
+      "concept": "linked-list pointer traversal",
+      "source_requirement": "Return NodeL pointer at given position; return nil in error cases",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "head and tail positions",
+        "negative and out-of-range positions",
+        "empty list"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/listat/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "go",
+      "subject": "btreeapplybylevel",
+      "concept": "breadth-first tree traversal",
+      "source_requirement": "Apply callback to every node by level; README usage prints 4, 1, 7, 5",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "empty tree",
+        "single node",
+        "unbalanced tree",
+        "left-to-right level ordering"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/btreeapplybylevel/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "rust",
+      "subject": "hello_rust",
+      "concept": "Cargo and repository setup",
+      "source_requirement": "Introduces the first Rust Piscine exercise and repository conventions",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "reproducible repository structure",
+        "successful build and test commands"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/hello_rust/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "rust",
+      "subject": "borrow",
+      "concept": "borrowing and UTF-8",
+      "source_requirement": "Function accepts borrowed string and returns its length in characters",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "empty input",
+        "multibyte characters",
+        "does not consume owned String"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/borrow/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "rust",
+      "subject": "matrix_ops",
+      "concept": "generic matrix operators",
+      "source_requirement": "Implement Add, Sub, Mul, reusing Matrix and Scalar from earlier subjects; use Wrapper to implement operators",
+      "source_type": "direct_readme",
+      "documented_prior_subjects": [
+        "matrix",
+        "lalgebra_scalar"
+      ],
+      "independent_checks": [
+        "dimension compatibility",
+        "identity matrix",
+        "zero matrix"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/matrix_ops/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "rust",
+      "subject": "boxing_todo",
+      "concept": "structured parsing and error types",
+      "source_requirement": "Parse todo JSON with multiple typed errors and dynamic boxed error handling",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "valid JSON",
+        "malformed JSON",
+        "missing fields and invalid levels"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/boxing_todo/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "javascript",
+      "subject": "how-2-js",
+      "concept": "JavaScript runtimes and execution",
+      "source_requirement": "Welcome to JS Piscine; explains browser and Node/Deno environments and first JS execution",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "runs in expected environment",
+        "explains runtime differences"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/how-2-js/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "javascript",
+      "subject": "get-json",
+      "concept": "Promise and fetch error handling",
+      "source_requirement": "Construct URL with optional query parameters; fetch; throw on non-OK response; parse data or error JSON",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "query string",
+        "HTTP error",
+        "JSON error payload",
+        "network rejection"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/get-json/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "javascript",
+      "subject": "build-brick-and-break",
+      "concept": "DOM timers and event handlers",
+      "source_requirement": "Build three-column brick tower with 100ms intervals; use IDs, foundation data attributes and click-triggered actions",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "correct DOM hierarchy",
+        "timer behavior",
+        "repair and destroy interactions"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/build-brick-and-break/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    },
+    {
+      "language": "javascript",
+      "subject": "gossip-grid",
+      "concept": "DOM forms and stateful UI",
+      "source_requirement": "Render gossip cards and form; allow adding gossip; range controls adjust width, font size and background lightness",
+      "source_type": "direct_readme",
+      "independent_checks": [
+        "new card insertion",
+        "range boundaries",
+        "form behavior and accessibility"
+      ],
+      "source_url": "https://github.com/01-edu/public/blob/master/subjects/gossip-grid/README.md",
+      "assessment_status": "independent_suggested_checks_not_official_grader"
+    }
+  ]
+}
