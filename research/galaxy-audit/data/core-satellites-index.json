@@ -38,7 +38,7 @@
       "depth": 2,
       "readme_sha": "814d32dc3446aa1abc90a3aa1ea387b554691bee",
       "audit_sha": null,
-      "relationship": "nested_extension_candidate; content inspection required"
+      "relationship": "supporting_examples_not_confirmed_assignment"
     },
     {
       "path": "ascii-art/fs",
@@ -134,7 +134,7 @@
       "depth": 2,
       "readme_sha": "b228e9110677fafd538494d1430bb66442fa280e",
       "audit_sha": null,
-      "relationship": "nested_extension_candidate; content inspection required"
+      "relationship": "supporting_examples_not_confirmed_assignment"
     },
     {
       "path": "forum/advanced-features",
