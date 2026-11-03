@@ -64,8 +64,8 @@ function stripCode(s){
  return s.replace(fenced,' [code example] ').replace(inline,'$1').replace(/!\[[^\]]*\]\([^)]+\)/g,'');
 }
 export function sections(md){
- const headers=[...md.matchAll(/^#{2,5}\s+([^\n#]+)\s*$/gm)].map(m=>({title:m[1].trim().toLowerCase(),at:m.index,end:m.index+m[0].length}));
- const part=re=>{const h=headers.find(x=>re.test(x.title));if(!h)return '';const n=headers.find(x=>x.at>h.at);return md.slice(h.end,n?.at??md.length);};
+ const headers=[...md.matchAll(/^#{2,5}\s+([^\n#]+)\s*$/gm)].map(m=>({title:m[1].trim().toLowerCase(),at:m.index,end:m.index+m[0].length,level:m[0].match(/^#+/)[0].length}));
+ const part=re=>{const h=headers.find(x=>re.test(x.title));if(!h)return '';const n=headers.find(x=>x.at>h.at&&x.level<=h.level);return md.slice(h.end,n?.at??md.length);};
  const ins=part(/^instructions?$/),not=part(/^notions?$|^resources?$/);
  return {instructions:stripCode(ins||md.slice(0,Math.min(md.length,3000))),
  notions:stripCode(not),instructions_section_found:!!ins,notions_section_found:!!not};
