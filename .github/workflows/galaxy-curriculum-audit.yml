@@ -81,6 +81,12 @@ jobs:
       - name: Reconcile 110 low-evidence candidates and flag ambiguous keywords
         run: node research/galaxy-audit/scripts/triage-piscine-evidence.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 17 semantic source corrections and 24 mastery assessments
+        run: node --test research/galaxy-audit/scripts/apply-semantic-source-reviews.test.mjs
+
+      - name: Build Phase 17 reviewed curriculum and original mastery handbook
+        run: node research/galaxy-audit/scripts/apply-semantic-source-reviews.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -148,5 +154,11 @@ jobs:
             research/galaxy-audit/generated/go-phase16-reviewed-study-guide.md
             research/galaxy-audit/generated/rust-phase16-reviewed-study-guide.md
             research/galaxy-audit/generated/javascript-phase16-reviewed-study-guide.md
+            research/galaxy-audit/generated/piscine-phase17-semantic-curriculum.json
+            research/galaxy-audit/generated/piscine-phase17-pending-source-reviews.json
+            research/galaxy-audit/generated/go-phase17-semantic-study-guide.md
+            research/galaxy-audit/generated/rust-phase17-semantic-study-guide.md
+            research/galaxy-audit/generated/javascript-phase17-semantic-study-guide.md
+            research/galaxy-audit/generated/phase17-original-mastery-assessments.md
           retention-days: 14
           if-no-files-found: error
