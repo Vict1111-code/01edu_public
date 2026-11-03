@@ -40,3 +40,19 @@ test('documented subject edges stay distinct from recommended concept edges',()=
  assert.ok(rust.concept_edges.every(e=>e.evidence_type==='educational_inference'));
  assert.match(report(d,'rust'),/matrix → matrix_ops/);
 });
+
+test('name-only concept hints are labeled low confidence and rejected aliases are not inferred',()=>{
+ const p={exercise_cards:[
+  {language:'go',exercise:'listreverse',proposed_stage:7,difficulty:{score:60,signals:[]},source_based_prerequisite_candidates:[]},
+  {language:'go',exercise:'split2',proposed_stage:null,difficulty:null,source_based_prerequisite_candidates:[]},
+  {language:'javascript',exercise:'gossip-grid',proposed_stage:6,difficulty:{score:49,signals:[]},source_based_prerequisite_candidates:[]}
+ ]};
+ const review={records:[{language:'go',archive_exercise_id:'split2',disposition:'false_name_match_rejected',possible_public_subject:null}]};
+ const d=assemble(p,review);
+ const list=d.languages.go.exercise_concept_cards.find(x=>x.exercise==='listreverse');
+ const split=d.languages.go.exercise_concept_cards.find(x=>x.exercise==='split2');
+ assert.equal(list.concept_classification,'name_only_low_confidence');
+ assert.ok(list.concepts.includes('linked_lists'));
+ assert.deepEqual(split.concepts,[]);
+ assert.ok(d.languages.javascript.exercise_concept_cards[0].concepts.includes('dom'));
+});
