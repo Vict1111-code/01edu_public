@@ -35,10 +35,15 @@ Visual transcript and Git source verification now cover the **17 core green-ring
 
 **Still unknown:** full official Piscine quest ordering, all cross-band satellite paths, current locked progression rules, and detailed criteria for every project. Screenshot order is not an unlock graph.
 
+## Phase 3 — Satellite and extension sampling (2026-11-03)
+
+The 17 central projects contain **26 nested README-bearing directories**, of which **24 have corresponding audit README files and are extension candidates**, while two `examples/` directories are not confirmed assignments. Six additional standalone satellite projects have had their README and audit files inspected. See [satellite findings](findings/core-satellites-2026-11-03.md). Exact official orbit placement and sequencing remain unverified.
+
 ## Artifacts
 
 | File | Coverage | Method |
 | --- | --- | --- |
+| [data/core-satellites-index.json](data/core-satellites-index.json) | 26 nested core README directories, audit presence, and six sampled satellite projects | Recursive Git tree plus sample README reading |
 | [data/screenshot-core-index.json](data/screenshot-core-index.json) | 17 screenshot-identified core projects cross-checked against public subject and audit blobs | Screenshot reading and Git tree hashes |
 | [data/foundation-project-profiles.json](data/foundation-project-profiles.json) | 17 core project summaries, skills, technologies, Piscine evidence, and project execution risks | Individual README inspection |
 | [data/foundation-dependency-evidence.json](data/foundation-dependency-evidence.json) | 14 source-backed core/Piscine project relationships with typed distinctions | Individual README references and stated requirements |
@@ -51,6 +56,7 @@ Visual transcript and Git source verification now cover the **17 core green-ring
 | [data/track-coverage.json](data/track-coverage.json) | Entire 3,505-entry subject tree and major nested collections | Recursive Git Trees API |
 | [data/auxiliary-coverage.json](data/auxiliary-coverage.json) | JS/DOM test harnesses, shell tooling, employment tasks, support docs | Recursive Git Trees API, README inspection |
 | [data/dependency-evidence.json](data/dependency-evidence.json) | Five explicitly supported sample subject relationships | Links and wording from subject README files |
+| [findings/core-satellites-2026-11-03.md](findings/core-satellites-2026-11-03.md) | Satellite project briefs, audit availability and six confirmed parent extension relationships | Direct README and audit inspection |
 | [findings/foundation-core-reconstruction-2026-11-03.md](findings/foundation-core-reconstruction-2026-11-03.md) | Evidence-backed Go/Rust/JS Piscines and 17 central Galaxy project nodes | Screenshot cross-reference and subject review |
 | [findings/full-subject-structure-2026-11-03.md](findings/full-subject-structure-2026-11-03.md) | Full-Galaxy structural audit and sampling of six specialization collections | Tree statistics and representative README inspection |
 | [findings/initial-audit-2026-11-03.md](findings/initial-audit-2026-11-03.md) | Findings, limitations, and next work | Recorded evidence |
