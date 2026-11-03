@@ -41,7 +41,11 @@ The 17 central projects contain **26 nested README-bearing directories**, of whi
 
 ## Phase 4 — Reproducible link-extraction pipeline (2026-11-03)
 
-The [Node.js subject-reference extractor](scripts/README.md) and five-test suite are committed. They scan the public `subjects/` checkout for Markdown references and produce JSON plus CSV, with confidence-labeled relationships. **Full extraction and tests are not yet executed** because this environment could not clone the source (network/DNS restriction). A separate [manual verification sample](data/extractor-manual-validation-sample.json) contains **15 human-reviewed reference edges from 16 inspected subject READMEs**. Do not mistake that sample for a complete 1,233-node relationship graph.
+The [Node.js subject-reference extractor](scripts/README.md) and five-test suite are committed. They scan the public `subjects/` checkout for Markdown references and produce JSON plus CSV, with confidence-labeled relationships. **GitHub Actions ran the full extraction and test suite successfully** on 2026-11-03: 1,233 subject READMEs, 75 candidate internal references, 2,448 external links, and 157 unresolved local links. See [run report](findings/full-extraction-ci-2026-11-03.md). A separate [manual verification sample](data/extractor-manual-validation-sample.json) contains **15 human-reviewed reference edges from 16 inspected subject READMEs**. The successful CI scan now supplies the complete *parser-detectable* link catalog; its edge classifications remain heuristic and are not verified unlock prerequisites.
+
+## GitHub Actions run
+
+[View successful full scan and download artifacts](https://github.com/Vict1111-code/01edu_public/actions/runs/41645792476). The artifact is retained for 14 days. See [run findings](findings/full-extraction-ci-2026-11-03.md) for persistent summary counts.
 
 ## Artifacts
 
@@ -62,6 +66,7 @@ The [Node.js subject-reference extractor](scripts/README.md) and five-test suite
 | [data/track-coverage.json](data/track-coverage.json) | Entire 3,505-entry subject tree and major nested collections | Recursive Git Trees API |
 | [data/auxiliary-coverage.json](data/auxiliary-coverage.json) | JS/DOM test harnesses, shell tooling, employment tasks, support docs | Recursive Git Trees API, README inspection |
 | [data/dependency-evidence.json](data/dependency-evidence.json) | Five explicitly supported sample subject relationships | Links and wording from subject README files |
+| [findings/full-extraction-ci-2026-11-03.md](findings/full-extraction-ci-2026-11-03.md) | Verified first successful 1,233-subject CI extraction, counts, and limitations | GitHub Actions job logs |
 | [findings/core-satellites-2026-11-03.md](findings/core-satellites-2026-11-03.md) | Satellite project briefs, audit availability and six confirmed parent extension relationships | Direct README and audit inspection |
 | [findings/foundation-core-reconstruction-2026-11-03.md](findings/foundation-core-reconstruction-2026-11-03.md) | Evidence-backed Go/Rust/JS Piscines and 17 central Galaxy project nodes | Screenshot cross-reference and subject review |
 | [findings/full-subject-structure-2026-11-03.md](findings/full-subject-structure-2026-11-03.md) | Full-Galaxy structural audit and sampling of six specialization collections | Tree statistics and representative README inspection |
