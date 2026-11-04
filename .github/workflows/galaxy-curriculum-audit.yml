@@ -13,6 +13,7 @@ on:
       - 'research/galaxy-audit/data/phase21*'
       - 'research/galaxy-audit/data/phase22*'
       - 'research/galaxy-audit/data/phase23*'
+      - 'research/galaxy-audit/data/phase24*'
 
 permissions:
   contents: read
@@ -128,6 +129,12 @@ jobs:
       - name: Verify visual labels, source hashes, and core arc identities
         run: node research/galaxy-audit/scripts/verify-phase23-visual-anchors.mjs .
 
+      - name: Test Phase 24 unmatched README triage
+        run: node --test research/galaxy-audit/scripts/triage-remaining-446.test.mjs
+
+      - name: Scan all 446 archive-unmatched public README files
+        run: node research/galaxy-audit/scripts/triage-remaining-446.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -213,5 +220,8 @@ jobs:
             research/galaxy-audit/generated/phase21-top-level-project-guide.md
             research/galaxy-audit/generated/phase21-expanded-project-verification.json
             research/galaxy-audit/generated/phase21-expanded-project-guide.md
+            research/galaxy-audit/generated/phase24-unmatched-readme-triage.json
+            research/galaxy-audit/generated/phase24-triage-report.md
+            research/galaxy-audit/generated/phase24-summary.json
           retention-days: 14
           if-no-files-found: error
