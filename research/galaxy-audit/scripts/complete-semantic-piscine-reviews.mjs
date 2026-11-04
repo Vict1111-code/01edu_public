@@ -47,7 +47,8 @@ export function build(prior,queue,reviews,root){
   validated.set(id,{...r,public_sha256:createHash('sha256').update(body).digest('hex'),
    public_bytes:Buffer.byteLength(body)});
  }
- const languages={},log=[],unplaced=[],changedStages=0;
+ const languages={},log=[],unplaced=[];
+ let changedStages=0;
  for(const [language,group] of Object.entries(prior.languages)){
   const cards=group.exercise_cards.map(x=>{
    const r=validated.get(key(x));
