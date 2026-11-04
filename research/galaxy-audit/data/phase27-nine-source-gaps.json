@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "phase": 27,
+  "as_of": "2026-11-04",
+  "source_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "status": "Research restored one historically documented exercise; eight remain source-specification insufficient",
+  "method": "Inspected pinned current README, its directory listing, repository recursive file paths, and README commit history. Historical content must never be substituted for current platform requirements.",
+  "counts": {
+    "gaps": 9,
+    "current_specification_complete": 0,
+    "historical_specification_found": 1,
+    "remaining_insufficient_sources": 8
+  },
+  "entries": [
+    {
+      "id": "argsort",
+      "source_path": "subjects/argsort/README.md",
+      "current_readme_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "source_phrase": " ",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "089cdf3bfab8bf400d907dcc3789db069a8a464b",
+        "e519af63e1abd9c796ab8ce9cbbf6547659e7f57"
+      ],
+      "historical_restoration": {
+        "commit": "e519af63e1abd9c796ab8ce9cbbf6547659e7f57",
+        "blob_sha": "7fd490804cd822809127a96daa3320d3af25cf93",
+        "source_url": "https://github.com/Vict1111-code/01edu_public/blob/e519af63e1abd9c796ab8ce9cbbf6547659e7f57/subjects/argsort/README.md",
+        "language": "go",
+        "semantic_summary": "Command-line program that checks whether the printable ASCII characters of an input argument are in ascending order and prints T/F.",
+        "status": "historical_documentation_only_not_official_current"
+      },
+      "notes": "Current README consists of one whitespace character. A prior README at commit e519af63e1abd9c796ab8ce9cbbf6547659e7f57 documents a Go CLI check for ascending ASCII order and T/F output. HISTORICAL ONLY, not proven current.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cloning-vs-copying",
+      "source_path": "subjects/cloning-vs-copying/README.md",
+      "current_readme_sha": "04d6d7df2afcd0288f62416cb650ccf1066bcded",
+      "source_phrase": "### Instructions",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "5ff30bcf333ba108c5c72c9fffd2a4af3f3d76d0"
+      ],
+      "historical_restoration": null,
+      "notes": "Only an Instructions heading; no stated task, input or output.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "frozen-more-about-mutability",
+      "source_path": "subjects/frozen-more-about-mutability/README.md",
+      "current_readme_sha": "530764932a32f72779b532f47a8e17bb34ff9047",
+      "source_phrase": "### Instructions",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "5ff30bcf333ba108c5c72c9fffd2a4af3f3d76d0"
+      ],
+      "historical_restoration": null,
+      "notes": "Only an Instructions heading; no stated task, input or output.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "if-methods",
+      "source_path": "subjects/if-methods/README.md",
+      "current_readme_sha": "1fc0f2bd1bba2df4fd18f8d7c11b7d596452c1c3",
+      "source_phrase": "startsWith / endWith",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "5ff30bcf333ba108c5c72c9fffd2a4af3f3d76d0"
+      ],
+      "historical_restoration": null,
+      "notes": "Notes mention startsWith and endsWith but no complete assignment.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nested-loops",
+      "source_path": "subjects/nested-loops/README.md",
+      "current_readme_sha": "c1497eb2a0523e796962594e09caca1d568c0375",
+      "source_phrase": "pyramid 1",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "5ff30bcf333ba108c5c72c9fffd2a4af3f3d76d0"
+      ],
+      "historical_restoration": null,
+      "notes": "Short note about first pyramid, no complete instructions.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nested-loops-2",
+      "source_path": "subjects/nested-loops-2/README.md",
+      "current_readme_sha": "5798b0181946ecc048b8ab8df7cdb3a5c33ddce7",
+      "source_phrase": "pyramid centred",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "5ff30bcf333ba108c5c72c9fffd2a4af3f3d76d0"
+      ],
+      "historical_restoration": null,
+      "notes": "Short note about centered pyramid using padding, not a complete assignment.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nested-loops-3",
+      "source_path": "subjects/nested-loops-3/README.md",
+      "current_readme_sha": "be16674789ea71c7e6a143a63bd9bb94b663937f",
+      "source_phrase": "diamon (pyramid + reversed pyramid)",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "5ff30bcf333ba108c5c72c9fffd2a4af3f3d76d0"
+      ],
+      "historical_restoration": null,
+      "notes": "Short note on diamond of pyramids, not a complete assignment.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "recursion",
+      "source_path": "subjects/recursion/README.md",
+      "current_readme_sha": "07358e81da39fa1b7a66ed25cff9b070ed97ddec",
+      "source_phrase": "### Instructions",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "d3a8b566462d4d3dcca5ab62a1b381ffda5e033d"
+      ],
+      "historical_restoration": null,
+      "notes": "Only an Instructions heading, no actionable specification.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "repeated",
+      "source_path": "subjects/repeated/README.md",
+      "current_readme_sha": "fbd884015d97cec914a85be98cebacd1b4b6f5d6",
+      "source_phrase": "repeat a string N times",
+      "current_status": "insufficient_public_readme",
+      "directory_files": [
+        "README.md"
+      ],
+      "recent_history_commits_checked": [
+        "5ff30bcf333ba108c5c72c9fffd2a4af3f3d76d0"
+      ],
+      "historical_restoration": null,
+      "notes": "Fragment describes string repetition without defining full behavior.",
+      "unverified_external_test_material": true,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    }
+  ]
+}
