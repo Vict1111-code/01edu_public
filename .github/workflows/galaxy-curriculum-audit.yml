@@ -142,6 +142,12 @@ jobs:
       - name: Verify 34 manual semantic reviews against README text and priority queue
         run: node research/galaxy-audit/scripts/verify-phase25-semantic-reviews.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 26 full-source exporter
+        run: node --test research/galaxy-audit/scripts/export-phase26-priority-sources.test.mjs
+
+      - name: Export Phase 26 priority sources for manual semantic inspection
+        run: node research/galaxy-audit/scripts/export-phase26-priority-sources.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -231,5 +237,6 @@ jobs:
             research/galaxy-audit/generated/phase24-triage-report.md
             research/galaxy-audit/generated/phase24-summary.json
             research/galaxy-audit/generated/phase25-semantic-review-attestation.json
+            research/galaxy-audit/generated/phase26-285-full-source-bundle.json
           retention-days: 14
           if-no-files-found: error
