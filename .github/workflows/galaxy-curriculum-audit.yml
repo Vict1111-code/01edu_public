@@ -12,6 +12,7 @@ on:
       - 'research/galaxy-audit/data/phase20*'
       - 'research/galaxy-audit/data/phase21*'
       - 'research/galaxy-audit/data/phase22*'
+      - 'research/galaxy-audit/data/phase23*'
 
 permissions:
   contents: read
@@ -120,6 +121,12 @@ jobs:
 
       - name: Verify 736-subject coverage and ten README source phrases
         run: node research/galaxy-audit/scripts/validate-phase22-coverage.mjs .
+
+      - name: Test Phase 23 screenshot source anchors
+        run: node --test research/galaxy-audit/scripts/verify-phase23-visual-anchors.test.mjs
+
+      - name: Verify visual labels, source hashes, and core arc identities
+        run: node research/galaxy-audit/scripts/verify-phase23-visual-anchors.mjs .
 
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
