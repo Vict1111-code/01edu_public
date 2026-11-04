@@ -168,6 +168,12 @@ jobs:
       - name: Verify recovered historical sources and 16 documented relationships
         run: node research/galaxy-audit/scripts/verify-phase27-evidence.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 27 unified 455-subject catalog
+        run: node --test research/galaxy-audit/scripts/build-phase27-455-closure.test.mjs
+
+      - name: Build unified 455-reviewed-subject JSON and CSV
+        run: node research/galaxy-audit/scripts/build-phase27-455-closure.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -263,5 +269,7 @@ jobs:
             research/galaxy-audit/generated/phase27-source-verified-127.json
             research/galaxy-audit/generated/phase27-source-verified-127.md
             research/galaxy-audit/generated/phase27-evidence-attestation.json
+            research/galaxy-audit/generated/phase27-unified-455-reviewed.json
+            research/galaxy-audit/generated/phase27-unified-455-reviewed.csv
           retention-days: 14
           if-no-files-found: error
