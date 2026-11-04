@@ -87,6 +87,12 @@ jobs:
       - name: Build Phase 17 reviewed curriculum and original mastery handbook
         run: node research/galaxy-audit/scripts/apply-semantic-source-reviews.mjs . research/galaxy-audit/generated
 
+      - name: Test closure of all 95 public-source semantic reviews
+        run: node --test research/galaxy-audit/scripts/complete-semantic-piscine-reviews.test.mjs
+
+      - name: Produce the completed Phase 18 curriculum and reviewed guides
+        run: node research/galaxy-audit/scripts/complete-semantic-piscine-reviews.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -160,5 +166,11 @@ jobs:
             research/galaxy-audit/generated/rust-phase17-semantic-study-guide.md
             research/galaxy-audit/generated/javascript-phase17-semantic-study-guide.md
             research/galaxy-audit/generated/phase17-original-mastery-assessments.md
+            research/galaxy-audit/generated/piscine-phase18-complete-source-audit.json
+            research/galaxy-audit/generated/piscine-phase18-completed-95-review-log.json
+            research/galaxy-audit/generated/piscine-phase18-unplaced-candidates.json
+            research/galaxy-audit/generated/go-phase18-source-checked-guide.md
+            research/galaxy-audit/generated/rust-phase18-source-checked-guide.md
+            research/galaxy-audit/generated/javascript-phase18-source-checked-guide.md
           retention-days: 14
           if-no-files-found: error
