@@ -1,7 +1,7 @@
 # Phase 22 — Non-audited Galaxy subject backlog reconciliation
 
 **Date:** 2026-11-04  
-**Status:** Reconciled indexed subjects with three community Piscine archives and verified ten additional source-level classifications.
+**Status:** Reconciled indexed subjects with three community Piscine archives and verified ten subject READMEs at source level, including one archive-matched name.
 
 ## Coverage of the entire top-level subject index
 
@@ -12,14 +12,15 @@
 | Without indexed audit/README.md | 736 |
 | Without audit README, matched by community Piscine archive name | 281 |
 | Without audit README, not matched by those archives | 455 |
-| Among the latter, source-verified in this phase | 10 |
-| Among the latter, awaiting source-level semantic review | 445 |
+| Of the 455 archive-unmatched, source-verified in this phase | 9 |
+| Additionally reviewed in archive-matched subjects | 1 |
+| Among archive-unmatched subjects, awaiting source-level review | 446 |
 
 The three community archives contained 322 candidate records, of which 287 were exact top-level public subject matches, representing 282 unique subject README paths. Five duplicate name records were deduplicated, without discarding their archive provenance. One matched subject, `sortable`, has its own indexed audit README.
 
 The 281 matched, unaudited subject names divide as: go 121, javascript 97, rust 63. **An archive name match does not establish official Piscine membership, quest order, mandatory status or unlock rules.**
 
-## Ten public README classifications outside the three archives
+## Ten public README classifications across both groups
 
 | README | Evidence-based educational classification | Source requirements |
 | --- | --- | --- |
@@ -34,7 +35,7 @@ The 281 matched, unaudited subject names divide as: go 121, javascript 97, rust 
 | [btreesearchitem](https://github.com/Vict1111-code/01edu_public/blob/research/galaxy-curriculum-audit/subjects/btreesearchitem/README.md) | go_tree_exercise | Find a tree node by data or return nil |
 | [adding](https://github.com/Vict1111-code/01edu_public/blob/research/galaxy-curriculum-audit/subjects/adding/README.md) | rust_closure_exercise | Return a closure for curried addition |
 
-Of these ten, nine specify individual exercises and one (`blockchain`) outlines a multi-quest track. This illustrates why the other unmatched names cannot be treated collectively as optional major projects.
+Of these ten, nine specify individual exercises and one (`blockchain`) outlines a multi-quest track. `btreesearchitem` is also found in the Go archive; it must not be counted among the 455 archive-unmatched names. This illustrates why the other unmatched names cannot be treated collectively as optional major projects.
 
 ## Next research stage
 
