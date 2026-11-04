@@ -1,0 +1,1161 @@
+{
+  "schema_version": "1.0",
+  "phase": 23,
+  "created_on": "2026-11-04",
+  "source_image": "User-uploaded Galaxy screenshot in current project conversation, 1280x720, 2026-11-04",
+  "source_repository": "Vict1111-code/01edu_public",
+  "source_repository_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "source_index": "research/galaxy-audit/data/subject-node-index.json",
+  "status": "Manual screenshot transcription cross-checked against public Git subject paths; source path presence verified, unlock order unverified.",
+  "method": "Read user-provided image visually at native and enlarged crops; include only legible subject IDs with exact path matches, preserve uncertain labels separately.",
+  "layout": {
+    "center": {
+      "piscine_markers": [
+        "Piscine Go",
+        "Piscine Rust",
+        "Piscine JS"
+      ],
+      "concept_axes": [
+        "Algorithms",
+        "Linux",
+        "Graphics"
+      ],
+      "interpretation": "Visual center of the Galaxy, not independent Git subject directory names."
+    },
+    "additional_piscine_markers": [
+      "Piscine AI",
+      "Piscine Blockchain",
+      "Piscine UX",
+      "Piscine UI",
+      "Piscine Flutter"
+    ],
+    "rings": [
+      {
+        "id": "inner_core",
+        "description": "Three green project arcs around central Piscines"
+      },
+      {
+        "id": "intermediate_project_group",
+        "description": "Additional projects, technical bridges, and local curriculum curves between green arcs and outer specializations"
+      },
+      {
+        "id": "outer_specialization",
+        "description": "Large labeled outer branch families"
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "imperative",
+      "title": "Imperative",
+      "kind": "inner_core",
+      "image_region": "upper-center",
+      "visual_transcription_confidence": "high",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "go-reloaded",
+          "visual_label": "go-reloaded",
+          "source_readme_path": "subjects/go-reloaded/README.md",
+          "public_subject_readme_sha": "6ba37f24b73b30affef72d71d4f6f648884fa792",
+          "public_audit_readme_sha": "a855792bb2a00e717a6c1542694341c02c14b74b",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "ascii-art",
+          "visual_label": "ascii-art",
+          "source_readme_path": "subjects/ascii-art/README.md",
+          "public_subject_readme_sha": "d129dbba5c410283e5707a1fb75d5cad966e09ea",
+          "public_audit_readme_sha": "fe501e5381cf2052a20734a706275aca92cbf9ba",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "ascii-art-web",
+          "visual_label": "ascii-art-web",
+          "source_readme_path": "subjects/ascii-art-web/README.md",
+          "public_subject_readme_sha": "c3596dbb506ca021b1bd77d311ad6dd89c911594",
+          "public_audit_readme_sha": "ab81fbf6f25304553dda1f5b7fb80a2fd7c94664",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "groupie-tracker",
+          "visual_label": "groupie-tracker",
+          "source_readme_path": "subjects/groupie-tracker/README.md",
+          "public_subject_readme_sha": "a7ebc77ae547d77ab6345b15333cbeb91d7f5a75",
+          "public_audit_readme_sha": "a9dbb16ae40614461e7a90a052a20c28009af72d",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "lem-in",
+          "visual_label": "lem-in",
+          "source_readme_path": "subjects/lem-in/README.md",
+          "public_subject_readme_sha": "f4b59ed4e19472fa18f5550edbadfc85f5af5033",
+          "public_audit_readme_sha": "db1836e3c3dbbf3773071a8e624376df7db795ec",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 6,
+          "subject_id": "forum",
+          "visual_label": "forum",
+          "source_readme_path": "subjects/forum/README.md",
+          "public_subject_readme_sha": "fe5dc5e6adb9ee4506b019b1b5a7f1d24100990f",
+          "public_audit_readme_sha": "14fbea1bba2e585efccc5ab32451ab06da9bd029",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture",
+      "kind": "inner_core",
+      "image_region": "left-center",
+      "visual_transcription_confidence": "high",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "0-shell",
+          "visual_label": "0-shell",
+          "source_readme_path": "subjects/0-shell/README.md",
+          "public_subject_readme_sha": "d74c37aa99cd19ad78fed651e8a5d545a3905309",
+          "public_audit_readme_sha": "5b63338893ad908ac99e497751c37bba5694cc05",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "multiplayer-fps",
+          "visual_label": "multiplayer-fps",
+          "source_readme_path": "subjects/multiplayer-fps/README.md",
+          "public_subject_readme_sha": "3a871b197e422ac049d722237907b414d54de582",
+          "public_audit_readme_sha": "c326cff31435df36150dd13f5d8f7c7ef76398cf",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "localhost",
+          "visual_label": "localhost",
+          "source_readme_path": "subjects/localhost/README.md",
+          "public_subject_readme_sha": "a2f05eefbdafc73ca07722b5e3d3db1badf1730b",
+          "public_audit_readme_sha": "c08a6cc3de0d4a340b5f803aa6a54a7b2a156425",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "rt",
+          "visual_label": "rt",
+          "source_readme_path": "subjects/rt/README.md",
+          "public_subject_readme_sha": "7e8e75c9b937871c3c751b5d161a83323be4c960",
+          "public_audit_readme_sha": "5c661c50042bb7d04ac734115955b3a23fcdec0c",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "filler",
+          "visual_label": "filler",
+          "source_readme_path": "subjects/filler/README.md",
+          "public_subject_readme_sha": "450585581a208636785ce64213256dd02b0e19ac",
+          "public_audit_readme_sha": "1a0a57ce7c7338767f9977202c432ffb6c75aeee",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 6,
+          "subject_id": "smart-road",
+          "visual_label": "smart-road",
+          "source_readme_path": "subjects/smart-road/README.md",
+          "public_subject_readme_sha": "1972d4f6cbb542d00604750e160360e0f8dfe952",
+          "public_audit_readme_sha": "d271a01d8e0b085f75e346d45cf422019751a4d4",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "full_stack",
+      "title": "Full-Stack",
+      "kind": "inner_core",
+      "image_region": "right-center",
+      "visual_transcription_confidence": "high",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "make-your-game",
+          "visual_label": "make-your-game",
+          "source_readme_path": "subjects/make-your-game/README.md",
+          "public_subject_readme_sha": "b8924947ac9c181e6dbded522882022dd8c65a8f",
+          "public_audit_readme_sha": "086de7233d94da9b50bd70a5bdd5c4a33ae7ba1f",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "real-time-forum",
+          "visual_label": "real-time-forum",
+          "source_readme_path": "subjects/real-time-forum/README.md",
+          "public_subject_readme_sha": "33b7aa448c1fe506b45d3b6175ababd4b93d6bdc",
+          "public_audit_readme_sha": "27828cc698d6f35e363803989e9eaa9cc5b14448",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "graphql",
+          "visual_label": "graphql",
+          "source_readme_path": "subjects/graphql/README.md",
+          "public_subject_readme_sha": "90350923f408391de9f692416063d6c9ba7bffa3",
+          "public_audit_readme_sha": "2f013bd2f76a946caa1143fd9b612b879613e9aa",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "social-network",
+          "visual_label": "social-network",
+          "source_readme_path": "subjects/social-network/README.md",
+          "public_subject_readme_sha": "ac1678faec5517c8fc872202b4dc1bd7b0497a11",
+          "public_audit_readme_sha": "c54712ebb99dab6f62f7012b13e4a987d4bd8cfb",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "mini-framework",
+          "visual_label": "mini-framework",
+          "source_readme_path": "subjects/mini-framework/README.md",
+          "public_subject_readme_sha": "e32819932501cdb93dd178f230e575a98d819104",
+          "public_audit_readme_sha": "4d5c5c288bcc927c5b237235b89a4fd6fea42aca",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "artificial_intelligence",
+      "title": "Artificial Intelligence",
+      "kind": "outer_specialization",
+      "image_region": "upper-left-to-top",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "ai/kaggle-titanic",
+          "visual_label": "kaggle-titanic",
+          "source_readme_path": "subjects/ai/kaggle-titanic/README.md",
+          "public_subject_readme_sha": "9e1c8f64ce56b07b093dfe8de98d5cace38094ed",
+          "public_audit_readme_sha": "363b2bcad15c171cbd0456380e3ad2f5d97baafe",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "ai/nlp-scraper",
+          "visual_label": "nlp-scraper",
+          "source_readme_path": "subjects/ai/nlp-scraper/README.md",
+          "public_subject_readme_sha": "71209fb802ecc80e335c1691f62a389ce49e2237",
+          "public_audit_readme_sha": "225dbeba46d7ae0612b9f8c842a0a29534e8c957",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "ai/emotions-detector",
+          "visual_label": "emotions-detector",
+          "source_readme_path": "subjects/ai/emotions-detector/README.md",
+          "public_subject_readme_sha": "df2a0b791dae06cedae1f184794f4ead6b5947a3",
+          "public_audit_readme_sha": "a9d85ffd618a5e4e5a4091f907cfaa753230a696",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "ai/sp500-strategies",
+          "visual_label": "sp500-strategies",
+          "source_readme_path": "subjects/ai/sp500-strategies/README.md",
+          "public_subject_readme_sha": "04405907b71a7f4867d9aef35824dfc2e55b0205",
+          "public_audit_readme_sha": "4994363010f7fa1d1ae2f8c67a0cc5212b05a905",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "ai/credit-scoring",
+          "visual_label": "credit-scoring",
+          "source_readme_path": "subjects/ai/credit-scoring/README.md",
+          "public_subject_readme_sha": "7e45d7aeed8661e901c9cc554be7412ad2034961",
+          "public_audit_readme_sha": "3c31f99776e5053fa583180864c3f28fe941f55a",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "cloud_devops",
+      "title": "Cloud DevOps",
+      "kind": "outer_specialization",
+      "image_region": "upper-left",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "devops/code-keeper",
+          "visual_label": "code-keeper",
+          "source_readme_path": "subjects/devops/code-keeper/README.md",
+          "public_subject_readme_sha": "5a4500df847a59f2590bf7eeab7d59b8c3366141",
+          "public_audit_readme_sha": "3c8c6b74f251db2393003fcc1133e2a7f8e41769",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "devops/cloud-design",
+          "visual_label": "cloud-design",
+          "source_readme_path": "subjects/devops/cloud-design/README.md",
+          "public_subject_readme_sha": "a07d58e0c8e7bad5b69d7ae3627469dccd9059c9",
+          "public_audit_readme_sha": "17e766692b44824b60837e9ac953c6abfa144708",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "devops/orchestrator",
+          "visual_label": "orchestrator",
+          "source_readme_path": "subjects/devops/orchestrator/README.md",
+          "public_subject_readme_sha": "790fc4ea2c6578598e3d864d677415db2e1869ad",
+          "public_audit_readme_sha": "33ced7779f484983e6103381f9748d84894f2bbf",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "devops/play-with-containers",
+          "visual_label": "play-with-containers",
+          "source_readme_path": "subjects/devops/play-with-containers/README.md",
+          "public_subject_readme_sha": "9e7c8520da4e0ea224532be16b63c88487c3115a",
+          "public_audit_readme_sha": "929112867be198b00493927c7ff3892caa508edb",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "devops/crud-master",
+          "visual_label": "crud-master",
+          "source_readme_path": "subjects/devops/crud-master/README.md",
+          "public_subject_readme_sha": "dc75787483cf2bb3bbc097f2db1207aef6198f9c",
+          "public_audit_readme_sha": "a722bec2fa5c2715204e4c0c6b55d5121db6d3f2",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 6,
+          "subject_id": "devops/deep-in-system",
+          "visual_label": "deep-in-system",
+          "source_readme_path": "subjects/devops/deep-in-system/README.md",
+          "public_subject_readme_sha": "71a08b3713ddbde659ccebc1bd5f9f96f6060034",
+          "public_audit_readme_sha": "6926de9c6c714478b781b20fc91f21c8c9097318",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 7,
+          "subject_id": "devops/deep-in-net",
+          "visual_label": "deep-in-net",
+          "source_readme_path": "subjects/devops/deep-in-net/README.md",
+          "public_subject_readme_sha": "fe952f517b096a8e1276b510bef4c3b1f8acfc6b",
+          "public_audit_readme_sha": "befda4289e17866d9e15d51553985dee7a6705d0",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "video_games",
+      "title": "Video Games",
+      "kind": "outer_specialization",
+      "image_region": "upper-right",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "gaming/firing-range",
+          "visual_label": "firing-range",
+          "source_readme_path": "subjects/gaming/firing-range/README.md",
+          "public_subject_readme_sha": "6fdd1c1f1f50bfefb199a11990d24cf6619f3da6",
+          "public_audit_readme_sha": "f3bbd49b7df1939d269071a665a78a8f39892895",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "gaming/widget-factory",
+          "visual_label": "widget-factory",
+          "source_readme_path": "subjects/gaming/widget-factory/README.md",
+          "public_subject_readme_sha": "43dffb54af7f66d7acac95e09db9cde08a6ab531",
+          "public_audit_readme_sha": "510de2534706b72e63a6e8dce55a8657b0d04f33",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "gaming/army-of-one",
+          "visual_label": "army-of-one",
+          "source_readme_path": "subjects/gaming/army-of-one/README.md",
+          "public_subject_readme_sha": "f888856591e0532b4d1a61a07289bd37432861d9",
+          "public_audit_readme_sha": "769cc1929322c79f129338d90a84445ec7c3ff7c",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "gaming/vehicle-physics",
+          "visual_label": "vehicle-physics",
+          "source_readme_path": "subjects/gaming/vehicle-physics/README.md",
+          "public_subject_readme_sha": "39f888a3807da0f60cbdf3850702798b9fe4ec44",
+          "public_audit_readme_sha": "8212eb14a3379804ce3a6adc1571a93d811a5ab3",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "gaming/zombie-ai",
+          "visual_label": "zombie-ai",
+          "source_readme_path": "subjects/gaming/zombie-ai/README.md",
+          "public_subject_readme_sha": "b7e28871ed2588eca5dc08a1264a2427a65c784f",
+          "public_audit_readme_sha": "b0a0bab5d2e25729b06b07d6348a9e389fb316e2",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 6,
+          "subject_id": "gaming/nascar-online-alpha",
+          "visual_label": "nascar-online-alpha",
+          "source_readme_path": "subjects/gaming/nascar-online-alpha/README.md",
+          "public_subject_readme_sha": "a429c1d5ce4313260058bcd6d6367201659fcc31",
+          "public_audit_readme_sha": "391e1024b83a221cec3a9e0c05f284b751d998b4",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 7,
+          "subject_id": "gaming/mouse-vr",
+          "visual_label": "mouse-vr",
+          "source_readme_path": "subjects/gaming/mouse-vr/README.md",
+          "public_subject_readme_sha": "1e07944d630b777abd8a51b2fde3e7daeaf28c00",
+          "public_audit_readme_sha": "56c30fb649e9d4356d8ba9185b8cf717cffd54d6",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 8,
+          "subject_id": "gaming/the-pages",
+          "visual_label": "the-pages",
+          "source_readme_path": "subjects/gaming/the-pages/README.md",
+          "public_subject_readme_sha": "55a9d8c882e7e567d1122ae294f1b0c38fa4e12c",
+          "public_audit_readme_sha": "1c81047ded971f0e698d04c340fba47ab7c43168",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 9,
+          "subject_id": "gaming/stealth-boom",
+          "visual_label": "stealth-boom",
+          "source_readme_path": "subjects/gaming/stealth-boom/README.md",
+          "public_subject_readme_sha": "03290a0a5ac635b29b65afe729d3f187acce696a",
+          "public_audit_readme_sha": "a2ec089e1596926750007196a4e70e68554da853",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 10,
+          "subject_id": "gaming/jumpo",
+          "visual_label": "jumpo",
+          "source_readme_path": "subjects/gaming/jumpo/README.md",
+          "public_subject_readme_sha": "0d4a2f66ba6e05376dc51e3cb802210f817dba3f",
+          "public_audit_readme_sha": "4363836d32817f42393e8655f912df2b0b9c2dc5",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "mobile_applications",
+      "title": "Mobile & Applications",
+      "kind": "outer_specialization",
+      "image_region": "lower-right",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "mobile-dev/twenty-forty-eight",
+          "visual_label": "twenty-forty-eight",
+          "source_readme_path": "subjects/mobile-dev/twenty-forty-eight/README.md",
+          "public_subject_readme_sha": "9543b8063d09638a626ef0a5a76dc2ad3b143baf",
+          "public_audit_readme_sha": "5cb7afc08fae8d814a232854a33aeb725f7af10a",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "mobile-dev/sky-map",
+          "visual_label": "sky-map",
+          "source_readme_path": "subjects/mobile-dev/sky-map/README.md",
+          "public_subject_readme_sha": "f6bceaf6b2efac9ad86664decd6ca63af747f88d",
+          "public_audit_readme_sha": "be47f9844fed689cfe552d6ba390c0c8e35d2e60",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "mobile-dev/chess",
+          "visual_label": "chess",
+          "source_readme_path": "subjects/mobile-dev/chess/README.md",
+          "public_subject_readme_sha": "a86117ffda82ead2bc837ce44e9599c7c5811642",
+          "public_audit_readme_sha": "e23f215dace822dc65757d89a37487067395d30e",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "mobile-dev/stock-market",
+          "visual_label": "stock-market",
+          "source_readme_path": "subjects/mobile-dev/stock-market/README.md",
+          "public_subject_readme_sha": "5662867bb714bcab55324975cafce8b0ba2a84c0",
+          "public_audit_readme_sha": "e4c9ab1aa5ab614404ad48f531cb762dcb6da628",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "mobile-dev/secure-messenger",
+          "visual_label": "secure-messenger",
+          "source_readme_path": "subjects/mobile-dev/secure-messenger/README.md",
+          "public_subject_readme_sha": "22ff34a69ed7842858b700a6f990b75201cabdc0",
+          "public_audit_readme_sha": "1583e9365a400e5b418af0a5b35023b13e523630",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity",
+      "kind": "outer_specialization",
+      "image_region": "bottom",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "cybersecurity/passive",
+          "visual_label": "passive",
+          "source_readme_path": "subjects/cybersecurity/passive/README.md",
+          "public_subject_readme_sha": "c72c617c5a2c7848b837d45b34bc192315480c62",
+          "public_audit_readme_sha": "342156754440a42bc5970e82a2d36e7e31f891b7",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "cybersecurity/inspector-image",
+          "visual_label": "inspector-image",
+          "source_readme_path": "subjects/cybersecurity/inspector-image/README.md",
+          "public_subject_readme_sha": "7bf41ff3d44c42b53dc3aa20698bde0148fc8ca5",
+          "public_audit_readme_sha": "c84a298536c70e29e67589711a2fb085fc1bd481",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "cybersecurity/active",
+          "visual_label": "active",
+          "source_readme_path": "subjects/cybersecurity/active/README.md",
+          "public_subject_readme_sha": "5dff7be492f4b76eb33c3e51494f6eedf8e3e370",
+          "public_audit_readme_sha": "81adb230aba3238659138c17b6acf6c8e4cfe0c1",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "cybersecurity/local",
+          "visual_label": "local",
+          "source_readme_path": "subjects/cybersecurity/local/README.md",
+          "public_subject_readme_sha": "e65ac1664932455739044c0bacfa0accfd4c5154",
+          "public_audit_readme_sha": "b896cde3957e31c4faa34c753128024c996fc347",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "cybersecurity/injector",
+          "visual_label": "injector",
+          "source_readme_path": "subjects/cybersecurity/injector/README.md",
+          "public_subject_readme_sha": "7f817dad4135bfc85c9ecd0444d8d648aa87ef28",
+          "public_audit_readme_sha": "19a54209b44ce8dbdfe3994b1d4ccf862ea5a32e",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 6,
+          "subject_id": "cybersecurity/hole-in-bin",
+          "visual_label": "hole-in-bin",
+          "source_readme_path": "subjects/cybersecurity/hole-in-bin/README.md",
+          "public_subject_readme_sha": "6386d744de5033a04f2f1f8c3bd3145453d914da",
+          "public_audit_readme_sha": "bcd2fb28a4c6987bd59cd78d37a9184c37c3af28",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 7,
+          "subject_id": "cybersecurity/mal-track",
+          "visual_label": "mal-track",
+          "source_readme_path": "subjects/cybersecurity/mal-track/README.md",
+          "public_subject_readme_sha": "6de58dc649ff65c50924ee6c310794d8041621c2",
+          "public_audit_readme_sha": "a4f244090d5fe8740a94789745bdf778b4a161be",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 8,
+          "subject_id": "cybersecurity/evasion",
+          "visual_label": "evasion",
+          "source_readme_path": "subjects/cybersecurity/evasion/README.md",
+          "public_subject_readme_sha": "d77c7e428ed21b5d3b5477086f1f2acd9c9813f3",
+          "public_audit_readme_sha": "61957bd2480577806e4e034f3123c328a51a2b65",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 9,
+          "subject_id": "cybersecurity/obfuscator",
+          "visual_label": "obfuscator",
+          "source_readme_path": "subjects/cybersecurity/obfuscator/README.md",
+          "public_subject_readme_sha": "59026809f5ab0c98e9b8e96dbe20f1615c851c51",
+          "public_audit_readme_sha": "90b9d0f23fc91297e985cd4eeda43299de4b30cd",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 10,
+          "subject_id": "cybersecurity/malware",
+          "visual_label": "malware",
+          "source_readme_path": "subjects/cybersecurity/malware/README.md",
+          "public_subject_readme_sha": "0e9f3c71019d465453ffb699ca20448870b5accc",
+          "public_audit_readme_sha": "2cc21df1b515f818f58676c3878a5a0d0f49d234",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "blockchain_crypto",
+      "title": "Blockchain & Crypto",
+      "kind": "outer_specialization",
+      "image_region": "lower-left",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "blockchain/financial-instruments",
+          "visual_label": "financial-instruments",
+          "source_readme_path": "subjects/blockchain/financial-instruments/README.md",
+          "public_subject_readme_sha": "cad81fc719b473d45338917efefdadca810cb879",
+          "public_audit_readme_sha": "ae680980174539cf1e11d01474b0a9b50e700371",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "blockchain/node-dashboard",
+          "visual_label": "node-dashboard",
+          "source_readme_path": "subjects/blockchain/node-dashboard/README.md",
+          "public_subject_readme_sha": "8054b119c09477084af16c824e48a2b64bba17c3",
+          "public_audit_readme_sha": "8cb51f9bd54ccc58f4cab3d71a252c3269dbdac7",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "blockchain/payment-channel",
+          "visual_label": "payment-channel",
+          "source_readme_path": "subjects/blockchain/payment-channel/README.md",
+          "public_subject_readme_sha": "c416be3882887f3a77fc13dd46c0f788aaa372c1",
+          "public_audit_readme_sha": "daa6844a97e6a97f13c0bd7d3db62a0d2a201d41",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "blockchain/nft-marketplace",
+          "visual_label": "nft-marketplace",
+          "source_readme_path": "subjects/blockchain/nft-marketplace/README.md",
+          "public_subject_readme_sha": "033b87731db8ee24802982eada8615e6f994ab6e",
+          "public_audit_readme_sha": "d479802db1531da0d0b0288cf000198a383ebe93",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "near_core_satellites",
+      "title": "Core-adjacent project curve",
+      "kind": "intermediate_project_group",
+      "image_region": "upper-mid",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "tetris-optimizer",
+          "visual_label": "tetris-optimizer",
+          "source_readme_path": "subjects/tetris-optimizer/README.md",
+          "public_subject_readme_sha": "6671dbac299b64f1494698570728814a03653708",
+          "public_audit_readme_sha": "fd585193236a4ed32ee5416975b079a3c58ea7e7",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "atm-management-system",
+          "visual_label": "atm-management-system",
+          "source_readme_path": "subjects/atm-management-system/README.md",
+          "public_subject_readme_sha": "8e52be526548e3ed5ba45ae380d57c4cf217cc28",
+          "public_audit_readme_sha": "0d5009e0fcfb84f9c2c559b11e74277a897f8675",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "push-swap",
+          "visual_label": "push-swap",
+          "source_readme_path": "subjects/push-swap/README.md",
+          "public_subject_readme_sha": "fe38de3f7e2e4e143c59d669da6cdf11520b4001",
+          "public_audit_readme_sha": "3ddac88894ecf1c6bc033201020740d8d2a28de6",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "my-ls-1",
+          "visual_label": "my-ls-1",
+          "source_readme_path": "subjects/my-ls-1/README.md",
+          "public_subject_readme_sha": "9d54d012da279c3c1060369ccc8692bf9cbf270f",
+          "public_audit_readme_sha": "b420cc000c2aa5cc12208d1f4f2b1415e202dcb7",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "net-cat",
+          "visual_label": "net-cat",
+          "source_readme_path": "subjects/net-cat/README.md",
+          "public_subject_readme_sha": "cef9eff88a8d6f36f38c6f18bd06e58cb994162b",
+          "public_audit_readme_sha": "92892397dbdf7d48227306cced739438ac6ce0b2",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "statistics_satellites",
+      "title": "Statistics and algorithms satellites",
+      "kind": "intermediate_project_group",
+      "image_region": "left-mid",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "guess-it-1",
+          "visual_label": "guess-it-1",
+          "source_readme_path": "subjects/guess-it-1/README.md",
+          "public_subject_readme_sha": "c56a7964a9ca679f65df082ddf901f7d4b747c1d",
+          "public_audit_readme_sha": "ac69272e81614058d99195b7773d2269e3856661",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "linear-stats",
+          "visual_label": "linear-stats",
+          "source_readme_path": "subjects/linear-stats/README.md",
+          "public_subject_readme_sha": "31082a678d95849f7c32527ca3f91e56e65ecb7c",
+          "public_audit_readme_sha": "3d9e6c2210a7ed1a01baf4917159180754b621c4",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "guess-it-2",
+          "visual_label": "guess-it-2",
+          "source_readme_path": "subjects/guess-it-2/README.md",
+          "public_subject_readme_sha": "a58b2d2d31c57ed6b973524ad1831968a7779384",
+          "public_audit_readme_sha": "8d274c1e185ccffb89277a3b7a88b66784ba790c",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "math-skills",
+          "visual_label": "math-skills",
+          "source_readme_path": "subjects/math-skills/README.md",
+          "public_subject_readme_sha": "94a4ab1308c662ef580ed60b4dbb0d8ed296bf34",
+          "public_audit_readme_sha": "a1341ba56fd6481c52a82dd5bc99cd7ff8ad69d3",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "systems_bridge",
+      "title": "Linux and network administration curve",
+      "kind": "intermediate_project_group",
+      "image_region": "lower-center",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "linux",
+          "visual_label": "linux",
+          "source_readme_path": "subjects/linux/README.md",
+          "public_subject_readme_sha": "c419b940ae6a055a09b65c5d7557b114eb842d28",
+          "public_audit_readme_sha": "174c79f9b8c184b1a3cb90838b3c0e31c3f08eac",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "login",
+          "visual_label": "login",
+          "source_readme_path": "subjects/login/README.md",
+          "public_subject_readme_sha": "0c0fdf6ef8f7d199249695737e0be2bd0240c1b1",
+          "public_audit_readme_sha": "f4852ba1902910d9811b537d4fca9f2eeb6136d3",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "add-vm",
+          "visual_label": "add-vm",
+          "source_readme_path": "subjects/add-vm/README.md",
+          "public_subject_readme_sha": "f699ac3a71a782d59cb0ca8ca2cc834050b158b5",
+          "public_audit_readme_sha": "3cd59ba5f67952d70cce8696b7aa5320e566ce23",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "connect",
+          "visual_label": "connect",
+          "source_readme_path": "subjects/connect/README.md",
+          "public_subject_readme_sha": "3b27e093101b8247355ed6b665d46aa0be078e15",
+          "public_audit_readme_sha": "de5c3188dce966506ff24d2ca0424bd24917d044",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 5,
+          "subject_id": "remote",
+          "visual_label": "remote",
+          "source_readme_path": "subjects/remote/README.md",
+          "public_subject_readme_sha": "0c66e75c960e0a43f47371395d3e22108c5501cd",
+          "public_audit_readme_sha": "2418260667336527fe96b8103a7c9d2d3fec0e73",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 6,
+          "subject_id": "scan",
+          "visual_label": "scan",
+          "source_readme_path": "subjects/scan/README.md",
+          "public_subject_readme_sha": "28cc87292a45f7a50f4e399b2665e881c732174a",
+          "public_audit_readme_sha": "17df2c97cf30faeda91e4c8d769bce026be88ae2",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "ui_ux",
+      "title": "UI/UX pathway",
+      "kind": "intermediate_project_group",
+      "image_region": "right-mid",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "user-experience/projects/a-table",
+          "visual_label": "a-table",
+          "source_readme_path": "subjects/user-experience/projects/a-table/README.md",
+          "public_subject_readme_sha": "43bf55ad731be4ac82aafd304dd97a64d1a11264",
+          "public_audit_readme_sha": "91b03aca4b56938069e22a56229d0a0a680cc6d8",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "user-experience/projects/get-a-room",
+          "visual_label": "get-a-room",
+          "source_readme_path": "subjects/user-experience/projects/get-a-room/README.md",
+          "public_subject_readme_sha": "27bdd5aaf405ca96830170e74d3c64dc23cc3350",
+          "public_audit_readme_sha": "85beb00c5475a0909403baf6c37de87eb1a488ee",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "user-experience/projects/lets-fair-trade",
+          "visual_label": "lets-fair-trade",
+          "source_readme_path": "subjects/user-experience/projects/lets-fair-trade/README.md",
+          "public_subject_readme_sha": "043c7e190d28c4a6212197ed60083515554ca320",
+          "public_audit_readme_sha": "1aa8e8b325a29d6deb9c0cd0fc33aec70a515cb8",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "systems_advanced_satellites",
+      "title": "Advanced systems satellite curve",
+      "kind": "intermediate_project_group",
+      "image_region": "lower-left",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "corewar",
+          "visual_label": "corewar",
+          "source_readme_path": "subjects/corewar/README.md",
+          "public_subject_readme_sha": "2196a46ead751cbe7b739408d4ef44685460d5cd",
+          "public_audit_readme_sha": "54830f2c365e2f4940b4596d50a8b88d0ac8c031",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "zappy",
+          "visual_label": "zappy",
+          "source_readme_path": "subjects/zappy/README.md",
+          "public_subject_readme_sha": "1b3acefab96c250d02bd59af57f4e174e7113eba",
+          "public_audit_readme_sha": "083f7c53ec471bb495ccb08f2a95d88f3c33a7eb",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "system-monitor",
+          "visual_label": "system-monitor",
+          "source_readme_path": "subjects/system-monitor/README.md",
+          "public_subject_readme_sha": "98f2444749ea26ff7afdf5b18394382e9e0460a7",
+          "public_audit_readme_sha": "f984c416b528a897cfb5715d02ee6a2a5f252e8f",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "wget",
+          "visual_label": "wget",
+          "source_readme_path": "subjects/wget/README.md",
+          "public_subject_readme_sha": "a4365b623351e0fe522901063019e896d6cdb96e",
+          "public_audit_readme_sha": "72bccfe99126c930282c2236f43c681f372ba19f",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    },
+    {
+      "id": "cross_language_projects",
+      "title": "Cross-language application satellites",
+      "kind": "intermediate_project_group",
+      "image_region": "lower-right-mid",
+      "visual_transcription_confidence": "medium",
+      "route_order_caveat": "List order only follows visible spatial traversal; it is not an official platform unlock or compulsory curriculum sequence.",
+      "nodes": [
+        {
+          "visual_order": 1,
+          "subject_id": "stock-exchange-sim",
+          "visual_label": "stock-exchange-sim",
+          "source_readme_path": "subjects/stock-exchange-sim/README.md",
+          "public_subject_readme_sha": "ca9ef2f864b58f467bf5b6bef442781ac9f5bec3",
+          "public_audit_readme_sha": "c9c503a28a50028e3812ea7fe1e0d8c4afd8c990",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 2,
+          "subject_id": "mister-quiz",
+          "visual_label": "mister-quiz",
+          "source_readme_path": "subjects/mister-quiz/README.md",
+          "public_subject_readme_sha": "e092432d66115e6e1acfaf81c74d475e04390f09",
+          "public_audit_readme_sha": "3a79334911cb1dc243982fa123725e68055160ea",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 3,
+          "subject_id": "shop",
+          "visual_label": "shop",
+          "source_readme_path": "subjects/shop/README.md",
+          "public_subject_readme_sha": "52889ebde969f393f7a0fca510ed189a0f8c4036",
+          "public_audit_readme_sha": "a476ae99b9bd78b8021cf9f72a82109c7410155c",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        },
+        {
+          "visual_order": 4,
+          "subject_id": "netfix",
+          "visual_label": "netfix",
+          "source_readme_path": "subjects/netfix/README.md",
+          "public_subject_readme_sha": "8e5272fd1d54c2e07bc25be0fe248893fdd4616d",
+          "public_audit_readme_sha": "8bac9d2d919c83ad734081b025869a648f2b14b3",
+          "source_tree_verified": true,
+          "official_unlock": null,
+          "official_track_assignment": null
+        }
+      ]
+    }
+  ],
+  "unresolved_visual_text": [
+    {
+      "label_in_image": "make-your-own",
+      "image_region": "left-mid",
+      "problem": "No exact README-bearing subject-node path found; do not substitute a similarly named assignment."
+    },
+    {
+      "label_in_image": "kahoot",
+      "image_region": "right-lower",
+      "problem": "No exact README-bearing subject-node path found; mobile-dev/kaquiz may be related but is not confirmed as the same screenshot label.",
+      "candidate_subject_paths": [
+        "mobile-dev/kaquiz"
+      ]
+    },
+    {
+      "label_in_image": "lets-do-some-sport",
+      "image_region": "right-mid UX curve",
+      "problem": "Public candidate has plural suffix; low-resolution text does not confirm identity.",
+      "candidate_subject_paths": [
+        "user-experience/projects/lets-do-some-sports"
+      ]
+    }
+  ],
+  "study_and_graph_rules": [
+    "Track grouping is based on visual evidence and independently verified source paths; it is not authoritative current enrollment or compulsory status.",
+    "Visual adjacency and arcs may indicate learning organization but do not prove directed dependency or platform unlock.",
+    "Documented prerequisites must cite project README text or audit instructions; keep heuristic concept prerequisites separately.",
+    "Some public subject tracks are container directories, so index nested README-bearing exercises without collapsing them into single projects.",
+    "The screenshot is a partial/fixed historical Galaxy view and does not necessarily contain every subject in the evolving repository."
+  ],
+  "counts": {
+    "paths_crosschecked_with_git": 84,
+    "core_nodes": 17,
+    "outer_branch_nodes": 41,
+    "intermediate_nodes": 26,
+    "track_groups": 15,
+    "uncertain_visible_labels": 3
+  }
+}
