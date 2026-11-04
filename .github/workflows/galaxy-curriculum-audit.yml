@@ -9,6 +9,7 @@ on:
       - '.github/workflows/galaxy-curriculum-audit.yml'
       - 'research/galaxy-audit/scripts/**'
       - 'research/galaxy-audit/data/phase18*'
+      - 'research/galaxy-audit/data/phase20*'
 
 permissions:
   contents: read
@@ -94,6 +95,12 @@ jobs:
       - name: Produce the completed Phase 18 curriculum and reviewed guides
         run: node research/galaxy-audit/scripts/complete-semantic-piscine-reviews.mjs . research/galaxy-audit/generated
 
+      - name: Test Imperative satellite and raid classification
+        run: node --test research/galaxy-audit/scripts/verify-imperative-satellites.test.mjs
+
+      - name: Verify Phase 20 satellite source evidence
+        run: node research/galaxy-audit/scripts/verify-imperative-satellites.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -173,5 +180,7 @@ jobs:
             research/galaxy-audit/generated/go-phase18-source-checked-guide.md
             research/galaxy-audit/generated/rust-phase18-source-checked-guide.md
             research/galaxy-audit/generated/javascript-phase18-source-checked-guide.md
+            research/galaxy-audit/generated/phase20-imperative-satellite-verification.json
+            research/galaxy-audit/generated/phase20-imperative-satellite-guide.md
           retention-days: 14
           if-no-files-found: error
