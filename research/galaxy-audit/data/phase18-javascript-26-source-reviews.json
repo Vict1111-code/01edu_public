@@ -173,7 +173,7 @@
       "language": "javascript",
       "exercise": "dr-strange",
       "source_path": "subjects/dr-strange/README.md",
-      "verification_phrase": "14",
+      "verification_phrase": "this new week will have",
       "proposed_study_stage": 7,
       "concepts": [
         "regex_dates",
