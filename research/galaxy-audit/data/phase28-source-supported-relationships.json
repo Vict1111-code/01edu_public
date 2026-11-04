@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "phase": 28,
+  "source_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "as_of": "2026-11-04",
+  "scope": "Seven additional concrete cross-exercise code-reuse/type dependencies found during source review of archive-matched Piscine candidates",
+  "caveat": "Dependency expressed in source is not evidence of official platform unlock order; some required symbols may be provided as implementation scaffolding.",
+  "counts": {
+    "source_supported_edges": 7,
+    "unique_sources": 5,
+    "unique_targets": 6
+  },
+  "edges": [
+    {
+      "from": "edit_distance",
+      "to": "expected_variable",
+      "relation": "requires_previous_function",
+      "source_path": "subjects/expected_variable/README.md",
+      "source_readme_sha": "8bdc643f999f4d4a82fb76c65c7d7e007fded7e9",
+      "evidence_phrase": "using the `edit_distance`",
+      "reason": "Explicitly uses previous edit_distance function",
+      "source_evidence": "target_readme_verbatim",
+      "code_reuse_statement": true,
+      "official_platform_unlock": null,
+      "official_piscine_order": null
+    },
+    {
+      "from": "roman_numbers",
+      "to": "roman_numbers_iter",
+      "relation": "requires_previous_type",
+      "source_path": "subjects/roman_numbers_iter/README.md",
+      "source_readme_sha": "4c9de39d328bc1ea991ef3e4c7df10ed68d15cf4",
+      "evidence_phrase": "previous exercise roman_numbers",
+      "reason": "Reuse prior RomanNumber implementation",
+      "source_evidence": "target_readme_verbatim",
+      "code_reuse_statement": true,
+      "official_platform_unlock": null,
+      "official_piscine_order": null
+    },
+    {
+      "from": "lalgebra_scalar",
+      "to": "matrix",
+      "relation": "requires_previous_trait",
+      "source_path": "subjects/matrix/README.md",
+      "source_readme_sha": "23f18a2dcd74f4c7628b455f0888ae9f0f3450da",
+      "evidence_phrase": "definition of `Scalar` from the",
+      "reason": "Use Scalar from earlier scalar exercise",
+      "source_evidence": "target_readme_verbatim",
+      "code_reuse_statement": true,
+      "official_platform_unlock": null,
+      "official_piscine_order": null
+    },
+    {
+      "from": "lalgebra_scalar",
+      "to": "lalgebra_vector",
+      "relation": "requires_prior_trait",
+      "source_path": "subjects/lalgebra_vector/README.md",
+      "source_readme_sha": "19804e513aea65008cf6dab3ab92ae0bca304598",
+      "evidence_phrase": "Vector<T: Scalar>",
+      "reason": "Generic vector uses earlier Scalar trait; relation derives from explicit type bound",
+      "source_evidence": "target_readme_verbatim",
+      "code_reuse_statement": false,
+      "official_platform_unlock": null,
+      "official_piscine_order": null
+    },
+    {
+      "from": "matrix",
+      "to": "matrix_ops",
+      "relation": "requires_previous_type",
+      "source_path": "subjects/matrix_ops/README.md",
+      "source_readme_sha": "c598141510a87f7c9683eeca8bccd246ff8da137",
+      "evidence_phrase": "[matrix](../matrix/README.md)",
+      "reason": "Explicitly reuses matrix structure",
+      "source_evidence": "target_readme_verbatim",
+      "code_reuse_statement": true,
+      "official_platform_unlock": null,
+      "official_piscine_order": null
+    },
+    {
+      "from": "lalgebra_scalar",
+      "to": "matrix_ops",
+      "relation": "requires_previous_trait",
+      "source_path": "subjects/matrix_ops/README.md",
+      "source_readme_sha": "c598141510a87f7c9683eeca8bccd246ff8da137",
+      "evidence_phrase": "[lalgebra-scalar](../lalgebra_scalar/README.md)",
+      "reason": "Explicitly reuses Scalar trait",
+      "source_evidence": "target_readme_verbatim",
+      "code_reuse_statement": true,
+      "official_platform_unlock": null,
+      "official_piscine_order": null
+    },
+    {
+      "from": "listsort",
+      "to": "sortedlistmerge",
+      "relation": "requires_previous_structure",
+      "source_path": "subjects/sortedlistmerge/README.md",
+      "source_readme_sha": "3c4fd1653ff7518ca31f3e414388ce9d6cb2ff8e",
+      "evidence_phrase": "`listsort` exercise",
+      "reason": "Explicitly references NodeI definition in earlier listsort",
+      "source_evidence": "target_readme_verbatim",
+      "code_reuse_statement": true,
+      "official_platform_unlock": null,
+      "official_piscine_order": null
+    }
+  ]
+}
