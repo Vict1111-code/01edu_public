@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "phase": 19,
+  "as_of": "2026-11-04",
+  "scope": "Imperative core and nested extensions",
+  "source_repo": "https://github.com/Vict1111-code/01edu_public",
+  "source_branch": "research/galaxy-curriculum-audit",
+  "verified_core_subjects": 6,
+  "verified_nested_extensions": 17,
+  "verified_audit_readmes": 23,
+  "important_warning": "Recommended stage placement is independent reconstruction, not verified official Galaxy unlock order.",
+  "parents": [
+    {
+      "id": "go-reloaded",
+      "track": "foundations",
+      "rank": 1,
+      "concepts": [
+        "Go functions",
+        "file I/O",
+        "text transformations",
+        "CLI arguments",
+        "testing"
+      ],
+      "core_requirements": [
+        "Read source and destination file paths from arguments",
+        "Apply hex/bin numeric conversions and case-control directives",
+        "Normalize punctuation, quote spacing, and articles"
+      ],
+      "required_previous": [],
+      "recommended_previous": [
+        "Go Piscine fundamentals"
+      ],
+      "audit_checks": [
+        "Case conversion and multiword directives",
+        "Base conversions",
+        "Punctuation, quotes, and articles",
+        "Allowed packages"
+      ],
+      "source": "subjects/go-reloaded/README.md",
+      "audit": "subjects/go-reloaded/audit/README.md"
+    },
+    {
+      "id": "ascii-art",
+      "track": "text-processing",
+      "rank": 2,
+      "concepts": [
+        "string and rune processing",
+        "file parsing",
+        "ASCII glyph rendering",
+        "CLI validation"
+      ],
+      "core_requirements": [
+        "Render printable input with public font banners",
+        "Support newline escapes and whitespace",
+        "Produce exact eight-row glyph output"
+      ],
+      "required_previous": [],
+      "recommended_previous": [
+        "go-reloaded"
+      ],
+      "audit_checks": [
+        "Exact rendering",
+        "Digits/symbols/case",
+        "Newlines and empty inputs",
+        "Allowed packages"
+      ],
+      "source": "subjects/ascii-art/README.md",
+      "audit": "subjects/ascii-art/audit/README.md"
+    },
+    {
+      "id": "ascii-art-web",
+      "track": "web-and-data",
+      "rank": 3,
+      "concepts": [
+        "net/http",
+        "GET/POST",
+        "HTML forms and templates",
+        "HTTP status codes"
+      ],
+      "core_requirements": [
+        "Provide GET / and POST /ascii-art",
+        "Allow text and banner selection",
+        "Validate requests and return appropriate HTTP statuses"
+      ],
+      "required_previous": [
+        "ascii-art"
+      ],
+      "recommended_previous": [],
+      "audit_checks": [
+        "Valid render output for three banners",
+        "Correct status and error responses",
+        "HTTP methods and server stability"
+      ],
+      "source": "subjects/ascii-art-web/README.md",
+      "audit": "subjects/ascii-art-web/audit/README.md"
+    },
+    {
+      "id": "groupie-tracker",
+      "track": "web-and-data",
+      "rank": 4,
+      "concepts": [
+        "JSON",
+        "external HTTP API",
+        "data relationships",
+        "event-driven interaction"
+      ],
+      "core_requirements": [
+        "Retrieve artists, locations, dates, and relation data",
+        "Display artist/concert information",
+        "Provide at least one user-triggered client/server event"
+      ],
+      "required_previous": [],
+      "recommended_previous": [
+        "ascii-art-web"
+      ],
+      "audit_checks": [
+        "All four API collections used",
+        "Artist information and concert data displayed",
+        "User action triggers correct server response",
+        "Handling errors and HTTP methods"
+      ],
+      "source": "subjects/groupie-tracker/README.md",
+      "audit": "subjects/groupie-tracker/audit/README.md"
+    },
+    {
+      "id": "forum",
+      "track": "web-and-data",
+      "rank": 5,
+      "concepts": [
+        "SQLite",
+        "authentication",
+        "cookies and sessions",
+        "authorization",
+        "Docker"
+      ],
+      "core_requirements": [
+        "Register/login users and manage sessions",
+        "Create posts, comments, categories, likes and filters",
+        "Persist information using SQLite",
+        "Containerize with Docker"
+      ],
+      "required_previous": [],
+      "recommended_previous": [
+        "groupie-tracker",
+        "ascii-art-web/dockerize"
+      ],
+      "audit_checks": [
+        "Registration/login and session isolation",
+        "SQL CRUD data verified",
+        "Access controls and filtering",
+        "Docker build/run and error handling"
+      ],
+      "source": "subjects/forum/README.md",
+      "audit": "subjects/forum/audit/README.md"
+    },
+    {
+      "id": "lem-in",
+      "track": "algorithms-parallel",
+      "rank": 4,
+      "concepts": [
+        "graphs",
+        "path search",
+        "scheduling",
+        "parser validation",
+        "optimization"
+      ],
+      "core_requirements": [
+        "Parse ant, room and tunnel descriptions",
+        "Find and schedule efficient routes through the colony",
+        "Reject malformed/no-route inputs",
+        "Output valid ant moves without conflicts"
+      ],
+      "required_previous": [],
+      "recommended_previous": [
+        "go-reloaded",
+        "Go Piscine graph/data-structure foundations"
+      ],
+      "audit_checks": [
+        "Shortest/efficient route sample fixtures",
+        "No double-occupied rooms or tunnels",
+        "Invalid inputs",
+        "Performance samples with many ants"
+      ],
+      "source": "subjects/lem-in/README.md",
+      "audit": "subjects/lem-in/audit/README.md"
+    }
+  ],
+  "extensions": [
+    {
+      "id": "ascii-art/fs",
+      "parent": "ascii-art",
+      "relationship": "documented extension of parent",
+      "requirements": "Banner selector by command-line argument",
+      "concept": "CLI options and font selection",
+      "difficulty_tier": 1,
+      "source": "subjects/ascii-art/fs/README.md",
+      "audit": "subjects/ascii-art/fs/audit/README.md"
+    },
+    {
+      "id": "ascii-art/output",
+      "parent": "ascii-art",
+      "relationship": "documented extension of parent",
+      "requirements": "Write generated art to a named output file",
+      "concept": "file output",
+      "difficulty_tier": 1,
+      "source": "subjects/ascii-art/output/README.md",
+      "audit": "subjects/ascii-art/output/audit/README.md"
+    },
+    {
+      "id": "ascii-art/color",
+      "parent": "ascii-art",
+      "relationship": "documented extension of parent",
+      "requirements": "Color selected text spans with chosen color notation",
+      "concept": "terminal coloring",
+      "difficulty_tier": 2,
+      "source": "subjects/ascii-art/color/README.md",
+      "audit": "subjects/ascii-art/color/audit/README.md"
+    },
+    {
+      "id": "ascii-art/reverse",
+      "parent": "ascii-art",
+      "relationship": "documented extension of parent",
+      "requirements": "Decode rendered banner text back into plain text",
+      "concept": "inverse parsing",
+      "difficulty_tier": 3,
+      "source": "subjects/ascii-art/reverse/README.md",
+      "audit": "subjects/ascii-art/reverse/audit/README.md"
+    },
+    {
+      "id": "ascii-art/justify",
+      "parent": "ascii-art",
+      "relationship": "documented extension of parent",
+      "requirements": "Align output to terminal dimensions",
+      "concept": "terminal sizing and layout",
+      "difficulty_tier": 3,
+      "source": "subjects/ascii-art/justify/README.md",
+      "audit": "subjects/ascii-art/justify/audit/README.md"
+    },
+    {
+      "id": "ascii-art-web/stylize",
+      "parent": "ascii-art-web",
+      "relationship": "documented extension of parent",
+      "requirements": "Responsive CSS and readable interactive UX",
+      "concept": "CSS and web accessibility",
+      "difficulty_tier": 1,
+      "source": "subjects/ascii-art-web/stylize/README.md",
+      "audit": "subjects/ascii-art-web/stylize/audit/README.md"
+    },
+    {
+      "id": "ascii-art-web/export-file",
+      "parent": "ascii-art-web",
+      "relationship": "documented extension of parent",
+      "requirements": "Download rendered output using proper HTTP headers",
+      "concept": "HTTP downloads and content headers",
+      "difficulty_tier": 2,
+      "source": "subjects/ascii-art-web/export-file/README.md",
+      "audit": "subjects/ascii-art-web/export-file/audit/README.md"
+    },
+    {
+      "id": "ascii-art-web/dockerize",
+      "parent": "ascii-art-web",
+      "relationship": "documented extension of parent",
+      "requirements": "Build and run Go server in a Docker image/container",
+      "concept": "Docker and deployment",
+      "difficulty_tier": 2,
+      "source": "subjects/ascii-art-web/dockerize/README.md",
+      "audit": "subjects/ascii-art-web/dockerize/audit/README.md"
+    },
+    {
+      "id": "groupie-tracker/visualizations",
+      "parent": "groupie-tracker",
+      "relationship": "documented extension of parent",
+      "requirements": "Present API data using coherent responsive visual design",
+      "concept": "UI design and CSS",
+      "difficulty_tier": 1,
+      "source": "subjects/groupie-tracker/visualizations/README.md",
+      "audit": "subjects/groupie-tracker/visualizations/audit/README.md"
+    },
+    {
+      "id": "groupie-tracker/filters",
+      "parent": "groupie-tracker",
+      "relationship": "documented extension of parent",
+      "requirements": "Range and checkbox filters across artist attributes",
+      "concept": "filtering and form state",
+      "difficulty_tier": 2,
+      "source": "subjects/groupie-tracker/filters/README.md",
+      "audit": "subjects/groupie-tracker/filters/audit/README.md"
+    },
+    {
+      "id": "groupie-tracker/search-bar",
+      "parent": "groupie-tracker",
+      "relationship": "documented extension of parent",
+      "requirements": "Case-insensitive search with typed suggestions",
+      "concept": "search and autocomplete",
+      "difficulty_tier": 2,
+      "source": "subjects/groupie-tracker/search-bar/README.md",
+      "audit": "subjects/groupie-tracker/search-bar/audit/README.md"
+    },
+    {
+      "id": "groupie-tracker/geolocalization",
+      "parent": "groupie-tracker",
+      "relationship": "documented extension of parent",
+      "requirements": "Geocode concert locations and present map markers",
+      "concept": "geocoding and maps API",
+      "difficulty_tier": 3,
+      "source": "subjects/groupie-tracker/geolocalization/README.md",
+      "audit": "subjects/groupie-tracker/geolocalization/audit/README.md"
+    },
+    {
+      "id": "forum/image-upload",
+      "parent": "forum",
+      "relationship": "documented extension of parent",
+      "requirements": "Accept JPEG/PNG/GIF attachments up to 20 MB",
+      "concept": "upload validation and content handling",
+      "difficulty_tier": 1,
+      "source": "subjects/forum/image-upload/README.md",
+      "audit": "subjects/forum/image-upload/audit/README.md"
+    },
+    {
+      "id": "forum/advanced-features",
+      "parent": "forum",
+      "relationship": "documented extension of parent",
+      "requirements": "Notifications, personal activity tracking, editing and removal",
+      "concept": "events and account features",
+      "difficulty_tier": 2,
+      "source": "subjects/forum/advanced-features/README.md",
+      "audit": "subjects/forum/advanced-features/audit/README.md"
+    },
+    {
+      "id": "forum/authentication",
+      "parent": "forum",
+      "relationship": "documented extension of parent",
+      "requirements": "Add GitHub and Google sign-in",
+      "concept": "external identity providers",
+      "difficulty_tier": 2,
+      "source": "subjects/forum/authentication/README.md",
+      "audit": "subjects/forum/authentication/audit/README.md"
+    },
+    {
+      "id": "forum/moderation",
+      "parent": "forum",
+      "relationship": "documented extension of parent",
+      "requirements": "Four role types and admin/moderator workflows",
+      "concept": "role-based access control",
+      "difficulty_tier": 3,
+      "source": "subjects/forum/moderation/README.md",
+      "audit": "subjects/forum/moderation/audit/README.md"
+    },
+    {
+      "id": "forum/security",
+      "parent": "forum",
+      "relationship": "documented extension of parent",
+      "requirements": "TLS, rate limiting, secure session handling and password storage",
+      "concept": "application security",
+      "difficulty_tier": 3,
+      "source": "subjects/forum/security/README.md",
+      "audit": "subjects/forum/security/audit/README.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Go Piscine foundational work",
+      "to": "go-reloaded",
+      "evidence": "explicit prior-work reference",
+      "official_unlock": false,
+      "note": "go-reloaded requires reusing functions from earlier repository"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art-web",
+      "evidence": "explicit prior-project reference",
+      "official_unlock": false,
+      "note": "ascii-art-web describes a GUI for the previous ascii-art project"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/fs",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/output",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/color",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/reverse",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art",
+      "to": "ascii-art/justify",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/stylize",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/export-file",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "ascii-art-web/dockerize",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/visualizations",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/filters",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/search-bar",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "groupie-tracker/geolocalization",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "forum",
+      "to": "forum/image-upload",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "forum",
+      "to": "forum/advanced-features",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "forum",
+      "to": "forum/authentication",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "forum",
+      "to": "forum/moderation",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "forum",
+      "to": "forum/security",
+      "evidence": "nested extension specification",
+      "official_unlock": false,
+      "note": "Extension README either references parent principles/instructions or extends parent program"
+    },
+    {
+      "from": "ascii-art-web/dockerize",
+      "to": "forum",
+      "evidence": "resource reference",
+      "official_unlock": false,
+      "note": "forum recommends this Docker resource; NOT verified required prior project"
+    },
+    {
+      "from": "go-reloaded",
+      "to": "ascii-art",
+      "evidence": "analyst recommended sequencing",
+      "official_unlock": false,
+      "note": "Foundational string/file work is useful; not a formal requirement"
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "groupie-tracker",
+      "evidence": "analyst recommended sequencing",
+      "official_unlock": false,
+      "note": "Build on HTTP and HTML fundamentals; not a formal requirement"
+    },
+    {
+      "from": "groupie-tracker",
+      "to": "forum",
+      "evidence": "analyst recommended sequencing",
+      "official_unlock": false,
+      "note": "Incremental increase in persistence and authorization complexity; not a formal requirement"
+    },
+    {
+      "from": "go-reloaded",
+      "to": "lem-in",
+      "evidence": "analyst recommended sequencing",
+      "official_unlock": false,
+      "note": "Input parsing and CLI work help; lem-in is independent of web projects"
+    }
+  ],
+  "external_satellite_queue": [
+    "math-skills",
+    "tetris-optimizer",
+    "net-cat"
+  ],
+  "source_note": "External satellite subjects are not classified as official Imperative membership by this phase."
+}
