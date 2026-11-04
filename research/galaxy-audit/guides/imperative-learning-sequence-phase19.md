@@ -18,12 +18,12 @@ The sequence is **an independent teaching plan**, not a transcript of official G
 
 | Path | Proposed position | Project | Prerequisites and scope | Primary audit evidence |
 |---|---:|---|---|---|
-| Foundation | 1 | [go-reloaded](../../subjects/go-reloaded/README.md) | Go Piscine functions; text directives, case/punctuation normalization, file I/O | [audit](../../subjects/go-reloaded/audit/README.md): sample conversions and punctuation |
-| Foundation | 2 | [ascii-art](../../subjects/ascii-art/README.md) | Text rendering and banner parsing; `go-reloaded` is recommended, **not required by public README** | [audit](../../subjects/ascii-art/audit/README.md): exact output and input variants |
-| Web/data | 3 | [ascii-art-web](../../subjects/ascii-art-web/README.md) | **Explicitly builds on `ascii-art`**; Go HTTP GET/POST, HTML templates, status codes | [audit](../../subjects/ascii-art-web/audit/README.md): HTTP correctness, banners, errors |
-| Web/data | 4 | [groupie-tracker](../../subjects/groupie-tracker/README.md) | Public API relations, JSON, server-triggered client actions; prior web project recommended | [audit](../../subjects/groupie-tracker/audit/README.md): data collection and event checks |
-| Web/data | 5 | [forum](../../subjects/forum/README.md) | SQLite, registration, posts/comments, sessions, filters, Docker; prior HTTP/JSON knowledge recommended | [audit](../../subjects/forum/audit/README.md): auth, persistence, permissions, Docker |
-| Algorithms **parallel** | 4 | [lem-in](../../subjects/lem-in/README.md) | Graph parsing, pathfinding, multi-ant traffic scheduling; **not dependent on web projects** | [audit](../../subjects/lem-in/audit/README.md): route quality, invalid inputs, scaling |
+| Foundation | 1 | [go-reloaded](../../../subjects/go-reloaded/README.md) | Go Piscine functions; text directives, case/punctuation normalization, file I/O | [audit](../../../subjects/go-reloaded/audit/README.md): sample conversions and punctuation |
+| Foundation | 2 | [ascii-art](../../../subjects/ascii-art/README.md) | Text rendering and banner parsing; `go-reloaded` is recommended, **not required by public README** | [audit](../../../subjects/ascii-art/audit/README.md): exact output and input variants |
+| Web/data | 3 | [ascii-art-web](../../../subjects/ascii-art-web/README.md) | **Explicitly builds on `ascii-art`**; Go HTTP GET/POST, HTML templates, status codes | [audit](../../../subjects/ascii-art-web/audit/README.md): HTTP correctness, banners, errors |
+| Web/data | 4 | [groupie-tracker](../../../subjects/groupie-tracker/README.md) | Public API relations, JSON, server-triggered client actions; prior web project recommended | [audit](../../../subjects/groupie-tracker/audit/README.md): data collection and event checks |
+| Web/data | 5 | [forum](../../../subjects/forum/README.md) | SQLite, registration, posts/comments, sessions, filters, Docker; prior HTTP/JSON knowledge recommended | [audit](../../../subjects/forum/audit/README.md): auth, persistence, permissions, Docker |
+| Algorithms **parallel** | 4 | [lem-in](../../../subjects/lem-in/README.md) | Graph parsing, pathfinding, multi-ant traffic scheduling; **not dependent on web projects** | [audit](../../../subjects/lem-in/audit/README.md): route quality, invalid inputs, scaling |
 
 ### Dependency rules
 
@@ -41,38 +41,38 @@ These tier numbers rank *suggested depth within the parent group*, **not officia
 
 | Suggested depth | Extension | Core skill | Audit |
 |---|---|---|---|
-| 1 | [`ascii-art/fs`](../../subjects/ascii-art/fs/README.md) | CLI options and font selection | [Audit](../../subjects/ascii-art/fs/audit/README.md) |
-| 1 | [`ascii-art/output`](../../subjects/ascii-art/output/README.md) | file output | [Audit](../../subjects/ascii-art/output/audit/README.md) |
-| 2 | [`ascii-art/color`](../../subjects/ascii-art/color/README.md) | terminal coloring | [Audit](../../subjects/ascii-art/color/audit/README.md) |
-| 3 | [`ascii-art/reverse`](../../subjects/ascii-art/reverse/README.md) | inverse parsing | [Audit](../../subjects/ascii-art/reverse/audit/README.md) |
-| 3 | [`ascii-art/justify`](../../subjects/ascii-art/justify/README.md) | terminal sizing and layout | [Audit](../../subjects/ascii-art/justify/audit/README.md) |
+| 1 | [`ascii-art/fs`](../../../subjects/ascii-art/fs/README.md) | CLI options and font selection | [Audit](../../../subjects/ascii-art/fs/audit/README.md) |
+| 1 | [`ascii-art/output`](../../../subjects/ascii-art/output/README.md) | file output | [Audit](../../../subjects/ascii-art/output/audit/README.md) |
+| 2 | [`ascii-art/color`](../../../subjects/ascii-art/color/README.md) | terminal coloring | [Audit](../../../subjects/ascii-art/color/audit/README.md) |
+| 3 | [`ascii-art/reverse`](../../../subjects/ascii-art/reverse/README.md) | inverse parsing | [Audit](../../../subjects/ascii-art/reverse/audit/README.md) |
+| 3 | [`ascii-art/justify`](../../../subjects/ascii-art/justify/README.md) | terminal sizing and layout | [Audit](../../../subjects/ascii-art/justify/audit/README.md) |
 
 ### `ascii-art-web`
 
 | Suggested depth | Extension | Core skill | Audit |
 |---|---|---|---|
-| 1 | [`ascii-art-web/stylize`](../../subjects/ascii-art-web/stylize/README.md) | CSS and web accessibility | [Audit](../../subjects/ascii-art-web/stylize/audit/README.md) |
-| 2 | [`ascii-art-web/export-file`](../../subjects/ascii-art-web/export-file/README.md) | HTTP downloads and content headers | [Audit](../../subjects/ascii-art-web/export-file/audit/README.md) |
-| 2 | [`ascii-art-web/dockerize`](../../subjects/ascii-art-web/dockerize/README.md) | Docker and deployment | [Audit](../../subjects/ascii-art-web/dockerize/audit/README.md) |
+| 1 | [`ascii-art-web/stylize`](../../../subjects/ascii-art-web/stylize/README.md) | CSS and web accessibility | [Audit](../../../subjects/ascii-art-web/stylize/audit/README.md) |
+| 2 | [`ascii-art-web/export-file`](../../../subjects/ascii-art-web/export-file/README.md) | HTTP downloads and content headers | [Audit](../../../subjects/ascii-art-web/export-file/audit/README.md) |
+| 2 | [`ascii-art-web/dockerize`](../../../subjects/ascii-art-web/dockerize/README.md) | Docker and deployment | [Audit](../../../subjects/ascii-art-web/dockerize/audit/README.md) |
 
 ### `groupie-tracker`
 
 | Suggested depth | Extension | Core skill | Audit |
 |---|---|---|---|
-| 1 | [`groupie-tracker/visualizations`](../../subjects/groupie-tracker/visualizations/README.md) | UI design and CSS | [Audit](../../subjects/groupie-tracker/visualizations/audit/README.md) |
-| 2 | [`groupie-tracker/filters`](../../subjects/groupie-tracker/filters/README.md) | filtering and form state | [Audit](../../subjects/groupie-tracker/filters/audit/README.md) |
-| 2 | [`groupie-tracker/search-bar`](../../subjects/groupie-tracker/search-bar/README.md) | search and autocomplete | [Audit](../../subjects/groupie-tracker/search-bar/audit/README.md) |
-| 3 | [`groupie-tracker/geolocalization`](../../subjects/groupie-tracker/geolocalization/README.md) | geocoding and maps API | [Audit](../../subjects/groupie-tracker/geolocalization/audit/README.md) |
+| 1 | [`groupie-tracker/visualizations`](../../../subjects/groupie-tracker/visualizations/README.md) | UI design and CSS | [Audit](../../../subjects/groupie-tracker/visualizations/audit/README.md) |
+| 2 | [`groupie-tracker/filters`](../../../subjects/groupie-tracker/filters/README.md) | filtering and form state | [Audit](../../../subjects/groupie-tracker/filters/audit/README.md) |
+| 2 | [`groupie-tracker/search-bar`](../../../subjects/groupie-tracker/search-bar/README.md) | search and autocomplete | [Audit](../../../subjects/groupie-tracker/search-bar/audit/README.md) |
+| 3 | [`groupie-tracker/geolocalization`](../../../subjects/groupie-tracker/geolocalization/README.md) | geocoding and maps API | [Audit](../../../subjects/groupie-tracker/geolocalization/audit/README.md) |
 
 ### `forum`
 
 | Suggested depth | Extension | Core skill | Audit |
 |---|---|---|---|
-| 1 | [`forum/image-upload`](../../subjects/forum/image-upload/README.md) | upload validation and content handling | [Audit](../../subjects/forum/image-upload/audit/README.md) |
-| 2 | [`forum/advanced-features`](../../subjects/forum/advanced-features/README.md) | events and account features | [Audit](../../subjects/forum/advanced-features/audit/README.md) |
-| 2 | [`forum/authentication`](../../subjects/forum/authentication/README.md) | external identity providers | [Audit](../../subjects/forum/authentication/audit/README.md) |
-| 3 | [`forum/moderation`](../../subjects/forum/moderation/README.md) | role-based access control | [Audit](../../subjects/forum/moderation/audit/README.md) |
-| 3 | [`forum/security`](../../subjects/forum/security/README.md) | application security | [Audit](../../subjects/forum/security/audit/README.md) |
+| 1 | [`forum/image-upload`](../../../subjects/forum/image-upload/README.md) | upload validation and content handling | [Audit](../../../subjects/forum/image-upload/audit/README.md) |
+| 2 | [`forum/advanced-features`](../../../subjects/forum/advanced-features/README.md) | events and account features | [Audit](../../../subjects/forum/advanced-features/audit/README.md) |
+| 2 | [`forum/authentication`](../../../subjects/forum/authentication/README.md) | external identity providers | [Audit](../../../subjects/forum/authentication/audit/README.md) |
+| 3 | [`forum/moderation`](../../../subjects/forum/moderation/README.md) | role-based access control | [Audit](../../../subjects/forum/moderation/audit/README.md) |
+| 3 | [`forum/security`](../../../subjects/forum/security/README.md) | application security | [Audit](../../../subjects/forum/security/audit/README.md) |
 
 
 **Security note:** The older `forum` specification treats password hashing as bonus wording; our independently authored learning system should **require secure password hashing and sensible cookie/session protections from the start**, without misrepresenting that design decision as an official grading rule.
