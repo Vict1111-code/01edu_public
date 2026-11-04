@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "phase": 20,
+  "as_of": "2026-11-04",
+  "scope": "Six historically sampled satellite candidates around the Galaxy core; not exhaustive optional-project catalog",
+  "source_index": "research/galaxy-audit/data/core-satellites-index.json",
+  "source_graph": "research/galaxy-audit/data/screenshot-core-index.json",
+  "warning": "Subject/audit README identity is confirmed; placement on Galaxy graph is not. Project classification and teaching stage do not establish official unlocks.",
+  "profiles": [
+    {
+      "id": "math-skills",
+      "kind": "standalone_optional_candidate",
+      "language_policy": "learner_choice",
+      "suggested_branch": "statistics-and-data",
+      "suggested_stage": "after Go Piscine text/file skills, before or alongside early Imperative",
+      "source_requirement": "calculate Average, Median, Variance, Standard Deviation from numerical file; rounded integer output",
+      "verify_phrase": "You can choose the language in which you want to build your program.",
+      "concepts": [
+        "file parsing",
+        "descriptive statistics",
+        "numeric precision",
+        "sorting for median"
+      ],
+      "audit_checks": [
+        "output format and integer rounding",
+        "randomized datasets against provided reference",
+        "multiple runs"
+      ],
+      "recommendation": "Optional quantitative exercise. No evidence of mandatory Imperative placement.",
+      "graph_membership": "unverified",
+      "source": "subjects/math-skills/README.md",
+      "audit": "subjects/math-skills/audit/README.md",
+      "official_unlock": null,
+      "official_mandatory_status": "unknown"
+    },
+    {
+      "id": "tetris-optimizer",
+      "kind": "standalone_optional_candidate",
+      "language_policy": "go_required",
+      "suggested_branch": "algorithms-and-optimization",
+      "suggested_stage": "after recursion/backtracking foundations; before or alongside lem-in",
+      "source_requirement": "assemble parsed tetrominoes into smallest feasible square and print labelled grid; reject malformed input",
+      "verify_phrase": "smallest square possible",
+      "concepts": [
+        "backtracking",
+        "search pruning",
+        "grid representations",
+        "shape validation",
+        "algorithmic performance"
+      ],
+      "audit_checks": [
+        "malformed tetromino ERROR cases",
+        "hard example empty cells",
+        "time-limit and minimal square",
+        "letter-to-piece identity"
+      ],
+      "recommendation": "Advanced optional algorithms challenge; no public proof of Galaxy unlock prerequisites.",
+      "graph_membership": "unverified",
+      "source": "subjects/tetris-optimizer/README.md",
+      "audit": "subjects/tetris-optimizer/audit/README.md",
+      "official_unlock": null,
+      "official_mandatory_status": "unknown"
+    },
+    {
+      "id": "net-cat",
+      "kind": "standalone_optional_candidate",
+      "language_policy": "go_required",
+      "suggested_branch": "networking-and-concurrency",
+      "suggested_stage": "after Go HTTP foundations, or in parallel before forum",
+      "source_requirement": "multiple TCP clients chat using goroutines and channel/mutex synchronization with message history",
+      "verify_phrase": "Maximum 10 connections",
+      "concepts": [
+        "TCP sockets",
+        "goroutines",
+        "mutexes/channels",
+        "shared state",
+        "concurrency testing"
+      ],
+      "audit_checks": [
+        "default 8989 and argument validation",
+        "join/leave broadcasts",
+        "message history on join",
+        "client isolation and maximum connections",
+        "race-free shared state"
+      ],
+      "recommendation": "Optional systems/concurrency route, not formally dependent on HTTP/web projects.",
+      "graph_membership": "unverified",
+      "source": "subjects/net-cat/README.md",
+      "audit": "subjects/net-cat/audit/README.md",
+      "official_unlock": null,
+      "official_mandatory_status": "unknown"
+    },
+    {
+      "id": "quadchecker",
+      "kind": "piscine_raid_candidate",
+      "language_policy": "go_required",
+      "suggested_branch": "Go Piscine raids",
+      "suggested_stage": null,
+      "source_requirement": "identify QuadA-E figure family and dimensions for input drawings, including ambiguous matches",
+      "verify_phrase": "This raid is based on the",
+      "concepts": [
+        "ASCII shapes",
+        "input validation",
+        "pattern identification"
+      ],
+      "audit_checks": [
+        "quadA-E outputs",
+        "multiple matching formats",
+        "invalid inputs"
+      ],
+      "recommendation": "Explicit source raid; exclude from post-Piscine optional project count.",
+      "graph_membership": "unverified",
+      "source": "subjects/quadchecker/README.md",
+      "audit": "subjects/quadchecker/audit/README.md",
+      "official_unlock": null,
+      "official_mandatory_status": "unknown"
+    },
+    {
+      "id": "sudoku",
+      "kind": "piscine_raid_candidate",
+      "language_policy": "go_required",
+      "suggested_branch": "Go Piscine raids",
+      "suggested_stage": null,
+      "source_requirement": "solve a unique-solution Sudoku puzzle; invalid input or puzzle produces Error",
+      "verify_phrase": "A valid sudoku has only one possible solution.",
+      "concepts": [
+        "constraint search",
+        "backtracking",
+        "grid validation"
+      ],
+      "audit_checks": [
+        "many valid puzzle solutions",
+        "invalid and ambiguous puzzle rejection",
+        "exact output format"
+      ],
+      "recommendation": "README audit explicitly links to Go raid testing; reserve for Piscine raid crosswalk rather than Imperative.",
+      "graph_membership": "unverified",
+      "source": "subjects/sudoku/README.md",
+      "audit": "subjects/sudoku/audit/README.md",
+      "official_unlock": null,
+      "official_mandatory_status": "unknown"
+    },
+    {
+      "id": "road_intersection",
+      "kind": "rust_raid_or_architecture_candidate",
+      "language_policy": "rust_implementation_context",
+      "suggested_branch": "Rust Piscine / Architecture verification",
+      "suggested_stage": null,
+      "source_requirement": "crossroad traffic-light simulator prevents collisions and dynamically manages capacity and vehicle queues",
+      "verify_phrase": "traffic control strategy",
+      "concepts": [
+        "simulation",
+        "dynamic scheduling",
+        "collision avoidance",
+        "event handling",
+        "graphics"
+      ],
+      "audit_checks": [
+        "vehicle spawning and turns",
+        "safety under congestion",
+        "traffic light constraints",
+        "interactive simulation"
+      ],
+      "recommendation": "Rust SDL2 reference and 'raid' in public audit; not an Imperative standalone project. Exact Galaxy branch needs screenshot provenance.",
+      "graph_membership": "unverified",
+      "source": "subjects/road_intersection/README.md",
+      "audit": "subjects/road_intersection/audit/README.md",
+      "official_unlock": null,
+      "official_mandatory_status": "unknown"
+    }
+  ],
+  "suggested_progression_edges": [
+    {
+      "from": "go-reloaded",
+      "to": "math-skills",
+      "relation": "pedagogical_recommendation",
+      "official_unlock": null
+    },
+    {
+      "from": "go-reloaded",
+      "to": "tetris-optimizer",
+      "relation": "pedagogical_recommendation",
+      "official_unlock": null
+    },
+    {
+      "from": "ascii-art-web",
+      "to": "net-cat",
+      "relation": "pedagogical_recommendation",
+      "official_unlock": null
+    }
+  ],
+  "reclassified_out_of_imperative": [
+    "quadchecker",
+    "sudoku",
+    "road_intersection"
+  ],
+  "next_research": "Audit entire top-level subject catalog and map further optional nodes against actual screenshot rather than treating this sampled set as exhaustive."
+}
