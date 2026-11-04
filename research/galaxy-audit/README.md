@@ -115,6 +115,10 @@ The [Phase 11 findings](findings/progressive-three-piscines-phase11-2026-11-03.m
 
 [Phase 20 findings](findings/imperative-satellites-phase20-2026-11-04.md) and [six-project structured classification](data/phase20-imperative-satellites.json) distinguish three post-Piscine optional learning candidates (`math-skills`, `tetris-optimizer`, `net-cat`) from two Go Piscine raid candidates (`quadchecker`, `sudoku`) and one Rust-side raid/simulation candidate (`road_intersection`). All **six public specifications and six audit READMEs** were inspected; **eight verification tests passed** in [CI run 41832615410](https://github.com/Vict1111-code/01edu_public/actions/runs/41832615410). Only these **six previously sampled satellites** were investigated; the complete optional-project catalog and official Galaxy placements remain unverified.
 
+## Phase 21 — Expanded discovery of audited standalone projects (2026-11-04)
+
+[Phase 21 findings](findings/expanded-galaxy-project-discovery-phase21-2026-11-04.md) and [33 manually inspected project profiles](data/phase21-expanded-project-candidates.json) account for **all 56 top-level subjects with `audit/README.md`** in the recursive source index (17 screenshot-core + six Phase 20 satellite samples + **33 newly classified**). Newly evidenced pathways include statistics `math-skills → guess-it-1` and `linear-stats → guess-it-2`, cross-language apps (C, PHP/Laravel, Python/Django, Ruby/Rails, C++), Linux/sysadmin labs and Full-Stack `bomberman-dom` building on `mini-framework`. [Eight automated tests and source attestation](scripts/verify-expanded-projects.test.mjs) passed in [GitHub Actions run 41834583690](https://github.com/Vict1111-code/01edu_public/actions/runs/41834583690). **Scope caution:** 736 other top-level README subjects do not have that audit path; they remain outside this focused discovery. Public source links do not establish official Galaxy unlocks, mandatory status or track placement.
+
 ## Artifacts
 
 | File | Coverage | Method |
