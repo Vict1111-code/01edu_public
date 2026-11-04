@@ -16,6 +16,7 @@ on:
       - 'research/galaxy-audit/data/phase24*'
       - 'research/galaxy-audit/data/phase25*'
       - 'research/galaxy-audit/data/phase26*'
+      - 'research/galaxy-audit/data/phase27*'
 
 permissions:
   contents: read
@@ -155,6 +156,18 @@ jobs:
       - name: Source-verify all 285 Phase 26 priority classifications
         run: node research/galaxy-audit/scripts/verify-phase26-reviewed-groups.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 27 full source classifications
+        run: node --test research/galaxy-audit/scripts/verify-phase27-nonpriority.test.mjs
+
+      - name: Verify final 127 nonpriority README classifications
+        run: node research/galaxy-audit/scripts/verify-phase27-nonpriority.mjs . research/galaxy-audit/generated
+
+      - name: Test Phase 27 source gaps and evidence relationships
+        run: node --test research/galaxy-audit/scripts/verify-phase27-evidence.test.mjs
+
+      - name: Verify recovered historical sources and 16 documented relationships
+        run: node research/galaxy-audit/scripts/verify-phase27-evidence.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -247,5 +260,8 @@ jobs:
             research/galaxy-audit/generated/phase26-285-full-source-bundle.json
             research/galaxy-audit/generated/phase26-source-verified-285.json
             research/galaxy-audit/generated/phase26-source-verified-guide.md
+            research/galaxy-audit/generated/phase27-source-verified-127.json
+            research/galaxy-audit/generated/phase27-source-verified-127.md
+            research/galaxy-audit/generated/phase27-evidence-attestation.json
           retention-days: 14
           if-no-files-found: error
