@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-11-04",
+  "records": [
+    {
+      "language": "javascript",
+      "exercise": "pimp-my-style",
+      "source_path": "subjects/pimp-my-style/README.md",
+      "verification_phrase": "unpimp",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "dom",
+        "events",
+        "ui_state"
+      ],
+      "review_note": "Cycle HTML button classes forward and backward on clicks and toggle unpimp styling.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "curry-entries",
+      "source_path": "subjects/curry-entries/README.md",
+      "verification_phrase": "reduceCurry",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "closures",
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "review_note": "Build curried object entry merge, filter, map and reduce operations and derive scores.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "keycodes-symphony",
+      "source_path": "subjects/keycodes-symphony/README.md",
+      "verification_phrase": "Backspace",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "dom",
+        "events",
+        "ui_state"
+      ],
+      "review_note": "Create note divs from letter keydowns and handle Backspace and Escape correctly.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "manipulate-entries",
+      "source_path": "subjects/manipulate-entries/README.md",
+      "verification_phrase": "filterEntries",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "review_note": "Implement map filter reduce over object entry pairs and compute grocery cart values.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "using-filter",
+      "source_path": "subjects/using-filter/README.md",
+      "verification_phrase": "filterShortStateName",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "review_note": "Use native filter with vowel and object-field predicates.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "all",
+      "source_path": "subjects/all/README.md",
+      "verification_phrase": "Promise.all",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "promises",
+        "arrays_objects"
+      ],
+      "review_note": "Implement Promise.all semantics for object values and return keyed results.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "count-leap-years",
+      "source_path": "subjects/count-leap-years/README.md",
+      "verification_phrase": "since the year 1",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates",
+        "control_flow"
+      ],
+      "review_note": "Count leap years between year one and Date using calendar arithmetic.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "currify",
+      "source_path": "subjects/currify/README.md",
+      "verification_phrase": "curry any functions",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "closures",
+        "higher_order_functions"
+      ],
+      "review_note": "Transform an arbitrary-arity function into unary curried calls.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "date-is",
+      "source_path": "subjects/date-is/README.md",
+      "verification_phrase": "isFuture",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates",
+        "control_flow"
+      ],
+      "review_note": "Implement Date validity, ordering and relative-time predicates with invalid-date checks.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "day-of-the-year",
+      "source_path": "subjects/day-of-the-year/README.md",
+      "verification_phrase": "first day of that year",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates"
+      ],
+      "review_note": "Calculate Date day-of-year with correct leap-year and date boundaries.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "dog-years",
+      "source_path": "subjects/dog-years/README.md",
+      "verification_phrase": "orbital period",
+      "proposed_study_stage": 2,
+      "concepts": [
+        "values_functions",
+        "control_flow"
+      ],
+      "review_note": "Convert dog age in seconds to planet-dependent years with two-decimal rounding.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "dr-strange",
+      "source_path": "subjects/dr-strange/README.md",
+      "verification_phrase": "14",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates",
+        "arrays_objects"
+      ],
+      "review_note": "Model a fourteen-day weekday system and modify Date via timeTravel object fields.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "flagger",
+      "source_path": "subjects/flagger/README.md",
+      "verification_phrase": "help",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "arrays_objects",
+        "values_functions"
+      ],
+      "review_note": "Return alias and description flags, including default help selection.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "for-each",
+      "source_path": "subjects/for-each/README.md",
+      "verification_phrase": "Array.prototype.forEach",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "review_note": "Recreate callback iteration over array without native forEach.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "get-some-time",
+      "source_path": "subjects/get-some-time/README.md",
+      "verification_phrase": "first day of a week",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates"
+      ],
+      "review_note": "Find Monday of numbered week with year-boundary clipping and dd-mm-yyyy format.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "gougle-search",
+      "source_path": "subjects/gougle-search/README.md",
+      "verification_phrase": "queryServers",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "promises",
+        "fetch_json"
+      ],
+      "review_note": "Run three server queries concurrently and enforce an eighty-millisecond overall timeout.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "interpolation",
+      "source_path": "subjects/interpolation/README.md",
+      "verification_phrase": "callback",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "higher_order_functions",
+        "closures"
+      ],
+      "review_note": "Invoke interpolation callbacks at timed intervals using step and duration arguments.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "ion-out",
+      "source_path": "subjects/ion-out/README.md",
+      "verification_phrase": "containing",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates"
+      ],
+      "review_note": "Use regular-expression lookaround to find words with tion and remove ion suffix.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "letter-space-number",
+      "source_path": "subjects/letter-space-number/README.md",
+      "verification_phrase": "only one digit",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates"
+      ],
+      "review_note": "Regex-match letter space single digit sequences that are not followed by letters.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "manipulate-keys",
+      "source_path": "subjects/manipulate-keys/README.md",
+      "verification_phrase": "keys",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "review_note": "Implement filter map reduce over grocery-cart object keys.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "manipulate-values",
+      "source_path": "subjects/manipulate-values/README.md",
+      "verification_phrase": "values in your grocery cart",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "review_note": "Implement filter map reduce over grocery-cart object values.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "mapper",
+      "source_path": "subjects/mapper/README.md",
+      "verification_phrase": "flatMap",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "higher_order_functions",
+        "arrays_objects"
+      ],
+      "review_note": "Reimplement map and flatMap as callback-based array transformations.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "race",
+      "source_path": "subjects/race/README.md",
+      "verification_phrase": "Promise.race",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "promises",
+        "arrays_objects"
+      ],
+      "review_note": "Implement Promise.race and collect the first N successfully resolved values.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "same-amount",
+      "source_path": "subjects/same-amount/README.md",
+      "verification_phrase": "same number of times",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "regex_dates"
+      ],
+      "review_note": "Compare total string matches produced by two regular expressions.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "series",
+      "source_path": "subjects/series/README.md",
+      "verification_phrase": "execute them in series",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "promises",
+        "higher_order_functions"
+      ],
+      "review_note": "Execute async functions sequentially and return ordered results.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "javascript",
+      "exercise": "sweet-curry",
+      "source_path": "subjects/sweet-curry/README.md",
+      "verification_phrase": "currying",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "closures",
+        "higher_order_functions"
+      ],
+      "review_note": "Implement unary-curried numeric functions accepting two three or four values.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    }
+  ]
+}
