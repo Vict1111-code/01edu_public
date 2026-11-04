@@ -43,7 +43,7 @@ The archive-name labels were Go 121, Rust 63 and JavaScript 97; the **three Go-n
 
 **Go:** printable output, runes, ASCII conversions, higher-order callbacks, sorting, linked-list operations, binary-search trees and recursive eight-queens search. The manual subset contains 19 Go exercises and three Go-archive shell tasks. Examples: `basicatoi`, `foreach`, `listremoveif`, `btreeapplybylevel`, `eightqueens`, `ztail`.
 
-**Rust (31):** arrays and borrowing, lifetime annotations, ownership, enums, error types and `Result`, traits, generic algebra, matrix arithmetic, iterator implementation, dynamic programming, file and JSON handling, and small multi-component simulation/data-model assignments. Examples: `box​​ing_todo` (a JSON TODO parser with boxed error types), `edit_distance`, `roman_numbers_iter`, `lalgebra_scalar`, `matrix_ops`, `blood_types`.
+**Rust (31):** arrays and borrowing, lifetime annotations, ownership, enums, error types and `Result`, traits, generic algebra, matrix arithmetic, iterator implementation, dynamic programming, file and JSON handling, and small multi-component simulation/data-model assignments. Examples: `boxing_todo` (a JSON TODO parser with boxed error types), `edit_distance`, `roman_numbers_iter`, `lalgebra_scalar`, `matrix_ops`, `blood_types`.
 
 **JavaScript (28):** basic functions, arrays/collections, closures, regular expressions, async fetch, `Date`, callbacks and higher-order functions, plus browser DOM event projects including a brick tower, gossip grid, color picker and scrolling gallery. `block-chain` is a JavaScript chained-object exercise; it does **not** belong to the later specialization branch merely because its title says blockchain.
 
@@ -96,4 +96,6 @@ The account includes source-insufficient stubs and an unavailable placeholder. I
 
 **Next phase:** Merge the top-level 792-source identity registry with nested projects, their audits and screenshot-supported Galaxy anchor nodes; then construct the interactive graph with independent visual, pedagogical, and source-mandated edge types. Do not backfill unspecified platform unlocks.
 
-CI status should be checked against the last completed run before claiming final validator success.
+## 7. Confirmed continuous integration result
+
+**[GitHub Actions run 41880063139](https://github.com/Vict1111-code/01edu_public/actions/runs/41880063139) — completed successfully.** The full workflow ran the Phase 28 validators and **all eleven new regression tests passed** (seven full 281-README catalog tests plus four source-supported relationship tests). The Phase 28 verifier attested **281/281 complete public README contents**, **200 reused human reviews**, **81 new manual source reviews**, **124 exact historical source phrases**, and **107 existing public JS/DOM test files across 97 JavaScript subjects**. The relationship verifier checked all **seven** new source-backed edges with **zero** official unlock assertions. The workflow generated a [downloadable evidence artifact](https://github.com/Vict1111-code/01edu_public/actions/runs/41880063139) containing machine-readable source-attested JSON, CSV, and summary statistics.
