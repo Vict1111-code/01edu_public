@@ -1,0 +1,6129 @@
+{
+  "schema_version": "1.0",
+  "phase": 22,
+  "date": "2026-11-04",
+  "source_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "meaning": "Research coverage reconciliation; archive name matches do not prove official Piscine inclusion and absence of audit/README.md does not mean no evaluation.",
+  "counts": {
+    "total_top_level": 792,
+    "audited_top_level": 56,
+    "top_level_without_audit": 736,
+    "community_archive_candidate_rows": 322,
+    "exact_top_level_archive_rows": 287,
+    "unique_subject_archive_matches": 282,
+    "archive_matches_without_audit": 281,
+    "archive_matches_with_audit": [
+      "sortable"
+    ],
+    "archive_unmatched_without_audit": 455,
+    "manual_sources_reviewed": 10,
+    "unreviewed_archive_unmatched": 445,
+    "archive_matches_by_language": {
+      "go": 121,
+      "javascript": 97,
+      "rust": 63
+    }
+  },
+  "duplicate_community_archive_ids": [
+    {
+      "id": "printnbrbase",
+      "occurrences": 2
+    },
+    {
+      "id": "atoibase",
+      "occurrences": 2
+    },
+    {
+      "id": "split",
+      "occurrences": 2
+    },
+    {
+      "id": "listsize",
+      "occurrences": 2
+    },
+    {
+      "id": "btreeapplybylevel",
+      "occurrences": 2
+    }
+  ],
+  "archive_matched_unaudited_subjects": [
+    {
+      "id": "abort",
+      "readme_sha": "c6ba2909923526815e46a62a5d8fb9833dc1366a",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "abs",
+      "readme_sha": "c3954f5bc0c25a3e8ea5e4fe85823b0acf39cb5a",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "activebits",
+      "readme_sha": "1b6d8c9880dbb2a4fecd5e898b2f611097d47a7c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "advancedsortwordarr",
+      "readme_sha": "05b09c405789a678e7f480ad5c532d04ba43f24b",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "all",
+      "readme_sha": "269742fc3650cac581a00bca0d054968ca22d74e",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "alphacount",
+      "readme_sha": "036477426d3a347223dd8373a8dce0b9e569ed55",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "any",
+      "readme_sha": "62490c03278d42426c63dd930f29c19ee7820caa",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "appendrange",
+      "readme_sha": "97e5fb6149b11131dabbd86163a4d9fada2e2e58",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "arrange_it",
+      "readme_sha": "0f59c9bab09ff3d7cceef47f4e5682c450594d20",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "arrays",
+      "readme_sha": "6a7f356eb5a462ed18320863fdb4b46ed568c543",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "atoi",
+      "readme_sha": "b7367c6dd9425a9ee46c41be6a52b0903d3be186",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "atoibase",
+      "readme_sha": "af468335c0d8a235b763ed26e8ee8bcdec4b1d90",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 2,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "banner",
+      "readme_sha": "765b6901e16bcc10e4440c269231daaf59545b9c",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "basicatoi",
+      "readme_sha": "39325aceeae3b90d71ec783242512aa790024a9b",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "basicatoi2",
+      "readme_sha": "615b08f2262d5795bd5cc065d154deb87a562407",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "basicjoin",
+      "readme_sha": "aae5b93662414f5bc878235f995c5dd7596f9c1f",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "bigger",
+      "readme_sha": "31d0645c7c57cdc1bdd00032cd69f25999524d3e",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "biggie-smalls",
+      "readme_sha": "78a278a4f945c9bee4be832c7d45d9c83d342e9e",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "block-chain",
+      "readme_sha": "3ecf148a773dc555da72b2e6158f70a5477d18f7",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "blood_types",
+      "readme_sha": "0c8d1061e003e46fcdaf630737d7daed6d8285fe",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "boolean",
+      "readme_sha": "8a97b60762b8bbdc843d9d1c592d31028a46d33e",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "border_cross",
+      "readme_sha": "46ba2ad7651b5978bf652e8d6b5ce61db4156f1e",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "borrow",
+      "readme_sha": "8606610bbe80072b243a44a8dd822af16956a995",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "borrow_me_the_reference",
+      "readme_sha": "8d91d03ceef5424e32c494840572b6294dc95eb8",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "boxing_todo",
+      "readme_sha": "53cf6599dc879976db554bbe6f8bd87ecf7ce662",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreeapplybylevel",
+      "readme_sha": "c9594c1b3d8658bae294ec46764bcf533aa309bf",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 2,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreeapplyinorder",
+      "readme_sha": "4b4c99f1d37be12c9a54b1fe67ab5d469da18223",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreeapplypostorder",
+      "readme_sha": "4c5f6121bc9987491dc681642d61c728bb8cda02",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreeapplypreorder",
+      "readme_sha": "5c9f154a68298d1bc8ecc5b501603d4123be6556",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreeinsertdata",
+      "readme_sha": "558ba57dc0534699c6b268dca713ea40ad29b7d0",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreeisbinary",
+      "readme_sha": "d3a03fafda4a4930947421882aee08a3595ea151",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreelevelcount",
+      "readme_sha": "2cedc853ac1fc644c052182d62d04dd529ae0b37",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreesearchitem",
+      "readme_sha": "a364f57a5207d0f9eed2f5e19816539bd3e62211",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "build-brick-and-break",
+      "readme_sha": "8712a43d732610fab1f48208ea15043fd1256b57",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "capitalize",
+      "readme_sha": "05bb22206e1c8137d78cd2d59f6aa2ce066b21e0",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "capitalizing",
+      "readme_sha": "5ce9b8fd31b45782a6e733dfaa27b4788b531ac6",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "card_deck",
+      "readme_sha": "ffb9608a49234f5c5dc6841ed075fe7a954574d4",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cat",
+      "readme_sha": "68f64c3db7de1d2f48dd990e778608bc66968ccc",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "change",
+      "readme_sha": "4077fb46d2a41c01557a329b99282ca9d149c9dc",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "changes",
+      "readme_sha": "1f8c24e25643ccccc9a8c34e21fb327aee4d5350",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "chunky",
+      "readme_sha": "c8afac23287fa9e22db664d7a62c599d51236e2e",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cipher",
+      "readme_sha": "510709adbd0b2a10b1c168ec13803d592e0093cf",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "circle",
+      "readme_sha": "ec2450144e6c7b69a11500abd1ff17462ce085a9",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "circular",
+      "readme_sha": "7cc6dba2b6126e18b6ecd5de7558c4a20172f0cd",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "collatzcountdown",
+      "readme_sha": "3bbf69a783d8fefb10f82db624fbba30b46ddfec",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "collect",
+      "readme_sha": "55993498a4de1b65274687827a3f92f251784904",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "collections",
+      "readme_sha": "d471553d5e780193d739a15ac5bae25389efa248",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "comcheck",
+      "readme_sha": "7988f911db61b0c5cdb34ee5b77769b95cf47ccf",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "commits_stats",
+      "readme_sha": "02331c2197c5b210e69d3a62cce5215f28669650",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "compact",
+      "readme_sha": "2a3470bec2d8a2480d6027a6742f72e15d9c5878",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "compare",
+      "readme_sha": "170e00a70752ede45011a0115f93bd55ce843ee1",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "concat-str",
+      "readme_sha": "5653dd77232ea56a2ff7a3646447d3e0079e6672",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "concat",
+      "readme_sha": "53d2201c338382ca47b773caf14f2b0970ff47e1",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "concatparams",
+      "readme_sha": "016eb42cd9bb10780592aa05ffd3a85d7893ba55",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "convertbase",
+      "readme_sha": "bb8302813a1752805f8ff5cbc557740773526d2f",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "copy",
+      "readme_sha": "8acf795bec16db79f5ec21cf943de9f93b25e2d6",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "count-leap-years",
+      "readme_sha": "1b4d3d36f1762ca19699170356a3812bf167efbd",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "countif",
+      "readme_sha": "5a62994f9b09239222e003c00322d06160fa5389",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "currify",
+      "readme_sha": "64865e10f34e5c5f21039b6ffed1c2ee504da9d5",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "curry-entries",
+      "readme_sha": "59d97f09698142a367011e799f0ef2ce0207bc3a",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cut-corners",
+      "readme_sha": "6d03ed26b79cd2efb7ac3ebadbe9bb7d0e78679f",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "date-is",
+      "readme_sha": "c54a7fcd52d5f7e9eb7b1a91b2550e96cbcd2ac8",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "day-of-the-year",
+      "readme_sha": "fd45cda244ac58d4d6ffdf2757b0144ea9ca8bc2",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "debounce",
+      "readme_sha": "e05f7d9f60f6247c4af415026db9a492ee645be2",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "declarations",
+      "readme_sha": "b0c3a1f12d26526a6549bf0ad6b51ce106d4829a",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "deep-copy",
+      "readme_sha": "9990f4688f59a99bd4eb2563dc63009a22141d2d",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "delete_prefix",
+      "readme_sha": "9041a5b5850223bf6d2275cfd299b541fd7c8f2b",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displayfile",
+      "readme_sha": "c3eb35e6a0a24cac944e8f948e0405202ea43f11",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "division_and_remainder",
+      "readme_sha": "c801567bb3274ce679b7133581479a298cf9fa8b",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "divmod",
+      "readme_sha": "30ca56f80f365801c6602bec6e4358a269ab2acd",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "does_it_fit",
+      "readme_sha": "3fee3dd2675b61bf68593e8ea6356be2df5c3f62",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "dog-years",
+      "readme_sha": "db6f6915f9364cd5e58bf92b78943fa2802f1f1b",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "doop",
+      "readme_sha": "7b88c689243099099c8d36d8dec4320399d5e6ca",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "doubtful",
+      "readme_sha": "e2bf21762fec9844e35fdd24872a538a20a8049e",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "dr-strange",
+      "readme_sha": "48c93f21e05254b60215e7f8b9e202922e890352",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "edit_distance",
+      "readme_sha": "73ef4c7150b704bfac16b9f183c6cba5a2fd0c32",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "eightqueens",
+      "readme_sha": "14c0ad80eb839573e39e14d519707a06c39531a4",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "elementary",
+      "readme_sha": "1e836df7ebfac549b20c57e1090da120a33ed74f",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "enigma",
+      "readme_sha": "d4136e02937c745a91536d933ecbc1886510203a",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "error_types",
+      "readme_sha": "533ad6ab26ff14f0ccc987cd08237b26f8a1d238",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "events",
+      "readme_sha": "855131fd0aab59b2e5426b4235bd4f7d93053a3e",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "expected_variable",
+      "readme_sha": "8bdc643f999f4d4a82fb76c65c7d7e007fded7e9",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fibonacci",
+      "readme_sha": "68e663530a71e72faf4ae2e50e06f5d272e6356d",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fibonacci2",
+      "readme_sha": "e1707f278afb8f122a61d4b4dd3a3719f38e42f0",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fifty-shades-of-cold",
+      "readme_sha": "c54cffd217c8be0d40490c480f643b0869eaa732",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "filter",
+      "readme_sha": "d4765be5766509e1feafc8a380eaa9ac5a64461e",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "find-expression",
+      "readme_sha": "e4ab0aafdd789f2dc4860a79d456b3efc0d203b8",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "find_factorial",
+      "readme_sha": "f1187d93b941472132f65b7409da1ed662ca6261",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "findnextprime",
+      "readme_sha": "cf3af2bdc2315f7dedb1e30860e19f315420437d",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "firstrune",
+      "readme_sha": "3203e4f0d0638ce47423c76675fdd68ce96af7a8",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fixthemain",
+      "readme_sha": "479f822f8c591e446799b224257f198d0bebce20",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "flagger",
+      "readme_sha": "e8323f530680d8ea5105839ea89d3cd15da9da14",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "flags",
+      "readme_sha": "4fd21beb1370e1689e4aae703597d53d518b5b87",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "flat",
+      "readme_sha": "16a772c6e8ac9e1cb146cff5ab9d5144a1f0267c",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "flow",
+      "readme_sha": "ccfd419fa24c93bdb458b0ac577634ffd82707b9",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "for-each",
+      "readme_sha": "307325f11090f9e4adc1653afefd9e8e0bffb1cb",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "foreach",
+      "readme_sha": "98e9f340a7b3c166c5de490cc765625a18267f66",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fprime",
+      "readme_sha": "64d0c13e4c37526c5a37441dee7c842b210579b7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fusion",
+      "readme_sha": "34b8fe7bde4f8675c15135f0108cc856e6b0bf98",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "gcd",
+      "readme_sha": "e1c3166211e8222e56b78de4afce9a502af4ea7c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "generics",
+      "readme_sha": "3a90ac65315175cb9ce162899cf4338547c5bb5f",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "get-json",
+      "readme_sha": "70f65f3a2867a087e225bef2ae514ce30ba8b6d1",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "get-some-time",
+      "readme_sha": "7f07a1ae197afae90d29c290e52d1640e5dbfd71",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "get-them-all",
+      "readme_sha": "8e145eb9971df8413edbf1f1f82e31cea4c41164",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "get",
+      "readme_sha": "ef673e8de43d7380b0d96bdb85c02a16ba0a1a05",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "gossip-grid",
+      "readme_sha": "648981cfa66f8ce65e6325dd66eec7565c680a14",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "gougle-search",
+      "readme_sha": "8aad38181ee92c957958b1be88b43d462e03b8b1",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "greedy-url",
+      "readme_sha": "17188a5773201e5cfec4a213781e93e43ab3ab1f",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "groceries",
+      "readme_sha": "78d7fe770f266209eda9a02d8df6940f138a4a7f",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "group-price",
+      "readme_sha": "a8c4d7f1113d68b8904360da0e88063d9cae0ae9",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "handling",
+      "readme_sha": "cab5984159f87852c16ca78f9a816c6ab629d419",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "harder-bigger-bolder-stronger",
+      "readme_sha": "5e8ea477fced70934bfac608b4baaa707e37227f",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "has-city",
+      "readme_sha": "1ccf5e3ed7b5086c753028a52fb619608f870ca7",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "hashing",
+      "readme_sha": "5d2bbe3036f8742610357b732b751d756d607a22",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "hello",
+      "readme_sha": "bdc727b633c67822de9fbf9ae289b3c7e7081029",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "how-2-js",
+      "readme_sha": "10dff2a6deac60cc6c13ff3022f2c1141e8444e9",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "index-of",
+      "readme_sha": "9cfa2019c86b18ba0a4d3df0a8518bccf5288ff1",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "index",
+      "readme_sha": "9a2f9ab09024587a143f51e74312b749feb9fbc7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "interpolation",
+      "readme_sha": "fc62eaf810634dcd9d88a6344b79f40c0bf4febd",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "invert",
+      "readme_sha": "d92c2987e4723af675d7e5ff471e42e3de436d69",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ion-out",
+      "readme_sha": "a68405c5c419282599ae2f654d4ed2f38a3affb5",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "is-winner",
+      "readme_sha": "83465ddf49d7f479d9d1ebf5d551874fecbc69cd",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "is",
+      "readme_sha": "7ea2e79c29a167e3bd09b7b9c6a35e71f9f86ca0",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "isalpha",
+      "readme_sha": "241a26204e0458e63e2849284875c9bd7f0ae515",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "islower",
+      "readme_sha": "abb4ad765cb15eb959d4d822afaf9bc9e86422c4",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "isnegative",
+      "readme_sha": "faa7a0bcc0b1c0e1fe8e7e9d07785d11453fcb35",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "isnumeric",
+      "readme_sha": "48c91487f7f4fa33fa977bff387db2e031d2f8be",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ispowerof2",
+      "readme_sha": "b6356106523010442659a4c465179377d3a29b1c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "isprime",
+      "readme_sha": "9d65db8dab733202517c9c99ad8ccd4b5f72a51c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "isprintable",
+      "readme_sha": "46530771689f37b6dfc2626afe6905bf50a00e32",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "issorted",
+      "readme_sha": "9db37ef7a66c05105fef8ed6fba1a08f2b147315",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "isupper",
+      "readme_sha": "8550b0f3e3c43b80789e153d6d65ae1f5c490dd5",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "iterativefactorial",
+      "readme_sha": "5b3713f736951c26e12906ad5c7508eeed9765b6",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "iterativepower",
+      "readme_sha": "05542790d48ea8e06915cce43d34ed4c21e07f5c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "itoa",
+      "readme_sha": "a830313a99f4048a00c64f8dacaa13688ada0e82",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "itoabase",
+      "readme_sha": "4ffa4effa785cdaa77b8cc6dd0794b0947d90a42",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "its-a-match",
+      "readme_sha": "a3d9b618d59df974cd47958149bba642cc1546a5",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "join",
+      "readme_sha": "09f704b51ba12352af990708ff435aedddaf7ff8",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "keep-cut",
+      "readme_sha": "67aba10414e4d535cfa0ab1de1737d4faf216f41",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "keep-trying-or-giveup",
+      "readme_sha": "6e142efa059c1c1325000547219b382c7f6bd53a",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "keycodes-symphony",
+      "readme_sha": "84278c069e03babfd00272f07273aeb8497e692f",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lalgebra_scalar",
+      "readme_sha": "e1672644a5760349141e9ecb734b8a8d54b34495",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lalgebra_vector",
+      "readme_sha": "19804e513aea65008cf6dab3ab92ae0bca304598",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "last-first-kiss",
+      "readme_sha": "05cd6057edda23ad220d9cf0f654d2bb7cf8e332",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lastrune",
+      "readme_sha": "187c80aad4dcf42208c2a23499ba976aeb6ca76c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "letter-space-number",
+      "readme_sha": "0ccc3981e5de51f775950a656489bcfeaecb7fdb",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lifetimes",
+      "readme_sha": "e883b22cc87456215e908948e5f22b102945ce5b",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listat",
+      "readme_sha": "7445492355fdb1db399414ecb8cebc3ee32a8439",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listclear",
+      "readme_sha": "12db86c730cbc632d89e5790f3b089f10ee3ab29",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listfind",
+      "readme_sha": "2eb397536ad106493ca84296a27f0e772d9a5a20",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listforeach",
+      "readme_sha": "93bc33a7fc5cdbca13354e29191c46cd224150b0",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listforeachif",
+      "readme_sha": "93e19680246acd9f80ed0e503293ea825fcf9c7e",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listlast",
+      "readme_sha": "15423c66a3093b9a0a5b21ce1123d360df40cfef",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listmerge",
+      "readme_sha": "1ad23fc336d76370bfeee19710b7eb0d28c190ac",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listpushback",
+      "readme_sha": "8beb3cdb3a31f31aaba7726108ceeca081542a0d",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listpushfront",
+      "readme_sha": "dac982260dee8137dbc08ddaf8c92b330de45437",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listremoveif",
+      "readme_sha": "95c56cecb4fbcb9b35d1a2e94ba69bff487e9949",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listreverse",
+      "readme_sha": "befb50bb188cd48c89cd419a1b002649b6953c54",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listsize",
+      "readme_sha": "e38d060a6d24cce5cfff41a2fa084a6d38eebe8a",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 2,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listsort",
+      "readme_sha": "a76117af7279b90911c36307418d823297a5a01e",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "long-words",
+      "readme_sha": "75077393cb256ca819cf1d93a5fd0e58b3772888",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "looping",
+      "readme_sha": "b709cae6b8578884e89b93a467db4a0bbb7ca1f0",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "macro_calculator",
+      "readme_sha": "9156d9e4e40fa718ddebd6666e875464aeb1e140",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "make-it-better",
+      "readme_sha": "e60ac6662ba9cee8ce88caf1e372882b0df33b28",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "makerange",
+      "readme_sha": "50af52d016a143bfe561de8bacc58027d9cd226d",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "manipulate-entries",
+      "readme_sha": "f81ea652b18ab9cbc3719b3997db87a3610a87e7",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "manipulate-keys",
+      "readme_sha": "9ad42bdd42771145b795dda8317cb77ca3304d42",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "manipulate-values",
+      "readme_sha": "ae7a69ab9d93b1168d82a1a90bfe4c9c3ac6ff3a",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "map",
+      "readme_sha": "3552927bb37a51d74b1199764276019ecb324de5",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "mapper",
+      "readme_sha": "a863a4c3b34371afb69cd8903c5eb79d78a73f2d",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "match-cron",
+      "readme_sha": "cf26782e9f3584f57d491a825353302fecce202c",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix",
+      "readme_sha": "23f18a2dcd74f4c7628b455f0888ae9f0f3450da",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix_mult",
+      "readme_sha": "83674f59a45690bec8dbe50cb988a82c61594f4d",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix_ops",
+      "readme_sha": "c598141510a87f7c9683eeca8bccd246ff8da137",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix_transposition",
+      "readme_sha": "f51efe09956e64b40824b2fc2e5eafde493b816b",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "max",
+      "readme_sha": "8cb667ddfce0d5baf81b2a0b02602e53cdf19ca8",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "method-man",
+      "readme_sha": "e1ac00298f1391311c7586dc9f28c818fc7ff68b",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "middle_day",
+      "readme_sha": "d241fded6d9931d406bffb2667cc5b70b1c15c60",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "min-max",
+      "readme_sha": "c309839b9841854da4372c9911a929015d2d8b3c",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "mobs",
+      "readme_sha": "b14d623871a21598945af318366132465f371ca3",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "molecules-cells",
+      "readme_sha": "c1650b93858bfa2e7f450a322946f8165e3b8b9e",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "more-or-less",
+      "readme_sha": "7021e0d03d49c6e4e5a8d4bf0c65b86cbcda092f",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "mouse-trap",
+      "readme_sha": "c842eaae854648d4bb3e38acc0f2d4f651d98312",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "mutability",
+      "readme_sha": "df86266d83bf953233b67711c7e0b50829128449",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "name_initials",
+      "readme_sha": "4dd962eaa3bd94814d5bdfddd144e6c8136451c8",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nasa",
+      "readme_sha": "d2178e5b313b8337083fe178693009cdf08fad9d",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nbrconvertalpha",
+      "readme_sha": "fa76a104294fa6acfb50a5eecbb7b4ad982cb4e5",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "neuron",
+      "readme_sha": "8af6f9db82be288667e3553a670317dcad71ff8c",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nrune",
+      "readme_sha": "18e465aa6f1d0765c119b19f8b059690948cdb7b",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ownership",
+      "readme_sha": "edc5f8506f7b2ceb0fac3e40a668bd623953b2ae",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "panic",
+      "readme_sha": "984c6acd6f4a123aa3c6712e773a33840527217e",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "physics",
+      "readme_sha": "c5ff1d20e3d6aaad2821ea565e39d23cf38d3609",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pick-and-click",
+      "readme_sha": "4b3774572795ad37172230a3e991590751a01d47",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pick-omit",
+      "readme_sha": "05cabbe595b08c7ad62486a96f5177fb2d6ca3b2",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pilot",
+      "readme_sha": "c12200d7c46da2fceda63e6452e3f5262e0cc1e7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pimp-my-style",
+      "readme_sha": "c21cd2f17cd355d7b4f435f1726e6a30b5ab991d",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "point",
+      "readme_sha": "93dd860ce5194603ba56e2f713d734ebbd0ea8cc",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pointone",
+      "readme_sha": "8ab4b4e701d5b64f1c25d2a1a1b107cd2f96d8f3",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "primitives",
+      "readme_sha": "899aa879ee4407cede464dbae86a38e8cb6ba8cb",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printalphabet",
+      "readme_sha": "20911807b69e8f14c0d585dc4e03e579152b92d4",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printcomb",
+      "readme_sha": "f40858872a7688ec0de8f38450b98727dde15d35",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printcomb2",
+      "readme_sha": "40043087d49a5972d3658cc46cb58b8aa7f746d7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printcombn",
+      "readme_sha": "38533f87519a45011fed3efc39ee50f067bc42d6",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printdigits",
+      "readme_sha": "edb285b7ccd4381075ad0cbdf4bee950d45221e8",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printnbr",
+      "readme_sha": "70a0f42cf4448fabd50d6651f42bd6f184a21d1e",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printnbrbase",
+      "readme_sha": "6b685793a598c67bfa8160afc27e104cb519f45f",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 2,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printnbrinorder",
+      "readme_sha": "674c46a777268e186614a620b5719bf1f1342219",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printparams",
+      "readme_sha": "d6acdd7aa13490312ba480f22100b4d4c00c1e77",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printprogramname",
+      "readme_sha": "d80670c4e425c1e1505c2fb9b6680dd8774c298a",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printreversealphabet",
+      "readme_sha": "a1edc8c7b5b4454b38c707773b8fd77c26e0884d",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printstr",
+      "readme_sha": "66a2215dd8d7ca6e728a14a5ca417160050f6990",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printwordstables",
+      "readme_sha": "d738ea841277cd879f438e28169f3035c0fa72d7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "profanity_filter",
+      "readme_sha": "dbca09a1a769a5547ad8dbbed6cef3c7ec902f98",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pronoun",
+      "readme_sha": "8c99058ecc60e09ba69012d29f9a814917dd5192",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pyramid",
+      "readme_sha": "cab330befbf8363b35c5fd857fc1fef3c836f0f1",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "quantifiers",
+      "readme_sha": "8e84dc049d16ccc3e8d3855d6e78a64922efe49c",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "question_mark",
+      "readme_sha": "2ab7ea23c55cdd0a34bae30881e2cb1def391878",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "race",
+      "readme_sha": "ea52e0e8321d70bbbc91b340141ec98d928dc1fe",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rebecca-black",
+      "readme_sha": "14d612e51e6eaf8a9087c422fe9f2cd14f2fa4fb",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "recursivefactorial",
+      "readme_sha": "45d564b15828aa8dd15d40cb70b4b5e7ba05f753",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "recursivepower",
+      "readme_sha": "b4e92614d678b5e48eeadbe0b3ba3d0148582267",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reduce",
+      "readme_sha": "156c9e5948cfc7b1ba60717e6ccb7f88c34aaed8",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "repeat",
+      "readme_sha": "0c75a1040964f7115e45909243632427ca45abef",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "replica",
+      "readme_sha": "5f9b7d2f8eb049605368111e7e1ff52b3b4052b2",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "returns",
+      "readme_sha": "d8083ebb08af62c0621ea4974feab9fc7397d50b",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reverse_string",
+      "readme_sha": "3fe13f04557da891d5f80c46d1a75517c646f411",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reverser",
+      "readme_sha": "8c33d89623449ac6f99bbd10e563ef4c921a3d92",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "revparams",
+      "readme_sha": "1a9bf10b31d350c4c2d893fb06c7fbd07a566a7e",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "roman_numbers",
+      "readme_sha": "4f9e6f1ddf8424f6523108363de3cc07edb1dc7f",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "roman_numbers_iter",
+      "readme_sha": "4c9de39d328bc1ea991ef3e4c7df10ed68d15cf4",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rot",
+      "readme_sha": "a6ca4056aa2d38f2a0be9efafbc2915a5fa78fd8",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rot14",
+      "readme_sha": "f1e585f92ee652f4f9cb84eeb55ccd4b3a6f1946",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rotatevowels",
+      "readme_sha": "09552f3ab374b8f0c88f8a59afe277a348563253",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "same-amount",
+      "readme_sha": "9d341517ce2c8d66556585cf2b5f7bc6ffdcc218",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "scalar",
+      "readme_sha": "19338a315c293aadc5c0e797f4c0350dbfe91df4",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "series",
+      "readme_sha": "417b40aaa2b68b1a47660a24f9273282d020bb39",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "shopping_mall",
+      "readme_sha": "fe79bd317c98080d8e59f55e8e70427ca7a1ad0b",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "simple_hash",
+      "readme_sha": "14a7d6068a6e5fe705cf242eb38e28759d31b3c2",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "slicer",
+      "readme_sha": "b46d165b82b0ebe64b6e6f32d9bd6a5dd106c523",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sortedlistmerge",
+      "readme_sha": "3c4fd1653ff7518ca31f3e414388ce9d6cb2ff8e",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sortintegertable",
+      "readme_sha": "933e7469e850f24dab71758945385e47704d54f7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sortlistinsert",
+      "readme_sha": "bd9b61e2a9b2e2af85c4ba92e65ebb334d088a41",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sortparams",
+      "readme_sha": "6850b1fe8fe264d76ef91395f2ef8e9ff5d4ff48",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sortwordarr",
+      "readme_sha": "33f6666a565caaf1ecfb7580ac40fcff86cbec85",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "speed_transformation",
+      "readme_sha": "903c764d721a73bd2ced1dc1e1ab157e7411a31f",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "split",
+      "readme_sha": "dae5d8f3758d1ad346d28f672b8ad46236c4abef",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 2,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "splitwhitespaces",
+      "readme_sha": "96769706f392e8c63ac8f353761ef91dd61a9b0b",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sqrt",
+      "readme_sha": "7392215dddf2a232a07ef9617e8058b86a04eff7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "string_literals",
+      "readme_sha": "1cb8e08229a0fd6f422755d5b89a3957d08cbc1a",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "string_permutation",
+      "readme_sha": "a5a8fb4ccfb5b3b367616eecbd6c5c9289eef37a",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "strings",
+      "readme_sha": "7f8cf187669713d0aae5314bd3d29d294de3d268",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "strlen",
+      "readme_sha": "66f1a21948aa8dee33327b4476a121b6f36a7f09",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "strrev",
+      "readme_sha": "741abdec8133395978d5f82212cec2a0dd852d6d",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sums",
+      "readme_sha": "ed3200999ed6e726ed7a92b52e7da85376ae82a5",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "swap",
+      "readme_sha": "5bc20cd55bfc5ef518522fa56e08848e9bcb97a7",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sweet-curry",
+      "readme_sha": "9b1df6cd5dbe006113f418269f559cdedb7e8758",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "temperature_conv",
+      "readme_sha": "6b68d2789e421887b65f47f130da1173671e0cf2",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "throttle",
+      "readme_sha": "519d3081c7f8159e7f20688de72df1ce68f8bf3f",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tic_tac_toe",
+      "readme_sha": "a58d4c2082d6f467e673f64ed9fe106f7759d44a",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "to-git-or-not-to-git",
+      "readme_sha": "466d803c9865641447f9a0b8157548cca8f690d4",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "to_url",
+      "readme_sha": "cb7a7325f94bff132c1e7d074693029b1a617358",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tolower",
+      "readme_sha": "cdf65f62e9383a708dee579990b1ec6b9f473a3c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "toupper",
+      "readme_sha": "f35c27fd7c9960b46e2ac429fcb287fd5889ba48",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "traits",
+      "readme_sha": "b6f2c925a19ec5f3ae1ca328c43ba8f51c286399",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "triangle",
+      "readme_sha": "e0d90da9351f16bd65be08763ba2f60f5a442ad5",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "trimatoi",
+      "readme_sha": "0042fcf0359d22d9b5e5b1ca4097021a999236f3",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tuples_refs",
+      "readme_sha": "4df42b6183bd0b3c16da1e7db4d46d0b3256ecc7",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ultimatedivmod",
+      "readme_sha": "2559e816641fdc95c41fb4754e9c761c47f2b4ea",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ultimatepointone",
+      "readme_sha": "d407179e332f1f3ff1f29169ca04c69f70f2ef46",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unbreakable",
+      "readme_sha": "8997869ce17cc6b9db9dc7a55940ba1c3a3b4f51",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unicode-technical-report-35",
+      "readme_sha": "db00e879da8001a68a3267c9aa9e0a172b2f172a",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unmatch",
+      "readme_sha": "25de0b7a36e8ca787039e6c4cb041b00ee10d482",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unwrap_or_expect",
+      "readme_sha": "eeead1bf99ba3bfe9f8d54d033fb6144e888ed0e",
+      "languages": [
+        "rust"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "using-filter",
+      "readme_sha": "1773df200c88f573c43fab05ef0f6ba0be3bc0c8",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "using-map",
+      "readme_sha": "5c8c87769d986c2e65247ba9cbb69da82d05242c",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "using-reduce",
+      "readme_sha": "fac518ecade570f93a41db97013080afcce39f4e",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "valid-ip",
+      "readme_sha": "34bf572cdbae11274ac6b3b3d5f7f2370ccf846c",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "vowel-dots",
+      "readme_sha": "a834af30089a480b7722c0bece6f20eab5b7af71",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "where-do-we-go",
+      "readme_sha": "01b886685d5d8e73e10d6499df8b350f01007ca3",
+      "languages": [
+        "javascript"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "who-are-you",
+      "readme_sha": "f2f559527cdceaad971126a15b05c56c84755cb2",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ztail",
+      "readme_sha": "80a94962022d1c7cc3bb553cf6ca3b6f33268a9c",
+      "languages": [
+        "go"
+      ],
+      "community_archive_occurrences": 1,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    }
+  ],
+  "other_unaudited_subjects": [
+    {
+      "id": "3-directions",
+      "readme_sha": "4c130e7c9d9a2d1921d3a24c4f4b875060d12603",
+      "source_review": {
+        "id": "3-directions",
+        "classification": "javascript_arrays_exercise",
+        "language": "javascript",
+        "source_phrase": "access them and assign their values to variables",
+        "requirements": "Access first and last array elements and construct a two-element pair",
+        "source_path": "subjects/3-directions/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "a-new-purpose",
+      "readme_sha": "0d0667f61d819efa8e0baedc7bd8f51695ad22e9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "a-string-of-number",
+      "readme_sha": "121bbb152c56c2bf3da6a68c5c6c206a270d2a01",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "a-winning-argument",
+      "readme_sha": "e872cc81ac7c093c5caf7348b66e7beb89410985",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "about-time",
+      "readme_sha": "4aa98929d7c7fdcefda5d408098f5725e424c024",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "access",
+      "readme_sha": "5cc51c3d64fd1c844bd2e6008199453252cc941c",
+      "source_review": {
+        "id": "access",
+        "classification": "javascript_objects_exercise",
+        "language": "javascript",
+        "source_phrase": "decompose each property in its own variable",
+        "requirements": "Access individual fields of a supplied object",
+        "source_path": "subjects/access/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "action-reaction-dom",
+      "readme_sha": "1dffd1e1e0b529fdba45da8ef2a6eddbd09ac52a",
+      "source_review": {
+        "id": "action-reaction-dom",
+        "classification": "javascript_dom_exercise",
+        "language": "javascript",
+        "source_phrase": "toggle (close or open) the left eye",
+        "requirements": "Add a click listener that updates text and CSS classes",
+        "source_path": "subjects/action-reaction-dom/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "action-reaction",
+      "readme_sha": "b00ce62a89655c6a834d46558f1c6935a0ec61b3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "addfront",
+      "readme_sha": "93bccde814fa0be7343e24ee733ca9ca9251d054",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "addifpositive",
+      "readme_sha": "69426b97a723394cf9036ceb4d747788381496fb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "adding",
+      "readme_sha": "f0fa4fd6eed40759bd3768aaa88fb8b043264d73",
+      "source_review": {
+        "id": "adding",
+        "classification": "rust_closure_exercise",
+        "language": "rust",
+        "source_phrase": "Create the function `add_curry`",
+        "requirements": "Return a closure for curried addition",
+        "source_path": "subjects/adding/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "adding_twice",
+      "readme_sha": "d47cceda1363a7d421654e21ac2f6d3e970f7e19",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "addlinkednumbers",
+      "readme_sha": "37b79426e2326486e14cc3cc3b9a6a6311990feb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "addprimesum",
+      "readme_sha": "fceffc5adf99c9d4c71f2debae89f055b0657860",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "all-caps",
+      "readme_sha": "36ef3b9d2cd03479b3f4b272fb5d91acd024fd14",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "alphamirror",
+      "readme_sha": "2e96d2cf1c7a14699e7242d6485391dde7b1fb47",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "alphaposition",
+      "readme_sha": "46ae5a6fd36aca2e7ba9f0c2f4c9251ff5f05aa6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "alter-ego",
+      "readme_sha": "06f10736888c46d461aacc293f44b05e65814171",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "an-undefined-future",
+      "readme_sha": "a405365c2df4c7a6f1ed5d6b8314a7e05c09eb86",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "animals",
+      "readme_sha": "8519c6f41007aec33491f873cdeb8d1dccb3b231",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "anything-to-declare",
+      "readme_sha": "89ef1e21416048b2e381dbea41a82b218f7e4e11",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "argrot1",
+      "readme_sha": "0849bde7521a9e8e767fc7fd6e77db113e83660b",
+      "source_review": {
+        "id": "argrot1",
+        "classification": "go_cli_exercise",
+        "language": "go",
+        "source_phrase": "rotates the arguments in the command line by 1 position",
+        "requirements": "Rotate command-line arguments while handling short inputs",
+        "source_path": "subjects/argrot1/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "argsort",
+      "readme_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "armstrong_number",
+      "readme_sha": "c6563f2eb50f5eb059d4638d8e66936fc314d09e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "arraysum",
+      "readme_sha": "eb64b83006fd7fe4dff5932843d282a5f700d4a9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ascii",
+      "readme_sha": "7530160028b1c9f4483ee5040b4eab3fae02f39a",
+      "source_review": {
+        "id": "ascii",
+        "classification": "go_strings_exercise",
+        "language": "go",
+        "source_phrase": "returns a slice with the ASCII values of its characters",
+        "requirements": "Convert string characters into a byte slice",
+        "source_path": "subjects/ascii/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "average",
+      "readme_sha": "65af611af7a77f2141dadc6cbac8d7df872ca9bb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "baby-shower",
+      "readme_sha": "4fb50b21c1db8e79d5d656522473c5fcce7418f2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "balancedstring",
+      "readme_sha": "ca300a74b848c9712bf6b0039a536711c9a8df0f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "betweenus",
+      "readme_sha": "d223206b524f0c49968ab5b4f9a534f33c931a92",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "bezero",
+      "readme_sha": "44950f1e3e863b62b08b683d872def2e455f7170",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "binary_search",
+      "readme_sha": "fb98d17f908971c29267907d3cbeade817f2cd25",
+      "source_review": {
+        "id": "binary_search",
+        "classification": "rust_algorithm_exercise",
+        "language": "rust",
+        "source_phrase": "performs a binary search on a sorted list of integers",
+        "requirements": "Search sorted borrowed slice and return Option index",
+        "source_path": "subjects/binary_search/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "binaryaddition",
+      "readme_sha": "e5bcf72eccf29d7ae6fc17342d9c6ece830a2117",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "binarycheck",
+      "readme_sha": "2b231fd1a29c13da8955544471b2bd4d06af20b0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "blockchain",
+      "readme_sha": "792d35375e1a268220e4d14277b5228094647145",
+      "source_review": {
+        "id": "blockchain",
+        "classification": "track_container",
+        "language": "mixed",
+        "source_phrase": "Those subjects are progressive in difficulty",
+        "requirements": "Overview of multiple Blockchain quests and raids, not a single exercise",
+        "source_path": "subjects/blockchain/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "blood_types_s",
+      "readme_sha": "67e1e6bc266c2e807aa7fbbf1fc933cbb42ff5b4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "borrow_box",
+      "readme_sha": "d4a58fb862604f19a0f5526b29eef8f6cf0ece73",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "bowling_score",
+      "readme_sha": "70820a95721c1e0c9aaec82a207340f4bebe68d1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "box_it",
+      "readme_sha": "12881da7f872a2d3a26a2affd37d16e3f2364aa0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "box_recursion",
+      "readme_sha": "41eb751b26047dcd0c17e2e026eab386d2fc85ff",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "brackets",
+      "readme_sha": "0fc53b62755baa51554a03e04144221e3e6f3ca5",
+      "source_review": {
+        "id": "brackets",
+        "classification": "go_parsing_exercise",
+        "language": "go",
+        "source_phrase": "if the expression is correctly bracketed",
+        "requirements": "Check valid nested brackets in each command-line argument",
+        "source_path": "subjects/brackets/README.md",
+        "official_track": null,
+        "official_unlock": null
+      },
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "brackets_matching",
+      "readme_sha": "36cf292907cda99e850ca981f1ae5b7b2c8a912b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "brain_fuck",
+      "readme_sha": "cde7ac9acb4abd4d18ae2bf640f454475355ef3a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "brainfuck",
+      "readme_sha": "79d10f16974b281fb6138202852070220a2c3ee9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "bring-it-to-life-dom",
+      "readme_sha": "f3f9a0e2052ddcbc176fea28cf99f8c08822f274",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "bring-it-to-life",
+      "readme_sha": "dbce45c0b9711f81641eedef2cfed98bf99c2605",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "broken-promise",
+      "readme_sha": "43c42376b5a36004a4b283c9e3a063147fffc8b9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreedeletenode",
+      "readme_sha": "e5b4c82918572e4b070f28caabf54e135f8d4d0d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreemax",
+      "readme_sha": "dd9a63e39d1c9d9ed93345deb25a603643e9d88c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreemin",
+      "readme_sha": "1a3426e718c854001cc43c8687c3cb8099c5166b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreeprintroot",
+      "readme_sha": "7d07ec94b145fd0a9b6f363702988c807a2a5ada",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "btreetransplant",
+      "readme_sha": "d50ab36f0970161a66b353ec1704fa20f98c24b6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "build-brick-and-break-dom",
+      "readme_sha": "d90b848421c334e4b07bb5058ee8cafcaead0022",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "buzzinga",
+      "readme_sha": "32a6ff123bba1591c39dfbef64de06a7deca14c2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "byebyefirst",
+      "readme_sha": "6854c8a69c7ee8078af48978cf65d2f41ba9d7ab",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cameltosnakecase",
+      "readme_sha": "a89d85d15172c3e3973b56eed04102ef359011f1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "canjump",
+      "readme_sha": "604d584acb738bfb938e5ac7f8c2079494e9357d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "canyoucount",
+      "readme_sha": "b01b548a914c0cea267dee2c83fb58b516a99644",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "capitalized",
+      "readme_sha": "438bb023813660cc887fd3668c0d93e0afad76eb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "car_rental",
+      "readme_sha": "5fdf3961ac7fecbb52ca00ff2f71ec62efee86b8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "changeorder",
+      "readme_sha": "cde1092fbba38771eb67e8cd337c11132d37c6a9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "check_user_name",
+      "readme_sha": "a4c5d205c2ed46cbb2c91b06dd0b00e92afbc4cc",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "checknumber",
+      "readme_sha": "573cb6833a631b642cfa0be94aca587a668c87d3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "chunk",
+      "readme_sha": "7a05a106c13d454b1181bf6aa5591be38a318f84",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp1",
+      "readme_sha": "ac9c127b0e152bab0be87fd250f11ff8802b24a4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp2",
+      "readme_sha": "100a88d74147e78b4c6b262dc6a311cf40b0c329",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp3",
+      "readme_sha": "daa974ff1110ccdd3efceec88061eb56a2fc53bf",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp4",
+      "readme_sha": "ab114532796196b89d8a9dd7d10fa1b7dcdd27fb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp5",
+      "readme_sha": "ef4970d6012390a9804f1aa355802addd7ffa9ca",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp6",
+      "readme_sha": "4e988502478289151b478357f914ed9d9439b626",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp7",
+      "readme_sha": "be27b547bf307ffe27e38db9c71f90955af8ac50",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp8",
+      "readme_sha": "4749229d597ddc76f7b262b889a7cb143dcfc81d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl",
+      "readme_sha": "ef81d4901cdd5285e54ff3de75454dd4293eae65",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "class-that-dom",
+      "readme_sha": "8679b4dcda3b7500790b844df5913fe6c97725ee",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "class-that",
+      "readme_sha": "8679b4dcda3b7500790b844df5913fe6c97725ee",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cleanstr",
+      "readme_sha": "d0f8f1c3156bdd2d9041bbd1d5d53b5562cd0840",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cloning-vs-copying",
+      "readme_sha": "04d6d7df2afcd0288f62416cb650ccf1066bcded",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "closures",
+      "readme_sha": "4f7af2b2392e226c67c9ee080fd867af72272d70",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "commandments",
+      "readme_sha": "e2fe4082c087cad06aa872dfe4ec9cfe93b2dcaf",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "concatalternate",
+      "readme_sha": "42e69f65ce89a318aeecca2bed1e185e4eaefbea",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "concatenate",
+      "readme_sha": "92b9abbd43919d931d4b09dee4c09a4171333d0e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "concatslice",
+      "readme_sha": "96e1588136ce0ccf09bbb168b42cd40732e55edb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "count-from-10",
+      "readme_sha": "e11bde07a9ccb69e74e6efc41d0af6a9f995a6b1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "count-up-to",
+      "readme_sha": "164a355210a30d93e8dc406b98e4221a8d4dd64c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "count_factorial_steps",
+      "readme_sha": "e8cc2df68a7fe5d6b24f05c34c06575307b51d3c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "countalpha",
+      "readme_sha": "84e6006071fd400c25e90888dd4a6f2c1f716bb2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "countcharacter",
+      "readme_sha": "24f5c6c9d9039a7a5f7638122b9aca5df317c03d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "countdown",
+      "readme_sha": "d016a6cfe004fe904eb169968be63bfb5935dfe1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "counting_words",
+      "readme_sha": "f753f994e494ec0008221a68634fb21e6d78ed78",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "countnegative",
+      "readme_sha": "ceefe0d0e458ead7170e096d9541fb48492cf172",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "countstars",
+      "readme_sha": "0179f508ab8e4d72774f117bebba09559fc2ae71",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "createelem",
+      "readme_sha": "646e3f6723d4dae55a2653828b3d4cb6c759978c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cultural-shift",
+      "readme_sha": "0d92f8aac7318fe703299a2440a2000933ce9522",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cut",
+      "readme_sha": "467b8024c393b5c012d35e439e537b5884c9b416",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "dealapackofcards",
+      "readme_sha": "7f31181a8e7e04d00894f7ae9628f9a43fc7aad3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "delete",
+      "readme_sha": "e229e9d2c4c8e25e258174567155ff794d99323a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "descendappendrange",
+      "readme_sha": "b48c23f0ca9399d2a776302538ac57ecc2fb2f1c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "descendcomb",
+      "readme_sha": "559c369a0251960fa813d35ba2430f0db95b737d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "diamon",
+      "readme_sha": "8ea4e028294e16abbdbab64d36075c7e058e27ed",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "diamond_creation",
+      "readme_sha": "d0e5918f1cdcdbfd1b4dc69e157d58b530d49355",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "digitlen",
+      "readme_sha": "f8d3acaa1dfdef8ff2901838645f58ccd43149c9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "disclaimer",
+      "readme_sha": "c1165361bdd285f08b7d77a8b4f3f4ff1da24439",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "display_table",
+      "readme_sha": "5fd48aab443db20607fabe7fa3bbbb45b6b07b33",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displaya",
+      "readme_sha": "44bde535ddfaec9812726a010404e3a368df2fd4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displayalpham",
+      "readme_sha": "fb3e08eadfe39e71b1bb21f9e3197a9de249e8c1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displayalrevm",
+      "readme_sha": "2d765f07d0c71b1e747758166bbfa16b05ef31fa",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displayfirstparam",
+      "readme_sha": "eca6db58e02fa4ded66cfb9edc5e617d1b3bb5d8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displaylastparam",
+      "readme_sha": "2aa218b2c0b1fa9a2fd8e0dba626911ef3350447",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displayp",
+      "readme_sha": "5031f898d5c11b55fda4bdaf041163d71630ae7f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displays",
+      "readme_sha": "709f0196432cd05ab0b395dce35868a9994781f7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "displayz",
+      "readme_sha": "f20e3abaa432073069cf95b83796568ba3b6fd90",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "divisors",
+      "readme_sha": "e417189012ba998619256c67f04ee8113eafd041",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "dress_code",
+      "readme_sha": "ff10256eec6d6cf1a2242e471af7ead9d6438330",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "drop_the_blog",
+      "readme_sha": "8d28ebd6a2a665913e991ff510d0c1ccc7960681",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "drop_the_thread",
+      "readme_sha": "fbd4c5ab8ba44ecae087418a63da806d1b912cb2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "duplicate",
+      "readme_sha": "5c3973b846cf1ab1eb1897b909399a5b4799ba84",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "easy_traits",
+      "readme_sha": "5275a9e2e90a01f7f98fff92fa1ba6ad2e2874ae",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "evenlength",
+      "readme_sha": "8b580c68d200e60e86a5ceff17d87757421205e3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "expandstr",
+      "readme_sha": "33a69a1e48c53fce0aeb061bbfffe9c59306d9cb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "explain",
+      "readme_sha": "d35dce509702e84711c9a89ffcd1b38b5eb7c96e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "extremes",
+      "readme_sha": "ef6b240c2a418904fffc584daece72ed125fbb63",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fifthandskip",
+      "readme_sha": "6aa52e7746eb0bc9db09d69c811ed0f5d02726de",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fifty-shades-of-cold-dom",
+      "readme_sha": "9ad8d2e840fd8c96869cbe906de039c63aa6c3ec",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fikbuk",
+      "readme_sha": "39c7d8271b727c4d70078f1940250f2e5b6df692",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "filter_table",
+      "readme_sha": "b9bd7addd52a968cc417327ad2d9a7a97965a4d1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "findpairs",
+      "readme_sha": "e59c0027dc97a223245e5db1819d37715a100f1e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "findprevprime",
+      "readme_sha": "3db27568b750623bc6ee550b0dc4f20a08270a8d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "firebase-demo",
+      "readme_sha": "e68fc092f25f95e9b59921e2b2b5c7ad7227841f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "first-words-dom",
+      "readme_sha": "302341a6b953a53a14f189495fac16be3efd5913",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "first-words",
+      "readme_sha": "302341a6b953a53a14f189495fac16be3efd5913",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "firstword",
+      "readme_sha": "4abd94dbe2f32f8568c5d1f5ef0bdb92b2012778",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fishandchips",
+      "readme_sha": "c705ef810181020de882c2073b505809de8f1929",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "flat_tree",
+      "readme_sha": "b61ae6470eea02f6def16c671c498c880ba6728d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "foldint",
+      "readme_sha": "efdd1be601b14695f72ce74486f4880306f9a062",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fooddeliverytime",
+      "readme_sha": "4dc61936ed162ee5fb27cdfef31a36245c50b022",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "format_me",
+      "readme_sha": "c6d14c1807876197cf7fb926026fd569233beb63",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "friend-support",
+      "readme_sha": "42e04fd3988eca8e38b9bfb7f8899a0878686d4b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "fromto",
+      "readme_sha": "8d58ff6496fbc80784b1d267c6d2178a3b1814c2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "frontback",
+      "readme_sha": "b34d2b0bef096fd5730d2bd100390b55dc9d67cc",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "frozen-more-about-mutability",
+      "readme_sha": "530764932a32f72779b532f47a8e17bb34ff9047",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "functions",
+      "readme_sha": "c5ba5ff285633f2dc3e9838f045abab5fd9dc63a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "funfunfunction",
+      "readme_sha": "221f54456309f2b72d10761b3dc5c87578b7cf88",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "gatecrashers",
+      "readme_sha": "2424e581cb1e10b29dff005c3b6ceceb3c7bea39",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "generics_list",
+      "readme_sha": "f8299c63453725e06410ae2ecb439799a0b984b2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "get-them-all-dom",
+      "readme_sha": "2644c5bf5e45056a44c621cc14e3072252c70b7c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "get_document_id",
+      "readme_sha": "7785e4602547a56bd24566b48fa163545dc871ab",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "get_products",
+      "readme_sha": "4719418721abdf6c7ceb1a241d1b565ba8c3683c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "getalpha",
+      "readme_sha": "c4d20f53f291f0aee3d03cdb088c9da4634ceb1b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "getarea",
+      "readme_sha": "ae447b6d66480d95f0893efaabc316e2007b8999",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "getascii",
+      "readme_sha": "0e04afbbb71bf4ec792ae564281ad138503595b0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "give-back",
+      "readme_sha": "eff5a75760043ce094415dff0f101c913cde4dc5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "give-it-a-rest",
+      "readme_sha": "dcde2dd185503edb7fa8f23659d7e4b4ce7d6e74",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "give-me-the-code",
+      "readme_sha": "3e675f6b1c21aadbaf280d4f28c4633af972ecb0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "go-to-11",
+      "readme_sha": "dd90a445b5295fc3ada8c2d6e3297a2e1fe1fe8a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "good-practices",
+      "readme_sha": "8305db7e08db6eb06747489901afe58195a1f958",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "gossip-grid-dom",
+      "readme_sha": "f7acd449683580b937f935882e3f5bb5f47dc808",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "griswold-the-blacksmith",
+      "readme_sha": "76e24dce3ba7870daecf233d7cd8263ec80d4dc2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "grouping",
+      "readme_sha": "ab45448767715dc73769e82670d16476b200d354",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "half-a-million",
+      "readme_sha": "760b3db9bbd5cbd811c0d194ab26e528882b4f3b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "halfslice",
+      "readme_sha": "617ad03dceb9727392f6630c71b672445d35d564",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "happiness-manager",
+      "readme_sha": "502a65fb37f04b0bc5a50855bddba4f88a4089b3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "happy",
+      "readme_sha": "c306b1e5173699006acae4283071de14e9364360",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "harder-bigger-bolder-stronger-dom",
+      "readme_sha": "fae93805dd5f126262dce67fed1b896af782bf9f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "hashcode",
+      "readme_sha": "16ca433bb070b33556f3318536492d0e877d4784",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "hello-there-editor",
+      "readme_sha": "393282846ee4ed882ad896cdc29a3c341737bd72",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "hello-there",
+      "readme_sha": "9764bfbfd3a3a7953e0165124007058abbc55330",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "hello_rust",
+      "readme_sha": "58af882014472fc98866a3c2f26285b706d320e4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "hiddenp",
+      "readme_sha": "480fa62c4d78b75439f42856b89ea06aa9fe5e32",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "highest",
+      "readme_sha": "d1f11fcab1b77a3ef3fc24b00fb1a2838b394440",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "how_many_references",
+      "readme_sha": "62ca5d2c183f6f2431a3f9757601c9ce0fcd59a7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "if-methods",
+      "readme_sha": "1fc0f2bd1bba2df4fd18f8d7c11b7d596452c1c3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "inequality",
+      "readme_sha": "1c20d3ce75f8abf4cc91d167deb92c1ba63d78d2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "insertion_sort",
+      "readme_sha": "d581fa3f56865976cde75beaccb3dc70f71f046b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "inter",
+      "readme_sha": "9991c1255d3d0e4e0a2ec62db392465954bcb9b4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "introduction",
+      "readme_sha": "86c4231dd8aec6b5678ce329ba43c37bdd307272",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "inv_pyramid",
+      "readme_sha": "dc79a9ba013143e3103a09cbcf43f5153e6cebf6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "invert_sentence",
+      "readme_sha": "99b834af35d9ab9d62c8b5384ecd7fff1fab5d66",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "inverttree",
+      "readme_sha": "09b72204178eb906aba3bb70d7e7fa928343094f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "is_anagram",
+      "readme_sha": "53375e686806a302056b44ad3ce4e607692e9815",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "iscapitalized",
+      "readme_sha": "0586b6e5398ed690dee5a1d36a83d6a48f7e2f3e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ismultiple",
+      "readme_sha": "fc4f7ad2dc26091eb441d73c1b97e5966c62969f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "issamestring",
+      "readme_sha": "401bb3e99733aa27edbc568d397529bc66cde543",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "issquare",
+      "readme_sha": "908387b66b45991e22785ec4bb9f8e523627aa2e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "iterators",
+      "readme_sha": "1071ca2a16f702b453e9b9e48d98b4f6421d941f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "jaden-case",
+      "readme_sha": "c3df48eac2345eeef6357da12f2920b9ea69d1c2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-array-chunk-reversal",
+      "readme_sha": "3d411215072ca02960db77712e93a210988c2877",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-bubble-sort-analyzer",
+      "readme_sha": "c6a2c934cdb60e5df87e6d4689ecd55b210c0e3d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-character-maker",
+      "readme_sha": "0c0996875d0833369f5305d972af8db4ab4725d2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-deep-clone",
+      "readme_sha": "ca535996a22e448215719cf9793d29078b570fe6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-deep-equal",
+      "readme_sha": "474411d2b3e844cd988eecefa204663283a0280d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-deep-find",
+      "readme_sha": "1a874cca8aef5318ee09ad42caa26d660b587d36",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-deep-freeze",
+      "readme_sha": "68adc2b7ff276805052f26e4d92919cbcd595561",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-divisor-finder",
+      "readme_sha": "cfd734b2fbf2d625999c58e586fba89e15eb4f28",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-election-mix",
+      "readme_sha": "89bd2b1be534d07c92dc3c26a14e594ff4ee9d4b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-even-sum",
+      "readme_sha": "900987295132e80b5550528467b28ec3969da3c5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-exam-grader",
+      "readme_sha": "0ac3a38d9e50ca1a8dfe882ad1ff57e5af26cb3a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-factorial",
+      "readme_sha": "1455990d9a7314fdb26297ada46b38b87ec805a1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-fibonacci",
+      "readme_sha": "07e96173400d46900a66d69112694c12a0815b3c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-final-attempt",
+      "readme_sha": "65a13b15f8e402081d2e298f3c599a61fecd5bd5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-flat-object",
+      "readme_sha": "0596d1d47fcdd8c66479f4617df6afccc6c7c29d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-flatten-object",
+      "readme_sha": "d65bcc004c277ceab6b0313b0ef95a9768e0626e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-grid-word-finder",
+      "readme_sha": "0941419cb7b5abbe0c02989b291e724050bba6b0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-grid-word-finder2",
+      "readme_sha": "c620ec308d648c5fc17f0b46a60309157dfe6da4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-insertion-sort-analyzer",
+      "readme_sha": "39986a54b9d5e3082ab9d75741cf78eddf1c0421",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-nested-array-reverser",
+      "readme_sha": "24ed0888817fdbb39da5bd0ccbea6563ab2442c3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-object-lab",
+      "readme_sha": "95d260c683f7d2b96dbfa986ec925e1dc98db51f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-palindromic-chains",
+      "readme_sha": "8e0946d0f5a8bdaf10cb4803e5eb5294872ea190",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-perfect-num",
+      "readme_sha": "3dc8ecae7eb86ba33eddf40e7d20eb975e14f171",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-pipeline",
+      "readme_sha": "f2ab60cd33c69e625630cd0708436bdb37d48a22",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-sentence-pyramid",
+      "readme_sha": "436b188cc7c62ac33062a2ad04fb44780c5d2438",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-sleep-breaker",
+      "readme_sha": "eff0d2496212c0d6bef1fee246a1a6f81b29b402",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-snakepath-validator",
+      "readme_sha": "43001d052e197375268e70c486dd5648e96f0c4a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-swappable-object",
+      "readme_sha": "16f45b289c52779d68059517f31956fefdc35391",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-transform-keys",
+      "readme_sha": "e5bd45d4c456155726814a2e278958352dca18dc",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-trap-object",
+      "readme_sha": "d4a86812fb5ac69c012488351164c7b9a4964dd9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "js-zoo-race",
+      "readme_sha": "6107004cd9fe480f784e38a12d8941a2243d6424",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "jumpover",
+      "readme_sha": "1f7b4b8144fa088ecdfdfe00f804fcf16d5fdde8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "keep",
+      "readme_sha": "e75fa2823fd5755fbe8c88929bc42b2171ad0110",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "kept-promise",
+      "readme_sha": "104590c5e2c2e6945f60c25d00300a7035fa50eb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "keycodes-symphony-dom",
+      "readme_sha": "52ba6ec5be651579ee63a9eabdb13f678c69e8ca",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "keymaker",
+      "readme_sha": "11a2f200eb7dba31e50ef959977c9793c05bdfcf",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lastup",
+      "readme_sha": "8ebfc363a9f559b3bb2ea45ea94277945c23d1d8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lastword",
+      "readme_sha": "047221ccf5a741a982c274a73dde623d09e9fb78",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lcm",
+      "readme_sha": "4be6741e9c269a4cfc643fbbe770e4813915f2a5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "leapyear",
+      "readme_sha": "88ca5ac14b9e4a0a96081970e80bb346e6c2181d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "level-up",
+      "readme_sha": "b035061f3d0159f9bc2b9849a23181cb4ffcabbf",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lines",
+      "readme_sha": "8ad682e1c4bafbe7d182bee4b37aef3a39bf783b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listpushpara",
+      "readme_sha": "dc811e6620a5bb721417257ac0705fde355833bd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "listpushparams",
+      "readme_sha": "08679acd433409e391910089572210d555cf66f1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "loafofbread",
+      "readme_sha": "a996dfb4092c27c984a059bcb38241f9b54afef3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "logic_number",
+      "readme_sha": "e87e2afdf099741e3b01d5dc06f12bee89b59023",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lucas_number",
+      "readme_sha": "2eb857184123bb3e986befc419efe754b59c1c09",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "luhn_algorithm",
+      "readme_sha": "6ef55e36fd637e0df2da9cfcb0c6ecdbac147cfd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "lunch_queue",
+      "readme_sha": "347fbd206e0a29a1a2246eb6ced0f81891c597bb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "macro_map",
+      "readme_sha": "42fa581f6ee0eb93efbac3fca10513ecd8592d9d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "markdown_to_html",
+      "readme_sha": "23613147d45bebf986464d1104166451db99dc81",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix_determinant",
+      "readme_sha": "37b0a96f364d659616c87e2e4cbf5f64b4611070",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix_display",
+      "readme_sha": "73944e52ad5567af8377d2eec9d4a25238981551",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix_multiplication",
+      "readme_sha": "26e9487f7bff681f3f1afaec93837827f2256fcd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "matrix_transposition_4by3",
+      "readme_sha": "34a18bbdc01b2c0b901a0fe0c9a07a0c764e4b10",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "maximus",
+      "readme_sha": "e07fc5415306c5ace49271d546e1355098874689",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "maxwordcountn",
+      "readme_sha": "cacc950a93ffbd5b631788a209c1854b2322774f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "merge-it",
+      "readme_sha": "c813a38f88a918ee39783242343638f556e0286a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "min_and_max",
+      "readme_sha": "ebf69312458a481b4855796fba4ae1fe89d3b895",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "minesweeper",
+      "readme_sha": "8ace18cdc998c8029c0d2addca6443b9def2c26a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "mirror",
+      "readme_sha": "3cb20ed0dbbc44558e1bc11fc89658020de11310",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "mixed-feelings",
+      "readme_sha": "7200f303ee66bb77ece72c4bb1f0a069565470a7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "modify_letter",
+      "readme_sha": "4fc5e3621b98cf89a7c5d05a3a13aaf092e00b49",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "mouse-trap-dom",
+      "readme_sha": "46b801e34874224a6e3c368791491194cc747a69",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "moving_targets",
+      "readme_sha": "f92583cf5d34d75d41338c3270082b74729c46b1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "multorsum",
+      "readme_sha": "8fc7a3a736ac02ac35eeed70515ca6bec0a9c573",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "my-house",
+      "readme_sha": "590e51526228377e04292daa67800b92a19b63e0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "names-plz",
+      "readme_sha": "749d92ee7d5ec8648d303e25987b86b47e5b38af",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "negative_spelling",
+      "readme_sha": "48f52cf0f246f190aacbbb3134b260c2fe771514",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nested-loops-2",
+      "readme_sha": "5798b0181946ecc048b8ab8df7cdb3a5c33ddce7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nested-loops-3",
+      "readme_sha": "be16674789ea71c7e6a143a63bd9bb94b663937f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nested-loops",
+      "readme_sha": "c1497eb2a0523e796962594e09caca1d568c0375",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nested-objects",
+      "readme_sha": "e4e5adf831038ddb9b80667a4385631e733b98fd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nesting-organs-dom",
+      "readme_sha": "776feeb6536188767a1bc728d5a7bd3b0eb5b205",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nesting-organs",
+      "readme_sha": "776feeb6536188767a1bc728d5a7bd3b0eb5b205",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "nextprime",
+      "readme_sha": "2df0068b0d95d19e39538a3587d771fc165140bd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "no-adults-wanted",
+      "readme_sha": "10f453fe3e073703438332e7773ea3b732393d4d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "notdecimal",
+      "readme_sha": "438c4f27869b234cb496d10ffc241402d6d2dc62",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "notorious",
+      "readme_sha": "bce699a6c24cdb5444df86eb26ee5508e6ac9b2f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "now-get-to-work",
+      "readme_sha": "409602ad230d6057d88a6dd877b6c4f97a41f211",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "numofdigits",
+      "readme_sha": "9bee9c3a08fe2b5c503c0c0c9d8d42773dc37ae6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "object",
+      "readme_sha": "2aca794c436fd8cebca972ba06d7facba950ab3c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "oddlength",
+      "readme_sha": "ffd2637e07d1b5973939dd5d41dcbf2f873228d5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "office_worker",
+      "readme_sha": "5b62e18b112e3555b75b01806943e492fb27ca67",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "olympic",
+      "readme_sha": "b82df8ef159f0d8d18355e7ed201fcec315374db",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "only1",
+      "readme_sha": "0bd04e39c770cd847855bffc90f02a0f46f95762",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "onlya",
+      "readme_sha": "2f6005b7857000bed4b5262546f3419737491f93",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "onlyb",
+      "readme_sha": "611236d8f311e123274c26aa85c9a5bdb2968363",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "onlyf",
+      "readme_sha": "c308f14a2cc8d9dc38b790b5d50f32857d186be7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "onlyz",
+      "readme_sha": "030b61f4e27ea6ad874c6662b1f3dd56107e4b11",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "options",
+      "readme_sha": "544316bed0b017b795708367189c8ad5d3c45792",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "order_books",
+      "readme_sha": "97131dbfafdbf972d61933c3e9439e356797a8e7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ordinal",
+      "readme_sha": "a39c6e47cbd24267aa08cd97a54af77f9d2854c3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "organize_garage",
+      "readme_sha": "f1bf5d015685187973c0137a232ed22c193dd9fa",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "own_and_return",
+      "readme_sha": "b9cc0be21383356d2d7ae180a6cdeaf77054a8ec",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pangram",
+      "readme_sha": "93a0949e7233ec686db6e742806a69368d0cfc03",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "paramcount",
+      "readme_sha": "f493e085d948efcc9e169fb7eba0e358d00cf0db",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "paramrange",
+      "readme_sha": "72cc838bce69e741ff89feff7ef95d3c3e0df479",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "parenting",
+      "readme_sha": "a9aad9718d8e5cd52711a969e04d0b25907641b6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "partial_sums",
+      "readme_sha": "98a8b832cf70cf340683f10b1a9d9896e74c187c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "personal-shopper",
+      "readme_sha": "2f875c665930e02c410460fa3ed00654c7682c47",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "phant0m-writ3r",
+      "readme_sha": "8b806dbe505691975416124560a11e80df9af454",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pick-and-click-dom",
+      "readme_sha": "6105452c46b94ee26b8d23600222b7fba0736e45",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pig_latin",
+      "readme_sha": "f02f0662adc5de49feb6aefc94b2c8f27d13b256",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "piglatin",
+      "readme_sha": "e91fece30ab56373a3514d76b68af01c138f141b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pimp-my-style-dom",
+      "readme_sha": "d29a2e071cd684d05f80d105436fc50701af936a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pingpong",
+      "readme_sha": "05b35172e227cfb52d5d8531742f4cd20dc687ef",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "placeholders",
+      "readme_sha": "507fd59cea8eb6311aa1c4d113e46b163695ce4c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "podiumposition",
+      "readme_sha": "0b2c4cb62f642f5a2aee6208066e4f179a58f21c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "pop-art",
+      "readme_sha": "e57b4610710e833599e6c138674ffa0c0085dd15",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "popint",
+      "readme_sha": "766af7c119776704382ad52ea80746ea36d02008",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "power-ranger",
+      "readme_sha": "bd5a77cd8cd2d095c7b96a269d90e4e732a4e7bd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "previousprime",
+      "readme_sha": "e45bb55d148b1541ba1b1a97491481218bb88241",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "prime_checker",
+      "readme_sha": "d7f933cd2ba095f9d6440ae9a7dba8cb2bd28fbe",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printalphabetalt",
+      "readme_sha": "99526305567504ea3920602b8abe4089a9208ee9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printalphabetalt2",
+      "readme_sha": "34d115c5ac395ecad941351e3f10a9021f6a300b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printalphabetg",
+      "readme_sha": "034cf70425c8180984ae38905496a4d9cfbae458",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printalt",
+      "readme_sha": "3ef15114f856989a4a70298da361b461b824f6a9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printalt2",
+      "readme_sha": "c838bdc4904bd218ba358bd10d8175ac31a3cb27",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printaltu",
+      "readme_sha": "c8900f41869d68d5c93c9036870eb7b81a6c2c69",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printaltu2",
+      "readme_sha": "71b60c944c47ab6bee17cd407ee4e642fb595d28",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printascii",
+      "readme_sha": "01ff998cdd0c98c8a74eb9ab5bb1b6fc12758683",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printbits",
+      "readme_sha": "99b6357ab75c234a9b04320293a1c0fb15418515",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printevenarguments",
+      "readme_sha": "a18b602a380c81a3e363191f54134d686342f66c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printhex",
+      "readme_sha": "a3951bc0538dd1f2304548000786176f7db09eaf",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printif",
+      "readme_sha": "9f042d6d90dadbcc6c1827bd7b43b094a8fc7ced",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printifnot",
+      "readme_sha": "62fb0befbb33b7c497cd0b1fccb3b6079e428da5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printmemory",
+      "readme_sha": "bcea4043c50ebb9f3bf9dd7125758cdffa04022e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printmiddle",
+      "readme_sha": "d0a42a0242156fb0376217c5cfa8cf59b646efbf",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printrange",
+      "readme_sha": "5374673b10dd1a736d8802248ff6a44d3ecd2657",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printrevcomb",
+      "readme_sha": "b565879e056fd45548c7f5d7d0da835089a92332",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printreversealphabetalt",
+      "readme_sha": "cc08aea314bc5f46eb2c532015f5b568c5006fba",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printreversealphabetalt2",
+      "readme_sha": "8bfbc4f76435c0a03c0c601d2d44ef2ce82efee3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printreversealphabetg",
+      "readme_sha": "a5d4a8d6db615c7501f7b5234a7e6b37851249ff",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "printrot",
+      "readme_sha": "f7619be0bca25862d69744a13f5de3ef6595b62d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "project_motion",
+      "readme_sha": "d3c052ad223ab1aa18b229b17c75a94a8bf8c39f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "quarterofayear",
+      "readme_sha": "d8218f1b9e1a04c30789389db8cddfdf029e17bb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "queens",
+      "readme_sha": "7db7593558dd5365272382c130bd9de65cf1db5e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "range",
+      "readme_sha": "51988e966dc3a1f617169ce8e07dd6c4b32a5fb4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ratchet-clap",
+      "readme_sha": "2edb429b277ed440e21c02cef8b1963223fe6203",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rectangle",
+      "readme_sha": "57f8b629bece0d6edeb22671bf6b31d8d8d9a0c1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rectperimeter",
+      "readme_sha": "ecec70bd7a90335c02118b426301aa9466572483",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "recursion",
+      "readme_sha": "07358e81da39fa1b7a66ed25cff9b070ed97ddec",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "redeclaration-of-love",
+      "readme_sha": "d1aaa4b64735e9e462f9afc79b5f7f538be24954",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reduceint",
+      "readme_sha": "87cb06b64c29b88766b3608c39cfc700a1decc6a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ref_cell",
+      "readme_sha": "95200fec738f1a1e4043c0226367dc99a1682d06",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "removeduplicate",
+      "readme_sha": "90aaac05e1ecdeb2870b2255ce838c911c230452",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "removeodd",
+      "readme_sha": "17894fed605640ebc8f074ed2c197396ac36ee65",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "repeatalpha",
+      "readme_sha": "195eb37d2f204e17c6c634a022f9d2c90d882efa",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "repeated",
+      "readme_sha": "fbd884015d97cec914a85be98cebacd1b4b6f5d6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "replaceeven",
+      "readme_sha": "ebd09e44be93033440216732522b4efc51ca216a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rest-in-peace",
+      "readme_sha": "2e7093ba4665ba60b2c9a9b829d20fd2c670d6a2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "retainfirsthalf",
+      "readme_sha": "df0b42a4e02494e5f8b51dfe63775f00f9795c6b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "returna",
+      "readme_sha": "75ed2482cb546a589290cfb7389beee0d15a53fd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "revargs",
+      "readme_sha": "f22afd19a6389e9acd5ab084412e856397914467",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "revconcatalternate",
+      "readme_sha": "6fcad74f10afd101424ca32842644bd5d357b2c9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reverse",
+      "readme_sha": "4061772f4a48036add0415bb4eff403f9b4c4783",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reverse_it",
+      "readme_sha": "4f4e203a29f4e33001b0daadec67b08b1f149a46",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reversebits",
+      "readme_sha": "818b53e7ea724bdf62c5368df8010afe519c802a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reversemenuindex",
+      "readme_sha": "37c845fd39aef78024a67076ebfdd563dc2042c3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reverserange",
+      "readme_sha": "6d24cb6109d2dace4df51faf49df0a2ec271f4fb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reversesecondhalf",
+      "readme_sha": "c10fc613adf3de086fdcd5ef845d2be749f51611",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reversestrcap",
+      "readme_sha": "300c515bad733052e54f7aace94a2d03c4296583",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "reversestrings",
+      "readme_sha": "7a695a7c76c5c435b5105e0d8deda785de30c673",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "revwstr",
+      "readme_sha": "561063f7b90a2e13534592f20fcc8a450ddb4117",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rgb_match",
+      "readme_sha": "fdc7077cde0b2e2f5b95239840cab64bfd04e311",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rockandroll",
+      "readme_sha": "ff718d67ab3e190458a82c971cff48f9fae939ae",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "romannumbers",
+      "readme_sha": "6837e29d7222eeb794f380e99157d45d69d009d9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rostring",
+      "readme_sha": "b1b23ada984505d067452d702f7432a69408d085",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rot13",
+      "readme_sha": "a8aa354914f8ed5ca747cd02a30f11395a714cb5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rot21",
+      "readme_sha": "e99f419c5793f118400cd6f2176857323c83d4d3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rotargn",
+      "readme_sha": "283e29bda68048d1439845b5a26917e62483a7c1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rpn",
+      "readme_sha": "0f4f5bd7a239a0f6ad4a6716a56d6697d4cac555",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "rpncalc",
+      "readme_sha": "ea82e0009e1b6e2994ae37672b5ab7f9a5650a26",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sales",
+      "readme_sha": "635fc4aa09c8dadfd787cd6a85fc0f84742708e6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sametree",
+      "readme_sha": "995386727801c4c356c5ff719fa7015fa9fd8187",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "saveandmiss",
+      "readme_sha": "b96c67815f5dc7543c11723abe709d2cd9e3b8e6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "scores",
+      "readme_sha": "9b2975fbc2c805b3e1ee5be8cf4dab9b5658f199",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "scytale_cipher",
+      "readme_sha": "4547baf624d364c6b6053ba48a8db829f234cc5a",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "scytale_decoder",
+      "readme_sha": "ae2771bbb6412d2b3feed7f1447e60f73000f87b",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "searching",
+      "readme_sha": "0531b90d660ba7fb05c80d36790dc18abefbec08",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "searchreplace",
+      "readme_sha": "52adfef51b77c801e70fa6b7a54422e56cc03a74",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "secondhalf",
+      "readme_sha": "093ee8ea54b812a5a8315c6341154d0618c97764",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "security",
+      "readme_sha": "f3b88edf683387a116ba30984fe71dc69d233246",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "seeker-of-truth",
+      "readme_sha": "8e9be254af6e496dfa391fbbbbbc8a32895fc50d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "select-and-style-dom",
+      "readme_sha": "c8e050a4e1896256c5c3f19244e7d4112878c1ce",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "select-and-style",
+      "readme_sha": "abbfd62aca64d904969d3562364c53857da2e832",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "setspace",
+      "readme_sha": "2dd355300da29abee577bc6579d0ba4e67b4371d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "shoppinglistsort",
+      "readme_sha": "adde2b7b6ec1aa8d3f16c94139bc9c68cc214cfa",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "shoppingsummarycounter",
+      "readme_sha": "a9cb67a06b2f433b1181549b8e64411267011ecd",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sign",
+      "readme_sha": "d4ba02211303ca110ee28f8b67d8bbd3e056bb68",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "skeleton-dom",
+      "readme_sha": "75c8222d6f79d4b3077d42592931177e311767cc",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "skeleton",
+      "readme_sha": "0893d0d733ed8c38f1db5ae977d23338438a1773",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "slice",
+      "readme_sha": "5d2f2ae890f76410754ac0b6b45f46a27215476f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sliceadd",
+      "readme_sha": "83f56c347063aab3377758795ed9f0316a87cf28",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sliceremove",
+      "readme_sha": "3946676cbdafdd1aeff52b38f934b235385c01d7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "slices_to_map",
+      "readme_sha": "7f04ca10da43eba35fe1ee1018c0b232ac1068ed",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "smallest",
+      "readme_sha": "afb286eca93a5a227c83a33e6b959f8b677e2783",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "smooth-operator",
+      "readme_sha": "8fc6ab1ab14214e6dafc5e4318f09adca1fbcc68",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sortlist",
+      "readme_sha": "fc054af1c3324efa45544dec54d404cd26de7ea9",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sortll",
+      "readme_sha": "cd33ce98bfae0ddb33f9d9f029e4a6e1683ccc81",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "special-promo",
+      "readme_sha": "b2d83b4be517a559e26e13d46ae7d6f1cd1d8d43",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "speed-run",
+      "readme_sha": "048cff17acb387947d32bd8d7b98143b623f43d1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "spelling",
+      "readme_sha": "0cc481de42b4bb21132cf3e0286cd7f3d46a0aff",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "spread-the-word",
+      "readme_sha": "c82aa5cce0f7dfb235303e1bf223e52d5c5867b8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "squared",
+      "readme_sha": "0b5052dfd619f01a61c943156c4ef505da1b8c52",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "squareroot",
+      "readme_sha": "7e522fe3e147fe031e62493d2cd47d3fc3bf62c4",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "stars",
+      "readme_sha": "cf5191a6b8cba625fe02eda79e40f933d214da6f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "step_iterator",
+      "readme_sha": "8da1adae485a1cf9fa2b57064aa6aa33a578c0a7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "stringtobool",
+      "readme_sha": "57cc30f88c05db3a56b8023a3132238483e772cb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "stringtointslice",
+      "readme_sha": "e8802d8f3a4bb1de7f6339280f920db9b9b79cb8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "strisnegative",
+      "readme_sha": "30fa8540f854ae8c54a4c6ebdfd55ca1c45e2b49",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sum",
+      "readme_sha": "079f0238f4e142ec5281fea6ec5628b38e166285",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sumascii",
+      "readme_sha": "f754b6bd287cfdc11ecf5b8a56866f1f007b78bb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sumthemall",
+      "readme_sha": "6b54b56dad6df2bbc0df064c4c384aae63184cba",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sunny-sunday",
+      "readme_sha": "bb63097bb64cedb708e85e7629ed75d6d98cd6d3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "swapargs",
+      "readme_sha": "dff91368200769f547b95df48437976e247ebd81",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "swapbits",
+      "readme_sha": "3cb6933f8335e87382565eabfb8ec93fb1ab06c8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "swapfirst",
+      "readme_sha": "92ab4927d149dc4806281a313e748795cce58bcc",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "swaplast",
+      "readme_sha": "6b887cd99e91a3146d38a77ad0f8fcc59a092bba",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "swapname",
+      "readme_sha": "b302692ee8f9b8657f6246b15b8a2c8659c0d86d",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "swapy",
+      "readme_sha": "8d4082ab7906b909a38fa0fce5d2bd9ade51b0c5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "switchcase",
+      "readme_sha": "787a18c211d3ac538aec62735ea4bd623f38f535",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "sys",
+      "readme_sha": "058e1a726085b755697a798ec319da454a030646",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tabmult",
+      "readme_sha": "4fbfa7d73bbfb3bfac2a42d1766f82f64aa0fb94",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "talking",
+      "readme_sha": "8d26cfa0d65ce8c5474af1e52f3d9fe5621594d8",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "teacher",
+      "readme_sha": "6071b65a67d35ada37fb1bd97a565390dc67f0ec",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tell-it-cypher",
+      "readme_sha": "f04ee8f5fb8c9bcb6df6d234e2d713b079b5ac01",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tell-me-how-many",
+      "readme_sha": "6500570e8b057d07c40f801c4bb0b86182fdf998",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tell-me-vip",
+      "readme_sha": "2cec83e63fc5096d7de0a61e8abafc1f23e3ed3e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "tell-me-who",
+      "readme_sha": "431bc8fda713f550b1f0420c3641f85f785e25f6",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "the-calling-dom",
+      "readme_sha": "2b16f9ed2fced7141967befe1faaf7e493d9031f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "the-calling",
+      "readme_sha": "2b16f9ed2fced7141967befe1faaf7e493d9031f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "the-four-seasons",
+      "readme_sha": "fa027d5f80dae29fef9dcaf3cfee4448c37fcacb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "the-great-escape",
+      "readme_sha": "96bc4e4e234598d9c51aa06af79beeaf252d5b64",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "the-true-king",
+      "readme_sha": "5e920522ee40cc3ccd7a8362a451fa353d1f32b1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "thirdtimeisacharm",
+      "readme_sha": "0b3ef713055262ae4165d5c428bf705b10dfa883",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "time-to-pay",
+      "readme_sha": "574db505dedef8fce75ea4271480d98f185c2a2c",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "to-infinity-and-beyond",
+      "readme_sha": "65e12635ee424e018c079debbdd34ca1d607f479",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "total",
+      "readme_sha": "723704b6086cb149bd5e802e330d84abea9bbf90",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "two-can-play-that-game",
+      "readme_sha": "258171cf8c638014b0a909fbc56e81c6842fc730",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "twosum",
+      "readme_sha": "e998d29ec866a1c9445582ae7ee9fdbab4f898de",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "ultra-venom-speed-control-system-rgb",
+      "readme_sha": "956cf8ec4c2db339732021ae761df608a8733bac",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unavailable",
+      "readme_sha": "caef4db19d48f1cc3750626fadc5beb30c56db95",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unchanging",
+      "readme_sha": "44a1de3c0aa14776f10840dd1b606c33dc11a1b7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "uninvited",
+      "readme_sha": "fa96be3bab6bd5e4fb06ec77046f62b0f4e1aeb0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "union",
+      "readme_sha": "d703d92ab5f6cf9b5239b894def1517ec542756e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unzipstring",
+      "readme_sha": "77b0254ebf54a385b9b8e277c321e012057f881e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "vector_operations",
+      "readme_sha": "d29314d6f1c38bd336786422fbdf85fb5457011f",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "vehicles",
+      "readme_sha": "95922f9baee33adeea5b893ad6693d76e1f4fa56",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "verydisco-forever",
+      "readme_sha": "41fbec59f17c7174837ebb934870ec4ad20984b2",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "verydisco-reverso",
+      "readme_sha": "6bc48b04123d218668ec3407a08a52384d734de3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "verydisco",
+      "readme_sha": "bae720d34d49d2d2b0b69414b80579a649d404eb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "veterinary",
+      "readme_sha": "bf77f1bb0717e74fa1ebbc0c0ca5ce16804f2975",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "virus19",
+      "readme_sha": "f56c698f1b03e20b87b8db2e28a005fdaeabcb9e",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "vowels-index",
+      "readme_sha": "3598bfaa9c644761f61ad1fac32eb0779bdec0d5",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "wdmatch",
+      "readme_sha": "6e5f0e2ecc47adbac7adcc8c9ef44734fdc3c590",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "weareunique",
+      "readme_sha": "64455412add5da9d37ef709de4a0b52b415c74df",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "what-9000",
+      "readme_sha": "5bec1d209a10ab656d81d62bfc4495d1ddc8fe27",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "what-else",
+      "readme_sha": "d15cbb286b7038074c5b870a1f33cd642034aeea",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "what-is-my-purpose",
+      "readme_sha": "1d5d8d16f47dc65e6919165701375f7da11f2425",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "where-do-we-go-dom",
+      "readme_sha": "63d0660d1a9bd5d24d87ca34bf6555ad52e810b7",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "wololo",
+      "readme_sha": "1aa854d2e294888bb02ccc9bd646649af25427d0",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "wordflip",
+      "readme_sha": "5186bca031b61b44cae70909e092782de428e0e3",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "words",
+      "readme_sha": "64bed9034fbd927f54e8e77d2a0385e9a0c69500",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "you-pass-butter",
+      "readme_sha": "56f73d037cac0ceb5fa3493db7bbf6c0a4846dc1",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "you-spin-me-round",
+      "readme_sha": "a944e16227eb31b1a749fde5a306dbfcdfa5f694",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "your-own",
+      "readme_sha": "c41145834b431d71eb7129f63cc10095f96a3c88",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "zipstring",
+      "readme_sha": "8e7300406b17c1c794c1a7130bf76107763c6109",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    },
+    {
+      "id": "何",
+      "readme_sha": "21df774c2f2d59068e5f64eb82f4020cf8f615bb",
+      "source_review": null,
+      "official_galaxy_track": null,
+      "official_unlock": null
+    }
+  ]
+}
