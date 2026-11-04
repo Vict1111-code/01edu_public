@@ -11,6 +11,7 @@ on:
       - 'research/galaxy-audit/data/phase18*'
       - 'research/galaxy-audit/data/phase20*'
       - 'research/galaxy-audit/data/phase21*'
+      - 'research/galaxy-audit/data/phase21*'
 
 permissions:
   contents: read
@@ -108,6 +109,12 @@ jobs:
       - name: Generate expanded project classification and source attestations
         run: node research/galaxy-audit/scripts/verify-expanded-projects.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 21 top-level subject classification
+        run: node --test research/galaxy-audit/scripts/classify-top-level-satellites.test.mjs
+
+      - name: Generate complete top-level audited and unaudited index
+        run: node research/galaxy-audit/scripts/classify-top-level-satellites.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -189,6 +196,8 @@ jobs:
             research/galaxy-audit/generated/javascript-phase18-source-checked-guide.md
             research/galaxy-audit/generated/phase20-imperative-satellite-verification.json
             research/galaxy-audit/generated/phase20-imperative-satellite-guide.md
+            research/galaxy-audit/generated/phase21-top-level-subject-classification.json
+            research/galaxy-audit/generated/phase21-top-level-project-guide.md
             research/galaxy-audit/generated/phase21-expanded-project-verification.json
             research/galaxy-audit/generated/phase21-expanded-project-guide.md
           retention-days: 14
