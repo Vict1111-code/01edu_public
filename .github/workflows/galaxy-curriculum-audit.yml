@@ -17,6 +17,7 @@ on:
       - 'research/galaxy-audit/data/phase25*'
       - 'research/galaxy-audit/data/phase26*'
       - 'research/galaxy-audit/data/phase27*'
+      - 'research/galaxy-audit/data/phase28*'
 
 permissions:
   contents: read
@@ -174,6 +175,18 @@ jobs:
       - name: Build unified 455-reviewed-subject JSON and CSV
         run: node research/galaxy-audit/scripts/build-phase27-455-closure.mjs . research/galaxy-audit/generated
 
+      - name: Test Phase 28 full Piscine archive-name matched catalog
+        run: node --test research/galaxy-audit/scripts/verify-phase28-281-catalog.test.mjs
+
+      - name: Source-attest all 281 reviewed Piscine archive matches
+        run: node research/galaxy-audit/scripts/verify-phase28-281-catalog.mjs . research/galaxy-audit/generated
+
+      - name: Test Phase 28 source-supported project relationships
+        run: node --test research/galaxy-audit/scripts/verify-phase28-relationships.test.mjs
+
+      - name: Source-attest seven Phase 28 code reuse relationships
+        run: node research/galaxy-audit/scripts/verify-phase28-relationships.mjs .
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -271,5 +284,8 @@ jobs:
             research/galaxy-audit/generated/phase27-evidence-attestation.json
             research/galaxy-audit/generated/phase27-unified-455-reviewed.json
             research/galaxy-audit/generated/phase27-unified-455-reviewed.csv
+            research/galaxy-audit/generated/phase28-source-attested-281.json
+            research/galaxy-audit/generated/phase28-source-attested-281.csv
+            research/galaxy-audit/generated/phase28-verification-summary.json
           retention-days: 14
           if-no-files-found: error
