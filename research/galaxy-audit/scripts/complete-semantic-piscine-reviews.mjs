@@ -26,7 +26,8 @@ export function build(prior,queue,reviews,root){
   const file=join(root,r.source_path);
   if(!existsSync(file))throw Error('Public README not found: '+id);
   const body=readFileSync(file,'utf8');
-  if(!r.verification_phrase||!body.includes(r.verification_phrase))
+  const normalize=s=>s.replace(/[`*_]/g,'').replace(/\s+/g,' ').trim().toLowerCase();
+  if(!r.verification_phrase||(!body.includes(r.verification_phrase)&&!normalize(body).includes(normalize(r.verification_phrase))))
    throw Error('Verification phrase absent: '+id+' / '+r.verification_phrase);
   if(!r.review_note||r.review_note.length<25||r.official_quest!==null||r.official_unlock!==null)
    throw Error('Incomplete source review metadata: '+id);
@@ -61,7 +62,7 @@ export function build(prior,queue,reviews,root){
     copy.phase18_study_stage=r.proposed_study_stage;
     copy.phase18_source_evidence={official_public_url:'https://github.com/01-edu/public/blob/master/'+r.source_path,
      published_subject_path:r.source_path,source_sha256:r.public_sha256,source_bytes:r.public_bytes,
-     matched_phrase:r.verification_phrase,manual_interpretation:r.review_note,
+     matched_phrase:r.verification_phrase,matching_mode:'literal_or_Markdown_format_normalized',manual_interpretation:r.review_note,
      review_provenance:r.review_file,educational_classification_only:true};
     const moved=copy.phase18_study_stage!==x.phase17_study_stage;
     if(moved)changedStages++;
