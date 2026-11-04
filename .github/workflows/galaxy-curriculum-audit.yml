@@ -11,7 +11,7 @@ on:
       - 'research/galaxy-audit/data/phase18*'
       - 'research/galaxy-audit/data/phase20*'
       - 'research/galaxy-audit/data/phase21*'
-      - 'research/galaxy-audit/data/phase21*'
+      - 'research/galaxy-audit/data/phase22*'
 
 permissions:
   contents: read
@@ -114,6 +114,12 @@ jobs:
 
       - name: Generate complete top-level audited and unaudited index
         run: node research/galaxy-audit/scripts/classify-top-level-satellites.mjs . research/galaxy-audit/generated
+
+      - name: Test Phase 22 backlog reconciliation
+        run: node --test research/galaxy-audit/scripts/validate-phase22-coverage.test.mjs
+
+      - name: Verify 736-subject coverage and ten README source phrases
+        run: node research/galaxy-audit/scripts/validate-phase22-coverage.mjs .
 
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
