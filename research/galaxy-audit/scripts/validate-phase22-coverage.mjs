@@ -50,17 +50,21 @@ export function validateCoverage(index,crosswalk,data,readSource) {
    check(JSON.stringify([...rec.languages].sort())===JSON.stringify(langs),'Archive languages mismatch '+node.path);
   }else{
    check(rec.official_galaxy_track===null,'Invented official track '+node.path);
-   if(rec.source_review){
-    manual++;
-    const s=rec.source_review;
-    check(s.id===node.path&&s.source_path==='subjects/'+node.path+'/README.md','Bad review source '+node.path);
-    check(s.official_unlock===null&&s.official_track===null,'Invented reviewed official status '+node.path);
-    check(normalize(readSource(s.source_path)).includes(normalize(s.source_phrase)),'Review phrase missing '+node.path);
-   }
+  }
+  if(rec.source_review){
+   manual++;
+   const s=rec.source_review;
+   check(s.id===node.path&&s.source_path==='subjects/'+node.path+'/README.md','Bad review source '+node.path);
+   check(s.official_unlock===null&&s.official_track===null,'Invented reviewed official status '+node.path);
+   check(normalize(readSource(s.source_path)).includes(normalize(s.source_phrase)),'Review phrase missing '+node.path);
   }
  }
  check(manual===c.manual_sources_reviewed,'Manual review count mismatch');
- check(c.unreviewed_archive_unmatched===other.length-manual,'Remaining review count mismatch');
+ const reviewedMatched=matched.filter(x=>x.source_review).length;
+ const reviewedUnmatched=other.filter(x=>x.source_review).length;
+ check(c.manual_archive_matched===reviewedMatched,'Manually reviewed matched count differs');
+ check(c.manual_archive_unmatched===reviewedUnmatched,'Manually reviewed unmatched count differs');
+ check(c.unreviewed_archive_unmatched===other.length-reviewedUnmatched,'Remaining review count mismatch');
  const matchedWithAudit=[...grouped.keys()].filter(n=>topMap.get(n).audit_readme_sha).sort();
  check(JSON.stringify(matchedWithAudit)===JSON.stringify([...c.archive_matches_with_audit].sort()),'Audited archive-match list differs');
  return {ok:true,source_tree_sha:index.tree_sha,counts:c,source_phrases_verified:manual};
