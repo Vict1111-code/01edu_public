@@ -1,0 +1,675 @@
+{
+  "schema_version": "1.0",
+  "phase": 25,
+  "as_of": "2026-11-04",
+  "source_tree_sha": "b78ec066b3c1123fc72c65d983aa5190c3f29d79",
+  "method": "Direct full README reading and manual semantic interpretation; source_phrase exact-text attestation validated in CI.",
+  "limitations": [
+    "Source-level educational category, not official 01Edu track or unlock.",
+    "No learner code or automated assessment executed.",
+    "Do not infer curriculum membership from similar names."
+  ],
+  "counts": {
+    "reviewed": 34,
+    "remaining_of_446": 412,
+    "kinds": {
+      "small_exercise": 13,
+      "multi_step_exercise": 17,
+      "incomplete_stub": 2,
+      "reference_policy": 1,
+      "unavailable_placeholder": 1
+    },
+    "languages": {
+      "javascript": 16,
+      "rust": 9,
+      "go": 3,
+      "unresolved": 3,
+      "shell": 2,
+      "html_css": 1
+    }
+  },
+  "entries": [
+    {
+      "id": "a-new-purpose",
+      "source_path": "subjects/a-new-purpose/README.md",
+      "readme_sha": "0d0667f61d819efa8e0baedc7bd8f51695ad22e9",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "Define the functions :",
+      "requirement_summary": "Implement add2 and sub2.",
+      "concepts": [
+        "functions",
+        "parameters"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "a-string-of-number",
+      "source_path": "subjects/a-string-of-number/README.md",
+      "readme_sha": "121bbb152c56c2bf3da6a68c5c6c206a270d2a01",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "Declare two variables:",
+      "requirement_summary": "Declare seven and seventySeven as string values.",
+      "concepts": [
+        "variables",
+        "strings"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "a-winning-argument",
+      "source_path": "subjects/a-winning-argument/README.md",
+      "readme_sha": "e872cc81ac7c093c5caf7348b66e7beb89410985",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "create the function `battleCry`",
+      "requirement_summary": "Implement battleCry uppercase and secretOrders lowercase console functions.",
+      "concepts": [
+        "functions",
+        "arguments"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "about-time",
+      "source_path": "subjects/about-time/README.md",
+      "readme_sha": "4aa98929d7c7fdcefda5d408098f5725e424c024",
+      "semantic_kind": "multi_step_exercise",
+      "language": "javascript",
+      "source_phrase": "Create the function `ultimateScoreboard`",
+      "requirement_summary": "Format a capped ranked list of times and names.",
+      "concepts": [
+        "arrays",
+        "formatting"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "action-reaction",
+      "source_path": "subjects/action-reaction/README.md",
+      "readme_sha": "b00ce62a89655c6a834d46558f1c6935a0ec61b3",
+      "semantic_kind": "multi_step_exercise",
+      "language": "javascript",
+      "source_phrase": "toggle (close or open) the left eye",
+      "requirement_summary": "Handle clicks to toggle eye appearance and button text.",
+      "concepts": [
+        "DOM",
+        "events"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "baby-shower",
+      "source_path": "subjects/baby-shower/README.md",
+      "readme_sha": "4fb50b21c1db8e79d5d656522473c5fcce7418f2",
+      "semantic_kind": "multi_step_exercise",
+      "language": "javascript",
+      "source_phrase": "launch the function to pop confetti when the page loads",
+      "requirement_summary": "Import confetti library and trigger on load and keydown.",
+      "concepts": [
+        "imports",
+        "events"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "brain_fuck",
+      "source_path": "subjects/brain_fuck/README.md",
+      "readme_sha": "cde7ac9acb4abd4d18ae2bf640f454475355ef3a",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "Use `std::env::args()` to get the program's arguments.",
+      "requirement_summary": "Build a Rust Brainfuck interpreter.",
+      "concepts": [
+        "Rust",
+        "interpreter",
+        "CLI"
+      ],
+      "source_warning": "Rust exercise differs from Go brainfuck.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "brainfuck",
+      "source_path": "subjects/brainfuck/README.md",
+      "readme_sha": "79d10f16974b281fb6138202852070220a2c3ee9",
+      "semantic_kind": "multi_step_exercise",
+      "language": "go",
+      "source_phrase": "$ go run .",
+      "requirement_summary": "Build a Go Brainfuck interpreter.",
+      "concepts": [
+        "Go",
+        "interpreter",
+        "CLI"
+      ],
+      "source_warning": "Go exercise differs from Rust brain_fuck.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "bring-it-to-life-dom",
+      "source_path": "subjects/bring-it-to-life-dom/README.md",
+      "readme_sha": "f3f9a0e2052ddcbc176fea28cf99f8c08822f274",
+      "semantic_kind": "multi_step_exercise",
+      "language": "javascript",
+      "source_phrase": "close the left eye of your entity",
+      "requirement_summary": "Select eye-left and change style and class.",
+      "concepts": [
+        "DOM",
+        "CSS"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "broken-promise",
+      "source_path": "subjects/broken-promise/README.md",
+      "readme_sha": "43c42376b5a36004a4b283c9e3a063147fffc8b9",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "Create an asynchronous function `doubleIt`",
+      "requirement_summary": "Double resolved values and format rejected Promise errors.",
+      "concepts": [
+        "async",
+        "promises"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "firebase-demo",
+      "source_path": "subjects/firebase-demo/README.md",
+      "readme_sha": "e68fc092f25f95e9b59921e2b2b5c7ad7227841f",
+      "semantic_kind": "incomplete_stub",
+      "language": null,
+      "source_phrase": "## firebase-demo",
+      "requirement_summary": "Heading only; no usable assignment requirements.",
+      "concepts": [],
+      "source_warning": "Heading-only file is not a project specification.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "car_rental",
+      "source_path": "subjects/car_rental/README.md",
+      "readme_sha": "5fdf3961ac7fecbb52ca00ff2f71ec62efee86b8",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "interior mutability",
+      "requirement_summary": "Implement Car/RentalBusiness using RefCell.",
+      "concepts": [
+        "Rust",
+        "RefCell"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cultural-shift",
+      "source_path": "subjects/cultural-shift/README.md",
+      "readme_sha": "0d92f8aac7318fe703299a2440a2000933ce9522",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "modify the provided `popArtists` array",
+      "requirement_summary": "Use push and unshift to insert artists.",
+      "concepts": [
+        "arrays",
+        "mutations"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "disclaimer",
+      "source_path": "subjects/disclaimer/README.md",
+      "readme_sha": "c1165361bdd285f08b7d77a8b4f3f4ff1da24439",
+      "semantic_kind": "reference_policy",
+      "language": "go",
+      "source_phrase": "For this exercise a function will be tested",
+      "requirement_summary": "Exam evaluation guidance; not a standalone assignment.",
+      "concepts": [
+        "Go",
+        "assessment"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "drop_the_blog",
+      "source_path": "subjects/drop_the_blog/README.md",
+      "readme_sha": "8d28ebd6a2a665913e991ff510d0c1ccc7960681",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "You must implement `Drop` for `Article`",
+      "requirement_summary": "Create Blog/Article with Drop bookkeeping.",
+      "concepts": [
+        "Rust",
+        "Drop"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "drop_the_thread",
+      "source_path": "subjects/drop_the_thread/README.md",
+      "readme_sha": "fbd4c5ab8ba44ecae087418a63da806d1b912cb2",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "You must implement the `Drop` trait for the `Thread` structure.",
+      "requirement_summary": "Implement ThreadPool/Thread drop tracking.",
+      "concepts": [
+        "Rust",
+        "Drop"
+      ],
+      "source_warning": "README refers to add_drop but describes drop_thread in the API.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "teacher",
+      "source_path": "subjects/teacher/README.md",
+      "readme_sha": "6071b65a67d35ada37fb1bd97a565390dc67f0ec",
+      "semantic_kind": "multi_step_exercise",
+      "language": "shell",
+      "source_phrase": "write a `teacher.sh` file",
+      "requirement_summary": "Extract interview ID and print required values using shell.",
+      "concepts": [
+        "shell",
+        "environment"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "veterinary",
+      "source_path": "subjects/veterinary/README.md",
+      "readme_sha": "bf77f1bb0717e74fa1ebbc0c0ca5ce16804f2975",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "create an object `veterinary`",
+      "requirement_summary": "Implement canTreat and respondClient methods.",
+      "concepts": [
+        "objects",
+        "methods"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "virus19",
+      "source_path": "subjects/virus19/README.md",
+      "readme_sha": "f56c698f1b03e20b87b8db2e28a005fdaeabcb9e",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "First freeze the object `virus19`",
+      "requirement_summary": "Freeze object and make safe antivirus copy.",
+      "concepts": [
+        "objects",
+        "immutability"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "your-own",
+      "source_path": "subjects/your-own/README.md",
+      "readme_sha": "c41145834b431d71eb7129f63cc10095f96a3c88",
+      "semantic_kind": "incomplete_stub",
+      "language": null,
+      "source_phrase": "coding reduce",
+      "requirement_summary": "Only notes about reduce, filter, map; no actionable implementation brief.",
+      "concepts": [
+        "higher-order-functions"
+      ],
+      "source_warning": "Notes-only README; programming language undetermined.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "何",
+      "source_path": "subjects/何/README.md",
+      "readme_sha": "21df774c2f2d59068e5f64eb82f4020cf8f615bb",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "Create a `inequality` value that is not equal to itself",
+      "requirement_summary": "Create self-unequal value; linked JavaScript Number reference.",
+      "concepts": [
+        "numbers",
+        "NaN"
+      ],
+      "source_warning": "JavaScript language derives from linked JS Number reference, not an explicit language directive.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "what-is-my-purpose",
+      "source_path": "subjects/what-is-my-purpose/README.md",
+      "readme_sha": "1d5d8d16f47dc65e6919165701375f7da11f2425",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "Declare a function named `ask`",
+      "requirement_summary": "Define and call ask and reply in order.",
+      "concepts": [
+        "functions",
+        "JS basics"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "cl-camp1",
+      "source_path": "subjects/cl-camp1/README.md",
+      "readme_sha": "ac9c127b0e152bab0be87fd250f11ff8802b24a4",
+      "semantic_kind": "small_exercise",
+      "language": "shell",
+      "source_phrase": "Put in a file `mastertheLS` the command line",
+      "requirement_summary": "Write directory listing and formatting shell command.",
+      "concepts": [
+        "shell",
+        "ls"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "first-words-dom",
+      "source_path": "subjects/first-words-dom/README.md",
+      "readme_sha": "302341a6b953a53a14f189495fac16be3efd5913",
+      "semantic_kind": "multi_step_exercise",
+      "language": "javascript",
+      "source_phrase": "add an event listener on `click` event",
+      "requirement_summary": "Append styled Hello there div on click.",
+      "concepts": [
+        "DOM",
+        "events"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "the-great-escape",
+      "source_path": "subjects/the-great-escape/README.md",
+      "readme_sha": "96bc4e4e234598d9c51aa06af79beeaf252d5b64",
+      "semantic_kind": "small_exercise",
+      "language": "javascript",
+      "source_phrase": "escape some strings",
+      "requirement_summary": "Declare strings with quote delimiters and backslashes.",
+      "concepts": [
+        "strings",
+        "escaping"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "vehicles",
+      "source_path": "subjects/vehicles/README.md",
+      "readme_sha": "95922f9baee33adeea5b893ad6693d76e1f4fa56",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "Create the trait Vehicle",
+      "requirement_summary": "Implement Car/Truck Vehicle trait and list models.",
+      "concepts": [
+        "Rust",
+        "traits"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "class-that-dom",
+      "source_path": "subjects/class-that-dom/README.md",
+      "readme_sha": "8679b4dcda3b7500790b844df5913fe6c97725ee",
+      "semantic_kind": "multi_step_exercise",
+      "language": "html_css",
+      "source_phrase": "Create the 3 following classes",
+      "requirement_summary": "Style eye/arm/leg HTML elements with CSS classes.",
+      "concepts": [
+        "CSS",
+        "HTML"
+      ],
+      "source_warning": "Task is HTML/CSS class styling, despite -dom suffix.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "arraysum",
+      "source_path": "subjects/arraysum/README.md",
+      "readme_sha": "eb64b83006fd7fe4dff5932843d282a5f700d4a9",
+      "semantic_kind": "small_exercise",
+      "language": "go",
+      "source_phrase": "func SumArray(numbers []int) int",
+      "requirement_summary": "Implement SumArray with empty-array zero result.",
+      "concepts": [
+        "Go",
+        "slices"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "check_user_name",
+      "source_path": "subjects/check_user_name/README.md",
+      "readme_sha": "a4c5d205c2ed46cbb2c91b06dd0b00e92afbc4cc",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "`AccessLevel` enum",
+      "requirement_summary": "Implement enum and User using Option access levels.",
+      "concepts": [
+        "Rust",
+        "enums"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "count_factorial_steps",
+      "source_path": "subjects/count_factorial_steps/README.md",
+      "readme_sha": "e8cc2df68a7fe5d6b24f05c34c06575307b51d3c",
+      "semantic_kind": "small_exercise",
+      "language": "rust",
+      "source_phrase": "`count_factorial_steps`",
+      "requirement_summary": "Return factorial step count or zero for non-factorials.",
+      "concepts": [
+        "Rust",
+        "math"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "easy_traits",
+      "source_path": "subjects/easy_traits/README.md",
+      "readme_sha": "5275a9e2e90a01f7f98fff92fa1ba6ad2e2874ae",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "trait `AppendStrExt`",
+      "requirement_summary": "Add append and punctuation-removal methods to String.",
+      "concepts": [
+        "Rust",
+        "traits"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "vector_operations",
+      "source_path": "subjects/vector_operations/README.md",
+      "readme_sha": "d29314d6f1c38bd336786422fbdf85fb5457011f",
+      "semantic_kind": "multi_step_exercise",
+      "language": "rust",
+      "source_phrase": "impl Add for ThreeDVector",
+      "requirement_summary": "Implement Add and Sub for three-dimensional vectors.",
+      "concepts": [
+        "Rust",
+        "operator-overloading"
+      ],
+      "source_warning": null,
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "where-do-we-go-dom",
+      "source_path": "subjects/where-do-we-go-dom/README.md",
+      "readme_sha": "63d0660d1a9bd5d24d87ca34bf6555ad52e810b7",
+      "semantic_kind": "multi_step_exercise",
+      "language": "javascript",
+      "source_phrase": "Write the function `explore`",
+      "requirement_summary": "Create scrolling location page with images, links and compass.",
+      "concepts": [
+        "DOM",
+        "scroll",
+        "sorting"
+      ],
+      "source_warning": "Substantial browser task; source alone does not prove Galaxy major project status.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    },
+    {
+      "id": "unavailable",
+      "source_path": "subjects/unavailable/README.md",
+      "readme_sha": "caef4db19d48f1cc3750626fadc5beb30c56db95",
+      "semantic_kind": "unavailable_placeholder",
+      "language": null,
+      "source_phrase": "This subject is currently unavailable for you.",
+      "requirement_summary": "Only restricted-content placeholder; task specification unavailable.",
+      "concepts": [],
+      "source_warning": "The assignment is unavailable from this public README.",
+      "review_confidence": "manual_source_semantic_inspection",
+      "assessment_status": "not_executed",
+      "official_galaxy_track": null,
+      "official_piscine_membership": null,
+      "official_unlock": null
+    }
+  ]
+}
