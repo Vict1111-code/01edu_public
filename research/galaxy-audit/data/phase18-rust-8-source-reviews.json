@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-11-04",
+  "records": [
+    {
+      "language": "rust",
+      "exercise": "tuples_refs",
+      "source_path": "subjects/tuples_refs/README.md",
+      "verification_phrase": "tuple",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "types",
+        "borrowing"
+      ],
+      "review_note": "Define tuple Student struct and three borrowed field-access functions, respecting reference lifetimes.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "commits_stats",
+      "source_path": "subjects/commits_stats/README.md",
+      "verification_phrase": "commits_per_week",
+      "proposed_study_stage": 8,
+      "concepts": [
+        "collections",
+        "applications"
+      ],
+      "review_note": "Aggregate GitHub JSON commits by author and calendar week with json crate and chrono formatting.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "shopping_mall",
+      "source_path": "subjects/shopping_mall/README.md",
+      "verification_phrase": "highest_paid_employee",
+      "proposed_study_stage": 8,
+      "concepts": [
+        "collections",
+        "applications"
+      ],
+      "review_note": "Implement mall simulation reports, security staffing and salary adjustments against supplied mall module.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "copy",
+      "source_path": "subjects/copy/README.md",
+      "verification_phrase": "different types",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "ownership",
+        "types",
+        "collections"
+      ],
+      "review_note": "Demonstrate copy and owned tuples for numeric, string and vector transformations.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "groceries",
+      "source_path": "subjects/groceries/README.md",
+      "verification_phrase": "at_index",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "collections",
+        "borrowing"
+      ],
+      "review_note": "Implement Vec insertion and indexed retrieval, including bounds policies grounded in example.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "question_mark",
+      "source_path": "subjects/question_mark/README.md",
+      "verification_phrase": "first_layer",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "enums_results"
+      ],
+      "review_note": "Traverse nested Option fields to return fourth_layer using idiomatic option propagation.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "tic_tac_toe",
+      "source_path": "subjects/tic_tac_toe/README.md",
+      "verification_phrase": "diagonals",
+      "proposed_study_stage": 8,
+      "concepts": [
+        "applications",
+        "collections",
+        "borrowing"
+      ],
+      "review_note": "Check winning diagonals rows and columns over borrowed Tic Tac Toe board with tie handling.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "rust",
+      "exercise": "unwrap_or_expect",
+      "source_path": "subjects/unwrap_or_expect/README.md",
+      "verification_phrase": "UnexpectedUrl",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "enums_results"
+      ],
+      "review_note": "Select enum-driven error policies on Result String values including specified panic and warning cases.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    }
+  ]
+}
