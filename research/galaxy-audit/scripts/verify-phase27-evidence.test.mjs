@@ -31,6 +31,6 @@ test('exact current source file requirements must not be fabricated',()=>{
  assert.throws(()=>validate(...a,source),/Stub text attestation failed/);
 });
 test('visual screenshot count is stable and does not position the 127 new exercises',()=>{
- const a=input();a[4].groups.go.push('ascii-art');
+ const a=input();a[4].groups.go.splice(0,1,'ascii-art');
  assert.throws(()=>validate(...a,source),/Nonpriority ID unexpectedly placed on screenshot/);
 });
