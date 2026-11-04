@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/galaxy-curriculum-audit.yml'
       - 'research/galaxy-audit/scripts/**'
+      - 'research/galaxy-audit/data/phase18*'
 
 permissions:
   contents: read
