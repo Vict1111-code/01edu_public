@@ -17,12 +17,14 @@
     ],
     "archive_unmatched_without_audit": 455,
     "manual_sources_reviewed": 10,
-    "unreviewed_archive_unmatched": 445,
+    "unreviewed_archive_unmatched": 446,
     "archive_matches_by_language": {
       "go": 121,
       "javascript": 97,
       "rust": 63
-    }
+    },
+    "manual_archive_matched": 1,
+    "manual_archive_unmatched": 9
   },
   "duplicate_community_archive_ids": [
     {
@@ -375,7 +377,17 @@
       ],
       "community_archive_occurrences": 1,
       "official_piscine_membership": null,
-      "official_unlock": null
+      "official_unlock": null,
+      "source_review": {
+        "id": "btreesearchitem",
+        "classification": "go_tree_exercise",
+        "language": "go",
+        "source_phrase": "returns the `TreeNode` with a `data` field equal to `elem`",
+        "requirements": "Find a tree node by data or return nil",
+        "source_path": "subjects/btreesearchitem/README.md",
+        "official_track": null,
+        "official_unlock": null
+      }
     },
     {
       "id": "build-brick-and-break",
