@@ -1,0 +1,926 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-11-04",
+  "method": "Independently inspected actual public README instructions and restrictions, with source phrase verification in CI; educational recommendations only",
+  "records": [
+    {
+      "language": "go",
+      "exercise": "abort",
+      "source_path": "subjects/abort/README.md",
+      "verification_phrase": "median of five",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "functions",
+        "sorting"
+      ],
+      "review_note": "Return the median of five integers without using file or CLI semantics.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "atoibase",
+      "source_path": "subjects/atoibase/README.md",
+      "verification_phrase": "If the base is not valid",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "review_note": "Parse a number using a validated alphabet; reject short, duplicate, plus or minus containing bases.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "btreeapplyinorder",
+      "source_path": "subjects/btreeapplyinorder/README.md",
+      "verification_phrase": "in order",
+      "proposed_study_stage": 8,
+      "concepts": [
+        "binary_trees",
+        "tree_traversal",
+        "callbacks"
+      ],
+      "review_note": "Apply supplied callback through in-order binary-tree traversal.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "btreeapplypostorder",
+      "source_path": "subjects/btreeapplypostorder/README.md",
+      "verification_phrase": "postorder walk",
+      "proposed_study_stage": 8,
+      "concepts": [
+        "binary_trees",
+        "tree_traversal",
+        "callbacks"
+      ],
+      "review_note": "Apply supplied callback through post-order traversal.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "btreeapplypreorder",
+      "source_path": "subjects/btreeapplypreorder/README.md",
+      "verification_phrase": "preorder walk",
+      "proposed_study_stage": 8,
+      "concepts": [
+        "binary_trees",
+        "tree_traversal",
+        "callbacks"
+      ],
+      "review_note": "Apply supplied callback through pre-order traversal.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "cat",
+      "source_path": "subjects/cat/README.md",
+      "verification_phrase": "simplified",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "files_cli"
+      ],
+      "review_note": "Implement simplified cat supporting files and stdin, without CLI options.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "compact",
+      "source_path": "subjects/compact/README.md",
+      "verification_phrase": "non-zero value",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "pointers",
+        "slices"
+      ],
+      "review_note": "Remove zero-valued strings in-place through pointer to slice and return nonzero count.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "concatparams",
+      "source_path": "subjects/concatparams/README.md",
+      "verification_phrase": "concatenated with a newline",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "runes_strings",
+        "slices"
+      ],
+      "review_note": "Join the passed string-slice parameters with newlines, not CLI args.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "convertbase",
+      "source_path": "subjects/convertbase/README.md",
+      "verification_phrase": "baseFrom",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "review_note": "Convert positive base-encoded string between valid digit alphabets.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "doop",
+      "source_path": "subjects/doop/README.md",
+      "verification_phrase": "division operations by 0",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "files_cli",
+        "parsing",
+        "control_flow"
+      ],
+      "review_note": "Build CLI calculator with operator validation, overflow and division-by-zero behavior.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "enigma",
+      "source_path": "subjects/enigma/README.md",
+      "verification_phrase": "receives pointers",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "pointers"
+      ],
+      "review_note": "Rearrange values through several pointer arguments while preserving old values.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "fprime",
+      "source_path": "subjects/fprime/README.md",
+      "verification_phrase": "prime factors",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "files_cli",
+        "parsing",
+        "control_flow"
+      ],
+      "review_note": "Prime-factorize CLI integer and format ascending factors separated by asterisk.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "ispowerof2",
+      "source_path": "subjects/ispowerof2/README.md",
+      "verification_phrase": "power of 2",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "control_flow",
+        "parsing"
+      ],
+      "review_note": "Detect power of two for positive command-line input; not a generic sorting task.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "issorted",
+      "source_path": "subjects/issorted/README.md",
+      "verification_phrase": "function passed as an argument",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "callbacks",
+        "slices",
+        "sorting"
+      ],
+      "review_note": "Use a supplied comparison function to determine sorted order.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "itoabase",
+      "source_path": "subjects/itoabase/README.md",
+      "verification_phrase": "from 2 to 16",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "review_note": "Format signed integer in base 2 to 16 with uppercase alphabetic digits.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listforeach",
+      "source_path": "subjects/listforeach/README.md",
+      "verification_phrase": "each node of the list",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers",
+        "callbacks"
+      ],
+      "review_note": "Apply callback to data stored in each linked-list node.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listforeachif",
+      "source_path": "subjects/listforeachif/README.md",
+      "verification_phrase": "cond",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers",
+        "callbacks"
+      ],
+      "review_note": "Apply callback only to list nodes passing a predicate.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listreverse",
+      "source_path": "subjects/listreverse/README.md",
+      "verification_phrase": "reverses the order",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers"
+      ],
+      "review_note": "Reverse linked list nodes with correct head and tail updates.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printparams",
+      "source_path": "subjects/printparams/README.md",
+      "verification_phrase": "command line",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "files_cli",
+        "runes_strings"
+      ],
+      "review_note": "Print command-line args in given order.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "revparams",
+      "source_path": "subjects/revparams/README.md",
+      "verification_phrase": "reverse order",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "files_cli",
+        "runes_strings"
+      ],
+      "review_note": "Print command-line args in reverse order.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "rot",
+      "source_path": "subjects/rot/README.md",
+      "verification_phrase": "rotational cipher",
+      "proposed_study_stage": null,
+      "concepts": [],
+      "review_note": "CROSS-LANGUAGE COLLISION: official subjects/rot README requires Rust String and i8, while community rot.go is an unrelated Go loop scratchpad; do not attach as official Go exercise.",
+      "review_level": "cross_language_collision",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "rot14",
+      "source_path": "subjects/rot14/README.md",
+      "verification_phrase": "14 spots ahead",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "runes_strings",
+        "control_flow"
+      ],
+      "review_note": "Substitute Latin letters by ROT14 while preserving case and nonletters.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "sortparams",
+      "source_path": "subjects/sortparams/README.md",
+      "verification_phrase": "ASCII order",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "files_cli",
+        "sorting",
+        "runes_strings"
+      ],
+      "review_note": "Sort and print CLI arguments by ASCII code order.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "ultimatepointone",
+      "source_path": "subjects/ultimatepointone/README.md",
+      "verification_phrase": "pointer to a pointer",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "pointers"
+      ],
+      "review_note": "Dereference three pointer levels to assign integer one.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printnbrinorder",
+      "source_path": "subjects/printnbrinorder/README.md",
+      "verification_phrase": "prints the digits",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "sorting",
+        "parsing"
+      ],
+      "review_note": "Print nonnegative integer digits in ascending order without converting to int64.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "sortlistinsert",
+      "source_path": "subjects/sortlistinsert/README.md",
+      "verification_phrase": "linked list remains sorted",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers",
+        "sorting"
+      ],
+      "review_note": "Insert an integer into existing sorted list and return head; the public README explicitly mentions prior listsort structure.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "sortwordarr",
+      "source_path": "subjects/sortwordarr/README.md",
+      "verification_phrase": "sorts by",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "sorting",
+        "slices",
+        "runes_strings"
+      ],
+      "review_note": "Sort string slice in ascending ASCII order.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "advancedsortwordarr",
+      "source_path": "subjects/advancedsortwordarr/README.md",
+      "verification_phrase": "based on the function",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "sorting",
+        "slices",
+        "callbacks"
+      ],
+      "review_note": "Sort strings using user-supplied comparison function.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "any",
+      "source_path": "subjects/any/README.md",
+      "verification_phrase": "at least one element",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "callbacks",
+        "slices"
+      ],
+      "review_note": "Return true when any string item satisfies predicate.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "appendrange",
+      "source_path": "subjects/appendrange/README.md",
+      "verification_phrase": "make",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "slices",
+        "control_flow"
+      ],
+      "review_note": "Build half-open integer range slice via append without make; return nil for empty range.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "atoi",
+      "source_path": "subjects/atoi/README.md",
+      "verification_phrase": "non-valid",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "review_note": "Parse optional sign and decimal digits; return zero for invalid strings.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "basicatoi2",
+      "source_path": "subjects/basicatoi2/README.md",
+      "verification_phrase": "non-valid",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "parsing",
+        "runes_strings"
+      ],
+      "review_note": "Parse unsigned decimal string and reject invalid characters; sign handling not required.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "boolean",
+      "source_path": "subjects/boolean/README.md",
+      "verification_phrase": "necessary changes",
+      "proposed_study_stage": 2,
+      "concepts": [
+        "functions",
+        "control_flow"
+      ],
+      "review_note": "Repair supplied Go main program without changing its prescribed structure.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "comcheck",
+      "source_path": "subjects/comcheck/README.md",
+      "verification_phrase": "Alert!!!",
+      "proposed_study_stage": 4,
+      "concepts": [
+        "files_cli",
+        "runes_strings"
+      ],
+      "review_note": "Detect exact CLI keywords and emit alert only when a match exists.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "countif",
+      "source_path": "subjects/countif/README.md",
+      "verification_phrase": "number of elements",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "callbacks",
+        "slices"
+      ],
+      "review_note": "Count string items satisfying callback predicate.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "displayfile",
+      "source_path": "subjects/displayfile/README.md",
+      "verification_phrase": "content of a file",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "files_cli"
+      ],
+      "review_note": "Print a file path argument contents; verify read failure handling from original examples.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "divmod",
+      "source_path": "subjects/divmod/README.md",
+      "verification_phrase": "stored in the int pointed",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "pointers",
+        "functions"
+      ],
+      "review_note": "Store quotient and remainder through output pointers.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "fibonacci",
+      "source_path": "subjects/fibonacci/README.md",
+      "verification_phrase": "for",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "recursion",
+        "functions"
+      ],
+      "review_note": "Compute Fibonacci recursively with forbidden loops; negative index returns minus one.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listclear",
+      "source_path": "subjects/listclear/README.md",
+      "verification_phrase": "assign the list",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers"
+      ],
+      "review_note": "Clear linked-list head via pointer and handle empty list.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listlast",
+      "source_path": "subjects/listlast/README.md",
+      "verification_phrase": "last element",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers"
+      ],
+      "review_note": "Return data from final linked-list element, including empty-list behavior.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listpushback",
+      "source_path": "subjects/listpushback/README.md",
+      "verification_phrase": "at the end of the list",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers"
+      ],
+      "review_note": "Append new NodeL to linked list and maintain tail.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listpushfront",
+      "source_path": "subjects/listpushfront/README.md",
+      "verification_phrase": "at the beginning of the list",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers"
+      ],
+      "review_note": "Prepend new NodeL and maintain head and tail.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listsize",
+      "source_path": "subjects/listsize/README.md",
+      "verification_phrase": "number of elements",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers"
+      ],
+      "review_note": "Count linked-list nodes without modifying them.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "listsort",
+      "source_path": "subjects/listsort/README.md",
+      "verification_phrase": "ascending order",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "linked_lists",
+        "pointers",
+        "sorting"
+      ],
+      "review_note": "Sort linked-list nodes; defines NodeI for subsequent exercises.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "makerange",
+      "source_path": "subjects/makerange/README.md",
+      "verification_phrase": "append",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "slices",
+        "control_flow"
+      ],
+      "review_note": "Build half-open integer range using make rather than append; nil for invalid interval.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "map",
+      "source_path": "subjects/map/README.md",
+      "verification_phrase": "func(int) bool",
+      "proposed_study_stage": 6,
+      "concepts": [
+        "callbacks",
+        "slices"
+      ],
+      "review_note": "Map integer slice through predicate function to boolean slice.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "max",
+      "source_path": "subjects/max/README.md",
+      "verification_phrase": "slice is empty",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "slices",
+        "control_flow"
+      ],
+      "review_note": "Find maximum in integer slice; return zero on empty.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "pilot",
+      "source_path": "subjects/pilot/README.md",
+      "verification_phrase": "program compiles",
+      "proposed_study_stage": 2,
+      "concepts": [
+        "functions",
+        "variables"
+      ],
+      "review_note": "Complete supplied Go main source by adding code, without deleting existing code.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "point",
+      "source_path": "subjects/point/README.md",
+      "verification_phrase": "setPoint",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "pointers",
+        "functions"
+      ],
+      "review_note": "Complete provided pointer/struct-based setPoint program using int.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printcomb",
+      "source_path": "subjects/printcomb/README.md",
+      "verification_phrase": "unique",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "control_flow",
+        "sorting"
+      ],
+      "review_note": "Print ordered unique three-digit combinations without repeated digits.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printcomb2",
+      "source_path": "subjects/printcomb2/README.md",
+      "verification_phrase": "two-digit numbers",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "control_flow",
+        "sorting"
+      ],
+      "review_note": "Enumerate sorted pairs of different two-digit numbers with exact separators.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printcombn",
+      "source_path": "subjects/printcombn/README.md",
+      "verification_phrase": "n different digits",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "control_flow",
+        "recursion"
+      ],
+      "review_note": "Generate strictly increasing n-digit combinations efficiently; recursion suggested but not explicitly mandated.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printdigits",
+      "source_path": "subjects/printdigits/README.md",
+      "verification_phrase": "decimal digits",
+      "proposed_study_stage": 2,
+      "concepts": [
+        "control_flow",
+        "runes_strings"
+      ],
+      "review_note": "Print 0 through 9 in ascending order with a trailing newline.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printnbr",
+      "source_path": "subjects/printnbr/README.md",
+      "verification_phrase": "All possible values",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "control_flow",
+        "parsing"
+      ],
+      "review_note": "Print all signed int values including min-int without int64 conversion.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "printwordstables",
+      "source_path": "subjects/printwordstables/README.md",
+      "verification_phrase": "seperate line",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "slices",
+        "runes_strings"
+      ],
+      "review_note": "Print each string-slice member on its own line.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "recursivefactorial",
+      "source_path": "subjects/recursivefactorial/README.md",
+      "verification_phrase": "for",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "recursion",
+        "functions"
+      ],
+      "review_note": "Compute recursive factorial; reject invalid and overflow; loops forbidden.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "recursivepower",
+      "source_path": "subjects/recursivepower/README.md",
+      "verification_phrase": "for",
+      "proposed_study_stage": 3,
+      "concepts": [
+        "recursion",
+        "functions"
+      ],
+      "review_note": "Compute recursive exponentiation; reject negative exponent; loops forbidden.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "splitwhitespaces",
+      "source_path": "subjects/splitwhitespaces/README.md",
+      "verification_phrase": "spaces, tabs and newlines",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "runes_strings",
+        "slices"
+      ],
+      "review_note": "Split string by whitespace into string slice.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "swap",
+      "source_path": "subjects/swap/README.md",
+      "verification_phrase": "two pointers",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "pointers"
+      ],
+      "review_note": "Swap two integer values through pointers.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "ultimatedivmod",
+      "source_path": "subjects/ultimatedivmod/README.md",
+      "verification_phrase": "dereferenced value",
+      "proposed_study_stage": 7,
+      "concepts": [
+        "pointers"
+      ],
+      "review_note": "Divide through two int pointers and write quotient and remainder back.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    },
+    {
+      "language": "go",
+      "exercise": "unmatch",
+      "source_path": "subjects/unmatch/README.md",
+      "verification_phrase": "correspondent pair",
+      "proposed_study_stage": 5,
+      "concepts": [
+        "slices",
+        "control_flow"
+      ],
+      "review_note": "Find lone unpaired integer or return minus one when all paired.",
+      "review_level": "full_public_readme_semantic_review",
+      "official_quest": null,
+      "official_unlock": null
+    }
+  ]
+}
