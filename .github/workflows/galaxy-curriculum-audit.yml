@@ -10,6 +10,7 @@ on:
       - 'research/galaxy-audit/scripts/**'
       - 'research/galaxy-audit/data/phase18*'
       - 'research/galaxy-audit/data/phase20*'
+      - 'research/galaxy-audit/data/phase21*'
 
 permissions:
   contents: read
@@ -101,6 +102,12 @@ jobs:
       - name: Verify Phase 20 satellite source evidence
         run: node research/galaxy-audit/scripts/verify-imperative-satellites.mjs . research/galaxy-audit/generated
 
+      - name: Test 33 additional audited top-level project classifications
+        run: node --test research/galaxy-audit/scripts/verify-expanded-projects.test.mjs
+
+      - name: Generate expanded project classification and source attestations
+        run: node research/galaxy-audit/scripts/verify-expanded-projects.mjs . research/galaxy-audit/generated
+
       - name: Extract the entire public subjects tree
         run: node research/galaxy-audit/scripts/extract-subject-links.mjs . research/galaxy-audit/generated
 
@@ -182,5 +189,7 @@ jobs:
             research/galaxy-audit/generated/javascript-phase18-source-checked-guide.md
             research/galaxy-audit/generated/phase20-imperative-satellite-verification.json
             research/galaxy-audit/generated/phase20-imperative-satellite-guide.md
+            research/galaxy-audit/generated/phase21-expanded-project-verification.json
+            research/galaxy-audit/generated/phase21-expanded-project-guide.md
           retention-days: 14
           if-no-files-found: error
