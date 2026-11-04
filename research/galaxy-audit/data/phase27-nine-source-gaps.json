@@ -16,7 +16,7 @@
       "id": "argsort",
       "source_path": "subjects/argsort/README.md",
       "current_readme_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "source_phrase": " ",
+      "source_phrase": "\n",
       "current_status": "insufficient_public_readme",
       "directory_files": [
         "README.md"
@@ -33,7 +33,7 @@
         "semantic_summary": "Command-line program that checks whether the printable ASCII characters of an input argument are in ascending order and prints T/F.",
         "status": "historical_documentation_only_not_official_current"
       },
-      "notes": "Current README consists of one whitespace character. A prior README at commit e519af63e1abd9c796ab8ce9cbbf6547659e7f57 documents a Go CLI check for ascending ASCII order and T/F output. HISTORICAL ONLY, not proven current.",
+      "notes": "Current README consists of one newline character. A prior README at commit e519af63e1abd9c796ab8ce9cbbf6547659e7f57 documents a Go CLI check for ascending ASCII order and T/F output. HISTORICAL ONLY, not proven current.",
       "unverified_external_test_material": true,
       "official_galaxy_track": null,
       "official_unlock": null
