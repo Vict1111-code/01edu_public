@@ -111,6 +111,10 @@ The [Phase 11 findings](findings/progressive-three-piscines-phase11-2026-11-03.m
 
 [Phase 18 final findings](findings/piscine-all-95-semantic-reviews-phase18-2026-11-04.md) and [all 95 exercises in a source-linked table](guides/phase18-all-95-source-reviewed-exercises.md): **95/95 previously pending full source-semantic reviews completed** — **60 Go**, **8 Rust**, **26 JavaScript** matching public subject instructions, plus **one wrongly matched Go archive `rot` file** (public `rot` README specifies Rust). The independent curriculum has **43 recommended stage corrections**, **zero cases left in the Phase 17 pending semantic-review queue**, and **35 explicitly unplaced community IDs** (34 identity-unverified archive files and the cross-language collision). [Source-attesting generator](scripts/complete-semantic-piscine-reviews.mjs) and [nine tests](scripts/complete-semantic-piscine-reviews.test.mjs) passed in [GitHub Actions run 41822999757](https://github.com/Vict1111-code/01edu_public/actions/runs/41822999757). The artifact includes full 316-candidate JSON and three updated, README-linked learning guides, with SHA-256 source provenance. **No official Galaxy chronology, quest membership or unlock requirements are inferred.**
 
+## Phase 20 — Imperative optional satellites versus Piscine raids (2026-11-04)
+
+[Phase 20 findings](findings/imperative-satellites-phase20-2026-11-04.md) and [six-project structured classification](data/phase20-imperative-satellites.json) distinguish three post-Piscine optional learning candidates (`math-skills`, `tetris-optimizer`, `net-cat`) from two Go Piscine raid candidates (`quadchecker`, `sudoku`) and one Rust-side raid/simulation candidate (`road_intersection`). All **six public specifications and six audit READMEs** were inspected; **eight verification tests passed** in [CI run 41832615410](https://github.com/Vict1111-code/01edu_public/actions/runs/41832615410). Only these **six previously sampled satellites** were investigated; the complete optional-project catalog and official Galaxy placements remain unverified.
+
 ## Artifacts
 
 | File | Coverage | Method |
